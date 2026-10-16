@@ -1,0 +1,68 @@
+{
+  "set": "calibration",
+  "unique_scanned_nt": 4592557,
+  "unique_scanned_Mb": 4.5926,
+  "peak_cluster_params": {
+    "SMOOTH_NT": 16,
+    "THRESH_K": 3.0,
+    "MIN_PEAK_NT": 8,
+    "MAX_GAP_NT": 500,
+    "MIN_PEAKS": 2,
+    "cluster_score": "median(peak_mean) * log2(1 + n_peaks)",
+    "window_score": "max over clusters and orientations"
+  },
+  "tiers": {
+    "tau0.30_degenerate": {
+      "tau": 0.3,
+      "tracks": 6106,
+      "peaks_total": 278825,
+      "tracks_with_0_peaks": 1,
+      "tracks_with_1_peak_rejected_by_MIN_PEAKS": 0,
+      "per_window_clusters": 6236,
+      "merged_candidates": 50,
+      "candidates_per_Mb": 10.89,
+      "union_candidate_span_nt": 4563797,
+      "union_candidate_span_fraction_of_scanned": 0.9937,
+      "span_median": 58316,
+      "span_p95": 220812,
+      "span_max": 520469,
+      "pre_merge_clusters_per_candidate_median": 80.5,
+      "pre_merge_clusters_per_candidate_max": 704,
+      "source_windows_per_candidate_median": 40.0,
+      "source_windows_per_candidate_max": 348,
+      "peak_support_fraction_median": 0.49345,
+      "max_internal_peak_gap_overall": 498
+    },
+    "tau0.53_density_max": {
+      "tau": 0.53,
+      "tracks": 6106,
+      "peaks_total": 44272,
+      "tracks_with_0_peaks": 218,
+      "tracks_with_1_peak_rejected_by_MIN_PEAKS": 403,
+      "per_window_clusters": 7638,
+      "merged_candidates": 1969,
+      "candidates_per_Mb": 428.74,
+      "union_candidate_span_nt": 1929784,
+      "union_candidate_span_fraction_of_scanned": 0.4202,
+      "span_median": 590,
+      "span_p95": 3219,
+      "span_max": 12314,
+      "pre_merge_clusters_per_candidate_median": 4.0,
+      "pre_merge_clusters_per_candidate_max": 22,
+      "source_windows_per_candidate_median": 2.0,
+      "source_windows_per_candidate_max": 10,
+      "peak_support_fraction_median": 0.1368,
+      "max_internal_peak_gap_overall": 500
+    },
+    "cross_tier": {
+      "primary": "tau0.30_degenerate",
+      "stringent": "tau0.53_density_max",
+      "both_tiers_from_primary_side": 49,
+      "primary_only": 1,
+      "both_tiers_from_stringent_side": 1969,
+      "stringent_only": 0,
+      "nesting_not_assumed": "counts are computed from each side separately; a stringent candidate need not lie inside a primary one"
+    }
+  },
+  "no_new_inference": true
+}

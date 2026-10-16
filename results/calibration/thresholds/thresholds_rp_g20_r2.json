@@ -1,0 +1,46 @@
+{
+  "mode": "rp_g20_r2",
+  "target_densities_per_Mb": [
+    1.0,
+    10.0,
+    100.0
+  ],
+  "grid": [
+    0.3,
+    1.35,
+    0.01
+  ],
+  "background_nt_scanned": 651000,
+  "background_windows": 217,
+  "peak_cluster_params": {
+    "SMOOTH_NT": 16,
+    "THRESH_K": 3.0,
+    "MIN_PEAK_NT": 8,
+    "MAX_GAP_NT": 500,
+    "MIN_PEAKS": 2,
+    "cluster_score": "median(peak_mean) * log2(1 + n_peaks)",
+    "window_score": "max over clusters and orientations"
+  },
+  "calibrated_on": [
+    "results/calibration/bg_rp"
+  ],
+  "no_positives_used": true,
+  "thresholds": {
+    "bg1_per_Mb": {
+      "tau": null,
+      "note": "target not reachable on this grid"
+    },
+    "bg10_per_Mb": {
+      "tau": 1.33,
+      "achieved_per_Mb": 9.217,
+      "merged_candidates": 6,
+      "unreachable": false
+    },
+    "bg100_per_Mb": {
+      "tau": 0.89,
+      "achieved_per_Mb": 93.702,
+      "merged_candidates": 61,
+      "unreachable": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_id": "tattabio/gLM2_650M",
+  "revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+  "sha256": {
+    "README.md": "89cb4addef959b5ca9aef2da6c72532b4ec39e57876ab381ffc8a5eb105c4fcd",
+    "config.json": "9b922ca06c12c7ee0cbc0fe679ab07b664ac30201a8bef0fe21b3e76c3b182e0",
+    "configuration_glm2.py": "987df0584a9df63d6027ff75a0f1f9dbdbf4eda1a81ef56643cf40367efa083a",
+    "glm_tokenizer.py": "ea4c47e392f51a1924e93eeedd4396ec2102dc52ba87c468ba90bc6dab214f31",
+    "model.safetensors": "5fe88d1327accf1480a9c410f667c499387c141ec777a3f77d8635d28efc524e",
+    "modeling_glm2.py": "813b4c1956b106a84458d3cedd57fe98db771ee98c58dc927dbc9f6f9ff2738d",
+    "special_tokens_map.json": "6abc3f2fe29ea77edacdb356f151ae93898d31aec82b1be4636485d7023e2ccc",
+    "tokenizer.json": "8d4e6820328144a5309e5bece47fa3ffe01771f14ba602be16273bfd34b50ac3",
+    "tokenizer_config.json": "beadc8517f5e82bad0657789c83e70a7b84087640dbfa92afbd73ba48f1f66b5"
+  },
+  "code_review_required": true
+}

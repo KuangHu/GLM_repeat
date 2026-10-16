@@ -1,0 +1,68 @@
+{
+  "set": "calibration",
+  "unique_scanned_nt": 4592557,
+  "unique_scanned_Mb": 4.5926,
+  "peak_cluster_params": {
+    "SMOOTH_NT": 16,
+    "THRESH_K": 3.0,
+    "MIN_PEAK_NT": 8,
+    "MAX_GAP_NT": 500,
+    "MIN_PEAKS": 2,
+    "cluster_score": "median(peak_mean) * log2(1 + n_peaks)",
+    "window_score": "max over clusters and orientations"
+  },
+  "tiers": {
+    "primary_100perMb": {
+      "tau": 0.8,
+      "tracks": 6106,
+      "peaks_total": 6312,
+      "tracks_with_0_peaks": 3699,
+      "tracks_with_1_peak_rejected_by_MIN_PEAKS": 1037,
+      "per_window_clusters": 1318,
+      "merged_candidates": 457,
+      "candidates_per_Mb": 99.51,
+      "union_candidate_span_nt": 138369,
+      "union_candidate_span_fraction_of_scanned": 0.0301,
+      "span_median": 162,
+      "span_p95": 1068,
+      "span_max": 2626,
+      "pre_merge_clusters_per_candidate_median": 3.0,
+      "pre_merge_clusters_per_candidate_max": 8,
+      "source_windows_per_candidate_median": 2.0,
+      "source_windows_per_candidate_max": 3,
+      "peak_support_fraction_median": 0.4211,
+      "max_internal_peak_gap_overall": 498
+    },
+    "stringent_10perMb": {
+      "tau": 1.32,
+      "tracks": 6106,
+      "peaks_total": 873,
+      "tracks_with_0_peaks": 5905,
+      "tracks_with_1_peak_rejected_by_MIN_PEAKS": 78,
+      "per_window_clusters": 128,
+      "merged_candidates": 42,
+      "candidates_per_Mb": 9.15,
+      "union_candidate_span_nt": 16733,
+      "union_candidate_span_fraction_of_scanned": 0.0036,
+      "span_median": 263,
+      "span_p95": 1057,
+      "span_max": 1669,
+      "pre_merge_clusters_per_candidate_median": 4.0,
+      "pre_merge_clusters_per_candidate_max": 6,
+      "source_windows_per_candidate_median": 2.0,
+      "source_windows_per_candidate_max": 3,
+      "peak_support_fraction_median": 0.31784999999999997,
+      "max_internal_peak_gap_overall": 288
+    },
+    "cross_tier": {
+      "primary": "primary_100perMb",
+      "stringent": "stringent_10perMb",
+      "both_tiers_from_primary_side": 38,
+      "primary_only": 419,
+      "both_tiers_from_stringent_side": 39,
+      "stringent_only": 3,
+      "nesting_not_assumed": "counts are computed from each side separately; a stringent candidate need not lie inside a primary one"
+    }
+  },
+  "no_new_inference": true
+}

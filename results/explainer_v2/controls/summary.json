@@ -1,0 +1,32 @@
+{
+  "version": "v0.2",
+  "label": "controls_v2",
+  "n_candidates": 15,
+  "n_explained": 15,
+  "n_unresolved": 0,
+  "model_sources": {
+    "motif_core": 5,
+    "motif_extended": 9,
+    "periodic": 1
+  },
+  "architectures": {
+    "regular_spaced_array": 10,
+    "variable_spacer_array": 4,
+    "short_period_tandem": 1
+  },
+  "n_rejected_core_records": 4,
+  "flank_nt": 500,
+  "periodic_branch": {
+    "period_search_range": [
+      2,
+      300
+    ],
+    "min_identity": 0.55,
+    "min_units": 3,
+    "no_seed_required": true,
+    "nothing_hard_coded": "period, phase, interval and consensus are inferred per candidate"
+  },
+  "search_scope": "candidate span plus flanks, not restricted to peak intervals",
+  "indel_limitation": "ungapped substitution alignment only; indel-containing arrays are under-reported",
+  "detector_outputs": "read-only; not modified"
+}

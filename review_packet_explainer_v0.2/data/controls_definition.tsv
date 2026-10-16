@@ -1,0 +1,16 @@
+contig	start0	end0	score	annotation_category	locus
+NC_003413.1	27090	30400	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_27091
+NC_003413.1	260713	262045	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_260714
+NC_003413.1	312404	313931	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_312405
+NC_003413.1	623118	625176	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_623119
+NC_003413.1	695936	698992	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_695937
+NC_003413.1	1064075	1065543	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_1064076
+NC_006461.1	872100	873200	control	control_CRISPR	Thermus_thermophilus_HB8_CRISPR_872101
+NC_006461.1	874396	874734	control	control_CRISPR	Thermus_thermophilus_HB8_CRISPR_874397
+MW349129.1	213135	214001	control	control_ART	Madawaska_ART
+OR836606.1	75040	75911	control	control_ART	LY01_ART
+LC680885.1	166404	167268	control	control_ART	S6_ART
+MN091626.1	23727	24592	control	control_ART	PALS_2_ART
+MZ779063.1	124098	124964	control	control_ART	UFV_DC4_ART
+NC_028808.2	29169	29229	control	control_VIPR_labelled_60nt	SUSP1_vrRNA_60nt
+NC_028808.2	27682	27906	control	control_VIPR_offlabel_unconfirmed	SUSP1_offlabel

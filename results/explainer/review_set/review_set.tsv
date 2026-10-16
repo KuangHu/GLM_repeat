@@ -1,0 +1,20 @@
+family_id	n_members	representative_candidate	architecture	consensus	unit_len	n_copies	median_start_to_start	spacer_cv	information_bits_per_position	detector_score	annotation_category	member_candidates	review_reason
+2	2	OR836606.1:151262-152315	dispersed_repeat	TTAATGTAACTA	12	7	100	0.908	1.213	4.428734621860781	unclassified	OR836606.1:151262-152315,MZ779063.1:233840-233872	interpretable unclassified representative
+3	1	NC_003413.1:1091159-1091856	regular_spaced_array	CTTCAATTCTTTTGTAGTCTTATTG	25	12	67	0.016	1.54	4.405313256280017	unclassified	NC_003413.1:1091159-1091856	interpretable unclassified representative
+4	2	MW349129.1:141073-142114	regular_spaced_array	TTAACTTTAGCAGTTCCT	18	4	240	0.0	1.071	4.224919012310553	unclassified	MW349129.1:141073-142114,MZ779063.1:50999-51793	interpretable unclassified representative
+5	3	OR836606.1:137600-138800	variable_spacer_array	TGTTCAACGACTAAATAATA	20	4	308	0.43	1.104	4.017384766435808	unclassified	OR836606.1:137600-138800,OR836606.1:40441-41091,OR836606.1:176239-176801	interpretable unclassified representative
+6	8	NC_006461.1:1609897-1611762	dispersed_repeat	GGAGGAGGCCCTC	13	27	69	0.739	1.158	3.7402103464392393	unclassified	NC_006461.1:1609897-1611762,NC_006461.1:1401502-1402387,NC_006461.1:1687843-1687983,NC_006461.1:1447251-1447828,NC_006461.1:569716-570063,NC_006461.1:875663-876065,NC_006461.1:333386-333845,NC_006461.1:754571-754798	interpretable unclassified representative
+7	8	NC_006461.1:1229552-1230975	dispersed_repeat	GGCCTCCGCCTCC	13	32	42	0.843	1.089	3.6838867180825523	unclassified	NC_006461.1:1229552-1230975,NC_006461.1:1614941-1615397,NC_006461.1:860597-861178,NC_006461.1:626952-627590,NC_006461.1:877936-878511,NC_006461.1:61924-62300,NC_006461.1:1030080-1030564,NC_006461.1:399154-399179	interpretable unclassified representative
+10	3	LC680885.1:96729-97568	regular_spaced_array	TTTCTTAGGAGCTGCTTTCTTA	22	2	30	0.0	0.792	3.52504788798321	unclassified	LC680885.1:96729-97568,MW349129.1:143699-144065,MN091626.1:222009-222848	interpretable unclassified representative
+11	1	OR836606.1:232905-233559	variable_spacer_array	TTATTTAGTCGTTGAACAC	19	4	225	0.208	1.075	3.500803859072405	unclassified	OR836606.1:232905-233559	interpretable unclassified representative
+36	1	NC_006461.1:158340-159452	variable_spacer_array	GCTCCTCCTCAA	12	5	280	0.356	1.06	2.9207947108966823	unclassified	NC_006461.1:158340-159452	interpretable unclassified representative
+41	1	OR836606.1:149433-150150	tandem_repeat	GAAAGTAAAGAAAC	14	7	15	1.459	1.285	2.7376493662763126	unclassified	OR836606.1:149433-150150	interpretable unclassified representative
+167	1	OR836606.1:39816-39864	tandem_repeat	CCTTTAAATATTCATTA	17	4	18	1.249	1.037	1.4373234134137316	unclassified	OR836606.1:39816-39864	interpretable unclassified representative
+	1	MZ779063.1:54250-54605	none_found			0				3.2579959098497193			high-scoring, no sequence explanation; alternatives: []
+	1	MW349129.1:144586-144940	none_found			0				3.206707912031561			high-scoring, no sequence explanation; alternatives: []
+	1	MW349129.1:8178-8510	none_found			0				3.204879040462591			high-scoring, no sequence explanation; alternatives: []
+	1	LC680885.1:98102-98458	none_found			0				3.1806046688311835			high-scoring, no sequence explanation; alternatives: []
+	1	MN091626.1:223382-223738	none_found			0				3.1640532831745856			high-scoring, no sequence explanation; alternatives: []
+	1	NC_006461.1:1022602-1023001	none_found			0				2.9674288747385495			high-scoring, no sequence explanation; alternatives: []
+	1	MW349129.1:113311-113782	none_found			0				2.90368076263273			high-scoring, no sequence explanation; alternatives: []
+	1	OR836606.1:148481-148814	none_found			0				2.8640125964397165			high-scoring, no sequence explanation; alternatives: []

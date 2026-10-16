@@ -1,0 +1,20 @@
+{
+  "threshold": 0.8,
+  "peak_cluster_params": {
+    "SMOOTH_NT": 16,
+    "THRESH_K": 3.0,
+    "MIN_PEAK_NT": 8,
+    "MAX_GAP_NT": 500,
+    "MIN_PEAKS": 2,
+    "cluster_score": "median(peak_mean) * log2(1 + n_peaks)",
+    "window_score": "max over clusters and orientations"
+  },
+  "definitions": {
+    "edge_gap": "previous peak end -> next peak start",
+    "start_to_start": "previous peak start -> next peak start (pitch)",
+    "warning": "annotated unit spacing is start-to-start; an edge gap is smaller by roughly the unit length. Never compare directly."
+  },
+  "n_loci": 13,
+  "n_peaks": 237,
+  "n_units": 230
+}

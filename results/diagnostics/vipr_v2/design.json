@@ -1,0 +1,102 @@
+{
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53
+  ],
+  "flank_default": 20,
+  "max_targets": 3,
+  "match_tolerance_nt": 150,
+  "loci": {
+    "SUSP1_VIPR_60nt_single": {
+      "record_id": "w0003",
+      "flank": 15,
+      "units": [
+        [
+          1487,
+          1492
+        ],
+        [
+          1492,
+          1497
+        ],
+        [
+          1497,
+          1502
+        ],
+        [
+          1502,
+          1507
+        ],
+        [
+          1507,
+          1512
+        ],
+        [
+          1512,
+          1517
+        ],
+        [
+          1517,
+          1522
+        ],
+        [
+          1522,
+          1527
+        ],
+        [
+          1527,
+          1532
+        ],
+        [
+          1532,
+          1537
+        ],
+        [
+          1537,
+          1542
+        ],
+        [
+          1542,
+          1547
+        ]
+      ],
+      "note": "12 contiguous 5-nt YNNGG units in [1487,1547); flank 15 nt so only units >= 3 periods away are perturbed"
+    },
+    "SUSP1_VIPR_60nt_pair": {
+      "record_id": "w0003",
+      "flank": 15,
+      "units": [
+        [
+          1487,
+          1497
+        ],
+        [
+          1497,
+          1507
+        ],
+        [
+          1507,
+          1517
+        ],
+        [
+          1517,
+          1527
+        ],
+        [
+          1527,
+          1537
+        ],
+        [
+          1537,
+          1547
+        ]
+      ],
+      "note": "6 contiguous 10-nt blocks (2 YNNGG units each) in [1487,1547); flank 15 nt"
+    }
+  },
+  "mutation": "every base in a mutated span replaced by a uniformly chosen different base",
+  "diagnostic_only": "unit definitions are annotation-derived and are never used by the discovery scorer"
+}

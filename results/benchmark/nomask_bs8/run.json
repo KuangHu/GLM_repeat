@@ -1,0 +1,30 @@
+{
+  "model": "tattabio/gLM2_650M",
+  "revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+  "mode": "exact",
+  "groups": 20,
+  "repeats": 2,
+  "seed": 20261014,
+  "batch_size": 8,
+  "both_strands": false,
+  "drop_full_attention_mask": true,
+  "device_name": "NVIDIA A40",
+  "dtype": "torch.bfloat16",
+  "model_load_seconds": 10.914006816223264,
+  "score_interpretation": "masked predictability, not repeat probability",
+  "records": [
+    {
+      "id": "w0001",
+      "length": 3000,
+      "sequence_sha256": "7b18f3d11b39c04a06dd4900dd7b07061b6bb0eeb574b871856dae01d5233e83",
+      "scoring_orientation": "+",
+      "track": "0a0e1e9e7a2c5316939f40c7.npz",
+      "coordinates": "input_fasta_record_0_based",
+      "n_variants": 3000,
+      "inference_seconds": 283.9602653691545,
+      "write_seconds": 0.004454584792256355,
+      "variants_per_second": 10.564858418130912,
+      "peak_gpu_mb": 2088.00439453125
+    }
+  ]
+}

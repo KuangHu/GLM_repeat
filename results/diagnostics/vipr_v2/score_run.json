@@ -1,0 +1,13 @@
+{
+  "model": "tattabio/gLM2_650M",
+  "revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+  "dtype": "torch.bfloat16",
+  "attention_mask_policy": "always",
+  "mode": "exact single-position masking, target positions only",
+  "both_orientations": true,
+  "n_rows": 132,
+  "code_sha256": {
+    "copy_dependence.py": "ce1dbe3c55a833ccf4fe012c3178f904a59c834d414312d82855ccf9ddfda7f9",
+    "reference_score.py": "2357e1dcffbd4b053ee0a2a78464991f87c8c3a43d5c8445af4a5e13ccb62eb0"
+  }
+}

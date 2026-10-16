@@ -1,0 +1,14 @@
+locus_id	family	contig	locus_nt	n_annotated_units	unit_len_median	annotated_start_to_start_median	annotated_start_to_start_range	annotated_edge_gap_median	n_peaks_in_locus	peak_len_median	peak_start_to_start_median	peak_start_to_start_range	peak_edge_gap_median	peak_edge_gap_max	n_matched	n_merged	n_extra_inside_locus	n_units_covered	n_units_missing
+Pyrococcus_furiosus_DSM3638_CRISPR_27091	CRISPR	NC_003413.1	3310	48	30	67	65-135	37	49	28	68	64-80	39	57	48	0	1	48	0
+Pyrococcus_furiosus_DSM3638_CRISPR_260714	CRISPR	NC_003413.1	1332	20	30	67	66-79	37	20	28	68	64-79	39	51	20	0	0	20	0
+Pyrococcus_furiosus_DSM3638_CRISPR_312405	CRISPR	NC_003413.1	1527	21	30	68	65-132	38	23	29	68	65-77	39	47	21	0	2	21	0
+Pyrococcus_furiosus_DSM3638_CRISPR_623119	CRISPR	NC_003413.1	2058	31	30	68	65-72	38	29	28	68	64-204	40	44	28	1	0	31	0
+Pyrococcus_furiosus_DSM3638_CRISPR_695937	CRISPR	NC_003413.1	3056	44	30	67	64-73	37	46	28	67	62-73	39	44	44	0	2	44	0
+Pyrococcus_furiosus_DSM3638_CRISPR_1064076	CRISPR	NC_003413.1	1468	22	30	67	64-89	37	22	29	67	63-88	38	60	22	0	0	22	0
+Thermus_thermophilus_HB8_CRISPR_872101	CRISPR	NC_006461.1	1100	14	36	76	71-79	40	15	35	75	71-79	41	45	14	0	1	14	0
+Thermus_thermophilus_HB8_CRISPR_874397	CRISPR	NC_006461.1	338	5	31	76	73-77	45	5	34	76	74-78	41	44	5	0	0	5	0
+Madawaska_ART	ART	MW349129.1	866	5	14	204	171-213	190	5	43	192	171-216	154	196	5	0	0	5	0
+LY01_ART	ART	OR836606.1	871	5	14	203	177-214	189	6	26	195	73-214	162	195	5	0	1	5	0
+S6_ART	ART	LC680885.1	864	5	14	203	173-211	189	6	32	171	73-212	152	193	5	0	1	5	0
+PALS_2_ART	ART	MN091626.1	865	5	14	203	173-211	189	6	32	173	78-211	152	192	5	0	1	5	0
+UFV_DC4_ART	ART	MZ779063.1	866	5	14	203	173-212	189	5	29	200	170-213	159	196	5	0	0	5	0

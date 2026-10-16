@@ -1,0 +1,223 @@
+{
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53
+  ],
+  "flank_default": 20,
+  "max_targets": 3,
+  "match_tolerance_nt": 150,
+  "loci": {
+    "SA1_ART": {
+      "record_id": "w0004",
+      "flank": 20,
+      "units": [
+        [
+          1051,
+          1065
+        ],
+        [
+          1263,
+          1277
+        ],
+        [
+          1434,
+          1448
+        ],
+        [
+          1635,
+          1649
+        ],
+        [
+          1811,
+          1825
+        ]
+      ],
+      "note": "14-nt ART cores (annotated sub-regions)"
+    },
+    "MarsHill_ART": {
+      "record_id": "w0005",
+      "flank": 20,
+      "units": [
+        [
+          983,
+          997
+        ],
+        [
+          1196,
+          1210
+        ],
+        [
+          1393,
+          1407
+        ],
+        [
+          1603,
+          1617
+        ],
+        [
+          1776,
+          1790
+        ]
+      ],
+      "note": "14-nt ART cores (annotated sub-regions)"
+    },
+    "LMD9_CRISPR_1377229": {
+      "record_id": "w0002",
+      "flank": 20,
+      "units": [
+        [
+          1217,
+          1253
+        ],
+        [
+          1283,
+          1319
+        ],
+        [
+          1349,
+          1385
+        ],
+        [
+          1415,
+          1451
+        ],
+        [
+          1483,
+          1519
+        ],
+        [
+          1549,
+          1585
+        ],
+        [
+          1615,
+          1651
+        ],
+        [
+          1681,
+          1717
+        ],
+        [
+          1747,
+          1783
+        ]
+      ],
+      "note": "CRISPR repeat 36 nt, <=3 mismatches"
+    },
+    "SUSP1_VIPR_YNNGG": {
+      "record_id": "w0003",
+      "flank": 10,
+      "units": [
+        [
+          1487,
+          1492
+        ],
+        [
+          1492,
+          1497
+        ],
+        [
+          1497,
+          1502
+        ],
+        [
+          1502,
+          1507
+        ],
+        [
+          1507,
+          1512
+        ],
+        [
+          1512,
+          1517
+        ],
+        [
+          1517,
+          1522
+        ],
+        [
+          1522,
+          1527
+        ],
+        [
+          1527,
+          1532
+        ],
+        [
+          1532,
+          1537
+        ],
+        [
+          1537,
+          1542
+        ],
+        [
+          1542,
+          1547
+        ]
+      ],
+      "note": "12 contiguous 5-nt units; flank reduced to 10 nt"
+    },
+    "SUSP1_tRNA_cluster": {
+      "record_id": "w0011",
+      "flank": 20,
+      "units": [
+        [
+          841,
+          916
+        ],
+        [
+          926,
+          999
+        ],
+        [
+          1008,
+          1081
+        ],
+        [
+          1090,
+          1162
+        ],
+        [
+          1172,
+          1245
+        ],
+        [
+          1344,
+          1416
+        ],
+        [
+          1421,
+          1496
+        ],
+        [
+          1677,
+          1751
+        ],
+        [
+          2339,
+          2412
+        ],
+        [
+          2417,
+          2493
+        ],
+        [
+          2503,
+          2576
+        ],
+        [
+          2695,
+          2768
+        ]
+      ],
+      "note": "12 GenBank tRNAs (structurally related, not identical)"
+    }
+  },
+  "mutation": "every base in a mutated span replaced by a uniformly chosen different base",
+  "diagnostic_only": "unit definitions are annotation-derived and are never used by the discovery scorer"
+}

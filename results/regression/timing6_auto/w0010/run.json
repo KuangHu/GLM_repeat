@@ -1,0 +1,47 @@
+{
+  "model": "tattabio/gLM2_650M",
+  "revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+  "mode": "exact",
+  "groups": 20,
+  "repeats": 2,
+  "seed": 20261014,
+  "batch_size": 1,
+  "both_strands": true,
+  "attention_mask_policy": "auto",
+  "code_sha256": {
+    "timing_score.py": "27f3fe918922267b8318bf33484a87d674cdf920e7c3581b612c858d00b5c030",
+    "reference_score.py": "2357e1dcffbd4b053ee0a2a78464991f87c8c3a43d5c8445af4a5e13ccb62eb0"
+  },
+  "device_name": "NVIDIA A40",
+  "dtype": "torch.bfloat16",
+  "model_load_seconds": 11.34485787153244,
+  "score_interpretation": "masked predictability, not repeat probability",
+  "records": [
+    {
+      "id": "w0010",
+      "length": 3000,
+      "sequence_sha256": "e80f10d1838d9d3f66b1d6f929636456bf69666408e1388b7d107f8226cce57f",
+      "scoring_orientation": "+",
+      "track": "64e9fc978664a70b65fdca45.npz",
+      "coordinates": "input_fasta_record_0_based",
+      "n_variants": 3000,
+      "inference_seconds": 309.7771009718999,
+      "write_seconds": 0.0041968002915382385,
+      "variants_per_second": 9.684382708043135,
+      "peak_gpu_mb": 1397.84228515625
+    },
+    {
+      "id": "w0010",
+      "length": 3000,
+      "sequence_sha256": "e80f10d1838d9d3f66b1d6f929636456bf69666408e1388b7d107f8226cce57f",
+      "scoring_orientation": "-",
+      "track": "1e757ee11d6073f493069601.npz",
+      "coordinates": "input_fasta_record_0_based",
+      "n_variants": 3000,
+      "inference_seconds": 310.76711022574455,
+      "write_seconds": 0.0035160407423973083,
+      "variants_per_second": 9.653531217704371,
+      "peak_gpu_mb": 1397.84228515625
+    }
+  ]
+}

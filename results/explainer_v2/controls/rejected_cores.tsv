@@ -1,0 +1,5 @@
+candidate_id	core_start0	core_mismatches	extended_mismatches	extended_budget	reason
+NC_003413.1:27090-30400	30443	0	11	6	flank did not match extended consensus
+NC_003413.1:27090-30400	30588	0	8	6	flank did not match extended consensus
+NC_003413.1:260713-262045	260878	2	17	6	flank did not match extended consensus
+NC_003413.1:260713-262045	262083	0	9	6	flank did not match extended consensus

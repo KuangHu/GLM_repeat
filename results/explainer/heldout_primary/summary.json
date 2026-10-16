@@ -1,0 +1,16 @@
+{
+  "label": "heldout_primary_467",
+  "n_candidates": 467,
+  "n_explained": 337,
+  "n_unresolved": 130,
+  "architectures": {
+    "regular_spaced_array": 100,
+    "variable_spacer_array": 52,
+    "dispersed_repeat": 181,
+    "tandem_repeat": 4
+  },
+  "flank_nt": 500,
+  "search_scope": "candidate span plus flanks, not restricted to peak intervals",
+  "indel_limitation": "ungapped substitution alignment only; indel-containing arrays are under-reported, copies may be split or missed and spacer lengths absorb the indel",
+  "detector_outputs": "read-only; not modified"
+}

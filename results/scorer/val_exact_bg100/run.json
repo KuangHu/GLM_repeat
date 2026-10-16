@@ -1,0 +1,31 @@
+{
+  "params": {
+    "SMOOTH_NT": 16,
+    "THRESH_K": 3.0,
+    "MIN_PEAK_NT": 8,
+    "MAX_GAP_NT": 500,
+    "MIN_PEAKS": 2,
+    "cluster_score": "median(peak_mean) * log2(1 + n_peaks)",
+    "window_score": "max over clusters and orientations"
+  },
+  "threshold_policy": "background_calibrated",
+  "threshold": 0.92,
+  "threshold_label": "bg100_per_Mb",
+  "ln4_ceiling": 1.3862943611198906,
+  "unreachable_threshold_tracks": [],
+  "unreachable_note": "a threshold >= ln(4) cannot be exceeded; such a window yields zero peaks by construction and that is NEVER evidence that no repetitive organization exists",
+  "design": "results/scorer/PEAK_CLUSTER_DESIGN.md",
+  "authorship": "agent-designed, pre-declared before any track was scored",
+  "source_scores": [
+    "results/validation/exact"
+  ],
+  "track_mode": "exact",
+  "model_revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+  "attention_mask_policy": "always",
+  "n_tracks": 52,
+  "n_windows": 26,
+  "n_peaks": 495,
+  "n_clusters_per_window": 30,
+  "n_candidates_merged": 14,
+  "label_free": "no label, annotation, motif or family information is an input"
+}

@@ -1,0 +1,7 @@
+# model weights, score tracks and raw genome downloads are not in this repo
+models/
+*.npz
+*.safetensors
+__pycache__/
+.pytest_cache/
+*.pyc

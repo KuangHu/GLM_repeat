@@ -1,0 +1,47 @@
+{
+  "set": "heldout",
+  "mode": "random_partition",
+  "groups": 20,
+  "repeats": 2,
+  "seed": 20261014,
+  "attention_mask_policy": "always",
+  "model_revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+  "peak_cluster_params": {
+    "SMOOTH_NT": 16,
+    "THRESH_K": 3.0,
+    "MIN_PEAK_NT": 8,
+    "MAX_GAP_NT": 500,
+    "MIN_PEAKS": 2,
+    "cluster_score": "median(peak_mean) * log2(1 + n_peaks)",
+    "window_score": "max over clusters and orientations"
+  },
+  "n_windows_scored": 3381,
+  "n_windows_missing": 0,
+  "unique_scanned_nt": 5081321,
+  "unique_scanned_Mb": 5.0813,
+  "per_contig_unique_nt": {
+    "LC680885.1": 267055,
+    "MN091626.1": 268748,
+    "MW349129.1": 265446,
+    "MZ779063.1": 263185,
+    "NC_003413.1": 1908256,
+    "NC_006461.1": 1849734,
+    "OR836606.1": 258897
+  },
+  "density_definition": "merged candidates per unique scanned genomic Mb; strands and overlapping windows merged first",
+  "threshold": 1.32,
+  "threshold_label": "stringent_10perMb",
+  "n_candidates": 30,
+  "n_per_window_clusters": 105,
+  "candidates_per_Mb": 5.9,
+  "per_contig_candidates_per_Mb": {
+    "LC680885.1": 7.49,
+    "MN091626.1": 7.44,
+    "MW349129.1": 11.3,
+    "MZ779063.1": 0.0,
+    "NC_003413.1": 4.72,
+    "NC_006461.1": 5.41,
+    "OR836606.1": 15.45
+  },
+  "yield_not_fdr": "these are candidate yields, not false-discovery rates"
+}

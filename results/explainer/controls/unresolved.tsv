@@ -1,0 +1,2 @@
+candidate_id	contig	start0	end0	score	reason	alternatives
+NC_028808.2:29169-29229	NC_028808.2	29169	29229	control	no motif with >=2 ungapped copies	"[{""type"": ""periodic_self_match"", ""scope"": ""candidate_span"", ""period"": 5, ""identity_at_period"": 0.673}]"

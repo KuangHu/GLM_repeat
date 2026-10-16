@@ -1,0 +1,2 @@
+candidate_id	accession_version	start0	end0	strand	source_window	status	evidence	vrRNA_identity	in_benchmark_ground_truth
+SUSP1_offlabel_c1	NC_028808.2	27682	27906	.	w0003[0,224)	sequence_supported_repeat_candidate	exact 39-nt direct repeat x2 (27714,27857); 16 YNNGG matches on minus strand in 240 nt vs 3.7 genome-wide expectation; exact-track 64-nt top-6 blocks all here; orientation-avg mean 0.922 vs 0.279 window	unconfirmed	no

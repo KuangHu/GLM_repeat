@@ -1,0 +1,13 @@
+{
+  "strata_sizes": {
+    "high": 8,
+    "adjacent": 8,
+    "non_hit": 8
+  },
+  "primary_threshold_used_for_sampling": 0.8,
+  "n_windows_with_candidate": 687,
+  "n_windows_without": 2694,
+  "seed": 20261015,
+  "note": "sequences are the original 3,000-nt sliding windows, untrimmed; the RP threshold is used only to STRATIFY, and is not transferred to exact scoring",
+  "adjacent_stratum_selection_rule": "the 8 windows with the lowest surviving cluster score (nearest the cluster-formation boundary), NOT the 8 nearest in value to tau; cluster score and tau are different scales. Observed range 1.305-1.337 against a 2-peak floor of tau*log2(3)=1.268. Sample preserved as drawn; description corrected after the fact."
+}

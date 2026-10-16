@@ -1,0 +1,14 @@
+locus_id	family	contig	start0	end0	length_nt	genome_group	family_group	evidence
+Pyrococcus_furiosus_DSM3638_CRISPR_27091	CRISPR	NC_003413.1	27090	30400	3310	Pyrococcus_genome	CRISPR_Pyrococcus_genome	GenBank repeat_region /rpt_family=CRISPR
+Pyrococcus_furiosus_DSM3638_CRISPR_260714	CRISPR	NC_003413.1	260713	262045	1332	Pyrococcus_genome	CRISPR_Pyrococcus_genome	GenBank repeat_region /rpt_family=CRISPR
+Pyrococcus_furiosus_DSM3638_CRISPR_312405	CRISPR	NC_003413.1	312404	313931	1527	Pyrococcus_genome	CRISPR_Pyrococcus_genome	GenBank repeat_region /rpt_family=CRISPR
+Pyrococcus_furiosus_DSM3638_CRISPR_623119	CRISPR	NC_003413.1	623118	625176	2058	Pyrococcus_genome	CRISPR_Pyrococcus_genome	GenBank repeat_region /rpt_family=CRISPR
+Pyrococcus_furiosus_DSM3638_CRISPR_695937	CRISPR	NC_003413.1	695936	698992	3056	Pyrococcus_genome	CRISPR_Pyrococcus_genome	GenBank repeat_region /rpt_family=CRISPR
+Pyrococcus_furiosus_DSM3638_CRISPR_1064076	CRISPR	NC_003413.1	1064075	1065543	1468	Pyrococcus_genome	CRISPR_Pyrococcus_genome	GenBank repeat_region /rpt_family=CRISPR
+Thermus_thermophilus_HB8_CRISPR_872101	CRISPR	NC_006461.1	872100	873200	1100	Thermus_genome	CRISPR_Thermus_genome	GenBank repeat_region /rpt_family=CRISPR
+Thermus_thermophilus_HB8_CRISPR_874397	CRISPR	NC_006461.1	874396	874734	338	Thermus_genome	CRISPR_Thermus_genome	GenBank repeat_region /rpt_family=CRISPR
+Madawaska_ART	ART	MW349129.1	213135	214001	866	phage_Madawaska	ART_Staphylococcus_lineage	manuscript-listed ART phage; 5 14-nt cores, RT-start boundary not applied
+LY01_ART	ART	OR836606.1	75040	75911	871	phage_LY01	ART_Staphylococcus_lineage	manuscript-listed ART phage; 5 14-nt cores, RT-start boundary not applied
+S6_ART	ART	LC680885.1	166404	167268	864	phage_S6	ART_Staphylococcus_lineage	manuscript-listed ART phage; 5 14-nt cores, RT-start boundary not applied
+PALS_2_ART	ART	MN091626.1	23727	24592	865	phage_PALS_2	ART_Staphylococcus_lineage	manuscript-listed ART phage; 5 14-nt cores, RT-start boundary not applied
+UFV_DC4_ART	ART	MZ779063.1	124098	124964	866	phage_UFV_DC4	ART_Staphylococcus_lineage	manuscript-listed ART phage; 5 14-nt cores, RT-start boundary not applied

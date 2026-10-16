@@ -1,0 +1,14 @@
+{
+  "label": "controls",
+  "n_candidates": 15,
+  "n_explained": 14,
+  "n_unresolved": 1,
+  "architectures": {
+    "variable_spacer_array": 1,
+    "regular_spaced_array": 13
+  },
+  "flank_nt": 500,
+  "search_scope": "candidate span plus flanks, not restricted to peak intervals",
+  "indel_limitation": "ungapped substitution alignment only; indel-containing arrays are under-reported, copies may be split or missed and spacer lengths absorb the indel",
+  "detector_outputs": "read-only; not modified"
+}

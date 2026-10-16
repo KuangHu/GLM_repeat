@@ -1,0 +1,65 @@
+project:
+  name: glm_repeat
+  separate_environment: true
+  require_slurm_for_gpu: true
+  modify_existing_callers: false
+model:
+  id: tattabio/gLM2_650M
+  snapshot: null  # REQUIRED: local, reviewed, revision-pinned model snapshot
+  class: AutoModelForMaskedLM
+  max_tokens: 4096
+  nucleotide_case: lowercase
+  prefix: '<+>'
+  require_pretrained_lm_head: true
+  frozen: true
+input:
+  format: fasta
+  allow_protein_input: false
+  protein_anchor_gate: false
+  mask_cds: false
+  mask_low_complexity: false
+  split_at_non_acgt: true
+  min_segment_nt: 40
+  window_nt: 3000
+  stride_nt: 1500
+  score_reverse_complement: true
+inference:
+  reference_mode: exact
+  microbatch: 1
+  fast_mode: random_partition
+  fast_groups: 20
+  fast_repeats: 2
+  seed: 20261014
+  fixed_periodic_masking: false
+  nucleotide_only_softmax: true
+  log_base: natural
+  baseline: uniform_four_bases
+features:
+  scales_nt: [64, 128, 256, 512, 1024, 2048]
+  block_step_fraction: 0.25
+  top_fraction: 0.20
+  use_whole_window_mean_only: false
+  composition_correction: diagnostic_only
+calibration:
+  locked_test_set: true
+  family_disjoint: true
+  paired_controls_share_split: true
+  target_background_hits_per_mb: [1, 10, 100]
+  initial_review_budget_hits_per_mb: 10
+  threshold: null  # MUST be learned on calibration data, never hard-coded
+  score_is_biological_probability: false
+pilot:
+  max_genome_mb: 10
+  random_partition_requires_validation: true
+  fast_recall_loss_limit_absolute: 0.05
+  blind_windows_exact_audit: 100
+training:
+  enabled: false
+  backbone: frozen_glm2
+  positive_class_includes_simple_repeats: true
+  family_identity_is_not_a_label: true
+outputs:
+  prefix: glmrep_
+  coordinates: zero_based_half_open
+  infer_rna_function: false
+  infer_transcription_strand: false
