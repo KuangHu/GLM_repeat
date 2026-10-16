@@ -14,6 +14,8 @@ code/      explain_repeats_v2.py   the reviewed explainer (v0.2)
            make_review_set.py      deduplication into repeat-pattern clusters
            explain_repeats.v0.1.py, make_review_set.v0.1.py   preserved predecessors
 tests/     test_explainer_review.py  checks reproducing every finding
+           (explainer only; detector/scorer tests live in the repository root
+            tests/, which needs scripts/ and torch and is not part of this packet)
 rules/     EXPLAINER_V2.md         model-selection and acceptance rules as implemented
 data/      controls_definition.tsv  the 15 control regions (coordinates only)
            known_loci.tsv, annotated_units.tsv  annotation used for inspection only
@@ -26,7 +28,10 @@ outputs/   controls/               models, copies, alignments, PWMs, unresolved,
            review_set/             the representative review set
 environment/  pip_freeze.txt, python_version.txt, detector_config_frozen.md
 review/    FINDINGS.md             the review write-up
-MANIFEST.sha256                    checksums of every file in this packet
+MANIFEST.sha256                    checksums of every versioned file in this
+                                   packet. Generated with LF line endings and
+                                   excluding machine caches (__pycache__, *.pyc),
+                                   so it is reproducible across platforms.
 ```
 
 ## How to re-run
@@ -37,6 +42,10 @@ python code/explain_repeats_v2.py \
   --out <outdir> --peaks <peaks tsv>
 python -m pytest -q tests/
 ```
+
+`tests/` is self-contained: it imports only `code/explain_repeats_v2.py` and needs
+numpy plus pytest. It does not need the detector scripts, torch, a GPU, or any
+genome download.
 
 Genome FASTAs are not shipped (they are public NCBI records; accessions are in
 `data/known_loci.tsv` and in every region header). The region FASTAs in
