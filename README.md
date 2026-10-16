@@ -4,12 +4,14 @@ Detecting repetitive sequence organization in DNA from a genomic language model
 (`tattabio/gLM2_650M`), without motifs, protein anchors or family labels.
 
 **Status: detector pilot closed and frozen; explainer v0.3 evidence fixes available.**
-The v0.2 code, results and review packet remain frozen. v0.3 keeps core copies and
+The v0.2 code and results remain frozen; its packet received a packaging-only
+test/manifest fix in `0c2e15e`. v0.3 keeps core copies and
 optional extensions separately, distinguishes candidate-associated models from
 flank-only findings, and retains alternative hypotheses with descriptive support.
 It does not establish general recall, a false-discovery rate, or VIPR generalization.
-This repository holds code, frozen configuration and reports. Model weights, raw
-genome downloads and per-base score tracks are not included.
+This repository holds code, frozen configuration and reports. Model weights and
+per-base score tracks are not included. The standalone v0.3 review ZIP includes
+the archived public genome sequences needed to regenerate explainer evidence.
 
 ## Start here
 
@@ -20,6 +22,10 @@ full-genome pilot remains unchanged. CDS filtering is heuristic, and does not
 establish noncoding identity or complete repeat recall.
 The downloadable [cluster source bundle](releases/README.md) includes the code,
 tests and runbook without model weights or raw genomes.
+The separate [standalone explainer v0.3 review packet](releases/GLM_repeat_explainer_v0.3_review.zip)
+includes original DNA, GenBank annotations, frozen inputs/outputs and CPU tests.
+Its verifier can rebuild annotations and all explainer evidence without this
+repository, genome downloads, detector inference or a GPU.
 
 | | |
 |---|---|

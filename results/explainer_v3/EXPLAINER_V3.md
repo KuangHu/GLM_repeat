@@ -170,9 +170,23 @@ and the same fixed random10 (seed 20261015). Its 219 exact consensus navigation
 groups use a different definition from v0.2's approximate 180 clusters and must
 not be compared as numbers of biological systems.
 
-The original v0.2 review packet is preserved, including its broken whole-packet
-test path. The v0.3 package uses a complete `scripts/` + `tests/` layout, has its
-own CPU requirements and an exact-byte manifest excluding caches.
+The v0.2 explainer code and evidence remain preserved. Commit `0c2e15e` corrected
+its packaging-only test entry point, removed the accidental detector test and
+excluded caches from its manifest; its standalone explainer tests now pass 11/11.
+All 46 manifest entries match their Git blobs, which contain mixed line endings.
+The v0.3 package uses a complete `scripts/` + `tests/` layout, has its own CPU
+requirements and an exact-archived-byte manifest excluding caches.
+
+The published `releases/GLM_repeat_explainer_v0.3_review.zip` is self-contained:
+it includes all original public DNA/GenBank records, pre-annotation candidates,
+saved outputs, validation references, fixed review selections and 17 tests.
+After extraction and CPU dependency installation, run
+`python scripts/verify_explainer_packet.py --run-tests --rerun rerun` from the
+packet directory to regenerate and compare all scientific evidence, including
+the CDS context. No repository checkout, external sequences or GPU are required.
+The archived output/provenance files remain frozen; relocated annotation-source
+paths and regenerated source-code byte hashes are recorded separately from the
+scientific-table comparison. The packet README gives the exact comparison rules.
 
 ## Reproduce locally
 

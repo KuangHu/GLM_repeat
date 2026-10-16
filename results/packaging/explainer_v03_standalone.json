@@ -1,0 +1,206 @@
+{
+  "manifest_entries": 57,
+  "sequences": {
+    "n_records": 8,
+    "total_nt": 5172072,
+    "fasta_equals_genbank": true
+  },
+  "environment": {
+    "python": "3.10.15",
+    "numpy": "2.2.6",
+    "biopython": "1.88"
+  },
+  "biological_validation": false,
+  "tests": ".................                                                        [100%]\n17 passed in 0.27s",
+  "reproduction": {
+    "compared_tables": {
+      "inputs/controls.tsv": {
+        "rows": 15,
+        "columns": 14,
+        "ignored_fields": [
+          "CDS_annotation_source"
+        ]
+      },
+      "controls/alignments.tsv": {
+        "rows": 2939,
+        "columns": 5,
+        "ignored_fields": []
+      },
+      "controls/candidates.tsv": {
+        "rows": 15,
+        "columns": 16,
+        "ignored_fields": []
+      },
+      "controls/copies.tsv": {
+        "rows": 1526,
+        "columns": 18,
+        "ignored_fields": []
+      },
+      "controls/copy_relations.tsv": {
+        "rows": 3583,
+        "columns": 4,
+        "ignored_fields": []
+      },
+      "controls/extensions.tsv": {
+        "rows": 1454,
+        "columns": 16,
+        "ignored_fields": []
+      },
+      "controls/hypotheses.tsv": {
+        "rows": 92,
+        "columns": 36,
+        "ignored_fields": []
+      },
+      "controls/models.tsv": {
+        "rows": 15,
+        "columns": 36,
+        "ignored_fields": []
+      },
+      "controls/period_diagnostics.tsv": {
+        "rows": 3733,
+        "columns": 10,
+        "ignored_fields": []
+      },
+      "controls/pwms.tsv": {
+        "rows": 3314,
+        "columns": 7,
+        "ignored_fields": []
+      },
+      "inputs/heldout.tsv": {
+        "rows": 467,
+        "columns": 25,
+        "ignored_fields": [
+          "CDS_annotation_source"
+        ]
+      },
+      "heldout_primary/alignments.tsv": {
+        "rows": 13744,
+        "columns": 5,
+        "ignored_fields": []
+      },
+      "heldout_primary/candidates.tsv": {
+        "rows": 467,
+        "columns": 16,
+        "ignored_fields": []
+      },
+      "heldout_primary/copies.tsv": {
+        "rows": 9313,
+        "columns": 18,
+        "ignored_fields": []
+      },
+      "heldout_primary/copy_relations.tsv": {
+        "rows": 11988,
+        "columns": 4,
+        "ignored_fields": []
+      },
+      "heldout_primary/extensions.tsv": {
+        "rows": 4537,
+        "columns": 16,
+        "ignored_fields": []
+      },
+      "heldout_primary/hypotheses.tsv": {
+        "rows": 1641,
+        "columns": 36,
+        "ignored_fields": []
+      },
+      "heldout_primary/models.tsv": {
+        "rows": 343,
+        "columns": 36,
+        "ignored_fields": []
+      },
+      "heldout_primary/period_diagnostics.tsv": {
+        "rows": 46277,
+        "columns": 10,
+        "ignored_fields": []
+      },
+      "heldout_primary/pwms.tsv": {
+        "rows": 34768,
+        "columns": 7,
+        "ignored_fields": []
+      },
+      "validation/candidate_changes.tsv": {
+        "rows": 467,
+        "columns": 9,
+        "ignored_fields": []
+      },
+      "validation/controls_overlap.tsv": {
+        "rows": 15,
+        "columns": 12,
+        "ignored_fields": []
+      },
+      "review_set/pattern_groups.tsv": {
+        "rows": 219,
+        "columns": 7,
+        "ignored_fields": []
+      },
+      "review_set/primary_copies.tsv": {
+        "rows": 276,
+        "columns": 18,
+        "ignored_fields": []
+      },
+      "review_set/review_set.tsv": {
+        "rows": 48,
+        "columns": 14,
+        "ignored_fields": []
+      }
+    },
+    "validation": {
+      "controls": {
+        "n_candidates": 15,
+        "n_hypotheses": 92,
+        "n_copies": 1526,
+        "n_core_models_reconstructed": 84,
+        "n_extension_attempts": 1454,
+        "rejected_extensions_with_core_retained": 41,
+        "failures": []
+      },
+      "heldout": {
+        "n_candidates": 467,
+        "n_hypotheses": 1641,
+        "n_copies": 9313,
+        "n_core_models_reconstructed": 1464,
+        "n_extension_attempts": 4537,
+        "rejected_extensions_with_core_retained": 106,
+        "failures": []
+      },
+      "status_transitions": {
+        "explained -> candidate_associated": 259,
+        "unresolved -> unresolved": 124,
+        "explained -> flank_only": 84
+      },
+      "passed": true
+    },
+    "ignored_provenance": [
+      "annotation source path",
+      "summary source-code byte hash",
+      "path-keyed input/provenance JSONs",
+      "historical package_check.json"
+    ],
+    "numeric_comparison": "same rows/columns/order; counts and text exact; decimal rel/abs tolerance 1e-12"
+  },
+  "passed": true,
+  "archive": {
+    "path": "releases/GLM_repeat_explainer_v0.3_review.zip",
+    "bytes": 7492930,
+    "sha256": "e6e6fd94b2c20bcc78ba1fbeacfefccf00616983349d7b815f4fe6f1ad5d062b"
+  },
+  "v02_packaging_check": {
+    "commit": "0c2e15e",
+    "tests_passed": 11,
+    "manifest_entries_matching_git_blobs": 46,
+    "note": "Git blobs contain mixed LF/CRLF. Windows checkout bytes or global LF normalization need not match all entries."
+  },
+  "isolation": {
+    "repository_required": false,
+    "genome_downloads_required": false,
+    "gpu_or_torch_required": false,
+    "actual_torch_available": false,
+    "venv_system_site_packages": false
+  },
+  "verifier_failure_checks": {
+    "newline_mutation_rejected": true,
+    "path_traversal_rejected": true,
+    "count_and_DNA_differences_rejected": true
+  },
+  "date": "2026-10-16"
+}

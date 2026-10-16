@@ -6,11 +6,13 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .venv-scan/
+.venv-explainer-packet/
 dist/
 # Local review downloads and extracted test packages
 independent_review/source/
 independent_review/package_validation_v03/
 independent_review/region_package_check/
+independent_review/explainer_v03_standalone*/
 independent_review/reproduced_heldout/
 independent_review/*.zip
 # Keep compact validation evidence; regenerate window FASTAs, predictions and plots.
