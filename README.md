@@ -8,7 +8,10 @@ The v0.2 code and results remain frozen; its packet received a packaging-only
 test/manifest fix in `0c2e15e`. v0.3 keeps core copies and
 optional extensions separately, distinguishes candidate-associated models from
 flank-only findings, and retains alternative hypotheses with descriptive support.
-It does not establish general recall, a false-discovery rate, or VIPR generalization.
+General repeat-candidate discovery. Validation evidence exists for ART and CRISPR.
+**The current frozen configuration missed the one tested annotated VIPR locus, so
+VIPR detection capability is not established.** It does not establish general recall
+or a false-discovery rate.
 This repository holds code, frozen configuration and reports. Model weights and
 per-base score tracks are not included. The standalone v0.3 review ZIP includes
 the archived public genome sequences needed to regenerate explainer evidence.
@@ -62,8 +65,18 @@ annotated repeat pitch (67-76 nt) with 0 of 230 annotated units missed.
 
 - Candidate yields are **yields, not false-discovery rates**. Background material is
   unlabelled real DNA, not verified negatives.
-- VIPR generalization is **unresolved**: no independent natural VIPR locus was
-  obtainable, so VIPR is untested outside development data.
+- **VIPR detection is not established, and this is now a measured miss rather than
+  an untested gap.** In a whole-genome scan of SUSP1 (NC_028808.2) at the frozen
+  primary threshold tau = 0.80, the annotated 60-nt VIPR locus
+  [29169,29229) produced **no candidate**. The nearby unconfirmed off-label region
+  [27682,27906) was called (candidate 27675-27999, 5 peaks). One locus does not show
+  that all VIPR loci are undetectable, and this single result does not establish the
+  cause; attributing it to degenerate short periodicity would be speculation. No
+  independent natural VIPR locus has been obtained, so there is still no
+  generalization test.
+  Remediation belongs in a separate experimental branch - per-position scores, peak
+  calling and merging at that locus - and must not be pursued by tuning the main
+  scan threshold to recover one positive.
 - Scores measure masked predictability, not repeat probability, and not function.
 - `unclassified` means no matching selected RNA/repeat category. The original
   classifier did not inspect CDS annotations. v0.3 appends explicit CDS overlap
