@@ -1,0 +1,13 @@
+2026-10-16  datasets summary virus genome taxon 10239 --refseq --complete-only
+  FAILED after 11 attempts: POST https://api.ncbi.nlm.nih.gov/datasets/v2/virus
+  Action: split by verified viral branches per selection_config scope rules.
+  Missing-range risk: a whole-catalogue listing was NOT obtained; branch coverage
+  is enumerated explicitly in metadata/normalized/branch_coverage.tsv.
+2026-10-16  AGENT ERROR: unverified taxids used in the first branch sweep.
+  10497 labelled "Corticoviridae" is African swine fever virus (eukaryotic).
+        20 records QUARANTINED to metadata/quarantine/, never entered the pool.
+  10477 labelled "Fuselloviridae" is actually Lipothrixviridae. File renamed; records kept.
+  10465 labelled "Lipothrixviridae" is Pieris brassicae granulovirus; 0 RefSeq complete, not used.
+  338486 labelled "Bicaudaviridae" is Cephalostachyum pallidum (a plant).
+  Cause: taxids added to the sweep without running the verification step first.
+  Correction: every taxid below verified via datasets summary taxonomy before use.

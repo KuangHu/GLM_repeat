@@ -35,7 +35,9 @@ def gb_sequence(path):
         if on:
             if line.startswith('//'):
                 break
-            out.append(re.sub(r'[^acgtACGTnN]', '', line))
+            # strip only line numbers and whitespace: keep every IUPAC code, so
+            # ambiguity letters (R, Y, W, S, ...) do not silently shift coordinates
+            out.append(re.sub(r'[\s\d]', '', line))
     return ''.join(out).upper()
 
 

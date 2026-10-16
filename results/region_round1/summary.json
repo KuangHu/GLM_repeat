@@ -1,0 +1,15 @@
+{
+  "total_candidates": 170,
+  "sheet_rows": 65,
+  "random_stratum": 40,
+  "policy_lost_all_included": 6,
+  "stratum_counts": {
+    "high": 10,
+    "random": 40,
+    "structure": 12,
+    "adjacent": 10,
+    "policy_lost": 6
+  },
+  "seed": 20261016,
+  "note": "only the random stratum supports an unbiased yield estimate; enriched strata are reported separately"
+}

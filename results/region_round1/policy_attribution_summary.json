@@ -1,0 +1,18 @@
+{
+  "min_reciprocal_overlap": 0.9,
+  "full_copies": 2079,
+  "policy_copies": 1807,
+  "retained_exact": 1792,
+  "lost_exact": 287,
+  "gained_exact": 15,
+  "net_change": -272,
+  "lost_exact_but_interval_matched": 0,
+  "lost_under_interval_matching": 287,
+  "note": "percentages describe explainer copy RECORDS, not verified biological repeats; differences may reflect candidate boundary or hypothesis changes, not only filtered sequence",
+  "affected_candidates": 8,
+  "attributed_copies": 287,
+  "causes": {
+    "window_excluded_but_within_policy_input": 17,
+    "window_excluded": 270
+  }
+}
