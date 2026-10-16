@@ -5,3 +5,22 @@ models/
 __pycache__/
 .pytest_cache/
 *.pyc
+.venv-scan/
+dist/
+# Local review downloads and extracted test packages
+independent_review/source/
+independent_review/package_validation_v03/
+independent_review/region_package_check/
+independent_review/reproduced_heldout/
+independent_review/*.zip
+# Keep compact validation evidence; regenerate window FASTAs, predictions and plots.
+results/region_scan_validation/*
+!results/region_scan_validation/validation.json
+!results/region_scan_validation/package_check.json
+!results/region_scan_validation/length_sweep/
+results/region_scan_validation/length_sweep/*
+!results/region_scan_validation/length_sweep/comparison.tsv
+!results/region_scan_validation/prepared/
+results/region_scan_validation/prepared/*
+!results/region_scan_validation/prepared/summary.json
+!results/region_scan_validation/prepared/locus_retention.tsv

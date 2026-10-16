@@ -1,0 +1,26 @@
+{
+  "controls": {
+    "n_candidates": 15,
+    "n_hypotheses": 92,
+    "n_copies": 1526,
+    "n_core_models_reconstructed": 84,
+    "n_extension_attempts": 1454,
+    "rejected_extensions_with_core_retained": 41,
+    "failures": []
+  },
+  "heldout": {
+    "n_candidates": 467,
+    "n_hypotheses": 1641,
+    "n_copies": 9313,
+    "n_core_models_reconstructed": 1464,
+    "n_extension_attempts": 4537,
+    "rejected_extensions_with_core_retained": 106,
+    "failures": []
+  },
+  "status_transitions": {
+    "explained -> candidate_associated": 259,
+    "unresolved -> unresolved": 124,
+    "explained -> flank_only": 84
+  },
+  "passed": true
+}

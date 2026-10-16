@@ -1,0 +1,16 @@
+candidate_id	contig	start0	end0	detector_score	annotation_category	status	reason	primary_model_id	n_models	n_candidate_associated_models	n_flank_only_models	ambiguous_bases	n_CDS_overlapping	CDS_overlap_fraction	annotation_available
+NC_003413.1:27090-30400	NC_003413.1	27090	30400	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:27090-30400/m001	6	6	0	0	0	0.0	True
+NC_003413.1:260713-262045	NC_003413.1	260713	262045	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:260713-262045/m001	6	6	0	0	0	0.0	True
+NC_003413.1:312404-313931	NC_003413.1	312404	313931	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:312404-313931/m001	6	6	0	0	0	0.0	True
+NC_003413.1:623118-625176	NC_003413.1	623118	625176	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:623118-625176/m001	6	6	0	0	0	0.0	True
+NC_003413.1:695936-698992	NC_003413.1	695936	698992	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:695936-698992/m001	6	6	0	0	0	0.0	True
+NC_003413.1:1064075-1065543	NC_003413.1	1064075	1065543	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1064075-1065543/m001	6	6	0	0	0	0.0	True
+NC_006461.1:872100-873200	NC_006461.1	872100	873200	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:872100-873200/m001	6	6	0	0	0	0.0	True
+NC_006461.1:874396-874734	NC_006461.1	874396	874734	control	control_CRISPR	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:874396-874734/m001	6	6	0	0	0	0.0	True
+MW349129.1:213135-214001	MW349129.1	213135	214001	control	control_ART	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:213135-214001/m001	6	6	0	0	3	0.4018475750577367	True
+OR836606.1:75040-75911	OR836606.1	75040	75911	control	control_ART	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:75040-75911/m001	6	6	0	0	1	0.01951779563719862	True
+LC680885.1:166404-167268	LC680885.1	166404	167268	control	control_ART	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:166404-167268/m001	6	6	0	0	0	0.0	True
+MN091626.1:23727-24592	MN091626.1	23727	24592	control	control_ART	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:23727-24592/m001	6	6	0	0	0	0.0	True
+MZ779063.1:124098-124964	MZ779063.1	124098	124964	control	control_ART	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:124098-124964/m001	6	6	0	0	0	0.0	True
+NC_028808.2:29169-29229	NC_028808.2	29169	29229	control	control_VIPR_labelled_60nt	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_028808.2:29169-29229/m001	8	4	4	0	0	0.0	True
+NC_028808.2:27682-27906	NC_028808.2	27682	27906	control	control_VIPR_offlabel_unconfirmed	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_028808.2:27682-27906/m001	6	6	0	0	0	0.0	True

@@ -1,0 +1,5 @@
+slurm/region_score_lrc.sbatch text eol=lf
+# Preserve evidence hashes and empty trailing TSV fields across platforms.
+results/explainer_v3/** -text whitespace=-blank-at-eol
+results/region_scan_validation/** -text whitespace=-blank-at-eol
+independent_review/random10_fixed.tsv -text whitespace=-blank-at-eol

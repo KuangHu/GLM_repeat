@@ -1,0 +1,9 @@
+{
+  "sources_sha256": {
+    "review_packet_explainer_v0.2\\data\\controls_definition.tsv": "0012f60ae46e08d4ffed55c402eced276a54caa6de89d8d253dc87b9df9d2931",
+    "independent_review\\source\\genomes.gb": "6bd131a3766cc943b6382d8d1cd2db45a84cd87e21e0d41274d0a9e6480ea6de"
+  },
+  "policy": "annotation is descriptive; all candidates and original categories retained",
+  "category_scope": "unclassified means no selected RNA/repeat category, not no annotation",
+  "n_candidates": 15
+}

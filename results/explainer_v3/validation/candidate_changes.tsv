@@ -1,0 +1,468 @@
+candidate_id	v2_status	v3_status	v2_copies	v3_primary_copies	v2_source	v3_source	v3_associated_hypotheses	comparison_note
+NC_003413.1:695937-698973	explained	candidate_associated	46	47	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:27091-30549	explained	candidate_associated	52	52	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:623119-625176	explained	candidate_associated	31	31	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:312405-313946	explained	candidate_associated	23	25	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1064076-1065542	explained	candidate_associated	22	23	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:260714-262097	explained	candidate_associated	22	22	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:872102-873192	explained	candidate_associated	15	15	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:151262-152315	explained	candidate_associated	4	5	periodic	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1091159-1091856	explained	candidate_associated	12	12	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:141073-142114	explained	candidate_associated	4	5	periodic	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:137600-138800	explained	candidate_associated	4	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1609897-1611762	explained	candidate_associated	19	19	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1229552-1230975	explained	candidate_associated	22	22	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:40441-41091	explained	candidate_associated	4	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:185368-186871	explained	candidate_associated	9	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:23605-24838	explained	candidate_associated	7	7	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:96729-97568	explained	candidate_associated	5	5	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:874396-875086	explained	candidate_associated	5	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:232905-233559	explained	candidate_associated	4	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:9533-9862	explained	candidate_associated	2	2	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:218624-220918	explained	candidate_associated	16	16	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:53364-53716	explained	candidate_associated	6	4	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:50999-51793	explained	candidate_associated	3	4	periodic	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:74854-76094	explained	candidate_associated	8	8	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:143699-144065	explained	candidate_associated	4	4	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1397117-1397417	explained	candidate_associated	4	3	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:222009-222848	explained	candidate_associated	5	5	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1056162-1057172	explained	candidate_associated	3	3	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:88612-89638	explained	candidate_associated	9	7	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:531353-534708	explained	candidate_associated	34	34	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:199754-200558	explained	candidate_associated	13	12	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:213013-214250	explained	candidate_associated	3	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1701005-1701567	explained	candidate_associated	13	8	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:186193-187162	explained	candidate_associated	18	11	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:246916-247722	explained	candidate_associated	13	12	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:24134-24646	explained	candidate_associated	12	12	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:220132-220928	explained	candidate_associated	3	4	periodic	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:176239-176801	explained	candidate_associated	3	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:54250-54605	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:166282-167514	explained	candidate_associated	7	7	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:102708-103513	explained	candidate_associated	14	14	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1169359-1170274	explained	candidate_associated	10	9	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:11825-12913	explained	candidate_associated	11	11	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:232539-234039	explained	candidate_associated	9	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:144586-144940	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:8178-8510	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:666087-666900	explained	candidate_associated	8	8	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1161715-1163253	explained	candidate_associated	19	18	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:98102-98458	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1654805-1655261	explained	candidate_associated	7	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:696616-699670	explained	candidate_associated	31	19	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:237626-238332	explained	candidate_associated	2	2	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:223382-223738	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:741885-743181	explained	candidate_associated	2	2	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:123976-125212	explained	candidate_associated	5	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:75188-76131	explained	candidate_associated	8	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:56645-56871	explained	candidate_associated	4	5	periodic	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:234632-235682	explained	candidate_associated	9	9	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:9653-10426	explained	candidate_associated	10	8	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:187404-188516	explained	candidate_associated	9	9	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1730762-1732565	explained	candidate_associated	9	7	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1022602-1023001	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:90827-91879	explained	candidate_associated	9	8	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:158340-159452	explained	candidate_associated	5	4	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:113311-113782	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1849499-1849726	explained	candidate_associated	5	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:351471-352354	explained	candidate_associated	3	2	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:148481-148814	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:240465-241117	explained	candidate_associated	5	5	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:192396-192870	explained	candidate_associated	7	4	motif_extended	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1013759-1014002	explained	candidate_associated	3	2	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:149433-150150	explained	candidate_associated	9	7	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:21819-22289	explained	candidate_associated	9	5	motif_extended	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:191180-191653	explained	candidate_associated	5	3	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:66335-66810	explained	candidate_associated	5	3	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:779651-780933	explained	candidate_associated	17	13	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:67553-68022	explained	candidate_associated	4	4	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1220871-1221044	explained	candidate_associated	11	4	motif_core	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:23032-23504	explained	candidate_associated	11	9	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:100498-100714	explained	candidate_associated	4	5	periodic	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:225773-225993	explained	candidate_associated	4	5	periodic	periodic	7	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:114525-114986	explained	candidate_associated	4	4	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1746455-1747021	explained	candidate_associated	13	13	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:337812-338036	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:827246-827891	explained	candidate_associated	4	4	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:181822-182287	explained	candidate_associated	2	2	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:161056-161415	explained	candidate_associated	2	2	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1685333-1686749	explained	candidate_associated	14	14	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:265532-266551	explained	candidate_associated	24	15	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:153207-153651	explained	candidate_associated	2	3	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:139442-140467	explained	candidate_associated	24	15	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:582761-582973	explained	candidate_associated	2	2	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:599640-600605	explained	candidate_associated	6	6	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:231121-231572	explained	candidate_associated	8	8	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:240222-240580	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:189151-189583	explained	candidate_associated	7	6	motif_core	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1614941-1615397	explained	candidate_associated	5	2	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1401502-1402387	explained	candidate_associated	10	8	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:177410-177546	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:68836-69345	explained	candidate_associated	9	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1668679-1669206	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:383357-384037	explained	candidate_associated	11	11	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1801468-1801775	explained	candidate_associated	3	2	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1468985-1469401	explained	candidate_associated	3	2	motif_extended	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:424508-425734	explained	candidate_associated	6	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:31534-32231	explained	candidate_associated	8	8	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:148162-148647	explained	candidate_associated	8	5	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:51788-52273	explained	candidate_associated	3	3	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:77663-77819	explained	candidate_associated	2	2	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1720834-1721931	explained	candidate_associated	15	15	motif_core	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:859273-859874	explained	candidate_associated	7	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:194630-195114	explained	candidate_associated	3	3	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:951516-952237	explained	candidate_associated	9	7	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1500257-1500431	explained	flank_only	8	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:361212-361462	explained	candidate_associated	3	2	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:688939-689055	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1687843-1687983	explained	candidate_associated	4	4	motif_core	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:639660-640135	explained	candidate_associated	6	6	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1498981-1499312	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:95815-95921	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:75179-75543	explained	candidate_associated	9	6	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:795876-795989	explained	flank_only	6	4	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1218129-1218419	explained	candidate_associated	9	6	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:15462-15767	explained	candidate_associated	8	5	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:241028-241408	explained	flank_only	6	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:238762-239554	explained	candidate_associated	9	5	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:699757-699896	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1464135-1464289	explained	candidate_associated	2	2	motif_extended	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1287293-1287450	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:32154-32296	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:30567-30804	explained	candidate_associated	11	10	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1160761-1161147	explained	candidate_associated	5	3	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:325148-325220	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:104374-104535	explained	flank_only	3	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1054565-1054640	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:145587-145722	explained	candidate_associated	4	3	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:114925-115304	explained	flank_only	6	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1882669-1883179	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:473065-473696	explained	candidate_associated	2	2	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:255826-256288	explained	candidate_associated	7	6	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1291821-1291904	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:703576-704242	explained	candidate_associated	17	16	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:150069-150258	explained	candidate_associated	7	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:95087-95645	explained	candidate_associated	2	2	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1167579-1168163	explained	candidate_associated	11	11	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:171867-173207	explained	candidate_associated	7	5	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:30602-30991	explained	candidate_associated	4	3	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:860597-861178	explained	candidate_associated	9	8	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:38775-39587	explained	candidate_associated	18	12	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:228262-228703	explained	candidate_associated	3	3	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1255042-1255659	explained	candidate_associated	19	12	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:714218-714407	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:227785-227974	explained	candidate_associated	6	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1559896-1560703	explained	candidate_associated	12	12	motif_core	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:196079-196625	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:103559-104110	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:253538-253752	explained	candidate_associated	3	2	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:58663-58852	explained	candidate_associated	5	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1311475-1312140	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:626952-627590	explained	candidate_associated	15	10	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:797968-798124	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:143627-143814	explained	candidate_associated	7	3	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:727927-728121	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:302942-303205	explained	candidate_associated	3	2	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1297928-1298034	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:102509-102693	explained	candidate_associated	6	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:920870-921038	explained	candidate_associated	2	2	motif_extended	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1793360-1793440	explained	candidate_associated	6	12	motif_core	periodic	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:76129-76219	explained	candidate_associated	4	14	motif_extended	periodic	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:877936-878511	explained	candidate_associated	7	4	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:31352-31469	explained	candidate_associated	6	3	motif_extended	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:95176-95264	explained	flank_only	4	4	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:183950-184350	explained	candidate_associated	8	8	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:31570-31661	explained	candidate_associated	9	14	periodic	periodic	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:396603-396804	explained	candidate_associated	4	3	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1602461-1602670	explained	candidate_associated	3	2	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:50695-51167	explained	candidate_associated	2	2	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1394513-1394613	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1774879-1775139	explained	candidate_associated	9	8	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:39580-39675	explained	candidate_associated	4	6	periodic	periodic	11	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1447251-1447828	explained	candidate_associated	16	13	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1844705-1844775	explained	flank_only	2	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:76263-76335	explained	flank_only	6	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:71217-71555	explained	candidate_associated	7	7	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:561298-561378	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:174092-174279	explained	candidate_associated	3	3	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:22800-23251	explained	candidate_associated	4	4	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:647461-647666	explained	candidate_associated	8	7	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1136361-1136730	explained	candidate_associated	8	6	motif_extended	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:6442-6630	explained	candidate_associated	3	3	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:170577-170637	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:957865-957929	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:956603-957007	explained	candidate_associated	4	4	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:34606-35136	explained	candidate_associated	6	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:43936-44152	explained	candidate_associated	9	9	motif_core	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:798519-799122	explained	candidate_associated	7	7	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1779595-1780013	explained	candidate_associated	12	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:10585-10666	explained	flank_only	4	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:829890-830379	explained	candidate_associated	11	11	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:701178-701409	explained	candidate_associated	3	3	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:35398-35766	explained	candidate_associated	14	5	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:252186-252523	explained	candidate_associated	5	4	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1747771-1747842	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:275807-275914	explained	candidate_associated	3	3	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:736051-736291	explained	candidate_associated	2	2	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:153767-154079	explained	candidate_associated	6	6	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:77063-77140	explained	candidate_associated	3	6	periodic	periodic	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1806882-1806993	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:289596-289924	explained	candidate_associated	6	6	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:596653-596942	explained	candidate_associated	7	3	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:12364-12483	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1465516-1465614	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:77873-77937	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:138487-138561	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1011457-1011568	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1534698-1534782	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:454745-455067	explained	candidate_associated	6	6	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:20644-21486	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:569716-570063	explained	candidate_associated	12	12	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1203709-1203793	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:875372-875452	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:96502-97117	explained	candidate_associated	15	11	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:249287-249631	explained	candidate_associated	8	8	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:543376-543634	explained	candidate_associated	10	7	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:160330-160438	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1443610-1443696	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:453262-453688	explained	candidate_associated	4	4	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:236662-236822	explained	flank_only	5	3	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:934220-934513	explained	candidate_associated	7	7	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1734480-1734668	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:59652-59738	explained	candidate_associated	9	9	motif_extended	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:103497-103581	explained	candidate_associated	9	9	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1843140-1843528	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:122909-122973	explained	flank_only	4	4	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:398464-398533	explained	flank_only	2	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:944269-944773	explained	candidate_associated	13	10	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:791975-792292	explained	candidate_associated	6	6	motif_core	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:53244-53780	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:137737-138165	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:247826-248169	explained	candidate_associated	3	3	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1735462-1735667	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:64242-64330	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1533053-1533127	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:781655-781996	explained	candidate_associated	6	5	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1470927-1471053	explained	candidate_associated	2	2	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:348797-348905	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:937370-937512	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1683427-1683538	explained	flank_only	2	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1771671-1771736	explained	flank_only	3	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1831277-1831349	explained	flank_only	3	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1878578-1878649	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:185962-186000	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1078797-1079869	explained	candidate_associated	14	11	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1537063-1537147	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1317876-1317928	explained	candidate_associated	4	2	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1120312-1120388	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:331857-332047	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1131386-1131463	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:356574-356928	explained	candidate_associated	2	2	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:450522-450564	explained	candidate_associated	2	2	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:827439-827510	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:923611-923813	explained	flank_only	4	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:108194-108303	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1557777-1557851	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:111243-111287	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:556169-556239	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:240408-240478	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:231413-231541	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:211903-212064	explained	candidate_associated	3	2	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:159614-159829	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:441656-441730	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:15800-15857	explained	flank_only	2	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:62223-62420	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1553349-1553715	explained	candidate_associated	3	2	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:183451-183508	explained	flank_only	2	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1524859-1524901	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:193913-193951	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:793649-793898	explained	flank_only	5	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:51072-51110	explained	flank_only	4	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1075354-1075427	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:103337-103380	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:79965-80012	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:176721-176768	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:70482-70519	explained	candidate_associated	12	6	motif_extended	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:147445-147482	explained	flank_only	4	3	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:264990-265033	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:442281-442773	explained	flank_only	2	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:245540-245575	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:240190-240644	explained	candidate_associated	9	9	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:2777-2812	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1315193-1315234	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:87253-87307	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:680687-680853	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:223895-223939	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:233840-233872	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:201705-201758	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1542293-1542817	explained	candidate_associated	17	11	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:108656-108693	explained	flank_only	4	4	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:117142-117189	explained	flank_only	5	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:154726-154781	explained	candidate_associated	4	14	motif_extended	periodic	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:236419-236454	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:258343-258617	explained	candidate_associated	5	2	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:71443-71478	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:196504-196656	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:261351-261405	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:188338-188375	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:134973-135015	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:181044-181083	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:182694-182749	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:26887-26922	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:44456-44493	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:13961-13996	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:250253-250319	explained	candidate_associated	5	14	periodic	periodic	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:13648-13683	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:27842-27892	explained	candidate_associated	5	9	periodic	periodic	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1579135-1579208	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:72376-72471	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:973167-974030	explained	candidate_associated	7	6	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:58413-58450	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1563688-1563772	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:231980-232016	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:30659-30942	explained	candidate_associated	8	5	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:122117-122180	explained	flank_only	4	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1758972-1759497	explained	candidate_associated	3	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1763973-1764031	explained	candidate_associated	7	7	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1781999-1782238	explained	candidate_associated	3	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:11801-11968	explained	flank_only	11	5	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:20053-20121	explained	flank_only	4	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:92144-92186	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:261060-261102	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:216259-216532	explained	candidate_associated	4	3	motif_core	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:49714-49734	explained	candidate_associated	15	15	periodic	periodic	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:650724-650747	explained	candidate_associated	4	4	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:113459-113892	explained	candidate_associated	5	4	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:105000-105100	explained	flank_only	3	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:218316-218355	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:168323-168456	explained	candidate_associated	5	5	motif_extended	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:530965-531005	explained	candidate_associated	7	10	motif_core	periodic	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:810497-810757	explained	candidate_associated	11	11	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:181849-181884	explained	flank_only	4	3	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1514820-1515286	explained	candidate_associated	7	7	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:242867-242902	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:29419-29450	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:203507-203837	explained	candidate_associated	13	7	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:23885-23925	explained	flank_only	9	4	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:143127-143217	explained	candidate_associated	5	5	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1810230-1810680	explained	candidate_associated	8	5	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1556905-1556986	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:108285-108318	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:243851-243887	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:575649-575684	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:47564-47600	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:4847-4883	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:201608-201788	explained	candidate_associated	7	6	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1604108-1604262	explained	candidate_associated	12	6	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:42697-42749	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:141434-141480	explained	candidate_associated	13	16	motif_extended	periodic	10	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:92953-93281	explained	candidate_associated	7	7	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:236122-236636	explained	candidate_associated	11	4	motif_extended	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:217350-217384	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:149997-150032	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:39816-39864	explained	candidate_associated	7	6	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:92726-92757	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1177240-1177560	explained	candidate_associated	11	4	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:53034-53278	explained	candidate_associated	2	2	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:109642-109679	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:61924-62300	explained	candidate_associated	10	10	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:207088-207119	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:480912-481251	explained	candidate_associated	10	10	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:54181-54207	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:81236-81270	explained	flank_only	4	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:93994-94029	explained	flank_only	5	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:185673-185710	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:149613-150105	explained	candidate_associated	3	3	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:98661-98695	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:777772-777917	explained	candidate_associated	7	7	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:5496-5534	explained	flank_only	5	4	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:70606-70636	explained	flank_only	5	4	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:79494-79826	explained	candidate_associated	13	5	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:50965-51151	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:254250-254281	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:165829-165882	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:17086-17576	explained	candidate_associated	6	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:9659-9686	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:31182-31212	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1679801-1680153	explained	candidate_associated	14	6	motif_extended	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:169775-169813	explained	candidate_associated	3	4	periodic	periodic	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:64136-64169	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:37175-37209	explained	flank_only	3	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:25918-25955	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:889960-890009	explained	flank_only	3	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:195705-195738	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:229654-229686	explained	flank_only	5	4	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:128291-128579	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:127092-127125	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:110045-110076	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:117747-117781	explained	candidate_associated	6	12	periodic	periodic	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:258368-258391	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:349742-349812	explained	candidate_associated	5	4	motif_core	periodic	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:875663-876065	explained	candidate_associated	9	5	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:43961-44013	explained	candidate_associated	7	7	motif_core	periodic	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1030080-1030564	explained	candidate_associated	12	12	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:333386-333845	explained	candidate_associated	5	5	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:754571-754798	explained	candidate_associated	10	3	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:141423-141459	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:3568-3595	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:213575-213612	explained	flank_only	6	6	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:125337-125675	explained	candidate_associated	14	4	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:58027-58189	explained	candidate_associated	5	5	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:179453-179486	explained	flank_only	5	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:248778-248808	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:178759-178792	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:149030-149065	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:168730-168765	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1135007-1135495	explained	candidate_associated	8	5	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:193753-193784	explained	flank_only	13	3	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:19618-19651	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:210570-210966	explained	candidate_associated	3	2	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:205246-205279	explained	flank_only	4	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:163788-163824	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:530404-530430	explained	candidate_associated	8	8	motif_core	periodic	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:734320-734384	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:205022-205346	explained	candidate_associated	5	4	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:284772-285029	explained	candidate_associated	8	5	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_003413.1:1797113-1797186	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:718380-718430	explained	candidate_associated	5	9	motif_core	periodic	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:126349-126377	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1705233-1705352	explained	candidate_associated	8	7	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:182272-182700	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:225331-225371	explained	flank_only	5	4	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:175939-175968	explained	flank_only	8	5	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:128279-128316	explained	flank_only	3	3	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:40768-41174	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:7655-7678	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:3644-3672	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:171292-171321	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:176161-176398	explained	candidate_associated	2	2	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MN091626.1:79186-79215	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1739954-1740763	explained	candidate_associated	19	12	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:135767-135796	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:120939-120962	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:493754-494074	explained	candidate_associated	9	7	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:122686-122716	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:226303-226332	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1433733-1433964	explained	candidate_associated	8	8	motif_core	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1451147-1451258	explained	candidate_associated	10	7	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1842677-1843069	explained	candidate_associated	19	18	motif_extended	motif_core	6	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:952792-953033	explained	candidate_associated	4	4	motif_extended	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:655603-655763	explained	candidate_associated	5	4	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:3024-3052	explained	flank_only	3	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:951182-951247	explained	flank_only	13	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:74922-74955	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+LC680885.1:267021-267046	explained	candidate_associated	7	17	periodic	periodic	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:565504-565543	explained	candidate_associated	7	5	motif_core	periodic	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1335265-1335406	explained	candidate_associated	5	5	motif_core	motif_core	1	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MW349129.1:264233-264262	explained	flank_only	4	4	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:495242-495350	explained	candidate_associated	12	5	motif_extended	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:50280-50303	explained	flank_only	2	2	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:413785-414015	explained	candidate_associated	5	5	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:544987-545348	explained	candidate_associated	4	3	motif_extended	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1253646-1253933	explained	candidate_associated	6	3	motif_core	motif_core	5	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+MZ779063.1:174205-174225	unresolved	unresolved					0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+OR836606.1:167073-167446	explained	candidate_associated	14	14	motif_core	motif_core	4	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1841608-1841767	explained	candidate_associated	7	3	motif_extended	motif_core	3	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:658359-658469	explained	candidate_associated	12	9	motif_core	motif_core	2	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:399154-399179	explained	flank_only	4	4	motif_core	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate
+NC_006461.1:1407289-1407310	explained	flank_only	8	2	motif_extended	motif_core	0	v3 primary motif copies are cores; extensions and alternative hypotheses are separate

@@ -1,0 +1,14 @@
+{
+  "n_groups": 219,
+  "n_unique_review_candidates": 48,
+  "current_representatives_by_architecture": {
+    "tandem_repeat": 3,
+    "regular_spaced_array": 3,
+    "variable_spacer_array": 3,
+    "dispersed_repeat": 3,
+    "repeat_pair": 3,
+    "short_period_tandem": 3
+  },
+  "grouping": "exact strand-canonical consensus; cyclic rotations for periodic profiles; not biological systems",
+  "selection": "current representatives + unresolved/flank-only + fixed previous review + unchanged random10"
+}

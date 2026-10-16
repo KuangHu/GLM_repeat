@@ -1,0 +1,140 @@
+GLM repeat 冻结版 v0.2 独立审查
+
+审查对象：KuangHu/GLM_repeat，提交 028c2926878c4f98cc1335cd803fba04431f0177。
+依据：本地 chat.txt 中的项目目标与最后一轮冻结审查约定；仓库代码、输出、原始对齐与已有 FINDINGS；重新读取的 NCBI 原始序列与注释。
+结论：Detector 的 pilot 结果可以保留在原有的小样本、候选定位范围内。Explainer v0.2 需要修复明确实现问题，随后统一复跑，再讨论候选发现。343 explained、180 pattern clusters 和原报告的 13/15 well supported 都不能直接当成生物学验证。
+
+本轮未修改算法、参数、冻结输出或 detector。未运行 GPU 推理。新增内容均在 independent_review/。
+
+一、优先修复的实现和报告问题
+
+1. [P1] 扩展分支仍然会丢失已经支持的核心，违背本轮最关键的约定。
+
+位置：scripts/explain_repeats_v2.py:253-264。
+use_ext 只判断扩展命中的总数是否 >= 核心命中总数，随后 chosen 直接替换成 ext_copies。数量够多，不代表保留原来的每个物理核心。
+现存结果：164 个 motif_extended 模型中，48 个同时报告了被扩展拒绝的核心，共 98 条拒绝记录；按原输入重新计算核心坐标，这 48 个模型均存在不被任何输出扩展拷贝完整包含的核心。完整包含标准共计 104 个，不与带 ±2 nt 容差的 98 条拒绝日志混为一个计数。
+例：NC_006461.1:531353-534708，有 24 个 core、34 个 extended，但 6 个 core 不在所输出 extended copies 中。另一例 MW349129.1:264233-264262，core=4、extended=4，仍漏掉核心起点 264525。
+因此“core counts 被保留”不等于“core 拷贝证据被保留”。当前 copies.tsv/alignment/PWM 只有 chosen 集合；核心计数不能代替核心逐条输出。
+修复方向：核心与扩展分别输出稳定 ID、坐标、序列和归属关系；扩展失败只影响扩展层。检查集合归属，不能仅比较总数。保留真实不确定关系，不能为了匹配已知拷贝数补规则。
+证据：extended_models_with_rejected_cores.tsv、lost_core_coordinates.tsv。
+
+2. [P1] 侧翼的模式被直接登记为候选本身已解释，没有建立与候选的关联。
+
+位置：scripts/explain_repeats_v2.py:333-340、350-359；periodic_interval:135。
+在候选加两侧 500 nt 中寻找重复是合理的，但当前可以选择完全位于侧翼的 motif 或最长周期区间，并直接把原候选计入 explained。程序计算了 inside 数，却不用于说明解释是否关联候选。
+343 个模型中，103 个没有任何拷贝起点位于候选内；进一步使用真正的区间重叠判断，其中 100 个连一个拷贝都不与候选相交。这 100 个占已解释集合 29.2%。其余 3 个是跨边界，不能算成完全无重叠。
+例：代表 NC_006461.1:27842-27892 输出的 5 个周期单元在 28028-28073，完全位于下游；随机例 LC680885.1:117747-117781 的 6 个单元在 117819-117855，也没有解释候选区间本身。
+这是结果归属问题，不等于这 100 个候选是假阳性，也不能据此把其余 243 个自动升格为已验证。
+修复方向：保留侧翼发现，分别报告 candidate-associated explanation 与 flank-only repeat。若选择候选解释，应检查关联证据；周期区间不能无条件选整个侧翼搜索范围中最长的一段。
+证据：heldout_primary_zero_copies_inside.tsv、heldout_primary_zero_copies_overlapping.tsv、casebook.txt。
+
+3. [P2] mismatch 和 unit_support 使用的是搜索时的 motif，输出却称它们是到最终 consensus 的距离。
+
+位置：scripts/explain_repeats_v2.py:237-262、365-372。
+find_copies 返回针对 ext_motif 的 mm；后面重新拟合 PWM/consensus，却继续输出旧 mm，并用它生成支持度。motif_core 的最后一次回扫之后也可能再次改变 consensus。
+实测：controls 5/263 行、heldout 329/2466 行的 mismatches_to_consensus 与存储 sequence 和 consensus 重新计算的值不同。支持度同样受影响；中位支持度和逐拷贝排序不能按现字段直接解读。
+例：NC_003413.1:1091159-1091856 的 [1091225,1091250) 序列恰好等于最终 consensus，却报告 3 mismatches、support=0.88；真实值应为 0、1.0。另一个 [1091088,1091113) 报告 0，真实距离是 3。
+修复方向：明确保存匹配种子、初始扩展模板与最终 consensus；最终字段在选定模型后重新计算。重新计算字段不自动证明原匹配满足最终模型的接受条件，接受条件本身需要明确。
+证据：controls_incorrect_mismatch_fields.tsv、heldout_primary_incorrect_mismatch_fields.tsv。
+
+4. [P2] 已有 FINDINGS 的 control 总结与保存的输出不一致，13/15 well supported 不能照搬。
+
+位置：review_packet_explainer_v0.2/review/FINDINGS.md:20-26，以及 A1。
+报告写 5 个 ART 每个都找回全部 5 个核心、每个多两个；实际 explainer 输出是：
+
+  Madawaska：3 个输出，覆盖 3/5 个标注核心；漏掉 213195、213408。
+  LY01：8 个输出，覆盖 5/5；另有 3 个非标注命中，起点 75233、75357、76017。
+  S6：7 个输出，覆盖 5/5；另有 2 个非标注命中。
+  PALS_2：7 个输出，覆盖 5/5；另有 2 个非标注命中。
+  UFV_DC4：5 个输出，覆盖 5/5；无额外命中。
+
+这里的“覆盖”仅指至少一个输出拷贝与标注核心相交，不能等同于完整、精确恢复核心边界。
+同样，6 个 Pyrococcus control 中前两个输出的是 12 nt core，不是报告所写的全为 30 nt 单元。8 个 CRISPR control 都覆盖了现存标注单位，但部分还有额外命中，不能仅用总数判断精确恢复。
+Detector 的峰覆盖 25/25 个 ART 核心与 explainer 的拷贝恢复是两条证据链，不能混用。
+修复方向：从逐位点证据表生成报告；分别列周期/核心规则、标注单位覆盖、额外命中和边界，而非给出一个笼统 well-supported 计数。
+证据：controls_annotation_overlap.tsv；原 chat.txt 对 Madawaska 仅 3 copies 的表述反而与当前输出一致。
+
+5. [P2] unclassified 实际只表示没有匹配所选类别，不能解释成没有任何 GenBank 注释。
+
+位置：scripts/annotate_candidates.py:15、18-25、categorise；scripts/make_review_set.py:9-12。
+FEATURES 中完全没有 CDS/gene，因此“candidate span carries no overlapping annotation”比实现所能支持的含义更强。保留编码区候选符合 sequence-first 的任务，但必须记录编码重叠，不能把缺失的检查当作不存在。
+重新读取同 accession 的当前 GenBank，15 个未分类代表中有 13 个与 CDS 相交；本次 GenBank 的序列与原始 FASTA 完全一致。当前功能注释可能更新，不能冒充仓库未保存的历史注释版本。
+例：NC_006461.1:1609897-1611762 位于 coiled-coil domain-containing protein；1229552-1230975 位于 AAA family ATPase；1654805-1655261 位于 PEGA domain-containing protein。MN091626.1:220132-220928 的 240 nt 重复位于 bacterial surface protein containing Ig-like domain。
+修复方向：准确描述为“无选定 RNA/repeat 类别注释”，追加 CDS 重叠、阅读框和蛋白重复信息，保留候选。CDS 重叠不排除 RNA 功能，但当前不足以把这批候选解释成新的 RNA 系统。
+证据：review_candidates_CDS.tsv。
+
+6. [P2] 周期/相位评分与模型间比较的既有限制确实存在，但原报告的修复建议还不完整。
+
+位置：scripts/explain_repeats_v2.py:103-110、146-158、358。
+best_period 对不同偏移直接比较 identity 最大值，没有处理比较数不同导致的方差和谐波。相位评分比较的完整单元数也不同，固定 pseudocount 使信息量依赖拷贝数。review tests 可以复现这些行为。
+但 identity 已经是均值，简单“再除一次比较数”不是正确修复；应处理背景组成、比较数、搜索多个周期的机会和谐波，并保留复杂度相近的替代解释。
+共同单元数能消除部分相位偏差，却仍不能打破周期矩阵列循环置换的对称性；不能因此输出唯一生物学起点的置信度。
+选模 n_copies * unit_len * information 同时受小样本和自由度影响，需要可比证据，不能直接作为跨不同模型的可信度。
+VIPR 的 period=5 有序列支持；15 个模型单元不是 15 个等价已验证单元。按完整区间关系，只有 11 个完全在 60 nt 标签内，2 个跨边界，2 个完全在外。输出的 inside=12 仅按起点计数，不能解释为 12 个完整标签内单元。
+证据：VIPR_units.tsv；保存了每一单元原始序列、坐标、反向互补方向与留一法 Hamming 支持度。留一法仍不解决 motif 搜索/筛选本身的选择偏差。
+
+7. [P2] review packet 的整包测试入口不能按说明直接运行。
+
+位置：review_packet_explainer_v0.2/tests/test_peak_cluster.py:9。
+它寻找 packet/scripts/peak_cluster.py，但包内不存在 scripts/；README 的 python -m pytest -q tests/ 在 packet 内会在收集时失败。单独 test_explainer_review.py 的 11 项通过；其中多项明确断言缺陷仍然存在，其通过不表示缺陷已修复。
+仓库根 tests/ 的 53 项通过。它们主要检验 scorer/windowing/peak cluster，不验证本报告前述核心集合、最终 consensus 距离和候选关联约定。
+修复方向：补齐独立审查所需依赖和目录关系，或明确区分根目录测试入口与 packet 内测试入口。
+
+二、对已有报告不应直接接受的推断
+
+周期 alternatives 中的低 identity 只是候选诊断值。main 在构造真正 periodic 模型前仍有 0.55 门槛。因此 B1 更准确地说是诊断与接受状态区分不清，不能声称所有这些低 identity 都被接受成周期模型。
+
+两个拷贝的随机 5-mer 自支持较高，说明 support 指标需要谨慎；它不能用于否定两个完全相同的 39-mer。SUSP1 off-label 确实有两段完全相同的 39 nt 序列，其重复事实比“support≈0.63 on noise”强得多；它们是否属于新的 vrRNA 仍未验证。
+
+不同候选的模型坐标有重叠需要统一归属，但“凡有重叠就全球去重”会误合并嵌套或不同层级的重复。应先确认同一物理单位，再保留模型间关系。
+
+已有 period>100 的诊断值不能全部判成伪影。本次代表集里 3 个 period=240 的模型在原始对齐中显示清楚的长段重复，且位于编码区。长周期搜索偏差与某条长周期真实存在是可以同时成立的。
+
+三、逐例肉眼审阅
+
+全部 15 个 controls：见 controls_annotation_overlap.tsv、VIPR_units.tsv 和原 controls alignments。所有 control 模型在完全相同输入上均可重现。
+
+15 个未分类代表：
+  OR836606.1:151262-152315、MW349129.1:141073-142114、MN091626.1:220132-220928：原始 240 nt 单元呈现清楚的长段相似；可保留重复描述。均与 CDS 重叠，尚无 RNA 系统证据。
+  NC_003413.1:1091159-1091856：25 nt motif 与已知 Pyrococcus CRISPR repeat 高度相似，pitch=67；优先视作 CRISPR-like 阵列核查，不应宣传成新模式。该例也直接暴露错误 mismatch 字段。
+  OR836606.1:137600-138800、232905-233559：分别有 4 个约 20/19 nt 相似单位；保留序列重复事实，起止和单位归属仍需核查，不能从四个命中推导 RNA 功能。
+  NC_006461.1:1609897-1611762、1229552-1230975、1169359-1170274：GAG/GGT 或其反向互补富集的宽松短 motif，存在多次匹配，但并非完整 repeat 边界；需结合 CDS/组成背景解释。
+  MZ779063.1:185368-186871：短的 A/G-rich motif，多个额外宽松命中，且丢失核心；暂缓把总拷贝数当作稳健规律。
+  MW349129.1:9533-9862：两个相同 13-mer，相距 566；不足以从这两个点确立 regular array，CV=0 在两个点时没有验证意义。
+  NC_006461.1:1654805-1655261：确有一组相似短 motif，约 214 nt 间距，但扩展输出丢两个核心，且在 PEGA CDS 内；需先修复归属。
+  LC680885.1:31570-31661：period=9 的单元高度参差，其中一单元对最终 consensus 有 6/9 mismatches；平均局部周期证据不保证每个单元可信。
+  MZ779063.1:250253-250319：period=9 的中间三个单元较一致，两端较弱；解释偏短且只覆盖部分候选。
+  NC_006461.1:27842-27892：全部单元在下游侧翼；当前模型不解释候选本身。
+
+8 个高分未解释：
+  MZ779063.1:54250-54605、MW349129.1:144586-144940、LC680885.1:98102-98458、MN091626.1:223382-223738 含大段相似序列；后两条候选 DNA 完全相同，分别在 phage 编码基因起始附近。OR836606.1:148481-148814 也有相似的反向互补区段。这些是跨基因组保守性的线索，不能替代局部拷贝证据，也不能当成 5 个独立新重复机制。
+  MW349129.1:8178-8510、113311-113782 为 AT-rich 片段；NC_006461.1:1022602-1023001 为 GC-rich 片段。当前输出不足以证明局部重复，维持 unresolved 合适；不能凭 DNA 组成认定其没有功能。
+
+固定随机 10 个 explained：seed=20261015，从按 candidate_id 排序的完整 343 模型中抽样，未替换条目；其中 1 个与已有代表重合，因此 23+10 个选择对应 32 个不同区域。
+  MW349129.1:9533-9862：上述相同 13-mer 对；弱阵列证据。
+  MW349129.1:3024-3052、LC680885.1:117747-117781、NC_006461.1:565504-565543：均为 flank-only 解释，不能解释各自候选本身。
+  NC_006461.1:1746455-1747021、333386-333845：GAG/GCC-rich 短 motif；前者与 S-layer homology CDS 重叠，后者与 peptidylprolyl isomerase CDS 重叠。
+  LC680885.1:246916-247722：AGA-rich 模式，可能反映编码组成/短周期层级，不能只用 12 nt 共识命中数说明完整单位。
+  LC680885.1:231121-231572：AT-rich 12-mer 的 8 个宽松匹配；保留匹配事实，重复边界/功能不明。
+  NC_006461.1:973167-974030：部分输出单位到最终 consensus 的实际距离达到 5/14，而字段来自另一模板；先修复字段并明确接受条件。
+  MW349129.1:258343-258617：5 个输出中仅 1 个起点在候选内，另有一个跨左边界；短 AT-rich 模式的作用仍不明。
+
+逐条原始对齐见 casebook.txt，所有区域含侧翼的原始 DNA 见 review33_regions.fa。这里审阅的是原始序列/对齐，未补跑缺失的 gLM2 GPU 轨迹。
+
+四、复现与证据边界
+
+1. 重新读取 8 个 accession：NC_003413.1、NC_006461.1、NC_028808.2、MW349129.1、OR836606.1、LC680885.1、MN091626.1、MZ779063.1。访问来源为 NCBI efetch，原文件在 source/。
+2. review packet 的全部 38 个原始片段与重新下载序列一致。
+3. 按原始基因组核对 controls 的 263 条和 heldout 的 2466 条 copies，2729/2729 的坐标切片与保存 sequence 一致。这是本版明确通过的检查。
+4. 相同代码与输入复跑 controls，15/15 的 source、consensus、拷贝数一致；复跑完整 467 候选，重现 343/124，全部保存模型字段一致。未提供 peaks 输入的复跑不比较 copies_with_>=1_peak；不能把缺少该输入产生的零当作无峰证据。
+5. 根目录工程测试 53 passed，独立 explainer review 测试 11 passed。整包测试有缺失路径的 collection error，如上。
+6. MANIFEST 的工作区字节有 25 项差异；其中 18 项是 Windows autocrlf 换行，另 7 项仅为未入 Git 的 pytest/pyc 缓存文件。直接核对 HEAD 中 Git blobs 后，全部实际版本化文件哈希一致。没有证据表明冻结代码遭到篡改；清单应排除机器缓存并说明换行约定。
+7. 没有模型权重和完整原始 score tracks，因此本轮没有独立重跑 detector、验证 GPU 数值或重新估计候选产率/FDR。仓库保存的 13/13 locus 定位与 explainer 的详细恢复应继续分别叙述。
+
+五、建议的下一轮范围
+
+先修复核心集合保留、候选与侧翼解释的归属、最终 consensus 距离字段和报告生成，再处理周期/相位的证据表达与模型可比性。用这些具体反例写回归检查；修复写入新版本，保持 v0.2 和 detector 冻结输出不动。统一应用到全部 controls 与 467 候选，重建代表集。
+
+暂不以 VIPR=12 或 ART=5 为调参目标，也不扩大 GPU 扫描。先逐条保证输出字段与原始 DNA、拷贝集合及候选归属一致。已有序列里确有值得继续追踪的重复，但现阶段还不能支持发现新 RNA 系统的结论。
+
+可复核入口：audit_review.py；机器汇总 summary.json；所有数值逐条证据保存在同目录 TSV。NCBI 当前注释与冻结序列证据的版本差异已在对应表内注明。

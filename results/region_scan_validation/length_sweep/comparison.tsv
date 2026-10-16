@@ -1,0 +1,5 @@
+min_noncoding	n_loci	loci_target_overlap	loci_fully_window_covered	n_full_windows	n_policy_windows	window_nt_reduction_fraction	n_units	units_fully_window_covered
+0	15	15	15	3441	3279	0.047126980254377115	230	230
+40	15	15	15	3441	2884	0.16198842499304733	230	230
+60	15	15	15	3441	2636	0.23402453550833724	230	230
+100	15	15	15	3441	2179	0.36684853543696794	230	230

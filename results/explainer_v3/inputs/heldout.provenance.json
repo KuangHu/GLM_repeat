@@ -1,0 +1,9 @@
+{
+  "sources_sha256": {
+    "results\\pilot\\heldout\\annotated_primary\\candidates_annotated.tsv": "2a4c0fa6ce5e67d7de963c8afee8640e63c6329ceb806d104698daab028fb8d2",
+    "independent_review\\source\\genomes.gb": "6bd131a3766cc943b6382d8d1cd2db45a84cd87e21e0d41274d0a9e6480ea6de"
+  },
+  "policy": "annotation is descriptive; all candidates and original categories retained",
+  "category_scope": "unclassified means no selected RNA/repeat category, not no annotation",
+  "n_candidates": 467
+}

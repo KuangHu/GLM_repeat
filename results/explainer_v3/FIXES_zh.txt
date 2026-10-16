@@ -1,0 +1,50 @@
+GLM repeat explainer v0.3 修复结果
+
+已完成本地修复，并统一重跑 15 个 controls 与 467 个 held-out 候选。
+Detector 的代码、阈值和输出以及 explainer v0.2 均保留原样。
+
+本版修复
+
+1. 核心与可选扩展分别保存。每个扩展都有对应的核心 ID；扩展失败不再删除核心，也不能靠增加别处的匹配来补足数量。
+2. 明确区分候选相关模型、仅侧翼模型和未解析。起点在区间内、完整包含、真正区间相交也不再混用。
+3. 到最终 consensus 的距离重新计算；另列搜索模板的距离、留一法一致性和相对局部组成的留一法预测信息。它们不是经过校准的功能概率。
+4. 保留所有提出的不同模型。最高原始 identity 不再强制决定周期；支持的周期及谐波关系可追踪。相位明确为展示约定，取消伪精确的相位置信度。
+5. 新增 CDS 重叠及注释可用性，不据此过滤候选。unclassified 仅指未匹配所选 RNA/repeat 类别。
+6. 两拷贝模式标为 repeat_pair；未知碱基不再被替换为 A。未提供峰数据时支持字段为空。
+7. 提供可独立运行的新审查包及生成自证据表的 control 对照。旧报告中 ART 恢复数量的错误已在新版说明中纠正，原冻结报告保留作历史记录。
+
+同一批 467 个候选
+
+候选相关模型：259
+仅侧翼模型：84
+未解析：124
+
+原先 343 个 explained 被准确拆成前两类。259 表示至少一个拷贝与候选相交，不等于 259 个已验证重复系统。230 个候选具有多个候选相关假设；主表只选一个展示代表，所有替代解释均有坐标、对齐和 PWM。
+
+Controls
+
+8 个 CRISPR control 的现存标注单元均有模型核心相交，部分模型仍包含额外核心匹配。完整 30/36 nt repeat 以扩展层保存。
+ART 主模型：Madawaska 5 个核心、LY01 8 个、S6 6 个、PALS_2 6 个、UFV_DC4 5 个；各自都与其 5 个标注核心相交。LY01 仍有 3 个额外匹配，S6/PALS_2 各有 1 个；不能把相交检查称为精确边界验证。
+Madawaska 的 5-core 模型来自现有种子提出的替代模型，没有指定 ART motif 或期望数量。
+VIPR 显示 period=5；推断区间内有 16 个展示单元，12 个完整处于标签内，4 个在侧翼。相位未确定，边界仍来自启发式规则，没有强行调整为 12 copies。
+
+验证
+
+70 项仓库测试通过，包括新增的 17 项语义回归检查。
+对原始 DNA 核验 1,526 条 control 和 9,313 条 held-out 拷贝证据记录（包含替代模型），坐标、最终 consensus 距离与归属全部通过。
+独立重建 84 个 control 与 1,464 个 held-out motif 假设的核心集合，全部完整输出。
+核验全部 5,991 条扩展尝试；147 次被拒绝的扩展仍保留对应核心。
+代表集已更新，并保留旧代表和固定随机 10 个案例，便于继续比较。
+
+当前版本仍是候选解释工具：保留无 indel、精确 12-mer 种子和周期范围等覆盖限制，模型证据尚未完成统计校准，也没有独立天然 VIPR 泛化验证。这次修复不能转化为“完整检测所有 ART、CRISPR、VIPR”的结论。
+
+入口
+
+scripts/explain_repeats_v3.py：新版解释器。
+results/explainer_v3/EXPLAINER_V3.md：字段定义、方法变化和复跑命令。
+results/explainer_v3/validation/validation.json：逐项核验结果。
+results/explainer_v3/validation/controls_overlap.tsv：control 原始坐标对照。
+results/explainer_v3/validation/candidate_changes.tsv：全部 467 条状态对照。
+results/explainer_v3/review_set/review_set.tsv：更新后的人工审阅入口。
+
+审查包中的路径与仓库略有不同，以包内 README 的命令为准。

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-16",
+  "status": "passed",
+  "tests": {
+    "cpu_integration": 70,
+    "torch_original": 25,
+    "total": 95
+  },
+  "shell_syntax": "bash -n passed",
+  "actual_callers": [
+    "pyrodigal 3.7.1 meta",
+    "pyrodigal-gv 0.3.2 meta"
+  ],
+  "real_genomes": 8,
+  "total_nt": 5172072,
+  "cds_counts": {
+    "pyrodigal": 5540,
+    "pyrodigal_gv": 5527
+  },
+  "loci_fully_covered": 15,
+  "annotated_units_fully_covered": 230,
+  "genbank_sequence_roundtrips": 15,
+  "neighborhood_figures": 15,
+  "summary": {
+    "total_nt": 5172072,
+    "n_CDS": 5540,
+    "n_full_windows": 3441,
+    "n_policy_windows": 2884,
+    "n_selected_windows": 2903,
+    "full_window_nt": 10312564,
+    "policy_window_nt": 8642048,
+    "selected_window_nt": 8699048,
+    "target_nt": 903002,
+    "unique_full_scannable_nt": 5172064,
+    "unique_selected_nt": 4787048,
+    "short_unscorable_nt": 1,
+    "window_nt_reduction_fraction": 0.15646118656815122,
+    "policy_window_nt_reduction_fraction": 0.16198842499304733,
+    "audit_contigs": [
+      "MW349129.1"
+    ],
+    "compute_note": "Summed input nt is a workload proxy, not measured GPU time; two orientations.",
+    "no_candidates_note": "No selected windows is a selection result, not evidence of absence."
+  },
+  "tested_pipeline": "synthetic score tracks -> detector -> explainer v0.3 -> neighborhood GenBank",
+  "not_run": [
+    "real GPU inference",
+    "Slurm execution",
+    "independent biological recall/FDR validation"
+  ],
+  "source_genome_sha256": "f5447ef01c2755d57f82c74bc168298b00ad9011a1fb4be74ca9d00f19f41f14"
+}

@@ -1,0 +1,7 @@
+# CPU stages, Python 3.10+. Install in a separate env from the frozen GPU env.
+numpy>=1.24,<3
+biopython>=1.85,<2
+pyrodigal==3.7.1
+pyrodigal-gv==0.3.2
+pygenomeviz==1.6.1
+pytest>=8,<10

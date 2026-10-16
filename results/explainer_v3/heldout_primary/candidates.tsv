@@ -1,0 +1,468 @@
+candidate_id	contig	start0	end0	detector_score	annotation_category	status	reason	primary_model_id	n_models	n_candidate_associated_models	n_flank_only_models	ambiguous_bases	n_CDS_overlapping	CDS_overlap_fraction	annotation_available
+NC_003413.1:695937-698973	NC_003413.1	695937	698973	6.840200634008633	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:695937-698973/m001	6	6	0	0	0	0.0	True
+NC_003413.1:27091-30549	NC_003413.1	27091	30549	6.7636222289977885	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:27091-30549/m001	6	6	0	0	0	0.0	True
+NC_003413.1:623119-625176	NC_003413.1	623119	625176	6.090199797858784	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:623119-625176/m001	6	6	0	0	0	0.0	True
+NC_003413.1:312405-313946	NC_003413.1	312405	313946	5.673160991015863	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:312405-313946/m001	6	6	0	0	0	0.0	True
+NC_003413.1:1064076-1065542	NC_003413.1	1064076	1065542	5.615204579718311	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1064076-1065542/m001	6	6	0	0	0	0.0	True
+NC_003413.1:260714-262097	NC_003413.1	260714	262097	5.544454312739514	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:260714-262097/m001	6	6	0	0	0	0.0	True
+NC_006461.1:872102-873192	NC_006461.1	872102	873192	5.053364321123809	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:872102-873192/m001	6	6	0	0	0	0.0	True
+OR836606.1:151262-152315	OR836606.1	151262	152315	4.428734621860781	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:151262-152315/m001	7	7	0	0	1	0.9534662867996201	True
+NC_003413.1:1091159-1091856	NC_003413.1	1091159	1091856	4.405313256280017	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1091159-1091856/m001	6	6	0	0	0	0.0	True
+MW349129.1:141073-142114	MW349129.1	141073	142114	4.224919012310553	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:141073-142114/m001	7	7	0	0	1	0.951969260326609	True
+OR836606.1:137600-138800	OR836606.1	137600	138800	4.017384766435808	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:137600-138800/m001	6	6	0	0	1	0.445	True
+NC_006461.1:1609897-1611762	NC_006461.1	1609897	1611762	3.7402103464392393	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1609897-1611762/m001	6	6	0	0	1	1.0	True
+NC_006461.1:1229552-1230975	NC_006461.1	1229552	1230975	3.6838867180825523	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1229552-1230975/m001	5	5	0	0	1	1.0	True
+OR836606.1:40441-41091	OR836606.1	40441	41091	3.622532223493779	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:40441-41091/m001	6	6	0	0	1	0.04153846153846154	True
+MZ779063.1:185368-186871	MZ779063.1	185368	186871	3.5542745928878876	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:185368-186871/m001	6	6	0	0	6	0.7192282102461743	True
+MN091626.1:23605-24838	MN091626.1	23605	24838	3.5256645379059623	ART_core_array_motif	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:23605-24838/m001	6	6	0	0	0	0.0	True
+LC680885.1:96729-97568	LC680885.1	96729	97568	3.52504788798321	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:96729-97568/m001	6	6	0	0	2	0.9141835518474374	True
+NC_006461.1:874396-875086	NC_006461.1	874396	875086	3.5239450282681095	CRISPR_array	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:874396-875086/m001	6	6	0	0	1	0.2391304347826087	True
+OR836606.1:232905-233559	OR836606.1	232905	233559	3.500803859072405	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:232905-233559/m001	6	6	0	0	0	0.0	True
+MW349129.1:9533-9862	MW349129.1	9533	9862	3.4925718994055788	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:9533-9862/m001	3	2	1	0	1	0.5106382978723404	True
+LC680885.1:218624-220918	LC680885.1	218624	220918	3.48472173947633	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:218624-220918/m001	6	6	0	0	6	0.960767218831735	True
+MZ779063.1:53364-53716	MZ779063.1	53364	53716	3.4801406510232153	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:53364-53716/m001	6	6	0	0	1	1.0	True
+MZ779063.1:50999-51793	MZ779063.1	50999	51793	3.47556452607156	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:50999-51793/m001	7	7	0	0	0	0.0	True
+OR836606.1:74854-76094	OR836606.1	74854	76094	3.460606689216598	ART_core_array_motif	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:74854-76094/m001	6	6	0	0	1	0.12580645161290321	True
+MW349129.1:143699-144065	MW349129.1	143699	144065	3.4604955878250996	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:143699-144065/m001	6	5	1	0	1	1.0	True
+NC_003413.1:1397117-1397417	NC_003413.1	1397117	1397417	3.4428569599986076	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1397117-1397417/m001	6	6	0	0	0	0.0	True
+MN091626.1:222009-222848	MN091626.1	222009	222848	3.4410994790189604	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:222009-222848/m001	6	6	0	0	2	0.9141835518474374	True
+NC_003413.1:1056162-1057172	NC_003413.1	1056162	1057172	3.434480815101081	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1056162-1057172/m001	6	6	0	0	1	1.0	True
+MN091626.1:88612-89638	MN091626.1	88612	89638	3.426395367295612	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:88612-89638/m001	6	6	0	0	3	0.6169590643274854	True
+NC_006461.1:531353-534708	NC_006461.1	531353	534708	3.394433103686066	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:531353-534708/m001	6	6	0	0	1	1.0	True
+MZ779063.1:199754-200558	MZ779063.1	199754	200558	3.3719562352993226	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:199754-200558/m001	6	6	0	0	1	0.7014925373134329	True
+MW349129.1:213013-214250	MW349129.1	213013	214250	3.3648967306504014	ART_core_array_motif	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:213013-214250/m001	6	6	0	0	3	0.2813257881972514	True
+NC_006461.1:1701005-1701567	NC_006461.1	1701005	1701567	3.3589623950765075	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1701005-1701567/m001	6	6	0	0	1	1.0	True
+MW349129.1:186193-187162	MW349129.1	186193	187162	3.3237968440341223	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:186193-187162/m001	6	6	0	0	2	0.6594427244582043	True
+LC680885.1:246916-247722	LC680885.1	246916	247722	3.3205187062464625	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:246916-247722/m001	6	6	0	0	1	0.6997518610421837	True
+MW349129.1:24134-24646	MW349129.1	24134	24646	3.3150539741654814	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:24134-24646/m001	6	6	0	0	1	0.892578125	True
+MN091626.1:220132-220928	MN091626.1	220132	220928	3.2913911266273543	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:220132-220928/m001	7	7	0	0	1	0.9434673366834171	True
+OR836606.1:176239-176801	OR836606.1	176239	176801	3.2862934624642666	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:176239-176801/m001	6	6	0	0	1	0.2722419928825623	True
+MZ779063.1:54250-54605	MZ779063.1	54250	54605	3.2579959098497193	unclassified	unresolved	no_model		0	0	0	0	1	0.7943661971830986	True
+LC680885.1:166282-167514	LC680885.1	166282	167514	3.248791890947715	ART_core_array_motif	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:166282-167514/m001	6	6	0	0	0	0.0	True
+MN091626.1:102708-103513	MN091626.1	102708	103513	3.227996954600858	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:102708-103513/m001	5	5	0	0	1	0.7043478260869566	True
+NC_006461.1:1169359-1170274	NC_006461.1	1169359	1170274	3.223148780130674	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1169359-1170274/m001	6	6	0	0	2	1.0	True
+MW349129.1:11825-12913	MW349129.1	11825	12913	3.2179259336723236	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:11825-12913/m001	6	6	0	0	3	0.9420955882352942	True
+LC680885.1:232539-234039	LC680885.1	232539	234039	3.2169817209720817	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:232539-234039/m001	6	6	0	0	5	0.6506666666666666	True
+MW349129.1:144586-144940	MW349129.1	144586	144940	3.206707912031561	unclassified	unresolved	no_model		0	0	0	0	1	0.7937853107344632	True
+MW349129.1:8178-8510	MW349129.1	8178	8510	3.204879040462591	unclassified	unresolved	no_model		0	0	0	0	1	0.5150602409638554	True
+NC_006461.1:666087-666900	NC_006461.1	666087	666900	3.1932233120400184	other_annotated_ncRNA	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:666087-666900/m001	6	6	0	0	1	0.3960639606396064	True
+NC_006461.1:1161715-1163253	NC_006461.1	1161715	1163253	3.1888473792290504	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1161715-1163253/m001	6	6	0	0	3	0.8068920676202861	True
+LC680885.1:98102-98458	LC680885.1	98102	98458	3.1806046688311835	unclassified	unresolved	no_model		0	0	0	0	1	0.7949438202247191	True
+NC_006461.1:1654805-1655261	NC_006461.1	1654805	1655261	3.176620702569683	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1654805-1655261/m001	6	6	0	0	1	1.0	True
+NC_006461.1:696616-699670	NC_006461.1	696616	699670	3.176336542115957	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:696616-699670/m001	6	6	0	0	3	0.9990176817288802	True
+MW349129.1:237626-238332	MW349129.1	237626	238332	3.1648092125695255	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:237626-238332/m001	6	5	1	0	1	0.5524079320113314	True
+MN091626.1:223382-223738	MN091626.1	223382	223738	3.1640532831745856	unclassified	unresolved	no_model		0	0	0	0	1	0.7949438202247191	True
+NC_006461.1:741885-743181	NC_006461.1	741885	743181	3.087501444952957	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:741885-743181/m001	6	3	3	0	2	0.9645061728395061	True
+MZ779063.1:123976-125212	MZ779063.1	123976	125212	3.0590364819611695	ART_core_array_motif	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:123976-125212/m001	6	6	0	0	0	0.0	True
+MN091626.1:75188-76131	MN091626.1	75188	76131	3.0406614904538456	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:75188-76131/m001	6	6	0	0	3	0.9639448568398727	True
+MZ779063.1:56645-56871	MZ779063.1	56645	56871	3.03307621486563	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:56645-56871/m001	7	7	0	0	1	1.0	True
+LC680885.1:234632-235682	LC680885.1	234632	235682	3.032343095025191	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:234632-235682/m001	6	5	1	0	3	0.94	True
+OR836606.1:9653-10426	OR836606.1	9653	10426	3.001721983324334	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:9653-10426/m001	6	6	0	0	1	0.6791720569210866	True
+MZ779063.1:187404-188516	MZ779063.1	187404	188516	3.001400632974268	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:187404-188516/m001	6	5	1	0	3	0.8884892086330936	True
+NC_006461.1:1730762-1732565	NC_006461.1	1730762	1732565	2.9703166571972837	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1730762-1732565/m001	6	6	0	0	2	0.961730449251248	True
+NC_006461.1:1022602-1023001	NC_006461.1	1022602	1023001	2.9674288747385495	other_annotated_ncRNA	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:90827-91879	MN091626.1	90827	91879	2.934952039271593	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:90827-91879/m001	6	5	1	0	3	0.9401140684410646	True
+NC_006461.1:158340-159452	NC_006461.1	158340	159452	2.9207947108966823	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:158340-159452/m001	5	5	0	0	1	0.8561151079136691	True
+MW349129.1:113311-113782	MW349129.1	113311	113782	2.90368076263273	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+NC_006461.1:1849499-1849726	NC_006461.1	1849499	1849726	2.8924197681489265	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1849499-1849726/m001	6	6	0	0	0	0.0	True
+NC_003413.1:351471-352354	NC_003413.1	351471	352354	2.8792479366064074	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:351471-352354/m001	6	6	0	0	2	0.9898074745186863	True
+OR836606.1:148481-148814	OR836606.1	148481	148814	2.8640125964397165	unclassified	unresolved	no_model		0	0	0	0	1	0.7717717717717718	True
+OR836606.1:240465-241117	OR836606.1	240465	241117	2.8564943153769944	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:240465-241117/m001	6	6	0	0	1	0.3496932515337423	True
+MN091626.1:192396-192870	MN091626.1	192396	192870	2.80009938639894	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:192396-192870/m001	2	1	1	0	1	1.0	True
+NC_006461.1:1013759-1014002	NC_006461.1	1013759	1014002	2.799165779435686	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1013759-1014002/m001	4	2	2	0	0	0.0	True
+OR836606.1:149433-150150	OR836606.1	149433	150150	2.7376493662763126	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:149433-150150/m001	6	6	0	0	2	0.898186889818689	True
+MZ779063.1:21819-22289	MZ779063.1	21819	22289	2.7345948215059304	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:21819-22289/m001	4	4	0	0	1	1.0	True
+MN091626.1:191180-191653	MN091626.1	191180	191653	2.69721256966529	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:191180-191653/m001	3	3	0	0	1	1.0	True
+LC680885.1:66335-66810	LC680885.1	66335	66810	2.685218700039468	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:66335-66810/m001	3	3	0	0	1	1.0	True
+NC_006461.1:779651-780933	NC_006461.1	779651	780933	2.6779372345190495	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:779651-780933/m001	6	6	0	0	2	1.0	True
+LC680885.1:67553-68022	LC680885.1	67553	68022	2.6747998214534476	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:67553-68022/m001	2	1	1	0	1	1.0	True
+NC_006461.1:1220871-1221044	NC_006461.1	1220871	1221044	2.673180176677073	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1220871-1221044/m001	7	7	0	0	1	1.0	True
+MZ779063.1:23032-23504	MZ779063.1	23032	23504	2.63922575057596	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:23032-23504/m001	6	6	0	0	1	1.0	True
+LC680885.1:100498-100714	LC680885.1	100498	100714	2.6057775806546757	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:100498-100714/m001	7	7	0	0	1	1.0	True
+MN091626.1:225773-225993	MN091626.1	225773	225993	2.584936098756126	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:225773-225993/m001	7	7	0	0	1	1.0	True
+MW349129.1:114525-114986	MW349129.1	114525	114986	2.5786331992917892	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:114525-114986/m001	1	1	0	0	1	1.0	True
+NC_006461.1:1746455-1747021	NC_006461.1	1746455	1747021	2.5688349865240965	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1746455-1747021/m001	6	5	1	0	1	1.0	True
+NC_003413.1:337812-338036	NC_003413.1	337812	338036	2.5104748693754475	tRNA_cluster	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:827246-827891	NC_006461.1	827246	827891	2.499154989228052	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:827246-827891/m001	6	6	0	0	1	1.0	True
+OR836606.1:181822-182287	OR836606.1	181822	182287	2.4961408671236605	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:181822-182287/m001	6	5	1	0	2	0.7849462365591398	True
+MW349129.1:161056-161415	MW349129.1	161056	161415	2.472298178796605	tRNA_single	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:161056-161415/m001	2	2	0	0	0	0.0	True
+NC_006461.1:1685333-1686749	NC_006461.1	1685333	1686749	2.447309569918752	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1685333-1686749/m001	6	6	0	0	1	1.0	True
+MN091626.1:265532-266551	MN091626.1	265532	266551	2.4452812842852087	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:265532-266551/m001	6	6	0	0	2	0.5809617271835132	True
+OR836606.1:153207-153651	OR836606.1	153207	153651	2.4283367544563004	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:153207-153651/m001	6	6	0	0	1	0.8941441441441441	True
+LC680885.1:139442-140467	LC680885.1	139442	140467	2.416324748300093	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:139442-140467/m001	6	6	0	0	2	0.5824390243902439	True
+NC_006461.1:582761-582973	NC_006461.1	582761	582973	2.4141889594136234	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:582761-582973/m001	2	2	0	0	0	0.0	True
+NC_006461.1:599640-600605	NC_006461.1	599640	600605	2.395581501489309	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:599640-600605/m001	6	6	0	0	2	0.6549222797927461	True
+LC680885.1:231121-231572	LC680885.1	231121	231572	2.3951827119662257	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:231121-231572/m001	6	5	1	0	2	0.549889135254989	True
+NC_006461.1:240222-240580	NC_006461.1	240222	240580	2.390534578717779	tRNA_cluster	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:189151-189583	MN091626.1	189151	189583	2.373983655073662	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:189151-189583/m001	6	3	3	0	1	1.0	True
+NC_006461.1:1614941-1615397	NC_006461.1	1614941	1615397	2.371300917271971	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1614941-1615397/m001	6	6	0	0	1	1.0	True
+NC_006461.1:1401502-1402387	NC_006461.1	1401502	1402387	2.3664435912967936	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1401502-1402387/m001	6	6	0	0	1	1.0	True
+OR836606.1:177410-177546	OR836606.1	177410	177546	2.3653294989152958	unclassified	unresolved	no_model		0	0	0	0	1	0.051470588235294115	True
+NC_006461.1:68836-69345	NC_006461.1	68836	69345	2.3627969987860404	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:68836-69345/m001	6	6	0	0	1	1.0	True
+NC_006461.1:1668679-1669206	NC_006461.1	1668679	1669206	2.3492940360666723	tRNA_cluster	unresolved	no_model		0	0	0	0	1	0.43263757115749524	True
+NC_006461.1:383357-384037	NC_006461.1	383357	384037	2.3393905440216183	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:383357-384037/m001	6	6	0	0	1	1.0	True
+NC_006461.1:1801468-1801775	NC_006461.1	1801468	1801775	2.3257832614662357	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1801468-1801775/m001	6	5	1	0	0	0.0	True
+NC_006461.1:1468985-1469401	NC_006461.1	1468985	1469401	2.3253935469470037	tRNA_single	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1468985-1469401/m001	6	4	2	0	0	0.0	True
+NC_006461.1:424508-425734	NC_006461.1	424508	425734	2.3228541164585406	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:424508-425734/m001	6	6	0	0	2	0.9461663947797716	True
+NC_006461.1:31534-32231	NC_006461.1	31534	32231	2.319966257778441	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:31534-32231/m001	6	6	0	0	1	0.6872309899569584	True
+MZ779063.1:148162-148647	MZ779063.1	148162	148647	2.314513862207114	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:148162-148647/m001	4	3	1	0	1	0.6	True
+MN091626.1:51788-52273	MN091626.1	51788	52273	2.3069613682610366	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:51788-52273/m001	2	2	0	0	1	0.5072164948453608	True
+NC_003413.1:77663-77819	NC_003413.1	77663	77819	2.305153244660924	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:77663-77819/m001	2	2	0	0	0	0.0	True
+NC_006461.1:1720834-1721931	NC_006461.1	1720834	1721931	2.275984145977923	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1720834-1721931/m001	6	3	3	0	1	1.0	True
+NC_006461.1:859273-859874	NC_006461.1	859273	859874	2.2758109344769624	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:859273-859874/m001	6	6	0	0	1	1.0	True
+LC680885.1:194630-195114	LC680885.1	194630	195114	2.275750390647307	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:194630-195114/m001	3	2	1	0	1	0.6012396694214877	True
+NC_006461.1:951516-952237	NC_006461.1	951516	952237	2.275033338372713	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:951516-952237/m001	6	6	0	0	1	1.0	True
+NC_006461.1:1500257-1500431	NC_006461.1	1500257	1500431	2.246714135137988	unclassified	flank_only	only_flank_models	NC_006461.1:1500257-1500431/m001	3	0	3	0	1	1.0	True
+NC_003413.1:361212-361462	NC_003413.1	361212	361462	2.239584944997227	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:361212-361462/m001	2	2	0	0	0	0.0	True
+NC_006461.1:688939-689055	NC_006461.1	688939	689055	2.237851368393316	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1687843-1687983	NC_006461.1	1687843	1687983	2.236360217372708	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1687843-1687983/m001	3	3	0	0	1	0.4357142857142857	True
+NC_006461.1:639660-640135	NC_006461.1	639660	640135	2.2295605612850533	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:639660-640135/m001	1	1	0	0	1	0.6778947368421052	True
+NC_006461.1:1498981-1499312	NC_006461.1	1498981	1499312	2.222923104028001	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+MN091626.1:95815-95921	MN091626.1	95815	95921	2.218887234060417	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+MW349129.1:75179-75543	MW349129.1	75179	75543	2.2170827647134126	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:75179-75543/m001	6	6	0	0	1	0.7582417582417582	True
+NC_006461.1:795876-795989	NC_006461.1	795876	795989	2.210539619913515	tRNA_single	flank_only	only_flank_models	NC_006461.1:795876-795989/m001	1	0	1	0	0	0.0	True
+NC_006461.1:1218129-1218419	NC_006461.1	1218129	1218419	2.2098248259409146	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1218129-1218419/m001	6	6	0	0	1	1.0	True
+NC_003413.1:15462-15767	NC_003413.1	15462	15767	2.2059250651393087	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:15462-15767/m001	2	2	0	0	0	0.0	True
+MN091626.1:241028-241408	MN091626.1	241028	241408	2.1965852336700245	tRNA_single	flank_only	only_flank_models	MN091626.1:241028-241408/m001	6	0	6	0	0	0.0	True
+MW349129.1:238762-239554	MW349129.1	238762	239554	2.1840542970049692	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:238762-239554/m001	6	3	3	0	2	0.5568181818181818	True
+NC_003413.1:699757-699896	NC_003413.1	699757	699896	2.1597314035253867	unclassified	unresolved	no_model		0	0	0	0	2	1.0	True
+NC_003413.1:1464135-1464289	NC_003413.1	1464135	1464289	2.1528478070445685	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1464135-1464289/m001	4	4	0	0	0	0.0	True
+NC_003413.1:1287293-1287450	NC_003413.1	1287293	1287450	2.1511552738240707	tRNA_cluster	flank_only	only_flank_models	NC_003413.1:1287293-1287450/m001	1	0	1	0	0	0.0	True
+MZ779063.1:32154-32296	MZ779063.1	32154	32296	2.1474485418026514	unclassified	unresolved	no_model		0	0	0	0	2	0.8943661971830986	True
+NC_006461.1:30567-30804	NC_006461.1	30567	30804	2.138182257931402	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:30567-30804/m001	6	6	0	0	1	1.0	True
+NC_006461.1:1160761-1161147	NC_006461.1	1160761	1161147	2.126749552970808	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1160761-1161147/m001	6	6	0	0	1	0.7383419689119171	True
+NC_003413.1:325148-325220	NC_003413.1	325148	325220	2.1199412886053324	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:104374-104535	NC_006461.1	104374	104535	2.1100182378745234	tRNA_single	flank_only	only_flank_models	NC_006461.1:104374-104535/m001	2	0	2	0	1	0.2236024844720497	True
+NC_003413.1:1054565-1054640	NC_003413.1	1054565	1054640	2.1069774406813457	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:145587-145722	OR836606.1	145587	145722	2.0967666724146428	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:145587-145722/m001	6	4	2	0	1	1.0	True
+LC680885.1:114925-115304	LC680885.1	114925	115304	2.0955007140291855	tRNA_single	flank_only	only_flank_models	LC680885.1:114925-115304/m001	6	0	6	0	0	0.0	True
+NC_003413.1:1882669-1883179	NC_003413.1	1882669	1883179	2.085845480203004	unclassified	unresolved	no_model		0	0	0	0	2	1.0	True
+NC_006461.1:473065-473696	NC_006461.1	473065	473696	2.0828370801186122	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:473065-473696/m001	6	5	1	0	1	1.0	True
+NC_006461.1:255826-256288	NC_006461.1	255826	256288	2.079800789335275	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:255826-256288/m001	6	6	0	0	1	1.0	True
+NC_003413.1:1291821-1291904	NC_003413.1	1291821	1291904	2.0697839080627696	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:703576-704242	NC_006461.1	703576	704242	2.066467072720604	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:703576-704242/m001	6	6	0	0	1	1.0	True
+MW349129.1:150069-150258	MW349129.1	150069	150258	2.0642044999746276	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:150069-150258/m001	6	5	1	0	1	1.0	True
+LC680885.1:95087-95645	LC680885.1	95087	95645	2.0603148279851586	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:95087-95645/m001	6	6	0	0	1	0.910394265232975	True
+NC_003413.1:1167579-1168163	NC_003413.1	1167579	1168163	2.057296456196863	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1167579-1168163/m001	6	6	0	0	1	1.0	True
+MZ779063.1:171867-173207	MZ779063.1	171867	173207	2.055723095657455	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:171867-173207/m001	6	6	0	0	2	0.9880597014925373	True
+OR836606.1:30602-30991	OR836606.1	30602	30991	2.054808287181874	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:30602-30991/m001	4	2	2	0	1	0.7249357326478149	True
+NC_006461.1:860597-861178	NC_006461.1	860597	861178	2.0419279510223594	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:860597-861178/m001	6	5	1	0	1	1.0	True
+NC_006461.1:38775-39587	NC_006461.1	38775	39587	2.0316669485427323	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:38775-39587/m001	6	6	0	0	1	1.0	True
+MW349129.1:228262-228703	MW349129.1	228262	228703	2.0188481469532924	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:228262-228703/m001	1	1	0	0	1	0.7755102040816326	True
+NC_006461.1:1255042-1255659	NC_006461.1	1255042	1255659	2.01738651422743	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1255042-1255659/m001	6	6	0	0	1	1.0	True
+NC_006461.1:714218-714407	NC_006461.1	714218	714407	2.011332559526305	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:227785-227974	MN091626.1	227785	227974	2.008935514125316	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:227785-227974/m001	6	5	1	0	1	1.0	True
+NC_006461.1:1559896-1560703	NC_006461.1	1559896	1560703	2.006759216435481	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1559896-1560703/m001	6	3	3	0	1	1.0	True
+LC680885.1:196079-196625	LC680885.1	196079	196625	2.0048448961353453	unclassified	flank_only	only_flank_models	LC680885.1:196079-196625/m001	1	0	1	0	2	0.9981684981684982	True
+OR836606.1:103559-104110	OR836606.1	103559	104110	2.000539319354461	unclassified	unresolved	no_model		0	0	0	0	1	0.2395644283121597	True
+NC_006461.1:253538-253752	NC_006461.1	253538	253752	1.9891361892223358	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:253538-253752/m001	6	5	1	0	1	1.0	True
+MZ779063.1:58663-58852	MZ779063.1	58663	58852	1.983153654138247	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:58663-58852/m001	6	5	1	0	1	1.0	True
+NC_006461.1:1311475-1312140	NC_006461.1	1311475	1312140	1.980600587685	tRNA_cluster	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:626952-627590	NC_006461.1	626952	627590	1.9780293830924414	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:626952-627590/m001	6	6	0	0	1	1.0	True
+NC_003413.1:797968-798124	NC_003413.1	797968	798124	1.9777977243065834	tRNA_cluster	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:143627-143814	OR836606.1	143627	143814	1.977427137291266	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:143627-143814/m001	6	5	1	0	1	1.0	True
+NC_006461.1:727927-728121	NC_006461.1	727927	728121	1.9732918300045033	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:302942-303205	NC_006461.1	302942	303205	1.966155078794275	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:302942-303205/m001	6	2	4	0	0	0.0	True
+NC_003413.1:1297928-1298034	NC_003413.1	1297928	1298034	1.960795383853838	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:102509-102693	LC680885.1	102509	102693	1.9495885662113628	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:102509-102693/m001	6	5	1	0	1	1.0	True
+NC_003413.1:920870-921038	NC_003413.1	920870	921038	1.9488114558742382	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:920870-921038/m001	4	4	0	0	0	0.0	True
+NC_003413.1:1793360-1793440	NC_003413.1	1793360	1793440	1.9391090229153634	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1793360-1793440/m001	5	5	0	0	1	1.0	True
+MW349129.1:76129-76219	MW349129.1	76129	76219	1.935910268111483	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:76129-76219/m001	14	5	9	0	1	1.0	True
+NC_006461.1:877936-878511	NC_006461.1	877936	878511	1.9348053334073887	tRNA_single	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:877936-878511/m001	6	5	1	0	1	0.7495652173913043	True
+MZ779063.1:31352-31469	MZ779063.1	31352	31469	1.9319917690008879	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:31352-31469/m001	2	1	1	0	2	0.8632478632478633	True
+MN091626.1:95176-95264	MN091626.1	95176	95264	1.9189126624592714	unclassified	flank_only	only_flank_models	MN091626.1:95176-95264/m001	1	0	1	0	1	1.0	True
+MZ779063.1:183950-184350	MZ779063.1	183950	184350	1.9073789850597016	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:183950-184350/m001	6	5	1	0	1	0.615	True
+LC680885.1:31570-31661	LC680885.1	31570	31661	1.8940119340392645	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:31570-31661/m001	13	5	8	0	1	1.0	True
+NC_006461.1:396603-396804	NC_006461.1	396603	396804	1.8916018057184725	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:396603-396804/m001	3	2	1	0	1	0.417910447761194	True
+NC_006461.1:1602461-1602670	NC_006461.1	1602461	1602670	1.8871220696448643	tRNA_cluster	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1602461-1602670/m001	3	2	1	0	0	0.0	True
+MW349129.1:50695-51167	MW349129.1	50695	51167	1.8805339089189663	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:50695-51167/m001	6	6	0	0	1	0.565677966101695	True
+NC_006461.1:1394513-1394613	NC_006461.1	1394513	1394613	1.8737807672036395	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1774879-1775139	NC_006461.1	1774879	1775139	1.8704463287256659	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1774879-1775139/m001	6	6	0	0	1	1.0	True
+NC_003413.1:39580-39675	NC_003413.1	39580	39675	1.870392632484436	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:39580-39675/m001	13	11	2	0	1	1.0	True
+NC_006461.1:1447251-1447828	NC_006461.1	1447251	1447828	1.869015952727447	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1447251-1447828/m001	6	6	0	0	2	1.0	True
+NC_003413.1:1844705-1844775	NC_003413.1	1844705	1844775	1.8658066652197804	tRNA_single	flank_only	only_flank_models	NC_003413.1:1844705-1844775/m001	2	0	2	0	0	0.0	True
+LC680885.1:76263-76335	LC680885.1	76263	76335	1.8559016811593523	unclassified	flank_only	only_flank_models	LC680885.1:76263-76335/m001	2	0	2	0	1	0.9166666666666666	True
+MZ779063.1:71217-71555	MZ779063.1	71217	71555	1.8553599925113045	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:71217-71555/m001	6	6	0	0	1	1.0	True
+NC_003413.1:561298-561378	NC_003413.1	561298	561378	1.851349156058859	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:174092-174279	MN091626.1	174092	174279	1.8378650512546302	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:174092-174279/m001	2	2	0	0	1	1.0	True
+OR836606.1:22800-23251	OR836606.1	22800	23251	1.835414948708871	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:22800-23251/m001	2	2	0	0	2	0.5521064301552107	True
+NC_006461.1:647461-647666	NC_006461.1	647461	647666	1.8282313544084043	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:647461-647666/m001	6	5	1	0	1	1.0	True
+NC_006461.1:1136361-1136730	NC_006461.1	1136361	1136730	1.8272750197599332	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1136361-1136730/m001	4	4	0	0	2	1.0	True
+MZ779063.1:6442-6630	MZ779063.1	6442	6630	1.8267674003210332	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:6442-6630/m001	2	2	0	0	1	1.0	True
+OR836606.1:170577-170637	OR836606.1	170577	170637	1.8265916074160486	unclassified	flank_only	only_flank_models	OR836606.1:170577-170637/m001	1	0	1	0	1	1.0	True
+NC_006461.1:957865-957929	NC_006461.1	957865	957929	1.826053746015532	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:956603-957007	NC_006461.1	956603	957007	1.8176350473529763	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:956603-957007/m001	6	2	4	0	1	1.0	True
+MW349129.1:34606-35136	MW349129.1	34606	35136	1.8135435911581705	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:34606-35136/m001	6	6	0	0	1	1.0	True
+NC_006461.1:43936-44152	NC_006461.1	43936	44152	1.808047270681709	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:43936-44152/m001	4	3	1	0	1	1.0	True
+NC_006461.1:798519-799122	NC_006461.1	798519	799122	1.8072886736028724	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:798519-799122/m001	6	6	0	0	2	1.0	True
+NC_006461.1:1779595-1780013	NC_006461.1	1779595	1780013	1.804747490445152	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1779595-1780013/m001	6	6	0	0	1	1.0	True
+MW349129.1:10585-10666	MW349129.1	10585	10666	1.8020868541672825	unclassified	flank_only	only_flank_models	MW349129.1:10585-10666/m001	2	0	2	0	1	0.1111111111111111	True
+NC_006461.1:829890-830379	NC_006461.1	829890	830379	1.7985558485531288	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:829890-830379/m001	6	6	0	0	2	1.0	True
+NC_003413.1:701178-701409	NC_003413.1	701178	701409	1.7954526257789614	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:701178-701409/m001	2	2	0	0	1	1.0	True
+MZ779063.1:35398-35766	MZ779063.1	35398	35766	1.7937359972035183	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:35398-35766/m001	6	5	1	0	1	1.0	True
+LC680885.1:252186-252523	LC680885.1	252186	252523	1.7925313342776563	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:252186-252523/m001	3	3	0	0	1	0.6765578635014837	True
+NC_003413.1:1747771-1747842	NC_003413.1	1747771	1747842	1.7920886762050365	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:275807-275914	NC_003413.1	275807	275914	1.7796587716582033	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:275807-275914/m001	6	6	0	0	0	0.0	True
+NC_003413.1:736051-736291	NC_003413.1	736051	736291	1.7792533993057134	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:736051-736291/m001	6	6	0	0	1	1.0	True
+MN091626.1:153767-154079	MN091626.1	153767	154079	1.77807657700032	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:153767-154079/m001	5	5	0	0	1	0.717948717948718	True
+LC680885.1:77063-77140	LC680885.1	77063	77140	1.7751003953437405	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:77063-77140/m001	5	1	4	0	1	0.8441558441558441	True
+NC_006461.1:1806882-1806993	NC_006461.1	1806882	1806993	1.7750760962255299	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:289596-289924	NC_006461.1	289596	289924	1.7729138976169958	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:289596-289924/m001	6	6	0	0	1	0.1402439024390244	True
+NC_006461.1:596653-596942	NC_006461.1	596653	596942	1.771876155398786	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:596653-596942/m001	6	5	1	0	1	1.0	True
+NC_006461.1:12364-12483	NC_006461.1	12364	12483	1.771725670292106	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1465516-1465614	NC_006461.1	1465516	1465614	1.7692327939074304	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:77873-77937	LC680885.1	77873	77937	1.7682660137628514	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+NC_003413.1:138487-138561	NC_003413.1	138487	138561	1.7658360738157166	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1011457-1011568	NC_006461.1	1011457	1011568	1.7603409285219072	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:1534698-1534782	NC_003413.1	1534698	1534782	1.7603145799152002	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:454745-455067	NC_006461.1	454745	455067	1.759249325201381	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:454745-455067/m001	2	1	1	0	1	0.7888198757763976	True
+OR836606.1:20644-21486	OR836606.1	20644	21486	1.7542093712836504	unclassified	unresolved	no_model		0	0	0	0	4	0.7541567695961995	True
+NC_006461.1:569716-570063	NC_006461.1	569716	570063	1.751448821204786	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:569716-570063/m001	6	4	2	0	1	1.0	True
+NC_003413.1:1203709-1203793	NC_003413.1	1203709	1203793	1.7509924432895292	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:875372-875452	NC_003413.1	875372	875452	1.749972611458876	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:96502-97117	NC_006461.1	96502	97117	1.749256291723048	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:96502-97117/m001	6	6	0	0	1	1.0	True
+MZ779063.1:249287-249631	MZ779063.1	249287	249631	1.7434405133956008	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:249287-249631/m001	6	6	0	0	1	0.75	True
+NC_006461.1:543376-543634	NC_006461.1	543376	543634	1.7399374358356	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:543376-543634/m001	6	6	0	0	1	1.0	True
+NC_006461.1:160330-160438	NC_006461.1	160330	160438	1.7367591419973036	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:1443610-1443696	NC_003413.1	1443610	1443696	1.7363312272877953	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:453262-453688	NC_006461.1	453262	453688	1.7271698360840289	tRNA_single	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:453262-453688/m001	2	1	1	0	2	0.6971830985915493	True
+NC_006461.1:236662-236822	NC_006461.1	236662	236822	1.7234617692657563	tRNA_single	flank_only	only_flank_models	NC_006461.1:236662-236822/m001	4	0	4	0	0	0.0	True
+NC_006461.1:934220-934513	NC_006461.1	934220	934513	1.7229288654740562	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:934220-934513/m001	4	4	0	0	1	1.0	True
+NC_003413.1:1734480-1734668	NC_003413.1	1734480	1734668	1.7223283610609188	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+MZ779063.1:59652-59738	MZ779063.1	59652	59738	1.7212384302169084	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:59652-59738/m001	1	1	0	0	1	1.0	True
+LC680885.1:103497-103581	LC680885.1	103497	103581	1.7199900653213263	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:103497-103581/m001	1	1	0	0	1	1.0	True
+NC_003413.1:1843140-1843528	NC_003413.1	1843140	1843528	1.7193547745269757	unclassified	unresolved	no_model		0	0	0	0	2	0.8814432989690721	True
+MW349129.1:122909-122973	MW349129.1	122909	122973	1.7179318515670718	unclassified	flank_only	only_flank_models	MW349129.1:122909-122973/m001	1	0	1	0	1	0.984375	True
+NC_003413.1:398464-398533	NC_003413.1	398464	398533	1.7120206315208921	tRNA_single	flank_only	only_flank_models	NC_003413.1:398464-398533/m001	2	0	2	0	0	0.0	True
+NC_006461.1:944269-944773	NC_006461.1	944269	944773	1.70914623958783	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:944269-944773/m001	6	6	0	0	1	1.0	True
+NC_006461.1:791975-792292	NC_006461.1	791975	792292	1.7080452325753868	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:791975-792292/m001	6	3	3	0	1	1.0	True
+MN091626.1:53244-53780	MN091626.1	53244	53780	1.7071590973064303	unclassified	flank_only	only_flank_models	MN091626.1:53244-53780/m001	1	0	1	0	2	0.9981343283582089	True
+MZ779063.1:137737-138165	MZ779063.1	137737	138165	1.706769674484219	unclassified	unresolved	no_model		0	0	0	0	1	0.7850467289719626	True
+OR836606.1:247826-248169	OR836606.1	247826	248169	1.7052624695077745	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:247826-248169/m001	1	1	0	0	0	0.0	True
+NC_003413.1:1735462-1735667	NC_003413.1	1735462	1735667	1.7043195488097318	unclassified	flank_only	only_flank_models	NC_003413.1:1735462-1735667/m001	1	0	1	0	1	1.0	True
+OR836606.1:64242-64330	OR836606.1	64242	64330	1.7035653191242737	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:1533053-1533127	NC_003413.1	1533053	1533127	1.7025296282481426	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:781655-781996	NC_006461.1	781655	781996	1.700926998630166	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:781655-781996/m001	2	2	0	0	1	1.0	True
+NC_006461.1:1470927-1471053	NC_006461.1	1470927	1471053	1.6974348068726621	tRNA_single	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1470927-1471053/m001	1	1	0	0	1	0.15873015873015872	True
+NC_006461.1:348797-348905	NC_006461.1	348797	348905	1.6906096150986263	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:937370-937512	NC_003413.1	937370	937512	1.6903918684164025	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1683427-1683538	NC_006461.1	1683427	1683538	1.6849541271166775	tRNA_single	flank_only	only_flank_models	NC_006461.1:1683427-1683538/m001	2	0	2	0	0	0.0	True
+NC_006461.1:1771671-1771736	NC_006461.1	1771671	1771736	1.6816313275406454	other_annotated_ncRNA	flank_only	only_flank_models	NC_006461.1:1771671-1771736/m001	5	0	5	0	0	0.0	True
+NC_003413.1:1831277-1831349	NC_003413.1	1831277	1831349	1.6754146175765872	tRNA_single	flank_only	only_flank_models	NC_003413.1:1831277-1831349/m001	2	0	2	0	0	0.0	True
+NC_003413.1:1878578-1878649	NC_003413.1	1878578	1878649	1.667864216726337	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:185962-186000	LC680885.1	185962	186000	1.6647080710529498	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1078797-1079869	NC_006461.1	1078797	1079869	1.6631902512162924	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1078797-1079869/m001	6	6	0	0	2	0.9057835820895522	True
+NC_003413.1:1537063-1537147	NC_003413.1	1537063	1537147	1.658326097574195	tRNA_single	unresolved	no_model		0	0	0	0	1	0.14285714285714285	True
+NC_006461.1:1317876-1317928	NC_006461.1	1317876	1317928	1.6576163564708102	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1317876-1317928/m001	6	6	0	0	1	1.0	True
+NC_003413.1:1120312-1120388	NC_003413.1	1120312	1120388	1.6557843027550976	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:331857-332047	NC_006461.1	331857	332047	1.6455385579334627	tRNA_single	unresolved	no_model		0	0	0	0	1	0.33157894736842103	True
+NC_006461.1:1131386-1131463	NC_006461.1	1131386	1131463	1.6454592801912764	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:356574-356928	NC_006461.1	356574	356928	1.641555748914259	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:356574-356928/m001	6	6	0	0	1	1.0	True
+NC_006461.1:450522-450564	NC_006461.1	450522	450564	1.6315845757017093	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:450522-450564/m001	6	5	1	0	1	1.0	True
+NC_003413.1:827439-827510	NC_003413.1	827439	827510	1.625072055002224	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:923611-923813	NC_003413.1	923611	923813	1.623101938199056	unclassified	flank_only	only_flank_models	NC_003413.1:923611-923813/m001	3	0	3	0	1	1.0	True
+NC_006461.1:108194-108303	NC_006461.1	108194	108303	1.615306958625426	tRNA_single	flank_only	only_flank_models	NC_006461.1:108194-108303/m001	1	0	1	0	0	0.0	True
+NC_003413.1:1557777-1557851	NC_003413.1	1557777	1557851	1.608158847360741	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:111243-111287	OR836606.1	111243	111287	1.6023161710309977	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:556169-556239	NC_003413.1	556169	556239	1.5970547438576852	tRNA_single	flank_only	only_flank_models	NC_003413.1:556169-556239/m001	1	0	1	0	0	0.0	True
+NC_003413.1:240408-240478	NC_003413.1	240408	240478	1.5943695555101844	tRNA_single	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:231413-231541	MN091626.1	231413	231541	1.5908696238467364	unclassified	flank_only	only_flank_models	MN091626.1:231413-231541/m001	2	0	2	0	1	0.3203125	True
+OR836606.1:211903-212064	OR836606.1	211903	212064	1.588809575758145	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:211903-212064/m001	6	6	0	0	1	1.0	True
+MZ779063.1:159614-159829	MZ779063.1	159614	159829	1.5857503909625652	unclassified	unresolved	no_model		0	0	0	0	1	0.8093023255813954	True
+NC_006461.1:441656-441730	NC_006461.1	441656	441730	1.5815593408148942	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+MZ779063.1:15800-15857	MZ779063.1	15800	15857	1.5733725234491538	unclassified	flank_only	only_flank_models	MZ779063.1:15800-15857/m001	2	0	2	0	1	0.2982456140350877	True
+MZ779063.1:62223-62420	MZ779063.1	62223	62420	1.5717161449869548	unclassified	flank_only	only_flank_models	MZ779063.1:62223-62420/m001	1	0	1	0	1	0.5532994923857868	True
+NC_003413.1:1553349-1553715	NC_003413.1	1553349	1553715	1.5706515458438137	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1553349-1553715/m001	6	6	0	0	1	1.0	True
+MN091626.1:183451-183508	MN091626.1	183451	183508	1.56538826836933	unclassified	flank_only	only_flank_models	MN091626.1:183451-183508/m001	2	0	2	0	1	0.2807017543859649	True
+NC_006461.1:1524859-1524901	NC_006461.1	1524859	1524901	1.5633800035584242	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:193913-193951	LC680885.1	193913	193951	1.5626492085795027	unclassified	flank_only	only_flank_models	LC680885.1:193913-193951/m001	6	0	6	0	0	0.0	True
+NC_006461.1:793649-793898	NC_006461.1	793649	793898	1.553774350204091	unclassified	flank_only	only_flank_models	NC_006461.1:793649-793898/m001	6	0	6	0	1	1.0	True
+MN091626.1:51072-51110	MN091626.1	51072	51110	1.550824832951058	unclassified	flank_only	only_flank_models	MN091626.1:51072-51110/m001	6	0	6	0	0	0.0	True
+NC_006461.1:1075354-1075427	NC_006461.1	1075354	1075427	1.5501338394956266	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MZ779063.1:103337-103380	MZ779063.1	103337	103380	1.5462106332477454	unclassified	flank_only	only_flank_models	MZ779063.1:103337-103380/m001	1	0	1	0	0	0.0	True
+MN091626.1:79965-80012	MN091626.1	79965	80012	1.542509592477645	unclassified	unresolved	no_model		0	0	0	0	1	0.06382978723404255	True
+MZ779063.1:176721-176768	MZ779063.1	176721	176768	1.5399123690257397	unclassified	unresolved	no_model		0	0	0	0	1	0.06382978723404255	True
+OR836606.1:70482-70519	OR836606.1	70482	70519	1.534339000684659	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:70482-70519/m001	4	1	3	0	1	0.35135135135135137	True
+MZ779063.1:147445-147482	MZ779063.1	147445	147482	1.5342309956233275	unclassified	flank_only	only_flank_models	MZ779063.1:147445-147482/m001	6	0	6	0	0	0.0	True
+MW349129.1:264990-265033	MW349129.1	264990	265033	1.5309562334058537	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:442281-442773	NC_006461.1	442281	442773	1.5301682948368112	unclassified	flank_only	only_flank_models	NC_006461.1:442281-442773/m001	3	0	3	0	2	1.0	True
+MZ779063.1:245540-245575	MZ779063.1	245540	245575	1.5257514967155854	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MW349129.1:240190-240644	MW349129.1	240190	240644	1.5204258148299066	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:240190-240644/m001	6	6	0	0	1	0.8193832599118943	True
+OR836606.1:2777-2812	OR836606.1	2777	2812	1.5190501364399436	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1315193-1315234	NC_006461.1	1315193	1315234	1.5131644833429723	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MW349129.1:87253-87307	MW349129.1	87253	87307	1.510833470570923	unclassified	flank_only	only_flank_models	MW349129.1:87253-87307/m001	1	0	1	0	0	0.0	True
+NC_003413.1:680687-680853	NC_003413.1	680687	680853	1.5102344645289199	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+LC680885.1:223895-223939	LC680885.1	223895	223939	1.5096362801170125	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MZ779063.1:233840-233872	MZ779063.1	233840	233872	1.5061487469566972	unclassified	flank_only	only_flank_models	MZ779063.1:233840-233872/m001	1	0	1	0	0	0.0	True
+OR836606.1:201705-201758	OR836606.1	201705	201758	1.5056391816114802	unclassified	flank_only	only_flank_models	OR836606.1:201705-201758/m001	1	0	1	0	0	0.0	True
+NC_006461.1:1542293-1542817	NC_006461.1	1542293	1542817	1.5032448852994167	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1542293-1542817/m001	3	3	0	0	1	0.9465648854961832	True
+OR836606.1:108656-108693	OR836606.1	108656	108693	1.5008006894505925	unclassified	flank_only	only_flank_models	OR836606.1:108656-108693/m001	2	0	2	0	1	0.4594594594594595	True
+MW349129.1:117142-117189	MW349129.1	117142	117189	1.5001948981683542	unclassified	flank_only	only_flank_models	MW349129.1:117142-117189/m001	2	0	2	0	1	1.0	True
+MN091626.1:154726-154781	MN091626.1	154726	154781	1.4988019022387582	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:154726-154781/m001	10	2	8	0	1	1.0	True
+LC680885.1:236419-236454	LC680885.1	236419	236454	1.4984406339950767	unclassified	flank_only	only_flank_models	LC680885.1:236419-236454/m001	1	0	1	0	0	0.0	True
+MW349129.1:258343-258617	MW349129.1	258343	258617	1.4980453791731863	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:258343-258617/m001	3	3	0	0	2	0.8394160583941606	True
+MW349129.1:71443-71478	MW349129.1	71443	71478	1.4963642803859798	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:196504-196656	OR836606.1	196504	196656	1.495176294362705	unclassified	flank_only	only_flank_models	OR836606.1:196504-196656/m001	1	0	1	0	1	0.6381578947368421	True
+MZ779063.1:261351-261405	MZ779063.1	261351	261405	1.4921766132756746	unclassified	flank_only	only_flank_models	MZ779063.1:261351-261405/m001	1	0	1	0	0	0.0	True
+OR836606.1:188338-188375	OR836606.1	188338	188375	1.4908970036717493	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:134973-135015	LC680885.1	134973	135015	1.490880109498193	unclassified	unresolved	no_model		0	0	0	0	1	0.42857142857142855	True
+MW349129.1:181044-181083	MW349129.1	181044	181083	1.4860908629571101	unclassified	flank_only	only_flank_models	MW349129.1:181044-181083/m001	1	0	1	0	1	0.46153846153846156	True
+MN091626.1:182694-182749	MN091626.1	182694	182749	1.4857174422184383	unclassified	flank_only	only_flank_models	MN091626.1:182694-182749/m001	1	0	1	0	1	0.7272727272727273	True
+LC680885.1:26887-26922	LC680885.1	26887	26922	1.4845051583427848	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:44456-44493	MN091626.1	44456	44493	1.48436514285291	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:13961-13996	OR836606.1	13961	13996	1.4793816109017879	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MZ779063.1:250253-250319	MZ779063.1	250253	250319	1.4778460216882936	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:250253-250319/m001	12	4	8	0	1	1.0	True
+MW349129.1:13648-13683	MW349129.1	13648	13683	1.4774725191622775	unclassified	flank_only	only_flank_models	MW349129.1:13648-13683/m001	1	0	1	0	0	0.0	True
+NC_006461.1:27842-27892	NC_006461.1	27842	27892	1.4774632518325765	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:27842-27892/m001	16	3	13	0	1	1.0	True
+NC_006461.1:1579135-1579208	NC_006461.1	1579135	1579208	1.477406208156755	unclassified	flank_only	only_flank_models	NC_006461.1:1579135-1579208/m001	4	0	4	0	1	1.0	True
+MZ779063.1:72376-72471	MZ779063.1	72376	72471	1.47646129881941	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:973167-974030	NC_006461.1	973167	974030	1.4762532108438025	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:973167-974030/m001	6	5	1	0	2	0.5098493626882966	True
+OR836606.1:58413-58450	OR836606.1	58413	58450	1.4746801254005613	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:1563688-1563772	NC_003413.1	1563688	1563772	1.4732705185933526	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+MW349129.1:231980-232016	MW349129.1	231980	232016	1.4732074152597676	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:30659-30942	LC680885.1	30659	30942	1.4729932086767297	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:30659-30942/m001	5	5	0	0	1	0.784452296819788	True
+MW349129.1:122117-122180	MW349129.1	122117	122180	1.4726493218584622	unclassified	flank_only	only_flank_models	MW349129.1:122117-122180/m001	4	0	4	0	1	0.9365079365079365	True
+NC_006461.1:1758972-1759497	NC_006461.1	1758972	1759497	1.4707657703755863	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1758972-1759497/m001	5	5	0	0	1	1.0	True
+NC_006461.1:1763973-1764031	NC_006461.1	1763973	1764031	1.470364691147948	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1763973-1764031/m001	6	6	0	0	1	1.0	True
+NC_003413.1:1781999-1782238	NC_003413.1	1781999	1782238	1.4700255697986329	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:1781999-1782238/m001	5	5	0	0	1	1.0	True
+MZ779063.1:11801-11968	MZ779063.1	11801	11968	1.4695228995666616	unclassified	flank_only	only_flank_models	MZ779063.1:11801-11968/m001	1	0	1	0	1	0.6407185628742516	True
+OR836606.1:20053-20121	OR836606.1	20053	20121	1.4683967496717574	unclassified	flank_only	only_flank_models	OR836606.1:20053-20121/m001	2	0	2	0	1	0.16176470588235295	True
+MZ779063.1:92144-92186	MZ779063.1	92144	92186	1.467962617847266	unclassified	flank_only	only_flank_models	MZ779063.1:92144-92186/m001	1	0	1	0	1	0.42857142857142855	True
+MN091626.1:261060-261102	MN091626.1	261060	261102	1.4673981226615316	unclassified	flank_only	only_flank_models	MN091626.1:261060-261102/m001	1	0	1	0	1	0.42857142857142855	True
+LC680885.1:216259-216532	LC680885.1	216259	216532	1.4673201853234152	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:216259-216532/m001	3	3	0	0	2	0.8388278388278388	True
+MZ779063.1:49714-49734	MZ779063.1	49714	49734	1.4661257933117673	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:49714-49734/m001	12	1	11	0	1	1.0	True
+NC_006461.1:650724-650747	NC_006461.1	650724	650747	1.4656312369227935	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:650724-650747/m001	3	1	2	0	0	0.0	True
+MN091626.1:113459-113892	MN091626.1	113459	113892	1.4643176553144421	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:113459-113892/m001	6	6	0	0	1	1.0	True
+LC680885.1:105000-105100	LC680885.1	105000	105100	1.4630317381251299	unclassified	flank_only	only_flank_models	LC680885.1:105000-105100/m001	5	0	5	0	1	0.37	True
+OR836606.1:218316-218355	OR836606.1	218316	218355	1.4630293935126366	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:168323-168456	NC_006461.1	168323	168456	1.4629460494852475	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:168323-168456/m001	2	1	1	0	1	1.0	True
+NC_006461.1:530965-531005	NC_006461.1	530965	531005	1.4600134751299252	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:530965-531005/m001	12	3	9	0	1	1.0	True
+NC_006461.1:810497-810757	NC_006461.1	810497	810757	1.4594090189714684	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:810497-810757/m001	4	4	0	0	1	1.0	True
+MW349129.1:181849-181884	MW349129.1	181849	181884	1.4575596167260974	unclassified	flank_only	only_flank_models	MW349129.1:181849-181884/m001	3	0	3	0	0	0.0	True
+NC_006461.1:1514820-1515286	NC_006461.1	1514820	1515286	1.4574020989518368	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1514820-1515286/m001	6	2	4	0	1	1.0	True
+LC680885.1:242867-242902	LC680885.1	242867	242902	1.4570788161050277	unclassified	flank_only	only_flank_models	LC680885.1:242867-242902/m001	1	0	1	0	0	0.0	True
+MW349129.1:29419-29450	MW349129.1	29419	29450	1.4569121886578251	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:203507-203837	MN091626.1	203507	203837	1.4562535660533642	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:203507-203837/m001	6	5	1	0	1	1.0	True
+MW349129.1:23885-23925	MW349129.1	23885	23925	1.4557208456549935	unclassified	flank_only	only_flank_models	MW349129.1:23885-23925/m001	4	0	4	0	0	0.0	True
+MW349129.1:143127-143217	MW349129.1	143127	143217	1.4535760764174872	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:143127-143217/m001	1	1	0	0	1	1.0	True
+NC_006461.1:1810230-1810680	NC_006461.1	1810230	1810680	1.452359701844374	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1810230-1810680/m001	6	5	1	0	1	0.8511111111111112	True
+NC_006461.1:1556905-1556986	NC_006461.1	1556905	1556986	1.450432731836588	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:108285-108318	MN091626.1	108285	108318	1.4481274068261858	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:243851-243887	MN091626.1	243851	243887	1.4477882419215977	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:575649-575684	NC_006461.1	575649	575684	1.4470778592826052	unclassified	unresolved	no_model		0	0	0	0	1	0.4	True
+MW349129.1:47564-47600	MW349129.1	47564	47600	1.4465563171509759	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:4847-4883	OR836606.1	4847	4883	1.4463046409335851	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:201608-201788	NC_006461.1	201608	201788	1.4461330044801037	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:201608-201788/m001	5	5	0	0	1	1.0	True
+NC_006461.1:1604108-1604262	NC_006461.1	1604108	1604262	1.4460424942377357	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1604108-1604262/m001	6	3	3	0	1	1.0	True
+LC680885.1:42697-42749	LC680885.1	42697	42749	1.4436858571215394	unclassified	flank_only	only_flank_models	LC680885.1:42697-42749/m001	1	0	1	0	0	0.0	True
+LC680885.1:141434-141480	LC680885.1	141434	141480	1.4434196315250019	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:141434-141480/m001	36	10	26	0	1	1.0	True
+MZ779063.1:92953-93281	MZ779063.1	92953	93281	1.442701530481851	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:92953-93281/m001	6	6	0	0	1	0.823170731707317	True
+OR836606.1:236122-236636	OR836606.1	236122	236636	1.4416987986470349	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:236122-236636/m001	1	1	0	0	1	0.9163424124513618	True
+OR836606.1:217350-217384	OR836606.1	217350	217384	1.4411402845321766	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:149997-150032	MN091626.1	149997	150032	1.4397015538442681	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:39816-39864	OR836606.1	39816	39864	1.4373234134137316	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:39816-39864/m001	6	6	0	0	1	1.0	True
+MW349129.1:92726-92757	MW349129.1	92726	92757	1.4369324995856234	unclassified	unresolved	no_model		0	0	0	0	1	0.25806451612903225	True
+NC_006461.1:1177240-1177560	NC_006461.1	1177240	1177560	1.4360770239259146	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1177240-1177560/m001	6	3	3	0	1	1.0	True
+LC680885.1:53034-53278	LC680885.1	53034	53278	1.435901115618661	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:53034-53278/m001	1	1	0	0	1	1.0	True
+MW349129.1:109642-109679	MW349129.1	109642	109679	1.435272538957133	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:61924-62300	NC_006461.1	61924	62300	1.4350359257770795	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:61924-62300/m001	4	4	0	0	1	1.0	True
+MZ779063.1:207088-207119	MZ779063.1	207088	207119	1.4342069607496735	unclassified	flank_only	only_flank_models	MZ779063.1:207088-207119/m001	4	0	4	0	0	0.0	True
+NC_006461.1:480912-481251	NC_006461.1	480912	481251	1.434180513034252	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:480912-481251/m001	6	5	1	0	2	1.0	True
+LC680885.1:54181-54207	LC680885.1	54181	54207	1.4331235091263534	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:81236-81270	LC680885.1	81236	81270	1.4330269460950231	unclassified	flank_only	only_flank_models	LC680885.1:81236-81270/m001	4	0	4	0	0	0.0	True
+MN091626.1:93994-94029	MN091626.1	93994	94029	1.4320316786192586	unclassified	flank_only	only_flank_models	MN091626.1:93994-94029/m001	2	0	2	0	0	0.0	True
+OR836606.1:185673-185710	OR836606.1	185673	185710	1.4308299611212565	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MZ779063.1:149613-150105	MZ779063.1	149613	150105	1.4305932844489742	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:149613-150105/m001	3	2	1	0	2	1.0	True
+MN091626.1:98661-98695	MN091626.1	98661	98695	1.430553288834585	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:777772-777917	NC_006461.1	777772	777917	1.4301495815549283	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:777772-777917/m001	1	1	0	0	1	1.0	True
+LC680885.1:5496-5534	LC680885.1	5496	5534	1.4292268349782336	unclassified	flank_only	only_flank_models	LC680885.1:5496-5534/m001	1	0	1	0	0	0.0	True
+MZ779063.1:70606-70636	MZ779063.1	70606	70636	1.428301107906906	unclassified	flank_only	only_flank_models	MZ779063.1:70606-70636/m001	4	0	4	0	0	0.0	True
+LC680885.1:79494-79826	LC680885.1	79494	79826	1.427567095195565	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:79494-79826/m001	6	6	0	0	1	1.0	True
+LC680885.1:50965-51151	LC680885.1	50965	51151	1.427249426660208	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+LC680885.1:254250-254281	LC680885.1	254250	254281	1.4270050469240965	unclassified	flank_only	only_flank_models	LC680885.1:254250-254281/m001	4	0	4	0	0	0.0	True
+MN091626.1:165829-165882	MN091626.1	165829	165882	1.4267072608900309	unclassified	flank_only	only_flank_models	MN091626.1:165829-165882/m001	1	0	1	0	0	0.0	True
+MW349129.1:17086-17576	MW349129.1	17086	17576	1.426208235666965	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:17086-17576/m001	5	5	0	0	2	0.9693877551020408	True
+MZ779063.1:9659-9686	MZ779063.1	9659	9686	1.4248150341035446	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MW349129.1:31182-31212	MW349129.1	31182	31212	1.4247927347192095	unclassified	flank_only	only_flank_models	MW349129.1:31182-31212/m001	4	0	4	0	0	0.0	True
+NC_006461.1:1679801-1680153	NC_006461.1	1679801	1680153	1.4234412406444854	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1679801-1680153/m001	6	4	2	0	1	1.0	True
+OR836606.1:169775-169813	OR836606.1	169775	169813	1.4232427185203609	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:169775-169813/m001	4	1	3	0	1	0.9210526315789473	True
+LC680885.1:64136-64169	LC680885.1	64136	64169	1.4227698648207996	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MZ779063.1:37175-37209	MZ779063.1	37175	37209	1.4224676583018876	unclassified	flank_only	only_flank_models	MZ779063.1:37175-37209/m001	3	0	3	0	0	0.0	True
+LC680885.1:25918-25955	LC680885.1	25918	25955	1.4209426910706384	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:889960-890009	NC_006461.1	889960	890009	1.4200918188874827	unclassified	flank_only	only_flank_models	NC_006461.1:889960-890009/m001	2	0	2	0	1	1.0	True
+MZ779063.1:195705-195738	MZ779063.1	195705	195738	1.420066700414282	unclassified	flank_only	only_flank_models	MZ779063.1:195705-195738/m001	1	0	1	0	0	0.0	True
+OR836606.1:229654-229686	OR836606.1	229654	229686	1.4198274982643049	unclassified	flank_only	only_flank_models	OR836606.1:229654-229686/m001	1	0	1	0	0	0.0	True
+OR836606.1:128291-128579	OR836606.1	128291	128579	1.4193723254518287	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MW349129.1:127092-127125	MW349129.1	127092	127125	1.4190127573145284	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:110045-110076	MN091626.1	110045	110076	1.4184273821194953	unclassified	flank_only	only_flank_models	MN091626.1:110045-110076/m001	4	0	4	0	0	0.0	True
+LC680885.1:117747-117781	LC680885.1	117747	117781	1.418065384482039	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:117747-117781/m001	10	1	9	0	0	0.0	True
+NC_006461.1:258368-258391	NC_006461.1	258368	258391	1.41725777255803	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_003413.1:349742-349812	NC_003413.1	349742	349812	1.4163990832806554	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_003413.1:349742-349812/m001	6	2	4	0	1	1.0	True
+NC_006461.1:875663-876065	NC_006461.1	875663	876065	1.4151714979659509	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:875663-876065/m001	6	6	0	0	2	1.0	True
+LC680885.1:43961-44013	LC680885.1	43961	44013	1.4146035961776247	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:43961-44013/m001	6	3	3	0	1	1.0	True
+NC_006461.1:1030080-1030564	NC_006461.1	1030080	1030564	1.4144621097059784	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1030080-1030564/m001	6	6	0	0	1	1.0	True
+NC_006461.1:333386-333845	NC_006461.1	333386	333845	1.4141340435230907	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:333386-333845/m001	2	1	1	0	1	0.9259259259259259	True
+NC_006461.1:754571-754798	NC_006461.1	754571	754798	1.4139754257887012	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:754571-754798/m001	6	6	0	0	1	1.0	True
+MZ779063.1:141423-141459	MZ779063.1	141423	141459	1.4134146516885673	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:3568-3595	LC680885.1	3568	3595	1.4133765607255302	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:213575-213612	OR836606.1	213575	213612	1.41236188831963	unclassified	flank_only	only_flank_models	OR836606.1:213575-213612/m001	3	0	3	0	0	0.0	True
+MW349129.1:125337-125675	MW349129.1	125337	125675	1.4114216691491233	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MW349129.1:125337-125675/m001	6	5	1	0	1	1.0	True
+NC_006461.1:58027-58189	NC_006461.1	58027	58189	1.4112235625016245	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:58027-58189/m001	1	1	0	0	1	1.0	True
+MN091626.1:179453-179486	MN091626.1	179453	179486	1.411169454932536	unclassified	flank_only	only_flank_models	MN091626.1:179453-179486/m001	2	0	2	0	0	0.0	True
+MN091626.1:248778-248808	MN091626.1	248778	248808	1.4098932788082932	unclassified	flank_only	only_flank_models	MN091626.1:248778-248808/m001	1	0	1	0	0	0.0	True
+OR836606.1:178759-178792	OR836606.1	178759	178792	1.4096531190534052	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MN091626.1:149030-149065	MN091626.1	149030	149065	1.40952337955555	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MW349129.1:168730-168765	MW349129.1	168730	168765	1.4084601347523573	unclassified	flank_only	only_flank_models	MW349129.1:168730-168765/m001	1	0	1	0	0	0.0	True
+NC_006461.1:1135007-1135495	NC_006461.1	1135007	1135495	1.408218165339196	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1135007-1135495/m001	3	3	0	0	2	1.0	True
+MN091626.1:193753-193784	MN091626.1	193753	193784	1.407946559975524	unclassified	flank_only	only_flank_models	MN091626.1:193753-193784/m001	4	0	4	0	0	0.0	True
+MZ779063.1:19618-19651	MZ779063.1	19618	19651	1.4069885775615683	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MZ779063.1:210570-210966	MZ779063.1	210570	210966	1.4063316610440715	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:210570-210966/m001	6	6	0	0	1	1.0	True
+MN091626.1:205246-205279	MN091626.1	205246	205279	1.4059720045614015	unclassified	flank_only	only_flank_models	MN091626.1:205246-205279/m001	2	0	2	0	0	0.0	True
+MW349129.1:163788-163824	MW349129.1	163788	163824	1.4036899685958852	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:530404-530430	NC_006461.1	530404	530430	1.403392470229367	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:530404-530430/m001	10	5	5	0	1	1.0	True
+NC_003413.1:734320-734384	NC_003413.1	734320	734384	1.4010492261879615	unclassified	unresolved	no_model		0	0	0	0	1	1.0	True
+MZ779063.1:205022-205346	MZ779063.1	205022	205346	1.4006000653347586	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MZ779063.1:205022-205346/m001	3	3	0	0	1	0.7037037037037037	True
+NC_006461.1:284772-285029	NC_006461.1	284772	285029	1.400401146489818	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:284772-285029/m001	6	3	3	0	1	1.0	True
+NC_003413.1:1797113-1797186	NC_003413.1	1797113	1797186	1.3991587076569745	unclassified	unresolved	no_model		0	0	0	0	2	1.0	True
+NC_006461.1:718380-718430	NC_006461.1	718380	718430	1.3981096847008185	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:718380-718430/m001	9	4	5	0	1	1.0	True
+MN091626.1:126349-126377	MN091626.1	126349	126377	1.3976368622054098	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1705233-1705352	NC_006461.1	1705233	1705352	1.396775459669389	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1705233-1705352/m001	5	4	1	0	1	1.0	True
+LC680885.1:182272-182700	LC680885.1	182272	182700	1.3961730699672723	unclassified	unresolved	no_model		0	0	0	0	1	0.7850467289719626	True
+MZ779063.1:225331-225371	MZ779063.1	225331	225371	1.3924191372730885	unclassified	flank_only	only_flank_models	MZ779063.1:225331-225371/m001	1	0	1	0	0	0.0	True
+MZ779063.1:175939-175968	MZ779063.1	175939	175968	1.3904224772497717	unclassified	flank_only	only_flank_models	MZ779063.1:175939-175968/m001	1	0	1	0	0	0.0	True
+MN091626.1:128279-128316	MN091626.1	128279	128316	1.3902167844626723	unclassified	flank_only	only_flank_models	MN091626.1:128279-128316/m001	1	0	1	0	0	0.0	True
+MN091626.1:40768-41174	MN091626.1	40768	41174	1.3887852185770755	unclassified	unresolved	no_model		0	0	0	0	1	0.8275862068965517	True
+MZ779063.1:7655-7678	MZ779063.1	7655	7678	1.3883473404170195	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+MZ779063.1:3644-3672	MZ779063.1	3644	3672	1.3867641296915858	unclassified	unresolved	no_model		0	0	0	0	1	0.2857142857142857	True
+MN091626.1:171292-171321	MN091626.1	171292	171321	1.3860782955057853	unclassified	unresolved	no_model		0	0	0	0	1	0.3103448275862069	True
+MN091626.1:176161-176398	MN091626.1	176161	176398	1.3858304442062355	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	MN091626.1:176161-176398/m001	1	1	0	0	1	1.0	True
+MN091626.1:79186-79215	MN091626.1	79186	79215	1.3849455232421248	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1739954-1740763	NC_006461.1	1739954	1740763	1.3811964983008973	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1739954-1740763/m001	6	6	0	0	1	1.0	True
+MZ779063.1:135767-135796	MZ779063.1	135767	135796	1.381111981540001	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:120939-120962	OR836606.1	120939	120962	1.3810111911909282	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:493754-494074	NC_006461.1	493754	494074	1.380912705806054	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:493754-494074/m001	6	6	0	0	1	1.0	True
+LC680885.1:122686-122716	LC680885.1	122686	122716	1.3800506811723101	unclassified	flank_only	only_flank_models	LC680885.1:122686-122716/m001	1	0	1	0	0	0.0	True
+MW349129.1:226303-226332	MW349129.1	226303	226332	1.3794327580196435	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+NC_006461.1:1433733-1433964	NC_006461.1	1433733	1433964	1.3779301884212996	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1433733-1433964/m001	6	6	0	0	1	1.0	True
+NC_006461.1:1451147-1451258	NC_006461.1	1451147	1451258	1.3759680196486144	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1451147-1451258/m001	5	4	1	0	1	1.0	True
+NC_006461.1:1842677-1843069	NC_006461.1	1842677	1843069	1.3730867568965743	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1842677-1843069/m001	6	6	0	0	1	1.0	True
+NC_006461.1:952792-953033	NC_006461.1	952792	953033	1.3716310448657916	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:952792-953033/m001	1	1	0	0	1	1.0	True
+NC_006461.1:655603-655763	NC_006461.1	655603	655763	1.3671138186567855	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:655603-655763/m001	6	4	2	0	1	1.0	True
+MW349129.1:3024-3052	MW349129.1	3024	3052	1.3667263122569653	unclassified	flank_only	only_flank_models	MW349129.1:3024-3052/m001	2	0	2	0	0	0.0	True
+NC_006461.1:951182-951247	NC_006461.1	951182	951247	1.3617698517567558	unclassified	flank_only	only_flank_models	NC_006461.1:951182-951247/m001	6	0	6	0	1	1.0	True
+MZ779063.1:74922-74955	MZ779063.1	74922	74955	1.3613982502966373	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+LC680885.1:267021-267046	LC680885.1	267021	267046	1.3593069342286592	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	LC680885.1:267021-267046/m001	22	4	18	0	0	0.0	True
+NC_006461.1:565504-565543	NC_006461.1	565504	565543	1.3576195189018947	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:565504-565543/m001	16	1	15	0	1	1.0	True
+NC_006461.1:1335265-1335406	NC_006461.1	1335265	1335406	1.355115144455521	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1335265-1335406/m001	2	1	1	0	2	1.0	True
+MW349129.1:264233-264262	MW349129.1	264233	264262	1.3542497034960541	unclassified	flank_only	only_flank_models	MW349129.1:264233-264262/m001	1	0	1	0	0	0.0	True
+NC_006461.1:495242-495350	NC_006461.1	495242	495350	1.3428947657182415	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:495242-495350/m001	6	5	1	0	1	1.0	True
+OR836606.1:50280-50303	OR836606.1	50280	50303	1.339053950801937	unclassified	flank_only	only_flank_models	OR836606.1:50280-50303/m001	1	0	1	0	0	0.0	True
+NC_006461.1:413785-414015	NC_006461.1	413785	414015	1.3366520393575971	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:413785-414015/m001	4	3	1	0	1	1.0	True
+NC_006461.1:544987-545348	NC_006461.1	544987	545348	1.3366192706865234	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:544987-545348/m001	3	2	1	0	1	1.0	True
+NC_006461.1:1253646-1253933	NC_006461.1	1253646	1253933	1.335145024675282	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1253646-1253933/m001	6	5	1	0	1	1.0	True
+MZ779063.1:174205-174225	MZ779063.1	174205	174225	1.3346688313903292	unclassified	unresolved	no_model		0	0	0	0	0	0.0	True
+OR836606.1:167073-167446	OR836606.1	167073	167446	1.3345945238240287	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	OR836606.1:167073-167446/m001	6	4	2	0	1	1.0	True
+NC_006461.1:1841608-1841767	NC_006461.1	1841608	1841767	1.3334971472048136	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:1841608-1841767/m001	6	3	3	0	2	1.0	True
+NC_006461.1:658359-658469	NC_006461.1	658359	658469	1.3189849944827998	unclassified	candidate_associated	model_overlaps_candidate_not_biological_validation	NC_006461.1:658359-658469/m001	6	2	4	0	1	1.0	True
+NC_006461.1:399154-399179	NC_006461.1	399154	399179	1.3176033716094062	unclassified	flank_only	only_flank_models	NC_006461.1:399154-399179/m001	1	0	1	0	1	1.0	True
+NC_006461.1:1407289-1407310	NC_006461.1	1407289	1407310	1.3147454650308703	unclassified	flank_only	only_flank_models	NC_006461.1:1407289-1407310/m001	4	0	4	0	1	1.0	True

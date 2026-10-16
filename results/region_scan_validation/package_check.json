@@ -1,0 +1,7 @@
+{
+  "archive": "dist\\GLM_repeat_region_scan_v0.1.tar.gz",
+  "sha256": "67decc3c59cc086fe2a2b6b76f7951495f48dbda0e4bae444040512fde7934a4",
+  "manifest_files": 35,
+  "independent_extraction_tests": "......................................................................   [100%]\n70 passed in 3.12s",
+  "slurm_line_endings": "LF"
+}

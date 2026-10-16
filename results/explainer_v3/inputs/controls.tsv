@@ -1,0 +1,16 @@
+contig	start0	end0	score	annotation_category	locus	annotation_available	n_CDS_overlapping	CDS_overlap_nt	CDS_overlap_fraction	CDS_products	CDS_locations	annotation_category_scope	CDS_annotation_source
+NC_003413.1	27090	30400	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_27091	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_003413.1	260713	262045	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_260714	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_003413.1	312404	313931	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_312405	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_003413.1	623118	625176	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_623119	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_003413.1	695936	698992	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_695937	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_003413.1	1064075	1065543	control	control_CRISPR	Pyrococcus_furiosus_DSM3638_CRISPR_1064076	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_006461.1	872100	873200	control	control_CRISPR	Thermus_thermophilus_HB8_CRISPR_872101	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_006461.1	874396	874734	control	control_CRISPR	Thermus_thermophilus_HB8_CRISPR_874397	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+MW349129.1	213135	214001	control	control_ART	Madawaska_ART	True	3	348	0.4018475750577367	hypothetical protein;hypothetical protein;hypothetical protein	[213179:213290](-);[213410:213533](+);[213653:213767](+)	selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+OR836606.1	75040	75911	control	control_ART	LY01_ART	True	1	17	0.01951779563719862	hypothetical protein	[74901:75057](+)	selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+LC680885.1	166404	167268	control	control_ART	S6_ART	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+MN091626.1	23727	24592	control	control_ART	PALS_2_ART	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+MZ779063.1	124098	124964	control	control_ART	UFV_DC4_ART	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_028808.2	29169	29229	control	control_VIPR_labelled_60nt	SUSP1_vrRNA_60nt	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb
+NC_028808.2	27682	27906	control	control_VIPR_offlabel_unconfirmed	SUSP1_offlabel	True	0	0	0.0			selected_RNA_repeat_categories_only	independent_review\source\genomes.gb

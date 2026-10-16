@@ -1,0 +1,16 @@
+locus	candidate_id	primary_source	core_or_periodic_copies	unit_len	extended_copies	extension_unit_len	period	annotated_units	annotated_units_overlapped	extra_copies	evaluation_scope
+Pyrococcus_furiosus_DSM3638_CRISPR_27091	NC_003413.1:27090-30400	motif_core	52	12	50	30		48	48	4	interval_overlap_only
+Pyrococcus_furiosus_DSM3638_CRISPR_260714	NC_003413.1:260713-262045	motif_core	22	12	20	30		20	20	1	interval_overlap_only
+Pyrococcus_furiosus_DSM3638_CRISPR_312405	NC_003413.1:312404-313931	motif_core	25	12	23	30		21	21	4	interval_overlap_only
+Pyrococcus_furiosus_DSM3638_CRISPR_623119	NC_003413.1:623118-625176	motif_core	31	12	31	30		31	31	0	interval_overlap_only
+Pyrococcus_furiosus_DSM3638_CRISPR_695937	NC_003413.1:695936-698992	motif_core	47	12	46	30		44	44	3	interval_overlap_only
+Pyrococcus_furiosus_DSM3638_CRISPR_1064076	NC_003413.1:1064075-1065543	motif_core	23	12	22	30		22	22	1	interval_overlap_only
+Thermus_thermophilus_HB8_CRISPR_872101	NC_006461.1:872100-873200	motif_core	15	12	15	36		14	14	1	interval_overlap_only
+Thermus_thermophilus_HB8_CRISPR_874397	NC_006461.1:874396-874734	motif_core	5	12	5	36		5	5	0	interval_overlap_only
+Madawaska_ART	MW349129.1:213135-214001	motif_core	5	12	5	14		5	5	0	interval_overlap_only
+LY01_ART	OR836606.1:75040-75911	motif_core	8	12	0			5	5	3	interval_overlap_only
+S6_ART	LC680885.1:166404-167268	motif_core	6	12	5	17		5	5	1	interval_overlap_only
+PALS_2_ART	MN091626.1:23727-24592	motif_core	6	12	5	17		5	5	1	interval_overlap_only
+UFV_DC4_ART	MZ779063.1:124098-124964	motif_core	5	12	5	14		5	5	0	interval_overlap_only
+SUSP1_vrRNA_60nt	NC_028808.2:29169-29229	periodic	16	5	0		5	0			no_copy_level_annotation
+SUSP1_offlabel	NC_028808.2:27682-27906	motif_core	2	12	2	39		0			no_copy_level_annotation
