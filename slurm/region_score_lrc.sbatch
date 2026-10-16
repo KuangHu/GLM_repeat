@@ -16,7 +16,16 @@ PREPARED=$1
 OUT=$2
 N=$3
 MODE=${4:-random_partition}
-ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
+# Slurm copies the batch script into its spool directory, so ${BASH_SOURCE[0]}
+# does NOT point at the repository. Prefer the submission directory (the guide
+# says to submit from the repository root); allow an explicit override; fall back
+# to the script path only for direct non-Slurm execution.
+ROOT=${GLMREP_REPO_ROOT:-${SLURM_SUBMIT_DIR:-$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)}}
+if [ ! -f "$ROOT/scripts/score_region_chunk.py" ]; then
+  echo "scripts/score_region_chunk.py not found under ROOT=$ROOT" >&2
+  echo "Submit from the repository root, or set GLMREP_REPO_ROOT." >&2
+  exit 2
+fi
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false
 export PYTHONNOUSERSITE=1 OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK:-4}
 "$GLMREP_PYTHON" "$ROOT/scripts/score_region_chunk.py" \
