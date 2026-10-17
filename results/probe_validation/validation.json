@@ -1,0 +1,117 @@
+{
+  "frozen_probe_parameters": {
+    "seed_kmer_k": 10,
+    "seed_requires_exact_match": true,
+    "seed_min_distinct_bases": 3,
+    "min_seed_separation_nt": 10,
+    "extension": "Biopython PairwiseAligner, mode=local",
+    "match_score": 2,
+    "mismatch_score": -3,
+    "open_gap_score": -5,
+    "extend_gap_score": -2,
+    "extension_flank_nt": 40,
+    "max_seed_pairs": 40,
+    "min_alignment_nt": 20,
+    "alignment_length_definition": "alignment score / match_score",
+    "interval_overlap_handling": "seed pairs must be >= k apart; the main self-diagonal is excluded by construction since only distinct seed occurrences are paired",
+    "identity_reported": "not thresholded; extension score is the criterion"
+  },
+  "synthetic_panel": {
+    "unit_lengths": [
+      8,
+      12,
+      20,
+      40,
+      80
+    ],
+    "divergence": [
+      0.0,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "indel_types": [
+      "none",
+      "indel1",
+      "indel3",
+      "mixed"
+    ],
+    "copies_per_repeat": 4,
+    "spacer_nt": 120,
+    "replicates_per_cell": 20,
+    "background": "shuffled real genomic windows",
+    "seed": 20261016
+  },
+  "sensitivity_by_unit_length": {
+    "8": {
+      "detected": 63,
+      "total": 320,
+      "sensitivity": 0.197
+    },
+    "12": {
+      "detected": 69,
+      "total": 320,
+      "sensitivity": 0.216
+    },
+    "20": {
+      "detected": 104,
+      "total": 320,
+      "sensitivity": 0.325
+    },
+    "40": {
+      "detected": 245,
+      "total": 320,
+      "sensitivity": 0.766
+    },
+    "80": {
+      "detected": 278,
+      "total": 320,
+      "sensitivity": 0.869
+    }
+  },
+  "sensitivity_by_indel_type": {
+    "indel1": {
+      "detected": 187,
+      "total": 400,
+      "sensitivity": 0.468
+    },
+    "indel3": {
+      "detected": 173,
+      "total": 400,
+      "sensitivity": 0.432
+    },
+    "mixed": {
+      "detected": 192,
+      "total": 400,
+      "sensitivity": 0.48
+    },
+    "none": {
+      "detected": 207,
+      "total": 400,
+      "sensitivity": 0.517
+    }
+  },
+  "sensitivity_by_divergence": {
+    "0.0": {
+      "detected": 232,
+      "total": 400,
+      "sensitivity": 0.58
+    },
+    "0.05": {
+      "detected": 222,
+      "total": 400,
+      "sensitivity": 0.555
+    },
+    "0.1": {
+      "detected": 201,
+      "total": 400,
+      "sensitivity": 0.502
+    },
+    "0.2": {
+      "detected": 104,
+      "total": 400,
+      "sensitivity": 0.26
+    }
+  },
+  "interpretation_rule": "A negative from this probe means: no qualifying local similarity was detected under these parameters. It does NOT mean the region contains no repeat. Sensitivity is strongly dependent on unit length and divergence, so a negative is only as informative as the matching cell of this table."
+}

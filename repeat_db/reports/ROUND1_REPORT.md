@@ -120,9 +120,22 @@ does not by itself establish functional significance.
 All 226 no-model candidates were re-probed with an indel-tolerant method
 (exact 10-mer seeds + affine-gap local extension). A minimap2 `-x asm20` probe was
 tried first and DISCARDED: its positive control found nothing for candidates with
-11-34 verified copies, because minimizer seeding cannot seed on 8-33 nt units. The
-retained probe reports 90% (host) and 85% (phage) sensitivity on modelled
-candidates, so its negatives are interpretable.
+11-34 verified copies, because minimizer seeding cannot seed on 8-33 nt units.
+
+The retained probe is frozen and characterised in
+`probe_validation/PROBE_FROZEN.md`. Its operating characteristics limit what any
+verdict can mean:
+
+- sensitivity by unit length: 0.20 (8 nt), 0.22 (12 nt), 0.33 (20 nt), 0.77 (40 nt),
+  0.87 (80 nt). **12 nt units dominate the real panels, where sensitivity is 0.22.**
+- sensitivity by divergence: 0.58 (0%) falling to 0.26 (20%)
+- sensitivity by indel type: 0.52 / 0.47 / 0.43 / 0.48 - indel content is NOT the
+  limiting factor; unit length is
+- false-positive rate on shuffled real DNA: 4.2% at 600 nt, 13.3% at 1,200 nt,
+  25.8% at 2,000 nt
+
+The earlier 90%/85% positive-control figures were measured on modelled candidates
+with >= 5 copies, an easier stratum, and should not be used to interpret negatives.
 
 | probe verdict | host (78) | phage (148) |
 |---|---:|---:|
@@ -131,11 +144,36 @@ candidates, so its negatives are interpretable.
 | no repeated seed at all | 6 | 26 |
 | gapped similarity the ungapped explainer cannot represent | 1 | 2 |
 
-So `no_model` splits into at least three different situations: a small indel
-coverage gap (3 of 226), a larger group with detectable ungapped similarity that
-the explainer nevertheless did not model (52 of 226), and weak or absent seed
-evidence (171 of 226). None of these is established as a detector false positive
-without human review.
+Both headline readings of this table need correcting against the probe's measured
+characteristics:
+
+**The indel gap is NOT shown to be small.** 3 gapped calls out of 226 is a floor,
+not an estimate. At ~45% sensitivity for indel-containing repeats and ~20% at short
+unit lengths, the detected count understates the true number by an unknown factor.
+
+**The 52 similarity calls are largely chance.** Probed regions have median length
+1,083 nt (span + 2 x 500 flank). At that length the measured false-positive rate on
+shuffled DNA predicts ~30 positive calls from chance alone; 55 were observed
+(24.3% vs 13.1% expected), an excess of roughly 25. Since shuffling destroys native
+composition structure, the real-sequence chance rate is probably higher still and
+the excess correspondingly smaller.
+
+Triage of the 52 ungapped-similarity cases identifies the explainer gap precisely:
+
+| cause | count |
+|---|---:|
+| no repeated 12-mer (the explainer's seed length) anywhere in the region | 50 |
+| 12-mer seeds present inside the candidate, explainer still produced no model | 2 |
+
+So the candidate explanation for the gap is **seed length** (explainer k=12 vs probe
+k=10), not indels, thresholds or boundaries. That is a hypothesis about ~25
+above-chance cases, not 52 confirmed gaps, and the explainer is NOT being changed on
+this evidence. Lowering the seed length would also raise the chance-match rate, so
+any such change needs its own specificity measurement.
+
+`no_model` therefore remains unresolved rather than explained: it is not established
+as detector false positive, and the probe cannot rule out repeats at the unit
+lengths that dominate these panels.
 
 ## Manual inspection sheets
 
