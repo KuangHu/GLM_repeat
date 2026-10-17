@@ -11,6 +11,17 @@ enriched one:
   structure   one per repeat architecture reported by the explainer
   neighbour   candidates overlapping annotated tRNA/rRNA/CDS neighbourhoods
   policy_lost ALL candidates the CDS policy would have dropped (never subsampled)
+
+Random-sample IDs are retained in full: a candidate that also qualifies for an
+enriched stratum keeps its `random_sample` flag and stays in the random
+denominator. It is never removed from the random set.
+
+Three independent judgement columns are provided and must not be collapsed into a
+single true/false verdict:
+  sequence_evidence     clear_repeat | suspected_repeat | no_repeat_found | cannot_judge
+  explanation_coverage  model_adequate | partial | boundary_or_phase_problem |
+                        structure_unsupported
+  biological_context    known_common_structure | worth_followup | function_unknown
 A candidate may qualify for several enriched strata; it is listed once with every
 reason recorded.
 """
@@ -74,7 +85,11 @@ def main():
                      'architecture': m.get('architecture', ''),
                      'consensus': m.get('consensus', ''),
                      'n_copies': m.get('n_copies', ''),
-                     'verdict': '', 'notes': ''})
+                     # three independent judgements; never collapse into true/false
+                     'sequence_evidence': '',   # clear_repeat | suspected_repeat | no_repeat_found | cannot_judge
+                     'explanation_coverage': '',# model_adequate | partial | boundary_or_phase_problem | structure_unsupported
+                     'biological_context': '',  # known_common_structure | worth_followup | function_unknown
+                     'notes': ''})
     rows.sort(key=lambda r: (not r['random_sample'], -float(r['score'])))
     with (a.out / 'manual_review.tsv').open('w', newline='') as fh:
         w = csv.DictWriter(fh, list(rows[0]), delimiter='\t')

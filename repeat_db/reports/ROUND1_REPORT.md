@@ -21,7 +21,8 @@ No tracks for unknown windows; no shard retried or double-counted.
 
 | | host round-1 | phage round-1 |
 |---|---:|---:|
-| genomes | 4 (4 lineages) | 72 (72 families) |
+| genomes | 4 (4 lineages) | 72 |
+| taxonomy (verified against manifest) | 4 lineages | 72 distinct named families, 11 branches, one genome per family |
 | unique scanned | 4.616 Mb | 4.551 Mb |
 | tracks | 6,122 | 5,992 |
 | GPU hours (measured) | 18.38 | 17.90 |
@@ -70,9 +71,35 @@ of 27 "lost" copies, 12 match a policy copy at >=50% reciprocal overlap as a 4-n
 phase shift while 15 have no counterpart. Envelope overlap did not imply core
 retention. Full detail in `region_round1/policy_attribution/FINDINGS.md`.
 
-**Decision: full grid is the default for the host route. CDS is retained as a
-post-hoc annotation layer and as a counterfactual audit, not as a compute saving.**
-Whether the filter can be repaired into a reliable one is separate work.
+**Decision: full grid is the default for BOTH host and phage routes.** Window
+saving is limited on both (11.5% and 14.0%) and both show copy-evidence loss. CDS
+is retained for neighbourhood interpretation and as a counterfactual audit, not as
+a compute saving. Whether the filter can be repaired into a reliable one is
+separate work.
+
+### Loss attribution on two independent axes
+
+Upstream trigger (which stage changed) and representation outcome (whether the copy
+still appears in any form) are different questions and are reported separately.
+
+| upstream trigger | host | phage |
+|---|---:|---:|
+| supporting window excluded | 270 | 351 |
+| window excluded, copy still inside policy explainer input | 17 | 41 |
+| candidate range change alone | 0 | 0 |
+| model change with sequence available to both | 0 | 0 |
+
+| representation outcome | host | phage |
+|---|---:|---:|
+| no corresponding copy | 271 | 389 |
+| phase / boundary shift (>=50% reciprocal) | 12 | 0 |
+| partial overlap only | 4 | 3 |
+
+"Window exclusion is the upstream trigger for all of them" does NOT mean nothing
+else changed: 12 host copies reappear with shifted boundaries from a different
+window. Only `no_corresponding_copy` means the evidence is absent from the policy
+output, and even that is a computational evidence difference, not a verified
+biological miss.
 
 ## Explainer outcome (v0.3, all hypotheses retained)
 
@@ -85,7 +112,30 @@ Whether the filter can be repaired into a reliable one is separate work.
 On the unbiased random stratum (40 candidates each, the only stratum that supports
 a yield estimate): host 17 candidate-associated / 7 flank-only / 16 no model;
 phage 21 / 3 / 16. Architectures are dominated by `repeat_pair` and
-`dispersed_repeat`, i.e. weak two-copy evidence, in both panels.
+`dispersed_repeat`, i.e. weak two-copy evidence, in both panels. A `repeat_pair`
+does not by itself establish functional significance.
+
+### No-model candidates are not simply false positives
+
+All 226 no-model candidates were re-probed with an indel-tolerant method
+(exact 10-mer seeds + affine-gap local extension). A minimap2 `-x asm20` probe was
+tried first and DISCARDED: its positive control found nothing for candidates with
+11-34 verified copies, because minimizer seeding cannot seed on 8-33 nt units. The
+retained probe reports 90% (host) and 85% (phage) sensitivity on modelled
+candidates, so its negatives are interpretable.
+
+| probe verdict | host (78) | phage (148) |
+|---|---:|---:|
+| seeds present but no extension | 50 | 89 |
+| ungapped similarity the explainer did not model | 21 | 31 |
+| no repeated seed at all | 6 | 26 |
+| gapped similarity the ungapped explainer cannot represent | 1 | 2 |
+
+So `no_model` splits into at least three different situations: a small indel
+coverage gap (3 of 226), a larger group with detectable ungapped similarity that
+the explainer nevertheless did not model (52 of 226), and weak or absent seed
+evidence (171 of 226). None of these is established as a detector false positive
+without human review.
 
 ## Manual inspection sheets
 

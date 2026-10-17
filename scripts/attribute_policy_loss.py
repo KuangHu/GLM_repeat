@@ -63,6 +63,9 @@ def main():
     p.add_argument('--out', type=Path, required=True)
     p.add_argument('--flank', type=int, default=500)
     p.add_argument('--min-reciprocal-overlap', type=float, default=0.9)
+    p.add_argument('--loose-reciprocal-overlap', type=float, default=0.5,
+                   help='permissive threshold for detecting phase/boundary shifts; '
+                        'short copies lose reciprocal overlap fast under small shifts')
     a = p.parse_args()
     a.out.mkdir(parents=True, exist_ok=True)
     R = a.run
@@ -141,27 +144,54 @@ def main():
                 cause = 'window_excluded_but_within_policy_input'
             else:
                 cause = 'model_change'
+            # Representation outcome is a SEPARATE axis from the upstream trigger:
+            # a copy may be re-represented with shifted boundaries, or have no
+            # counterpart at all. Reported at a strict and a permissive threshold.
             iv = interval_match(k, pall, a.min_reciprocal_overlap)
+            iv_loose = interval_match(k, pall, a.loose_reciprocal_overlap)
+            any_ov = interval_match(k, pall, 1e-9)
+            if iv:
+                repr_out = 'boundary_shift_within_strict_threshold'
+            elif iv_loose:
+                repr_out = 'phase_or_boundary_shift'
+            elif any_ov:
+                repr_out = 'partial_overlap_only'
+            else:
+                repr_out = 'no_corresponding_copy'
             rows.append({'full_candidate': f_id, 'full_score': f['score'],
+                         'representation_outcome': repr_out,
                          'envelope_status': 'lost' if not hits else 'overlapped_but_shrank',
                          'contig': c, 'copy_start0': s, 'copy_end0': e,
                          'cause': cause,
                          'supporting_windows': len(sup),
                          'supporting_windows_excluded_by_policy': len(sup_excluded),
                          'interval_match_elsewhere':
-                             f'{iv[0][0]}:{iv[0][1]}-{iv[0][2]}' if iv else '',
-                         'reciprocal_overlap': f'{iv[1]:.3f}' if iv else ''})
+                             f'{iv_loose[0][0]}:{iv_loose[0][1]}-{iv_loose[0][2]}' if iv_loose else '',
+                         'reciprocal_overlap': f'{iv_loose[1]:.3f}' if iv_loose else ''})
     if rows:
         with (a.out / 'attribution.tsv').open('w', newline='') as fh:
             w = csv.DictWriter(fh, list(rows[0]), delimiter='\t')
             w.writeheader()
             w.writerows(rows)
     causes = defaultdict(int)
+    repr_counts = defaultdict(int)
+    cross = defaultdict(int)
     for r in rows:
         causes[r['cause']] += 1
+        repr_counts[r['representation_outcome']] += 1
+        cross[f"{r['cause']} | {r['representation_outcome']}"] += 1
     summary['affected_candidates'] = len({r['full_candidate'] for r in rows})
     summary['attributed_copies'] = len(rows)
-    summary['causes'] = dict(causes)
+    summary['upstream_trigger'] = dict(causes)
+    summary['representation_outcome'] = dict(repr_counts)
+    summary['trigger_x_outcome'] = dict(cross)
+    summary['axis_note'] = (
+        'upstream_trigger says which pipeline stage changed; representation_outcome '
+        'says whether the copy still appears in some form. They are independent: a '
+        'copy whose window was excluded may still be re-represented from another '
+        'window with shifted boundaries. Only no_corresponding_copy means the '
+        'evidence is absent from the policy output, and even that is a computational '
+        'evidence difference, not a verified biological miss.')
     (a.out / 'summary.json').write_text(json.dumps(summary, indent=2) + '\n')
     print(json.dumps(summary, indent=2))
 
