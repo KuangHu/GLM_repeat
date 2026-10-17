@@ -1,0 +1,2 @@
+dropped_accession	reason
+NC_054954.1	near-duplicate of a sequence already scanned (identity>=95%, both coverages>=85%, minimap2 -x asm20)

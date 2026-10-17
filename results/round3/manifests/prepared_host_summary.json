@@ -1,0 +1,29 @@
+{
+  "total_nt": 23112775,
+  "n_CDS": 21257,
+  "n_full_windows": 15404,
+  "n_policy_windows": 13433,
+  "n_selected_windows": 15404,
+  "full_window_nt": 46205275,
+  "policy_window_nt": 40293371,
+  "selected_window_nt": 46205275,
+  "target_nt": 4699654,
+  "unique_full_scannable_nt": 23112775,
+  "unique_selected_nt": 23112775,
+  "short_unscorable_nt": 0,
+  "window_nt_reduction_fraction": 0.0,
+  "policy_window_nt_reduction_fraction": 0.12794868118412883,
+  "audit_contigs": [
+    "NZ_AP018712.1",
+    "NZ_AP024685.1",
+    "NZ_AP025702.1",
+    "NZ_AP025943.1",
+    "NZ_AP028635.1",
+    "NZ_CP011859.1",
+    "NZ_CP012233.1",
+    "NZ_CP014635.1",
+    "NZ_CP019633.1"
+  ],
+  "compute_note": "Summed input nt is a workload proxy, not measured GPU time; two orientations.",
+  "no_candidates_note": "No selected windows is a selection result, not evidence of absence."
+}

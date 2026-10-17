@@ -1,0 +1,237 @@
+accession_version	virus_name	family	genus	branch	length_nt	completeness	molecule_type_from_taxonomy	host_domain_from_viral_taxonomy	release_date	virus_taxid	selection_reason
+NC_028660.1	Escherichia phage phi191		Oslovirus	Caudoviricetes	61035	COMPLETE	dsDNA	bacteria_or_archaea	2015-12-17	1458706	not scanned in round-1 or round-2; family-interleaved draw
+NC_139124.1	Klebsiella phage vB_KpnS_2811	Drexlerviridae	Webervirus	Caudoviricetes	49131	COMPLETE	dsDNA	bacteria_or_archaea	2026-04-17	2697093	not scanned in round-1 or round-2; family-interleaved draw
+NC_019398.1	Cronobacter phage vB_CsaM_GAP161	Straboviridae	Pseudotevenvirus	Caudoviricetes	178193	COMPLETE	dsDNA	bacteria_or_archaea	2012-11-13	1141138	not scanned in round-1 or round-2; family-interleaved draw
+NC_048818.1	Escherichia phage VEc33	Demerecviridae	Tequintavirus	Caudoviricetes	108640	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2847072	not scanned in round-1 or round-2; family-interleaved draw
+NC_048135.1	Enterobacter phage EcpYZU01	Autotranscriptaviridae	Kayfunavirus	Caudoviricetes	39767	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2483604	not scanned in round-1 or round-2; family-interleaved draw
+NC_048753.1	Lactobacillus phage 3-521	Herelleviridae	Watanabevirus	Caudoviricetes	140816	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2510943	not scanned in round-1 or round-2; family-interleaved draw
+NC_070723.1	Streptococcus phage SWK3	Aliceevansviridae	Moineauvirus	Caudoviricetes	35443	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2419660	not scanned in round-1 or round-2; family-interleaved draw
+NC_070908.1	Yersinia phage HQ103	Peduoviridae	Peduovirus	Caudoviricetes	31962	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2852116	not scanned in round-1 or round-2; family-interleaved draw
+NC_049345.1	Roseovarius Plymouth podovirus 1	Schitoviridae	Plymouthvirus	Caudoviricetes	74704	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-03	926474	not scanned in round-1 or round-2; family-interleaved draw
+NC_073184.1	Salmonella phage F12013	Sarkviridae	Jerseyvirus	Caudoviricetes	43628	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-05	3003233	not scanned in round-1 or round-2; family-interleaved draw
+NC_048168.1	Pseudomonas phage RLP	Autoscriptoviridae	Phikmvvirus	Caudoviricetes	43446	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2483418	not scanned in round-1 or round-2; family-interleaved draw
+NC_006883.2	Prochlorococcus phage P-SSM2	Kyanoviridae	Salacisavirus	Caudoviricetes	252401	COMPLETE	dsDNA	bacteria_or_archaea	2005-03-25	268746	not scanned in round-1 or round-2; family-interleaved draw
+NC_048186.1	Escherichia phage vB_EcoM_KWBSE43-6	Ackermannviridae	Taipeivirus	Caudoviricetes	158607	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2508194	not scanned in round-1 or round-2; family-interleaved draw
+NC_041968.1	Pseudomonas phage vB_PaeM_G1	Vandenendeviridae	Nankokuvirus	Caudoviricetes	87646	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1983539	not scanned in round-1 or round-2; family-interleaved draw
+NC_052989.1	Cronobacter phage JC01	Casjensviridae	Jacunavirus	Caudoviricetes	61736	COMPLETE	dsDNA	bacteria_or_archaea	2021-02-13	2729575	not scanned in round-1 or round-2; family-interleaved draw
+NC_019929.1	Erwinia phage phiEaH2	Chimalliviridae	Erskinevirus	Caudoviricetes	243050	COMPLETE	dsDNA	bacteria_or_archaea	2012-12-19	1029988	not scanned in round-1 or round-2; family-interleaved draw
+NC_055778.1	Gordonia phage Stultus	Stackebrandtviridae	Vividuovirus	Caudoviricetes	57916	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2483674	not scanned in round-1 or round-2; family-interleaved draw
+NC_011810.1	Pseudomonas phage PB1	Lindbergviridae	Pbunavirus	Caudoviricetes	65764	COMPLETE	dsDNA	bacteria_or_archaea	2009-01-05	538398	not scanned in round-1 or round-2; family-interleaved draw
+NC_022982.1	Xylella phage Paz	Autonotataviridae	Pazvirus	Caudoviricetes	43869	COMPLETE	dsDNA	bacteria_or_archaea	2013-12-04	1415145	not scanned in round-1 or round-2; family-interleaved draw
+NC_048159.1	Staphylococcus phage CSA13	Rountreeviridae	Rosenblumvirus	Caudoviricetes	17034	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2108359	not scanned in round-1 or round-2; family-interleaved draw
+NC_049969.1	Bacillus phage DK3	Salasmaviridae	Hemphillvirus	Caudoviricetes	26865	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-29	2500810	not scanned in round-1 or round-2; family-interleaved draw
+NC_025450.1	Lelliottia phage phD2B	Autosignataviridae	Tuodvirus	Caudoviricetes	44366	COMPLETE	dsDNA	bacteria_or_archaea	2014-11-10	1542498	not scanned in round-1 or round-2; family-interleaved draw
+NC_073037.1	Pseudomonas phage phiH2	Mesyanzhinovviridae	Pamexvirus	Caudoviricetes	57666	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-03	2981578	not scanned in round-1 or round-2; family-interleaved draw
+NC_042313.1	Mycobacterium phage JoeDirt	Vilmaviridae	Bronvirus	Caudoviricetes	74914	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-24	2920882	not scanned in round-1 or round-2; family-interleaved draw
+NC_079186.1	Aeromonas phage BUCT696	Chaseviridae	Longwangvirus	Caudoviricetes	53372	COMPLETE	dsDNA	bacteria_or_archaea	2023-05-17	2911664	not scanned in round-1 or round-2; family-interleaved draw
+NC_048724.1	Streptomyces phage Karimac	Stanwilliamsviridae	Karimacvirus	Caudoviricetes	131909	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2283303	not scanned in round-1 or round-2; family-interleaved draw
+NC_055821.1	Gordonia phage NadineRae	Zierdtviridae	Sukkupivirus	Caudoviricetes	64714	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2652882	not scanned in round-1 or round-2; family-interleaved draw
+NC_071010.1	Salmonella phage vB_SAg-RPN213	Andersonviridae	Felixounavirus	Caudoviricetes	86124	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2910949	not scanned in round-1 or round-2; family-interleaved draw
+NC_067214.1	uncultured phage cr82_1	Suoliviridae	Ildiruevirus	Caudoviricetes	102100	COMPLETE	dsDNA	bacteria_or_archaea	2022-10-21	2986416	not scanned in round-1 or round-2; family-interleaved draw
+NC_073365.1	Microbacterium phage Cinna	Hodgkinviridae	Mementomorivirus	Caudoviricetes	55366	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-13	2591215	not scanned in round-1 or round-2; family-interleaved draw
+NC_018835.1	Escherichia phage NJ01	Mtkvariviridae	Kuravirus	Caudoviricetes	77448	COMPLETE	dsDNA	bacteria_or_archaea	2012-10-15	1237159	not scanned in round-1 or round-2; family-interleaved draw
+NC_062769.1	uncultured phage cr36_1	Intestiviridae	Jahgtovirus	Caudoviricetes	96466	COMPLETE	dsDNA	bacteria_or_archaea	2022-04-27	2986397	not scanned in round-1 or round-2; family-interleaved draw
+NC_004086.1	Sulfolobus islandicus rod-shaped virus 2	Rudiviridae	Icerudivirus	Rudiviridae	35450	COMPLETE	dsDNA	archaea	2001-11-29	157899	not scanned in round-1 or round-2; family-interleaved draw
+NC_071028.1	Arthrobacter phage Adumb2043	Casidaviridae	Yangvirus	Caudoviricetes	43100	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2776851	not scanned in round-1 or round-2; family-interleaved draw
+NC_018083.1	Clostridium phage phiCPV4	Guelinviridae	Brucesealvirus	Caudoviricetes	17972	COMPLETE	dsDNA	bacteria_or_archaea	2012-06-27	1162305	not scanned in round-1 or round-2; family-interleaved draw
+NC_049951.1	Enterobacteria phage O276	Zimmerviridae	Lambdavirus	Caudoviricetes	41969	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-29	2282412	not scanned in round-1 or round-2; family-interleaved draw
+NC_048664.1	Cronobacter phage vB_CsaP_009	Grimontviridae	Privateervirus	Caudoviricetes	92122	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2699738	not scanned in round-1 or round-2; family-interleaved draw
+NC_049977.1	Bacteroides phage crAss001	Steigviridae	Kehishuvirus	Caudoviricetes	102679	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-29	2301731	not scanned in round-1 or round-2; family-interleaved draw
+NC_015464.1	Campylobacter phage NCTC12673	Connertonviridae	Fletchervirus	Caudoviricetes	135041	COMPLETE	dsDNA	bacteria_or_archaea	2011-05-11	2885915	not scanned in round-1 or round-2; family-interleaved draw
+NC_005263.2	Burkholderia phage Bcep1	Anamaviridae	Naesvirus	Caudoviricetes	48177	COMPLETE	dsDNA	bacteria_or_archaea	2003-12-03	2883943	not scanned in round-1 or round-2; family-interleaved draw
+NC_062740.1	Halorubrum virus Serpecor1	Hafunaviridae	Haloferacalesvirus	Caudoviricetes	74196	COMPLETE	dsDNA	bacteria_or_archaea	2022-04-27	2721757	not scanned in round-1 or round-2; family-interleaved draw
+NC_054431.1	Microbacterium phage Scamander	Orlajensenviridae	Paopuvirus	Caudoviricetes	17452	COMPLETE	dsDNA	bacteria_or_archaea	2021-04-20	2283249	not scanned in round-1 or round-2; family-interleaved draw
+NC_070888.1	Rhizobium phage RL38J1	Pootjesviridae	Innesvirus	Caudoviricetes	158577	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2663232	not scanned in round-1 or round-2; family-interleaved draw
+NC_007808.1	Pseudomonas phage PA11	Zobellviridae	Paundecimvirus	Caudoviricetes	49639	COMPLETE	dsDNA	bacteria_or_archaea	2006-03-03	347327	not scanned in round-1 or round-2; family-interleaved draw
+NC_041858.1	Bacillus phage Taylor	Ehrlichviridae	Andromedavirus	Caudoviricetes	49492	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	2884430	not scanned in round-1 or round-2; family-interleaved draw
+NC_003214.2	Sulfolobus islandicus filamentous virus	Lipothrixviridae	Betalipothrixvirus	Lipothrixviridae	40900	COMPLETE	dsDNA	archaea	2001-11-06	176106	not scanned in round-1 or round-2; family-interleaved draw
+NC_103008.1	Arthronema virus TR020	Saffermanviridae	Arthrovirus	Caudoviricetes	44805	COMPLETE	dsDNA	bacteria_or_archaea	2025-09-10	2736280	not scanned in round-1 or round-2; family-interleaved draw
+NC_007451.1	Enterobacteria phage PR4	Tectiviridae	Alphatectivirus	Tectiviridae	14954	COMPLETE	dsDNA	bacteria	2005-10-05	318595	not scanned in round-1 or round-2; family-interleaved draw
+NC_041999.1	Arthrobacter phage Beans	Berryhillviridae	Jawnskivirus	Caudoviricetes	49797	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	2015815	not scanned in round-1 or round-2; family-interleaved draw
+NC_031117.1	Acinetobacter phage LZ35	Hirszfeldviridae	Obolenskvirus	Caudoviricetes	44885	COMPLETE	dsDNA	bacteria_or_archaea	2016-09-23	1792222	not scanned in round-1 or round-2; family-interleaved draw
+NC_023585.1	Sulfolobus monocaudavirus SMV1	Bicaudaviridae		Bicaudaviridae	48775	COMPLETE	dsDNA	archaea	2014-03-02	1351702	not scanned in round-1 or round-2; family-interleaved draw
+NC_005361.1	Sulfolobus virus Kamchatka 1	Fuselloviridae	Alphafusellovirus	Fuselloviridae	17385	COMPLETE	dsDNA	archaea	2004-02-10	248496	not scanned in round-1 or round-2; family-interleaved draw
+NC_019407.1	Caulobacter virus Magneto	Jeanschmidtviridae	Shapirovirus	Caudoviricetes	218929	COMPLETE	dsDNA	bacteria_or_archaea	2012-11-13	1211642	not scanned in round-1 or round-2; family-interleaved draw
+NC_067215.1	uncultured phage cr29_1	Darmviridae	Smehivirus	Caudoviricetes	104085	COMPLETE	dsDNA	bacteria_or_archaea	2022-10-21	2986418	not scanned in round-1 or round-2; family-interleaved draw
+NC_048834.1	Flavobacterium phage vB_FspS_laban6-1	Duneviridae	Labanvirus	Caudoviricetes	43236	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2686250	not scanned in round-1 or round-2; family-interleaved draw
+NC_004664.2	Streptomyces phage phiBT1	Colingsworthviridae	Lomovskayavirus	Caudoviricetes	41831	COMPLETE	dsDNA	bacteria_or_archaea	2003-03-29	3047527	not scanned in round-1 or round-2; family-interleaved draw
+NC_103785.1	Vibrio phage vB_Vipa71	Inoviridae	Versovirus	Inoviridae	10295	COMPLETE	ssDNA	bacteria	2025-09-22	2729382	not scanned in round-1 or round-2; family-interleaved draw
+NC_021794.1	Cellulophaga phage phi18:3	Pachyviridae	Baltivirus	Caudoviricetes	71443	COMPLETE	dsDNA	bacteria_or_archaea	2013-07-23	1327983	not scanned in round-1 or round-2; family-interleaved draw
+NC_062779.1	uncultured phage cr2_1	Crevaviridae	Arseivirus	Caudoviricetes	95815	COMPLETE	dsDNA	bacteria_or_archaea	2022-04-27	2986394	not scanned in round-1 or round-2; family-interleaved draw
+NC_006556.1	Thermoproteus tenax spherical virus 1	Globuloviridae	Alphaglobulovirus	Globuloviridae	20933	COMPLETE	dsDNA	archaea	2004-12-17	292639	not scanned in round-1 or round-2; family-interleaved draw
+NC_048080.1	Acinetobacter phage vB_AbaM_B09_Aci05	Luriaviridae	Saclayvirus	Caudoviricetes	102789	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2315458	not scanned in round-1 or round-2; family-interleaved draw
+NC_070623.1	Bacillus phage vB_BspS_SplendidRed	Trautnerviridae	Splendidredvirus	Caudoviricetes	42859	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-30	2591379	not scanned in round-1 or round-2; family-interleaved draw
+NC_052650.1	Halobacterium phage phiH	Vertoviridae	Myohalovirus	Caudoviricetes	58072	COMPLETE	dsDNA	bacteria_or_archaea	2021-02-06	169684	not scanned in round-1 or round-2; family-interleaved draw
+NC_009452.1	Acidianus bottle-shaped virus	Ampullaviridae	Bottigliavirus	Ampullaviridae	23814	COMPLETE	dsDNA	archaea	2007-05-11	437444	not scanned in round-1 or round-2; family-interleaved draw
+NC_021327.1	Halovirus HCTV-5	Druskaviridae	Tredecimvirus	Caudoviricetes	102105	COMPLETE	dsDNA	bacteria_or_archaea	2013-06-03	1273748	not scanned in round-1 or round-2; family-interleaved draw
+NC_055711.1	Pseudomonas phage PaMx41	Fredfastierviridae	Jamesmcgillvirus	Caudoviricetes	43490	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	1815976	not scanned in round-1 or round-2; family-interleaved draw
+NC_074656.1	Nitrosopumilus spindle-shaped virus	Thaspiviridae	Nitmarvirus	Thaspiviridae	27570	COMPLETE	dsDNA	archaea	2023-04-27	2508184	not scanned in round-1 or round-2; family-interleaved draw
+NC_074644.1	Lokiarchaeia virus VerdaV1	Verdandiviridae	Dolusvirus	Caudoviricetes	19940	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-27	3070170	not scanned in round-1 or round-2; family-interleaved draw
+NC_041866.1	Acinetobacter phage YMC11/11/R3177	Buchnerviridae	Jauervirus	Caudoviricetes	47575	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1628721	not scanned in round-1 or round-2; family-interleaved draw
+NC_000867.1	Pseudoalteromonas phage PM2	Corticoviridae	Merivirus	Corticoviridae	10079	COMPLETE	dsDNA	bacteria	1999-07-13	2905728	not scanned in round-1 or round-2; family-interleaved draw
+NC_074639.1	Methanophagales virus GBV301	Ekchuahviridae	Kukulkanvirus	Caudoviricetes	71795	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-27	2999280	not scanned in round-1 or round-2; family-interleaved draw
+NC_062746.1	Polaribacter phage Freya_1	Forsetiviridae	Freyavirus	Caudoviricetes	43978	COMPLETE	dsDNA	bacteria_or_archaea	2022-04-27	2745662	not scanned in round-1 or round-2; family-interleaved draw
+NC_008695.1	Halorubrum virus BJ1	Graaviviridae	Beejeyvirus	Caudoviricetes	42271	COMPLETE	dsDNA	bacteria_or_archaea	2006-12-21	416419	not scanned in round-1 or round-2; family-interleaved draw
+NC_021329.1	Halorubrum tailed virus 4	Haloferuviridae	Saldibavirus	Caudoviricetes	35722	COMPLETE	dsDNA	bacteria_or_archaea	2013-06-03	1273752	not scanned in round-1 or round-2; family-interleaved draw
+NC_070967.1	Rhizobium phage RHph_Y65	Kleczkowskaviridae	Cuauhnahuacvirus	Caudoviricetes	206821	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2509785	not scanned in round-1 or round-2; family-interleaved draw
+NC_002628.3	Methanothermobacter phage psiM100	Leisingerviridae	Psimunavirus	Caudoviricetes	31007	COMPLETE	dsDNA	bacteria_or_archaea	2000-12-13	173824	not scanned in round-1 or round-2; family-interleaved draw
+NC_001825.1	Streptococcus phage Cp1	Madridviridae	Cepunavirus	Caudoviricetes	19343	COMPLETE	dsDNA	bacteria_or_archaea	1995-01-18	10747	not scanned in round-1 or round-2; family-interleaved draw
+NC_062752.1	Maribacter phage Colly_1	Molycolviridae	Mollyvirus	Caudoviricetes	124169	COMPLETE	dsDNA	bacteria_or_archaea	2022-04-27	2745691	not scanned in round-1 or round-2; family-interleaved draw
+NC_021796.1	Cellulophaga phage phi38:1	Pervagoviridae	Callevirus	Caudoviricetes	72534	COMPLETE	dsDNA	bacteria_or_archaea	2013-07-23	1327977	not scanned in round-1 or round-2; family-interleaved draw
+NC_038017.1	Sulfolobus polyhedral virus 1	Portogloboviridae	Alphaportoglobovirus	Portogloboviridae	20222	COMPLETE	dsDNA	archaea	2018-07-12	1982658	not scanned in round-1 or round-2; family-interleaved draw
+NC_021340.1	Haloarcula hispanica tailed virus 2	Saparoviridae	Halohivirus	Caudoviricetes	52643	COMPLETE	dsDNA	bacteria_or_archaea	2013-06-03	1273751	not scanned in round-1 or round-2; family-interleaved draw
+NC_014099.1	Sulfolobus turreted icosahedral virus 2	Turriviridae	Alphaturrivirus	Turriviridae	16622	COMPLETE	dsDNA	archaea	2010-04-30	754004	not scanned in round-1 or round-2; family-interleaved draw
+NC_048829.1	Flavobacterium phage vB_FspM_lotta8-1	Winoviridae	Pippivirus	Caudoviricetes	34751	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2686242	not scanned in round-1 or round-2; family-interleaved draw
+NC_051703.1	Mycobacterium phage QuickMath		Cheoctovirus	Caudoviricetes	57526	COMPLETE	dsDNA	bacteria_or_archaea	2020-11-29	2301570	not scanned in round-1 or round-2; family-interleaved draw
+NC_015456.1	Shigella phage Shfl1	Drexlerviridae	Tunavirus	Caudoviricetes	50661	COMPLETE	dsDNA	bacteria_or_archaea	2011-04-27	2919551	not scanned in round-1 or round-2; family-interleaved draw
+NC_048673.1	Aeromonas phage AS-zj	Straboviridae	Ceceduovirus	Caudoviricetes	229929	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2024208	not scanned in round-1 or round-2; family-interleaved draw
+NC_048008.1	Salmonella phage S126	Demerecviridae	Epseptimavirus	Caudoviricetes	111999	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2231352	not scanned in round-1 or round-2; family-interleaved draw
+NC_047923.1	Escherichia phage HZ2R8	Autotranscriptaviridae	Teseptimavirus	Caudoviricetes	39482	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2079317	not scanned in round-1 or round-2; family-interleaved draw
+NC_024359.1	Listeria phage LP-048	Herelleviridae	Pecentumvirus	Caudoviricetes	133048	COMPLETE	dsDNA	bacteria_or_archaea	2014-06-24	1173764	not scanned in round-1 or round-2; family-interleaved draw
+NC_070659.1	Streptococcus phage CHPC1033	Aliceevansviridae	Moineauvirus	Caudoviricetes	36827	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2365010	not scanned in round-1 or round-2; family-interleaved draw
+NC_049343.1	Escherichia phage 500465-2	Peduoviridae	Gemsvirus	Caudoviricetes	33041	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-03	2716352	not scanned in round-1 or round-2; family-interleaved draw
+NC_070859.1	Dinoroseobacter phage vB_DshP-R7L	Schitoviridae	Gonggongvirus	Caudoviricetes	75871	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2873349	not scanned in round-1 or round-2; family-interleaved draw
+NC_073174.1	Salmonella phage wast	Sarkviridae	Jerseyvirus	Caudoviricetes	40748	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-05	2713326	not scanned in round-1 or round-2; family-interleaved draw
+NC_048117.1	Pectobacterium phage Khlen	Autoscriptoviridae	Phimunavirus	Caudoviricetes	44013	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2489627	not scanned in round-1 or round-2; family-interleaved draw
+NC_020875.1	Synechococcus phage S-SSM4	Kyanoviridae	Greenvirus	Caudoviricetes	182801	COMPLETE	dsDNA	bacteria_or_archaea	2013-03-30	536466	not scanned in round-1 or round-2; family-interleaved draw
+NC_049505.1	Salmonella phage barely	Ackermannviridae	Kuttervirus	Caudoviricetes	157920	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-03	2713278	not scanned in round-1 or round-2; family-interleaved draw
+NC_073685.1	Pseudomonas phage phiPsa347	Vandenendeviridae	Otagovirus	Caudoviricetes	99689	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-24	1460364	not scanned in round-1 or round-2; family-interleaved draw
+NC_052988.1	Klebsiella phage KPN U2874	Casjensviridae	Yonseivirus	Caudoviricetes	59087	COMPLETE	dsDNA	bacteria_or_archaea	2021-02-13	2024241	not scanned in round-1 or round-2; family-interleaved draw
+NC_021531.1	Cronobacter phage CR5	Chimalliviridae	Derbicusvirus	Caudoviricetes	223989	COMPLETE	dsDNA	bacteria_or_archaea	2013-06-20	1195085	not scanned in round-1 or round-2; family-interleaved draw
+NC_053239.1	Gordonia phage Bizzy	Stackebrandtviridae	Kroosvirus	Caudoviricetes	57312	COMPLETE	dsDNA	bacteria_or_archaea	2021-03-08	2483667	not scanned in round-1 or round-2; family-interleaved draw
+NC_050149.1	Pseudomonas phage vB_PaeM_USP_1	Lindbergviridae	Pbunavirus	Caudoviricetes	65918	COMPLETE	dsDNA	bacteria_or_archaea	2020-08-10	2743936	not scanned in round-1 or round-2; family-interleaved draw
+NC_047778.1	Pectobacterium phage PP2	Autonotataviridae	Wanjuvirus	Caudoviricetes	41841	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	1897743	not scanned in round-1 or round-2; family-interleaved draw
+NC_047855.1	Staphylococcus phage PSa3	Rountreeviridae	Rosenblumvirus	Caudoviricetes	17602	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	1319980	not scanned in round-1 or round-2; family-interleaved draw
+NC_049964.1	Bacillus phage KonjoTrouble	Salasmaviridae	Claudivirus	Caudoviricetes	26061	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-29	2023950	not scanned in round-1 or round-2; family-interleaved draw
+NC_047899.1	Escherichia phage VEc3	Autosignataviridae	Vectrevirus	Caudoviricetes	44895	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2783801	not scanned in round-1 or round-2; family-interleaved draw
+NC_041934.1	Pseudomonas phage LKO4	Mesyanzhinovviridae	Yuavirus	Caudoviricetes	61818	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1308899	not scanned in round-1 or round-2; family-interleaved draw
+NC_053513.1	Mycobacterium phage Aziz	Vilmaviridae	Reyvirus	Caudoviricetes	83412	COMPLETE	dsDNA	bacteria_or_archaea	2021-03-17	2762281	not scanned in round-1 or round-2; family-interleaved draw
+NC_047978.1	Erwinia phage Faunus	Chaseviridae	Faunusvirus	Caudoviricetes	54065	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2182346	not scanned in round-1 or round-2; family-interleaved draw
+NC_055809.1	Streptomyces phage Evy	Stanwilliamsviridae	Samistivirus	Caudoviricetes	132977	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2588514	not scanned in round-1 or round-2; family-interleaved draw
+NC_055771.1	Gordonia phage Emianna	Zierdtviridae	Foxborovirus	Caudoviricetes	68190	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2315530	not scanned in round-1 or round-2; family-interleaved draw
+NC_027329.1	Salmonella phage vB_SPuM_SP116	Andersonviridae	Felixounavirus	Caudoviricetes	87510	COMPLETE	dsDNA	bacteria_or_archaea	2015-06-24	1567025	not scanned in round-1 or round-2; family-interleaved draw
+NC_062772.1	uncultured phage cr77_1	Suoliviridae	Trofluuvirus	Caudoviricetes	99704	COMPLETE	dsDNA	bacteria_or_archaea	2022-04-27	2986410	not scanned in round-1 or round-2; family-interleaved draw
+NC_073364.1	Microbacterium phage Matzah	Hodgkinviridae	Mementomorivirus	Caudoviricetes	55686	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-13	2686228	not scanned in round-1 or round-2; family-interleaved draw
+NC_028903.1	Escherichia phage 172-1	Mtkvariviridae	Kuravirus	Caudoviricetes	77266	COMPLETE	dsDNA	bacteria_or_archaea	2016-01-05	1598146	not scanned in round-1 or round-2; family-interleaved draw
+NC_055760.1	crAssphage sp. isolate ctbg_1	Intestiviridae	Whopevirus	Caudoviricetes	94878	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2989854	not scanned in round-1 or round-2; family-interleaved draw
+NC_034628.1	Sulfolobus islandicus rod-shaped virus 4	Rudiviridae	Usarudivirus	Rudiviridae	35035	COMPLETE	dsDNA	archaea	2017-05-24	1983547	not scanned in round-1 or round-2; family-interleaved draw
+NC_071029.1	Arthrobacter phage Elezi	Casidaviridae	Yangvirus	Caudoviricetes	43471	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2762410	not scanned in round-1 or round-2; family-interleaved draw
+NC_107625.1	Clostridium phage vB_CpeP_PM11	Guelinviridae	Gregsiragusavirus	Caudoviricetes	17894	COMPLETE	dsDNA	bacteria_or_archaea	2025-09-04	2970322	not scanned in round-1 or round-2; family-interleaved draw
+NC_019723.1	Escherichia phage HK630	Zimmerviridae	Lambdavirus	Caudoviricetes	47090	COMPLETE	dsDNA	bacteria_or_archaea	2012-12-07	1147146	not scanned in round-1 or round-2; family-interleaved draw
+NC_048861.1	Proteus phage Privateer	Grimontviridae	Privateervirus	Caudoviricetes	90710	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2712958	not scanned in round-1 or round-2; family-interleaved draw
+NC_049978.1	IAS virus	Steigviridae	Paundivirus	Caudoviricetes	99915	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-29	1450749	not scanned in round-1 or round-2; family-interleaved draw
+NC_041896.1	Campylobacter phage vB_CjeM_Los1	Connertonviridae	Fletchervirus	Caudoviricetes	134073	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1904491	not scanned in round-1 or round-2; family-interleaved draw
+NC_054463.1	Ralstonia phage Bakoly	Anamaviridae	Bakolyvirus	Caudoviricetes	44222	COMPLETE	dsDNA	bacteria_or_archaea	2021-04-26	2759709	not scanned in round-1 or round-2; family-interleaved draw
+NC_021335.1	Halorubrum tailed phage 7	Hafunaviridae	Mincapvirus	Caudoviricetes	69048	COMPLETE	dsDNA	bacteria_or_archaea	2013-06-03	2847108	not scanned in round-1 or round-2; family-interleaved draw
+NC_052936.1	Microbacterium phage Nobel	Orlajensenviridae	Paopuvirus	Caudoviricetes	17049	COMPLETE	dsDNA	bacteria_or_archaea	2021-02-10	2725614	not scanned in round-1 or round-2; family-interleaved draw
+NC_070885.1	Rhizobium phage RHph_I1_9	Pootjesviridae	Trinifflemingvirus	Caudoviricetes	154206	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2509729	not scanned in round-1 or round-2; family-interleaved draw
+NC_002519.1	Roseobacter phage SIO1	Zobellviridae	Siovirus	Caudoviricetes	39898	COMPLETE	dsDNA	bacteria_or_archaea	2000-08-30	2905867	not scanned in round-1 or round-2; family-interleaved draw
+NC_102382.1	Bacillus phage Novomoskovsk	Ehrlichviridae	Andromedavirus	Caudoviricetes	49258	COMPLETE	dsDNA	bacteria_or_archaea	2025-11-17	2736258	not scanned in round-1 or round-2; family-interleaved draw
+NC_048128.1	Sulfolobales Beppu filamentous virus 2	Lipothrixviridae	Alphalipothrixvirus	Lipothrixviridae	38091	COMPLETE	dsDNA	archaea	2020-05-15	2493123	not scanned in round-1 or round-2; family-interleaved draw
+NC_107959.1	Plectonema phage Pbo-yong3	Saffermanviridae	Morrisvirus	Caudoviricetes	40617	COMPLETE	dsDNA	bacteria_or_archaea	2025-09-11	2970324	not scanned in round-1 or round-2; family-interleaved draw
+NC_074561.1	Bacillus phage Sole	Tectiviridae	Betatectivirus	Tectiviridae	14444	COMPLETE	dsDNA	bacteria	2023-04-27	1260287	not scanned in round-1 or round-2; family-interleaved draw
+NC_041930.1	Arthrobacter phage Brent	Berryhillviridae	Jawnskivirus	Caudoviricetes	49879	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1701798	not scanned in round-1 or round-2; family-interleaved draw
+NC_028855.1	Acinetobacter phage YMC11/12/R2315	Hirszfeldviridae	Obolenskvirus	Caudoviricetes	44846	COMPLETE	dsDNA	bacteria_or_archaea	2016-01-05	1628720	not scanned in round-1 or round-2; family-interleaved draw
+NC_029020.1	Sulfolobus monocaudavirus SMV2	Bicaudaviridae		Bicaudaviridae	50918	COMPLETE	dsDNA	archaea	2016-01-05	1580591	not scanned in round-1 or round-2; family-interleaved draw
+NC_005265.1	Sulfolobus spindle-shaped virus 2	Fuselloviridae	Alphafusellovirus	Fuselloviridae	14796	COMPLETE	dsDNA	archaea	2003-12-03	244590	not scanned in round-1 or round-2; family-interleaved draw
+NC_019411.1	Caulobacter phage CcrSwift	Jeanschmidtviridae	Shapirovirus	Caudoviricetes	219216	COMPLETE	dsDNA	bacteria_or_archaea	2012-11-13	2927984	not scanned in round-1 or round-2; family-interleaved draw
+NC_055901.1	uncultured phage cr130_1	Darmviridae	Chuhaivirus	Caudoviricetes	94826	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2772092	not scanned in round-1 or round-2; family-interleaved draw
+NC_021867.1	Flavobacterium phage 6H	Duneviridae	Unahavirus	Caudoviricetes	46978	COMPLETE	dsDNA	bacteria_or_archaea	2013-07-23	1325731	not scanned in round-1 or round-2; family-interleaved draw
+NC_018853.1	Streptomyces phage TG1	Colingsworthviridae	Tigunavirus	Caudoviricetes	40474	COMPLETE	dsDNA	bacteria_or_archaea	2012-10-15	2927987	not scanned in round-1 or round-2; family-interleaved draw
+NC_015209.1	Vibrio phage CTXphi	Inoviridae	Affertcholeramvirus	Inoviridae	10638	COMPLETE	ssDNA	bacteria	2011-05-11	2785247	not scanned in round-1 or round-2; family-interleaved draw
+NC_021803.1	Cellulophaga phage phi13:2	Pachyviridae	Baltivirus	Caudoviricetes	72369	COMPLETE	dsDNA	bacteria_or_archaea	2013-07-23	1328030	not scanned in round-1 or round-2; family-interleaved draw
+NC_055886.1	uncultured phage cr127_1	Crevaviridae	Kahucivirus	Caudoviricetes	83412	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2772077	not scanned in round-1 or round-2; family-interleaved draw
+NC_074654.1	Thermoproteus spherical piliferous virus 1	Globuloviridae	Alphaglobulovirus	Globuloviridae	18655	COMPLETE	dsDNA	archaea	2023-04-27	2713157	not scanned in round-1 or round-2; family-interleaved draw
+NC_048075.1	Acinetobacter phage vB_AbaM_B09_Aci02-2	Luriaviridae	Saclayvirus	Caudoviricetes	104354	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2315467	not scanned in round-1 or round-2; family-interleaved draw
+NC_004166.2	Bacillus phage SPP1	Trautnerviridae	Rivavirus	Caudoviricetes	44010	COMPLETE	dsDNA	bacteria_or_archaea	1998-01-08	10724	not scanned in round-1 or round-2; family-interleaved draw
+NC_054953.1	Halobacterium phage ChaoS9	Vertoviridae	Chaovirus	Caudoviricetes	55145	COMPLETE	dsDNA	bacteria_or_archaea	2021-05-27	2847105	not scanned in round-1 or round-2; family-interleaved draw
+NC_028787.1	Acidianus bottle-shaped virus 3 strain ABV3	Ampullaviridae	Bottigliavirus	Ampullaviridae	28489	COMPLETE	dsDNA	archaea	2016-01-05	1732174	not scanned in round-1 or round-2; family-interleaved draw
+NC_020158.1	Haloarcula vallismortis tailed virus 1	Druskaviridae	Tredecimvirus	Caudoviricetes	102319	COMPLETE	dsDNA	bacteria_or_archaea	2013-01-22	1262528	not scanned in round-1 or round-2; family-interleaved draw
+NC_007807.1	Pseudomonas phage 119X	Fredfastierviridae	Jamesmcgillvirus	Caudoviricetes	43365	COMPLETE	dsDNA	bacteria_or_archaea	2006-03-03	2911431	not scanned in round-1 or round-2; family-interleaved draw
+NC_048199.1	Nitrosopumilus spindle-shaped virus	Thaspiviridae	Nitmarvirus	Thaspiviridae	27548	COMPLETE	dsDNA	archaea	2020-05-15	2508184	not scanned in round-1 or round-2; family-interleaved draw
+NC_074643.1	Lokiarchaeia virus VerdaV4	Verdandiviridae	Dolusvirus	Caudoviricetes	20488	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-27	3070172	not scanned in round-1 or round-2; family-interleaved draw
+NC_041948.1	Arthrobacter phage Circum		Mudcatvirus	Caudoviricetes	58353	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1772295	not scanned in round-1 or round-2; family-interleaved draw
+NC_024789.1	Escherichia phage vB_EcoS_AKS96	Drexlerviridae	Rogunavirus	Caudoviricetes	45746	COMPLETE	dsDNA	bacteria_or_archaea	2014-09-09	1416031	not scanned in round-1 or round-2; family-interleaved draw
+NC_054922.1	Escherichia phage vB_EcoM_KAW1E185	Straboviridae	Tequatrovirus	Caudoviricetes	164987	COMPLETE	dsDNA	bacteria_or_archaea	2021-05-27	2508180	not scanned in round-1 or round-2; family-interleaved draw
+NC_134263.1	Escherichia phage T5_ev219	Demerecviridae	Tequintavirus	Caudoviricetes	110393	COMPLETE	dsDNA	bacteria_or_archaea	2025-07-08	2742947	not scanned in round-1 or round-2; family-interleaved draw
+NC_047771.1	Klebsiella phage vB_KpnP_KpV763	Autotranscriptaviridae	Przondovirus	Caudoviricetes	40765	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	1882400	not scanned in round-1 or round-2; family-interleaved draw
+NC_047722.1	Staphylococcus phage Staph1N	Herelleviridae	Kayvirus	Caudoviricetes	145647	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	1195076	not scanned in round-1 or round-2; family-interleaved draw
+NC_071066.1	Streptococcus phage CHPC1247	Aliceevansviridae	Brussowvirus	Caudoviricetes	35543	COMPLETE	dsDNA	bacteria_or_archaea	2023-02-01	2365033	not scanned in round-1 or round-2; family-interleaved draw
+NC_015273.1	Burkholderia phage KS14	Peduoviridae	Kisquattuordecimvirus	Caudoviricetes	32317	COMPLETE	dsDNA	bacteria_or_archaea	2011-03-29	910475	not scanned in round-1 or round-2; family-interleaved draw
+NC_054967.1	Achromobacter phage vB_AxyP_19-32_Axy04	Schitoviridae	Dongdastvirus	Caudoviricetes	73834	COMPLETE	dsDNA	bacteria_or_archaea	2021-05-27	2591039	not scanned in round-1 or round-2; family-interleaved draw
+NC_027993.1	Escherichia phage K1G	Sarkviridae	Kagunavirus	Caudoviricetes	43587	COMPLETE	dsDNA	bacteria_or_archaea	2015-10-07	698486	not scanned in round-1 or round-2; family-interleaved draw
+NC_013649.2	Klebsiella phage KP34	Autoscriptoviridae	Drulisvirus	Caudoviricetes	43809	COMPLETE	dsDNA	bacteria_or_archaea	2009-12-30	674081	not scanned in round-1 or round-2; family-interleaved draw
+NC_031922.1	Synechococcus phage S-CAM9	Kyanoviridae	Kanaloavirus	Caudoviricetes	174830	COMPLETE	dsDNA	bacteria_or_archaea	2016-11-15	1883369	not scanned in round-1 or round-2; family-interleaved draw
+NC_022343.1	Klebsiella phage 0507-KN2-1	Ackermannviridae	Taipeivirus	Caudoviricetes	159991	COMPLETE	dsDNA	bacteria_or_archaea	2013-09-12	2991282	not scanned in round-1 or round-2; family-interleaved draw
+NC_028817.1	Pseudomonas phage K8	Vandenendeviridae	Pakpunavirus	Caudoviricetes	93879	COMPLETE	dsDNA	bacteria_or_archaea	2016-01-05	1716041	not scanned in round-1 or round-2; family-interleaved draw
+NC_018832.1	Providencia phage Redjac	Casjensviridae	Redjacvirus	Caudoviricetes	58104	COMPLETE	dsDNA	bacteria_or_archaea	2012-10-15	1235559	not scanned in round-1 or round-2; family-interleaved draw
+NC_070950.1	Klebsiella phage Miami	Chimalliviridae	Miamivirus	Caudoviricetes	253383	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2767581	not scanned in round-1 or round-2; family-interleaved draw
+NC_055804.1	Gordonia phage Bakery	Stackebrandtviridae	Wizardvirus	Caudoviricetes	60468	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2591205	not scanned in round-1 or round-2; family-interleaved draw
+NC_007810.1	Pseudomonas phage F8	Lindbergviridae	Pbunavirus	Caudoviricetes	66015	COMPLETE	dsDNA	bacteria_or_archaea	2006-03-03	347329	not scanned in round-1 or round-2; family-interleaved draw
+NC_048111.1	Pectobacterium phage Arno160	Autonotataviridae	Wanjuvirus	Caudoviricetes	41823	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2488835	not scanned in round-1 or round-2; family-interleaved draw
+NC_049937.1	Enterococcus phage Idefix	Rountreeviridae	Copernicusvirus	Caudoviricetes	18168	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-28	2017580	not scanned in round-1 or round-2; family-interleaved draw
+NC_055914.1	Bacillus phage Thornton	Salasmaviridae	Claudivirus	Caudoviricetes	26319	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2795746	not scanned in round-1 or round-2; family-interleaved draw
+NC_047836.1	Marinomonas phage CB5A	Autosignataviridae	Murciavirus	Caudoviricetes	45385	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2022859	not scanned in round-1 or round-2; family-interleaved draw
+NC_047876.1	Bordetella phage CN1	Mesyanzhinovviridae	Vojvodinavirus	Caudoviricetes	59779	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	1916123	not scanned in round-1 or round-2; family-interleaved draw
+NC_055790.1	Mycobacterium phage Silverleaf	Vilmaviridae	Bronvirus	Caudoviricetes	73210	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2517969	not scanned in round-1 or round-2; family-interleaved draw
+NC_048845.1	Escherichia phage flopper	Chaseviridae	Carltongylesvirus	Caudoviricetes	52092	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2696397	not scanned in round-1 or round-2; family-interleaved draw
+NC_048730.1	Streptomyces phage Yaboi	Stanwilliamsviridae	Karimacvirus	Caudoviricetes	131250	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2301621	not scanned in round-1 or round-2; family-interleaved draw
+NC_042087.1	Corynebacterium phage Zion	Zierdtviridae	Ceetrepovirus	Caudoviricetes	66392	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	2047871	not scanned in round-1 or round-2; family-interleaved draw
+NC_042096.1	Salmonella phage BPS17L1	Andersonviridae	Felixounavirus	Caudoviricetes	84916	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	2060122	not scanned in round-1 or round-2; family-interleaved draw
+NC_067211.1	uncultured phage cr105_1	Suoliviridae	Buchavirus	Caudoviricetes	100650	COMPLETE	dsDNA	bacteria_or_archaea	2022-10-21	2986415	not scanned in round-1 or round-2; family-interleaved draw
+NC_073370.1	Microbacterium phage Shotgun	Hodgkinviridae	Quhwahvirus	Caudoviricetes	52659	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-13	2863847	not scanned in round-1 or round-2; family-interleaved draw
+NC_070991.1	Escherichia phage vB_EcoP_WFI101126	Mtkvariviridae	Kuravirus	Caudoviricetes	77307	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2508203	not scanned in round-1 or round-2; family-interleaved draw
+NC_055828.1	Bacteroides phage crAss002	Intestiviridae	Jahgtovirus	Caudoviricetes	93030	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2709317	not scanned in round-1 or round-2; family-interleaved draw
+NC_074634.1	Saccharolobus solfataricus rod-shaped virus 1	Rudiviridae	Hoswirudivirus	Rudiviridae	26097	COMPLETE	dsDNA	archaea	2023-04-27	2730619	not scanned in round-1 or round-2; family-interleaved draw
+NC_071031.1	Arthrobacter phage KeAlii	Casidaviridae	Manhattanvirus	Caudoviricetes	41850	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2885973	not scanned in round-1 or round-2; family-interleaved draw
+NC_017980.1	Clostridium phage phiCP7R	Guelinviridae	Brucesealvirus	Caudoviricetes	18397	COMPLETE	dsDNA	bacteria_or_archaea	2012-05-31	1162304	not scanned in round-1 or round-2; family-interleaved draw
+NC_049948.1	Escherichia phage ev017	Zimmerviridae	Jouyvirus	Caudoviricetes	50126	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-29	2847060	not scanned in round-1 or round-2; family-interleaved draw
+NC_048773.1	Aeromonas phage 4_4572	Grimontviridae	Lahexavirus	Caudoviricetes	102915	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2588517	not scanned in round-1 or round-2; family-interleaved draw
+NC_055878.1	uncultured phage cr108_1	Steigviridae	Pipoluvirus	Caudoviricetes	101437	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2772069	not scanned in round-1 or round-2; family-interleaved draw
+NC_031909.1	Campylobacter phage PC14	Connertonviridae	Fletchervirus	Caudoviricetes	134927	COMPLETE	dsDNA	bacteria_or_archaea	2016-11-15	1541686	not scanned in round-1 or round-2; family-interleaved draw
+NC_004333.2	Burkholderia phage Bcep781	Anamaviridae	Naesvirus	Caudoviricetes	48247	COMPLETE	dsDNA	bacteria_or_archaea	2002-10-07	2883946	not scanned in round-1 or round-2; family-interleaved draw
+NC_004927.2	Halophage HF1	Hafunaviridae	Haloferacalesvirus	Caudoviricetes	75898	COMPLETE	dsDNA	bacteria_or_archaea	2003-07-07	2847106	not scanned in round-1 or round-2; family-interleaved draw
+NC_052935.1	Microbacterium phage Kaijohn	Orlajensenviridae	Paopuvirus	Caudoviricetes	17426	COMPLETE	dsDNA	bacteria_or_archaea	2021-02-10	2653750	not scanned in round-1 or round-2; family-interleaved draw
+NC_025429.1	Rhizobium phage vB_RleM_P10VF	Pootjesviridae	Innesvirus	Caudoviricetes	156446	COMPLETE	dsDNA	bacteria_or_archaea	2014-11-10	1527770	not scanned in round-1 or round-2; family-interleaved draw
+NC_021300.1	Pseudoalteromonas phage RIO-1	Zobellviridae	Melvirus	Caudoviricetes	43882	COMPLETE	dsDNA	bacteria_or_archaea	2013-05-31	1316739	not scanned in round-1 or round-2; family-interleaved draw
+NC_102606.1	Bacillus phage Bolokhovo	Ehrlichviridae	Andromedavirus	Caudoviricetes	49683	COMPLETE	dsDNA	bacteria_or_archaea	2025-11-17	2743970	not scanned in round-1 or round-2; family-interleaved draw
+NC_010537.1	Acidianus filamentous virus 9	Lipothrixviridae	Betalipothrixvirus	Lipothrixviridae	41172	COMPLETE	dsDNA	archaea	2008-03-31	512792	not scanned in round-1 or round-2; family-interleaved draw
+NC_022751.1	Cyanophage PP	Saffermanviridae	Wumptrevirus	Caudoviricetes	42480	COMPLETE	dsDNA	bacteria_or_archaea	2013-11-06	434346	not scanned in round-1 or round-2; family-interleaved draw
+NC_042083.1	Gluconobacter phage GC1	Tectiviridae	Gammatectivirus	Tectiviridae	16523	COMPLETE	dsDNA	bacteria	2019-05-02	2047788	not scanned in round-1 or round-2; family-interleaved draw
+NC_042014.1	Arthrobacter phage Piccoletto	Berryhillviridae	Jawnskivirus	Caudoviricetes	49808	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	2024282	not scanned in round-1 or round-2; family-interleaved draw
+NC_041924.1	Acinetobacter phage WCHABP12	Hirszfeldviridae	Sichuanvirus	Caudoviricetes	45415	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1965454	not scanned in round-1 or round-2; family-interleaved draw
+NC_020077.1	Sulfolobus virus STSV2	Bicaudaviridae		Bicaudaviridae	76107	COMPLETE	dsDNA	archaea	2013-02-05	1123964	not scanned in round-1 or round-2; family-interleaved draw
+NC_001338.1	Sulfolobus spindle-shaped virus 1	Fuselloviridae	Alphafusellovirus	Fuselloviridae	15465	COMPLETE	dsDNA	archaea	1988-07-16	244589	not scanned in round-1 or round-2; family-interleaved draw
+NC_019406.1	Caulobacter phage CcrColossus	Jeanschmidtviridae	Colossusvirus	Caudoviricetes	279967	COMPLETE	dsDNA	bacteria_or_archaea	2012-11-13	1211640	not scanned in round-1 or round-2; family-interleaved draw
+NC_055895.1	uncultured phage cr7_1	Darmviridae	Sdahravirus	Caudoviricetes	103832	COMPLETE	dsDNA	bacteria_or_archaea	2021-06-02	2772086	not scanned in round-1 or round-2; family-interleaved draw
+NC_031926.1	Flavobacterium phage 2A	Duneviridae	Unahavirus	Caudoviricetes	46575	COMPLETE	dsDNA	bacteria_or_archaea	2016-11-15	1792273	not scanned in round-1 or round-2; family-interleaved draw
+NC_048154.1	Streptomyces phage Vash	Colingsworthviridae	Vashvirus	Caudoviricetes	41578	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2510568	not scanned in round-1 or round-2; family-interleaved draw
+NC_104950.1	Vibrio phage vB_Vipa26	Inoviridae	Versovirus	Inoviridae	10893	COMPLETE	ssDNA	bacteria	2025-09-22	2729567	not scanned in round-1 or round-2; family-interleaved draw
+NC_021789.1	Cellulophaga phage phi19:3	Pachyviridae	Baltivirus	Caudoviricetes	75994	COMPLETE	dsDNA	bacteria_or_archaea	2013-07-23	1327971	not scanned in round-1 or round-2; family-interleaved draw
+NC_062777.1	uncultured phage cr25_1	Crevaviridae	Junduvirus	Caudoviricetes	94533	COMPLETE	dsDNA	bacteria_or_archaea	2022-04-27	2986395	not scanned in round-1 or round-2; family-interleaved draw
+NC_074653.1	Pyrobaculum spherical virus 2	Globuloviridae	Alphaglobulovirus	Globuloviridae	18212	COMPLETE	dsDNA	archaea	2023-04-27	2730632	not scanned in round-1 or round-2; family-interleaved draw
+NC_031280.1	Acinetobacter phage vB_AbaM_phiAbaA1	Luriaviridae	Saclayvirus	Caudoviricetes	104906	COMPLETE	dsDNA	bacteria_or_archaea	2016-09-27	1605379	not scanned in round-1 or round-2; family-interleaved draw
+NC_070624.1	Bacillus phage 000TH010	Trautnerviridae	Rivavirus	Caudoviricetes	46276	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-30	2601652	not scanned in round-1 or round-2; family-interleaved draw
+NC_054954.1	Natrialba phage PhiCh1	Vertoviridae	Myohalovirus	Caudoviricetes	58487	COMPLETE	dsDNA	bacteria_or_archaea	2021-05-27	114777	not scanned in round-1 or round-2; family-interleaved draw
+NC_031904.1	Flavobacterium phage Fpv3		Fipvunavirus	Caudoviricetes	88421	COMPLETE	dsDNA	bacteria_or_archaea	2016-11-15	1814284	not scanned in round-1 or round-2; family-interleaved draw
+NC_047825.1	Klebsiella phage KOX1	Drexlerviridae	Webervirus	Caudoviricetes	50526	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	1970798	not scanned in round-1 or round-2; family-interleaved draw
+NC_023568.1	Vibrio phage VH7D	Straboviridae	Schizotequatrovirus	Caudoviricetes	246964	COMPLETE	dsDNA	bacteria_or_archaea	2014-03-02	1262539	not scanned in round-1 or round-2; family-interleaved draw
+NC_048866.1	Salmonella phage bombadil	Demerecviridae	Epseptimavirus	Caudoviricetes	109539	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2713285	not scanned in round-1 or round-2; family-interleaved draw
+NC_047843.1	Leclercia phage 10164-302	Autotranscriptaviridae	Teetrevirus	Caudoviricetes	39064	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2024248	not scanned in round-1 or round-2; family-interleaved draw
+NC_111478.1	Enterococcus phage 53	Herelleviridae	Kochikohdavirus	Caudoviricetes	139913	COMPLETE	dsDNA	bacteria_or_archaea	2025-09-05	3028143	not scanned in round-1 or round-2; family-interleaved draw
+NC_071055.1	Streptococcus phage SW24	Aliceevansviridae	Vansinderenvirus	Caudoviricetes	32092	COMPLETE	dsDNA	bacteria_or_archaea	2023-02-01	2483877	not scanned in round-1 or round-2; family-interleaved draw
+NC_049385.1	Peduovirus P22H4	Peduoviridae	Peduovirus	Caudoviricetes	31342	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-03	2844218	not scanned in round-1 or round-2; family-interleaved draw
+NC_070863.1	Pseudomonas phage vB_PaeP_TUMS_P121	Schitoviridae	Litunavirus	Caudoviricetes	73001	COMPLETE	dsDNA	bacteria_or_archaea	2023-01-31	2873372	not scanned in round-1 or round-2; family-interleaved draw
+NC_073193.1	Salmonella phage vB_SalS-S10	Sarkviridae	Jerseyvirus	Caudoviricetes	43324	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-05	2906742	not scanned in round-1 or round-2; family-interleaved draw
+NC_009935.1	Pseudomonas phage LKD16	Autoscriptoviridae	Phikmvvirus	Caudoviricetes	43200	COMPLETE	dsDNA	bacteria_or_archaea	2007-10-17	386792	not scanned in round-1 or round-2; family-interleaved draw
+NC_047712.1	Synechococcus phage ACG-2014f_Syn7803C7	Kyanoviridae	Atlauavirus	Caudoviricetes	216628	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	2790345	not scanned in round-1 or round-2; family-interleaved draw
+NC_027119.1	Salmonella phage Det7	Ackermannviridae	Kuttervirus	Caudoviricetes	157498	COMPLETE	dsDNA	bacteria_or_archaea	2015-05-28	454798	not scanned in round-1 or round-2; family-interleaved draw
+NC_073682.1	Pseudomonas phage psageK4e	Vandenendeviridae	Otagovirus	Caudoviricetes	94020	COMPLETE	dsDNA	bacteria_or_archaea	2023-04-24	2875723	not scanned in round-1 or round-2; family-interleaved draw
+NC_053011.1	Erwinia phage pEp_SNUABM_08	Casjensviridae	Gwanakrovirus	Caudoviricetes	62716	COMPLETE	dsDNA	bacteria_or_archaea	2021-02-13	2593268	not scanned in round-1 or round-2; family-interleaved draw
+NC_061421.1	Klebsiella phage vB_KpM_FBKp24	Chimalliviridae	Maaswegvirus	Caudoviricetes	307210	COMPLETE	dsDNA	bacteria_or_archaea	2022-03-11	2801834	not scanned in round-1 or round-2; family-interleaved draw
+NC_053244.1	Gordonia phage MelBins	Stackebrandtviridae	Leonardvirus	Caudoviricetes	59761	COMPLETE	dsDNA	bacteria_or_archaea	2021-03-08	2656540	not scanned in round-1 or round-2; family-interleaved draw
+NC_048744.1	Pseudomonas phage EPa61	Lindbergviridae	Pbunavirus	Caudoviricetes	65905	COMPLETE	dsDNA	bacteria_or_archaea	2020-06-19	2307269	not scanned in round-1 or round-2; family-interleaved draw
+NC_041912.1	Aquamicrobium phage P14	Autonotataviridae	Aqualcavirus	Caudoviricetes	40551	COMPLETE	dsDNA	bacteria_or_archaea	2019-05-02	1927013	not scanned in round-1 or round-2; family-interleaved draw
+NC_024149.1	Lactococcus phage WP-2	Rountreeviridae	Negarvirus	Caudoviricetes	18899	COMPLETE	dsDNA	bacteria_or_archaea	2014-05-27	1486423	not scanned in round-1 or round-2; family-interleaved draw
+NC_049971.1	Bacillus phage vB_Bpu_PumA1	Salasmaviridae	Bundooravirus	Caudoviricetes	18466	COMPLETE	dsDNA	bacteria_or_archaea	2020-07-29	2662127	not scanned in round-1 or round-2; family-interleaved draw
+NC_047821.1	Marinomonas phage CPP1m	Autosignataviridae	Murciavirus	Caudoviricetes	44245	COMPLETE	dsDNA	bacteria_or_archaea	2020-05-15	1965370	not scanned in round-1 or round-2; family-interleaved draw

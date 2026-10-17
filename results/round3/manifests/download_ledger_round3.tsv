@@ -1,0 +1,245 @@
+accession_version	route	length_nt	gc_fraction	non_acgt_fraction	sequence_sha256	length_matches_manifest	organism	family	phylum	taxid
+NZ_AP024685.1	host	1967462	0.41882	0.0	83bed14d0398d0ea1baa52e33b24aa175982896f51b7d6ca363a9f343ba7e033	True	Latilactobacillus curvatus		Bacillota	28038
+NZ_CP014635.1	host	2598702	0.59256	0.0	c37403720ee0c0aba9fc6a622d489bb84d9f19ed75695fc225188c3797db1043	True	Corynebacterium simulans		Actinomycetota	146827
+NZ_CP011859.1	host	2425237	0.34968	0.0	eac33e4c12b049eab09a6aef12331cc9d3bb97b2dcfb6b96991d6aa69efc4e18	True	Riemerella anatipestifer		Bacteroidota	34085
+NZ_AP025702.1	host	3570022	0.47735	0.0	0293f35fc7296bd2d6657f461dcdb358de4b070a47266391601fd6b828c1fb10	True	Synechocystis sp. PCC 6803 substr. GT-I		Cyanobacteriota	1080228
+NZ_AP018712.1	host	2502404	0.25773	0.0	1f2cd771587c44b7755d222280b51c8a6d33f67036aed308dfa658a74c90506a	True	Tepiditoga spiralis		Thermotogota	2108365
+NZ_CP012233.1	host	1645477	0.30469	0.0	b9f4447c129ba01e757645a43f01bcd94aca7d68421399a127994dc34dc671c6	True	Campylobacter jejuni		Campylobacterota	197
+NZ_AP028635.1	host	2276335	0.27105	0.0	c8ce87be603d9a8101413565083cb614439ad64358c80c73b5d9fd2b75347370	True	Fusobacterium nucleatum		Fusobacteriota	851
+NZ_CP019633.1	host	2951611	0.46202	0.0	6e188765e9cd0eb4801a59d7ff835db6bde48527bacb4b885e2aef02e5e4f0a8	True	Sedimentisphaera cyanobacteriorum		Planctomycetota	1940790
+NZ_AP025943.1	host	3175525	0.56756	0.0	6902f137ca4b66c09eb5f3bae54b72de7793c6b0812e82009681ef31917b92c4	True	Akkermansia biwaensis		Verrucomicrobiota	2946555
+NC_028660.1	phage	61035	0.50189	0.00063898	b4be86450a1d5358876a3251bcc15d54eef62f98e31fc0e267c648a7dad0149b	True	Escherichia phage phi191			1458706
+NC_139124.1	phage	49131	0.51002	0.0	5319a60ca2746721c9a375998dd08e5bf04532b30f476e87fc46105a32c99c07	True	Klebsiella phage vB_KpnS_2811	Drexlerviridae		2697093
+NC_019398.1	phage	178193	0.44523	0.0	28b043e89a5b21d1b65cff34b94190e8e0fe6a7fc19d3f9c409040c9d4f62cf0	True	Cronobacter phage vB_CsaM_GAP161	Straboviridae		1141138
+NC_048818.1	phage	108640	0.39109	0.0	af8bfd658f19ddd90a2b33b5fbd0541454da42aad5d7e3bd2e38b7014fb33dbb	True	Escherichia phage VEc33	Demerecviridae		2847072
+NC_048135.1	phage	39767	0.51751	0.0	5338bd73f4f7d75783349328c5451bd1ca133ce7f354c3907137e0cc389853f1	True	Enterobacter phage EcpYZU01	Autotranscriptaviridae		2483604
+NC_048753.1	phage	140816	0.36933	0.0	de7cb1f1b2e3e2d8ad2cc2c4e47ef433c678bf2ef24d60ff010b375637bf30fa	True	Lactobacillus phage 3-521	Herelleviridae		2510943
+NC_070723.1	phage	35443	0.38716	0.0	f6479f4e257ed903c3dca7ebd3483da675c16d12a41fb35e36afd675ecfb4601	True	Streptococcus phage SWK3	Aliceevansviridae		2419660
+NC_070908.1	phage	31962	0.5174	0.0	16e2f3b8632ac0922e9428f6b0f99ae8a9af9de51f093d010dfdab30d1385437	True	Yersinia phage HQ103	Peduoviridae		2852116
+NC_049345.1	phage	74704	0.49052	0.0	f3d14ceb09e545059d9b81e2f2887be10789c6fc57bb8eb463a7d77296fe1d7d	True	Roseovarius Plymouth podovirus 1	Schitoviridae		926474
+NC_073184.1	phage	43628	0.49979	0.0	91b771b1bff6e05f87538c7ce54bf1ddf457f6f8d20efc66eff679c4e174a1a5	True	Salmonella phage F12013	Sarkviridae		3003233
+NC_048168.1	phage	43446	0.62093	0.0	bb171fecbc8a2f5aa333a033dc5226dcd00c605d69228d966575790282ff2047	True	Pseudomonas phage RLP	Autoscriptoviridae		2483418
+NC_006883.2	phage	252401	0.35506	0.0	8c3fe6da5cad4faea1132221f468b60d5bf29982b601618468c033a0082d2140	True	Prochlorococcus phage P-SSM2	Kyanoviridae		268746
+NC_048186.1	phage	158607	0.46091	0.0	4d27c7c839c4cc1b0628e4b4d5eafdad91efab4922a7d47780edeb252b195f6c	True	Escherichia phage vB_EcoM_KWBSE43-6	Ackermannviridae		2508194
+NC_041968.1	phage	87646	0.54682	0.0	ab00852d0096350c81ecde4dab6958750bab112c65b318f0b56fbc5d6b19a010	True	Pseudomonas phage vB_PaeM_G1	Vandenendeviridae		1983539
+NC_052989.1	phage	61736	0.58515	0.0	81504d1c55350f19b5eccd1e3756f0d57d6b7d8b99ba32a96061637a161f11b8	True	Cronobacter phage JC01	Casjensviridae		2729575
+NC_019929.1	phage	243050	0.5129	0.0	a08331cbe6a66b959cc9f0a98c04dfe61043d01e7bdfa2a91112b0aa3d99cc9e	True	Erwinia phage phiEaH2	Chimalliviridae		1029988
+NC_055778.1	phage	57916	0.67738	0.0	2011232bbc5eebf865e57983121fef8aa35a84219fc2744142b47931d4406821	True	Gordonia phage Stultus	Stackebrandtviridae		2483674
+NC_011810.1	phage	65764	0.54928	0.0	d359af4ae9aba61ba8193a52de17c953612e3e90b7067f6561ed3bf2d189dad5	True	Pseudomonas phage PB1	Lindbergviridae		538398
+NC_022982.1	phage	43869	0.60168	0.0	e02b47e261125a98d17aa2999a60b38aa1cfea61160a6f421f3c2c32ce2b9c6c	True	Xylella phage Paz	Autonotataviridae		1415145
+NC_048159.1	phage	17034	0.28966	0.0	9825f516125bdbd6b7fbc47a7e4645b28fd1053ba492dd7ad22c28b78c7077fc	True	Staphylococcus phage CSA13	Rountreeviridae		2108359
+NC_049969.1	phage	26865	0.31055	0.0	9e9332cf2fd2cbb3dc583afd9c5041131e0749d3e228f96654100678967407b1	True	Bacillus phage DK3	Salasmaviridae		2500810
+NC_025450.1	phage	44366	0.51003	0.0	47f1997c274a8d599908d78fc2a30383663e09533dbd9f06c7e8d68ac2266f58	True	Lelliottia phage phD2B	Autosignataviridae		1542498
+NC_073037.1	phage	57666	0.6623	0.0	4f37dc2fda3c23ed7752b49b5802612b849f9c53f5ec8984836f0418686022e4	True	Pseudomonas phage phiH2	Mesyanzhinovviridae		2981578
+NC_042313.1	phage	74914	0.58781	0.0	6bb12a142dfa5c8cc94c682928bdb03ed61ffdcbb0673c1157dbe0be0cd1f577	True	Mycobacterium phage JoeDirt	Vilmaviridae		2920882
+NC_079186.1	phage	53372	0.5113	0.0	8d01596686ba61bf094db24e76234fb7dd2b0aa21b7eb67e67de234b48125432	True	Aeromonas phage BUCT696	Chaseviridae		2911664
+NC_048724.1	phage	131909	0.49411	0.0	e1bc3e84d390de8d7f5dee1594da61dd37263e571a3b59e4df55b4145e8b8b18	True	Streptomyces phage Karimac	Stanwilliamsviridae		2283303
+NC_055821.1	phage	64714	0.66057	0.0	e443bdd885896a02555e5343649442cdd6e08b004f4d43755df291015e8585a0	True	Gordonia phage NadineRae	Zierdtviridae		2652882
+NC_071010.1	phage	86124	0.38719	0.0	6bb69e3cd1e920fca198d29294e55916b83e3c2c4893816392a15937de4f6036	True	Salmonella phage vB_SAg-RPN213	Andersonviridae		2910949
+NC_067214.1	phage	102100	0.33149	0.0	a6069f42b86f49dad80e2143169501e453667bced61b5278b67987d747d7c7e0	True	uncultured phage cr82_1	Suoliviridae		2986416
+NC_073365.1	phage	55366	0.70001	0.0	3ffb76640f2579eac0fbe4a0a042f2ab1fa96f72ce9106a7a966a35adc9ccc2a	True	Microbacterium phage Cinna	Hodgkinviridae		2591215
+NC_018835.1	phage	77448	0.42049	0.0	e2a736c5073f498cf47b54d785c77c866cc00a9656f80d82fcc84cde248a5873	True	Escherichia phage NJ01	Mtkvariviridae		1237159
+NC_062769.1	phage	96466	0.31987	0.0	53640ab6685d7f078bb6ed6c687887dc91a6473f1bb83a841311d658be06a681	True	uncultured phage cr36_1	Intestiviridae		2986397
+NC_004086.1	phage	35450	0.25199	0.0	62ad3913b28d70fe9074bdd4b9d77a0cf762c89c550e76c1dbe77f35d4173e37	True	Sulfolobus islandicus rod-shaped virus 2	Rudiviridae		157899
+NC_071028.1	phage	43100	0.66981	0.0	f1048916457b19b89b81ae60324217b78097be464cc1b5b069302e063365a19c	True	Arthrobacter phage Adumb2043	Casidaviridae		2776851
+NC_018083.1	phage	17972	0.34487	0.0	0bbfcf73182ab76f3f033d03704cdf2b46f4ceb25ff3a0a4ec91e02feab5abde	True	Clostridium phage phiCPV4	Guelinviridae		1162305
+NC_049951.1	phage	41969	0.50683	0.0	b2f21f37aa87cb4a1955b715a99536d31f8ac8d57c3053d485579ca450a1919d	True	Enterobacteria phage O276	Zimmerviridae		2282412
+NC_048664.1	phage	92122	0.35122	0.0	d574fa5e7ccd229edb9241f97da45c85faedb40b078aaaf4797320665868fe67	True	Cronobacter phage vB_CsaP_009	Grimontviridae		2699738
+NC_049977.1	phage	102679	0.34743	0.0	dd4961274d5fc4cbeef532dc8c9bb3ee4d921d32bc5a55be9f14c7cd98c2f4f9	True	Bacteroides phage crAss001	Steigviridae		2301731
+NC_015464.1	phage	135041	0.26154	0.0	6f7274e3321324eabdcab834cfcfeef204ded8c8db15120d3b0d6a76381fd656	True	Campylobacter phage NCTC12673	Connertonviridae		2885915
+NC_005263.2	phage	48177	0.6364	0.0	59f317539bc539147e82a98ab14c2cee2da4c3cf6a55f1e4ca76c9d6dff275db	True	Burkholderia phage Bcep1	Anamaviridae		2883943
+NC_062740.1	phage	74196	0.57027	0.0	ecb837242113c98e4aa0c5afa331d89317b1918c3f6b33c0e2edfab2d9983a54	True	Halorubrum virus Serpecor1	Hafunaviridae		2721757
+NC_054431.1	phage	17452	0.68731	0.0	dca03dbfb50a27cb397d1f2844da5b28716e47f6d1bb4abb217e2d6a69efbbc0	True	Microbacterium phage Scamander	Orlajensenviridae		2283249
+NC_070888.1	phage	158577	0.49816	5.675e-05	802deadd7d43756369f244b9b2e5d1b867ee4b2d3249cd495a788a9e800e0dbf	True	Rhizobium phage RL38J1	Pootjesviridae		2663232
+NC_007808.1	phage	49639	0.44783	0.0	23f6ef682d6ee185c781d9ad3471989b930152356b059a0b457531f5f6feffa9	True	Pseudomonas phage PA11	Zobellviridae		347327
+NC_041858.1	phage	49492	0.42294	0.0	ceca6b2f6d601b2adcbd9777e0ad650e3d57f29c5e995194cb222ba1ca3bdf21	True	Bacillus phage Taylor	Ehrlichviridae		2884430
+NC_003214.2	phage	40900	0.33352	0.0	c142f88de4c0a95554f0ef912366a93578542aa03e48f2a0ddb46e90e100acd8	True	Sulfolobus islandicus filamentous virus	Lipothrixviridae		176106
+NC_103008.1	phage	44805	0.45843	0.0	bd547469a2cc4f7f24c3adeb8d9f9e41f931a0101e5fe9485d7510ac7e33b998	True	Arthronema virus TR020	Saffermanviridae		2736280
+NC_007451.1	phage	14954	0.48322	0.0	39b0ace774836010191756eafb432c1c50f051409eeb7028921f0d2a37179323	True	Enterobacteria phage PR4	Tectiviridae		318595
+NC_041999.1	phage	49797	0.63566	0.0	a69d77600a54e356b26fb87d4413b7e580e798b45218b73828217505ed3509e0	True	Arthrobacter phage Beans	Berryhillviridae		2015815
+NC_031117.1	phage	44885	0.37948	0.0	a80a43f8c6cf8cda6eff46258827c5a29bcc7d59bad43ba164531afcd40b4be1	True	Acinetobacter phage LZ35	Hirszfeldviridae		1792222
+NC_023585.1	phage	48775	0.38421	2.05e-05	4b1157d3cc851d5d9023cb577f28d5550b80ad244bd6a0ae4d5addd79abc51e5	True	Sulfolobus monocaudavirus SMV1	Bicaudaviridae		1351702
+NC_005361.1	phage	17385	0.38746	0.0	0a2f0f921b518d365f8d3732868e61899375906310e9ed166de0487b2b983d6e	True	Sulfolobus virus Kamchatka 1	Fuselloviridae		248496
+NC_019407.1	phage	218929	0.6615	0.0	999c1be447ab0a1ed5064e7b234e50c5d0ec9da50d60b08e194a7908fe2db907	True	Caulobacter virus Magneto	Jeanschmidtviridae		1211642
+NC_067215.1	phage	104085	0.36217	0.0	f35190f0f0180bc3495260be78e3049deaa3f0d45030e430d974c09a6075d859	True	uncultured phage cr29_1	Darmviridae		2986418
+NC_048834.1	phage	43236	0.31141	0.0	1a5bfa56e5346308df7a6e52d8fd30937b91d2eb384a61771044a502b48de529	True	Flavobacterium phage vB_FspS_laban6-1	Duneviridae		2686250
+NC_004664.2	phage	41831	0.62762	2.391e-05	9ff6b3faef083aad855d15d03e07e396059547c1cf38a9709d3f1e2080a65808	True	Streptomyces phage phiBT1	Colingsworthviridae		3047527
+NC_103785.1	phage	10295	0.44517	0.0	efd43f5c85d5d61c2e71f9f4857d679050a7c21f1c62a806831a1fe38f30ee23	True	Vibrio phage vB_Vipa71	Inoviridae		2729382
+NC_021794.1	phage	71443	0.32884	0.0	43ac6ed2915c0fea55c1a9a0c0501208350fc53c0749a0c811e6aabf1630c9ef	True	Cellulophaga phage phi18:3	Pachyviridae		1327983
+NC_062779.1	phage	95815	0.32715	0.0	b59032ba95d2023c58130b8125c7b55ad3c057a082f1a2cf81ae049c84b6da0d	True	uncultured phage cr2_1	Crevaviridae		2986394
+NC_006556.1	phage	20933	0.49529	0.00047771	83560ed47b87cc75cf121a2dcbcb392145705672e5447d63a4287d06270abaec	True	Thermoproteus tenax spherical virus 1	Globuloviridae		292639
+NC_048080.1	phage	102789	0.37207	0.0	460bf7acc2f326fcdd0a75418e9a58b0bbcb035544187d2e27d1a41953864944	True	Acinetobacter phage vB_AbaM_B09_Aci05	Luriaviridae		2315458
+NC_070623.1	phage	42859	0.44583	0.0	01f66b265c8e630797ea094b7385c56d31195031de76daaa867d67a27f7f95de	True	Bacillus phage vB_BspS_SplendidRed	Trautnerviridae		2591379
+NC_052650.1	phage	58072	0.63678	0.0	02a60d277c530e622f4d747a607b0064552d97877d2fc35c08643a88004bb6ed	True	Halobacterium phage phiH	Vertoviridae		169684
+NC_009452.1	phage	23814	0.34564	8.398e-05	722f2c24d68e373ed333ee0d56ea114ba33a968f5f05e30c1fe81ee1e3819910	True	Acidianus bottle-shaped virus	Ampullaviridae		437444
+NC_021327.1	phage	102105	0.57594	0.0	bccbf2d179a14b79f5b0867d8e8df7b0daac96d4a8dcaa462251257e22f76016	True	Halovirus HCTV-5	Druskaviridae		1273748
+NC_055711.1	phage	43490	0.45215	0.0	cba29bddb1e680c48fe4ab04b060830124320e675165db60fa6224c906a42d6b	True	Pseudomonas phage PaMx41	Fredfastierviridae		1815976
+NC_074656.1	phage	27570	0.29797	0.0	d345613ceb981487b54d50ae520374f8ef34d36c456f5f3c96c5a53eb9253638	True	Nitrosopumilus spindle-shaped virus	Thaspiviridae		2508184
+NC_074644.1	phage	19940	0.32979	0.0	9da816d02983f968abf6fc701bc7e263197458b6b95c150da2b2ef1bc9ab4511	True	Lokiarchaeia virus VerdaV1	Verdandiviridae		3070170
+NC_041866.1	phage	47575	0.39832	0.0	0a51be54112dd07e75e4cbc5402a8d5482297cc890a9b6fdbafeddf9042949d2	True	Acinetobacter phage YMC11/11/R3177	Buchnerviridae		1628721
+NC_000867.1	phage	10079	0.42167	0.0	3a8554f8be511bfb84faeac1ae3fae866e0599668b16a9213bd38188b94eb373	True	Pseudoalteromonas phage PM2	Corticoviridae		2905728
+NC_074639.1	phage	71795	0.39763	0.0	809ce70eed45b71ba1dcc3414f06efa5fcc4e97506353b1f85bb917f96971e59	True	Methanophagales virus GBV301	Ekchuahviridae		2999280
+NC_062746.1	phage	43978	0.28876	0.0	8cb6e93271a8f7ce907fcfb84fd1584963b325f6bdee436526779e1c61adaccf	True	Polaribacter phage Freya_1	Forsetiviridae		2745662
+NC_008695.1	phage	42271	0.64886	0.0	bfbc1e530ea677d5e162b96b6d18e89dd3e9902865afd644ed0472bb6a4872b2	True	Halorubrum virus BJ1	Graaviviridae		416419
+NC_021329.1	phage	35722	0.59482	0.0	492a6ef0019bc4e55eedfe3d8deab7a153f3dd5ea363ea1266f67f51c6c33b1b	True	Halorubrum tailed virus 4	Haloferuviridae		1273752
+NC_070967.1	phage	206821	0.41174	0.0	230d24d98a27ebc831be0f60633ea9d65a7c6ad4f27e84bae9700b3ddf233e27	True	Rhizobium phage RHph_Y65	Kleczkowskaviridae		2509785
+NC_002628.3	phage	31007	0.45745	0.0	7cee8a6f3e65178b08030ea1ca7f8d1ffd05bc539ff960ce730383e231de8b67	True	Methanothermobacter phage psiM100	Leisingerviridae		173824
+NC_001825.1	phage	19343	0.38831	0.0	12a028ae9c55cc9b39cdadc369852711b83f9918e6c88b6a68d9b398606c46c9	True	Streptococcus phage Cp1	Madridviridae		10747
+NC_062752.1	phage	124169	0.36296	0.0	c780c22b77b93884dc645f5fa4d072e9d1d1ac46e3f9141fe1a635346e8ceb3d	True	Maribacter phage Colly_1	Molycolviridae		2745691
+NC_021796.1	phage	72534	0.38055	0.0	885a5cdb9b0269fd367be84255083e7a2dd57fcb237ce3c370a7d9187474a044	True	Cellulophaga phage phi38:1	Pervagoviridae		1327977
+NC_038017.1	phage	20222	0.38339	0.0	0249e5203021fa6730e76f60d432976904cb5f7e5a4aa827f9e5d948433b9a47	True	Sulfolobus polyhedral virus 1	Portogloboviridae		1982658
+NC_021340.1	phage	52643	0.66592	0.0	d4b401cb2e1e4b75f43b084844a0f12c76378f6610e74a5d4f90e5dd5114247a	True	Haloarcula hispanica tailed virus 2	Saparoviridae		1273751
+NC_014099.1	phage	16622	0.36734	0.00012032	7bbdb86ce64ec5906e68177d060f285a871d62494afdb1b188444da9c75d1bab	True	Sulfolobus turreted icosahedral virus 2	Turriviridae		754004
+NC_048829.1	phage	34751	0.3755	0.0	ce7511d17623224d6da8a6d3a7cfc77d272fe64926866c813ec50dd75b1b6fb0	True	Flavobacterium phage vB_FspM_lotta8-1	Winoviridae		2686242
+NC_051703.1	phage	57526	0.61706	0.0	a1c5d927147a1fbd9a575edb887c5e7d529124175f3d39e8ea3e493307421ce9	True	Mycobacterium phage QuickMath			2301570
+NC_015456.1	phage	50661	0.45408	0.0	17525cbc8768fbafcd595f2ab1519d1349e5df6a8d0a4b3859515cdba62b7264	True	Shigella phage Shfl1	Drexlerviridae		2919551
+NC_048673.1	phage	229929	0.38717	3.914e-05	f98251ce28428f875c1bfc88d3a0a9e8caca5c66c2938a7e57f39de4b352b3ad	True	Aeromonas phage AS-zj	Straboviridae		2024208
+NC_048008.1	phage	111999	0.401	0.0	20751a1efc2448e92c9d5de9d177aca46576d06ff8b76828c223b1a35baceb10	True	Salmonella phage S126	Demerecviridae		2231352
+NC_047923.1	phage	39482	0.48615	0.0	a87590e12017a8dbb88bad56cc6e2fe493b248dc59d42245aea5503106040449	True	Escherichia phage HZ2R8	Autotranscriptaviridae		2079317
+NC_024359.1	phage	133048	0.35966	0.0	378b01046e4813f829439f64205e09ec21d54cdb8ab1a1eb890d29f8601bd8ee	True	Listeria phage LP-048	Herelleviridae		1173764
+NC_070659.1	phage	36827	0.38548	0.0	e2f6f0d32c60d991f750a27e17b44f26a5fe92001baa2a7e314ec2d0c6d46e83	True	Streptococcus phage CHPC1033	Aliceevansviridae		2365010
+NC_049343.1	phage	33041	0.52441	0.0	3f79a39cf63fb2dd7278c572d728aa36689d7e7fcb938926eb63715ab2a9ace8	True	Escherichia phage 500465-2	Peduoviridae		2716352
+NC_070859.1	phage	75871	0.48958	0.0	70053efdf52f24721c1748e8ca165edf2d89c73c83f5b72c3f102dc30e3cf657	True	Dinoroseobacter phage vB_DshP-R7L	Schitoviridae		2873349
+NC_073174.1	phage	40748	0.49811	0.0	f73a02ce13fd4a4cc1be53f5b01ed675379b9b83537868654cc82ddd457f1d2d	True	Salmonella phage wast	Sarkviridae		2713326
+NC_048117.1	phage	44013	0.48915	0.0	b0d00ca925ff61af87d19df37a5d21851319c5e7cb6e38c3bdc4bf16de9fb893	True	Pectobacterium phage Khlen	Autoscriptoviridae		2489627
+NC_020875.1	phage	182801	0.39393	0.0	2b2e988771ccaa96d0dfa076bc12f449d009125a1c82233a27bdc677a60714dc	True	Synechococcus phage S-SSM4	Kyanoviridae		536466
+NC_049505.1	phage	157920	0.44598	0.0	1e27a0d52e585a6e2d4e3d1f3516d27a71b70aa3f9dccfc71bd0a5230014eede	True	Salmonella phage barely	Ackermannviridae		2713278
+NC_073685.1	phage	99689	0.47702	0.0	cba54c609944188e518da3cafbdde8f44f2fd74720d60d1e3fc444b76ea4ff09	True	Pseudomonas phage phiPsa347	Vandenendeviridae		1460364
+NC_052988.1	phage	59087	0.56302	0.0	9cf43123d12c1de80586f09b4a6c1f17fd02b92ece01c4a94e741e599d9252da	True	Klebsiella phage KPN U2874	Casjensviridae		2024241
+NC_021531.1	phage	223989	0.50057	0.0	167203871c1f18e2f5c978015979c9d7ef0ebcf46ec544cc4e860e9681a77daf	True	Cronobacter phage CR5	Chimalliviridae		1195085
+NC_053239.1	phage	57312	0.68321	0.0	91139024cce004466ed51c45d615239473bed9dbb821628fd4c63349ef9d2097	True	Gordonia phage Bizzy	Stackebrandtviridae		2483667
+NC_050149.1	phage	65918	0.55578	0.0	78a5579c0d0cf72eea497662190ebe30c35af286112551e8245a3844a8e16040	True	Pseudomonas phage vB_PaeM_USP_1	Lindbergviridae		2743936
+NC_047778.1	phage	41841	0.51622	0.0	3af66f375fd5827cefebcb8a744e655e495e0181c88a8297fb9092d3cf68516e	True	Pectobacterium phage PP2	Autonotataviridae		1897743
+NC_047855.1	phage	17602	0.29588	0.0	e603fff48ce08638ff702aa45843b2c40bad7464900de34e44ed0b20b6281625	True	Staphylococcus phage PSa3	Rountreeviridae		1319980
+NC_049964.1	phage	26061	0.30125	0.0	3a5b397d20f60119b8d73afba9f3c8134e95ae2020013b7e722eabf7f00f5540	True	Bacillus phage KonjoTrouble	Salasmaviridae		2023950
+NC_047899.1	phage	44895	0.44972	0.0	4cd5cf3c5de5bde057b538b81222c0504e39fb0b5c8413e432a8e8fbda54d1a5	True	Escherichia phage VEc3	Autosignataviridae		2783801
+NC_041934.1	phage	61818	0.64426	0.0	dc767cd2fa4a58a84ef16a88abf15f3bd859554cfb3ecda629d43d2702d18187	True	Pseudomonas phage LKO4	Mesyanzhinovviridae		1308899
+NC_053513.1	phage	83412	0.60749	0.0	7fadbd71c69f15fea7df53a913d82988fce8070445ea10a94a00f60fcfe33e43	True	Mycobacterium phage Aziz	Vilmaviridae		2762281
+NC_047978.1	phage	54065	0.43649	0.0	ebd01429cab016f69372eb462f7e58ea1c65d86019a92626df40685cdc77d55c	True	Erwinia phage Faunus	Chaseviridae		2182346
+NC_055809.1	phage	132977	0.49568	0.0	b53b307ee588f75e920a9d376bde3dd49eacfcb497abb422385baab676c6f3e4	True	Streptomyces phage Evy	Stanwilliamsviridae		2588514
+NC_055771.1	phage	68190	0.65801	0.0	146bd135834fa97cbc45414adf7dcbb03fc254a322ad9ecb9912618a6653a89b	True	Gordonia phage Emianna	Zierdtviridae		2315530
+NC_027329.1	phage	87510	0.38839	0.0	0901c18ecc54e20590613e9849c5c1875f73418ef6a4939a65487120574e710a	True	Salmonella phage vB_SPuM_SP116	Andersonviridae		1567025
+NC_062772.1	phage	99704	0.3327	0.0	aa3db04d8cff30b9cca93524fae4f7a00ef807f7e082c8556daa3af9c328866b	True	uncultured phage cr77_1	Suoliviridae		2986410
+NC_073364.1	phage	55686	0.69863	0.0	59b8e49d89e60d0bed27ca30d8cf21519d3e5f9be173eb28774c0ba954f68c60	True	Microbacterium phage Matzah	Hodgkinviridae		2686228
+NC_028903.1	phage	77266	0.41984	0.0	94d44f67c1b6aa45177fb61cea54bce920d410336589f3ea7e6415cb7e17b3ce	True	Escherichia phage 172-1	Mtkvariviridae		1598146
+NC_055760.1	phage	94878	0.28507	0.0	26486108c7982f7a8755aac5e4b463da94983872a0646bef506482e6d23e38b1	True	crAssphage sp. isolate ctbg_1	Intestiviridae		2989854
+NC_034628.1	phage	35035	0.25623	8.563e-05	29ac3dcca5790f90674f38395ce6d21644292813bd96077ffe1e6e86c6961deb	True	Sulfolobus islandicus rod-shaped virus 4	Rudiviridae		1983547
+NC_071029.1	phage	43471	0.6655	0.0	60b8bdcddc59c753025021dbb36f6443b4ae24f80aa7ec980785df0bfb576eb5	True	Arthrobacter phage Elezi	Casidaviridae		2762410
+NC_107625.1	phage	17894	0.28166	0.0	cf13fcd8c98b866c34089088cbda98be654d739b2ad85aa90ae9fa2960ca830f	True	Clostridium phage vB_CpeP_PM11	Guelinviridae		2970322
+NC_019723.1	phage	47090	0.50053	0.0	89ffbe391806950362a2fafef9e92e444e305fee1bd6cfe0ca1282418aed3525	True	Escherichia phage HK630	Zimmerviridae		1147146
+NC_048861.1	phage	90710	0.34523	0.0	492da0c4274becb98a9309c1d41f615f7d5a1d216e98d00c5769b13d5ed963ec	True	Proteus phage Privateer	Grimontviridae		2712958
+NC_049978.1	phage	99915	0.31948	0.00308262	a527cd1b1eaaa99456c6f5c273b81ce07de3cf7ef3d80538641ee0432834a9f0	True	IAS virus	Steigviridae		1450749
+NC_041896.1	phage	134073	0.26196	0.0	646f8673f698f4d8570e7653431f715fc90543d64a0fd57b0e5a8ba7b36ac3ba	True	Campylobacter phage vB_CjeM_Los1	Connertonviridae		1904491
+NC_054463.1	phage	44222	0.62324	0.0	0bc77389b23c3be1c8749d870db8a0e82ee65177b5eaed5a461240e3090a3762	True	Ralstonia phage Bakoly	Anamaviridae		2759709
+NC_021335.1	phage	69048	0.5964	0.0	e7863b3c4bb1666165d6702cf882002e6bac9fac9c5da9e246b7dead3d7d7e7f	True	Halorubrum tailed phage 7	Hafunaviridae		2847108
+NC_052936.1	phage	17049	0.68989	0.0	e0090b58fdeae5df8ad4871afaf1b2bb53c5ac10332461e6720864fbc85f9013	True	Microbacterium phage Nobel	Orlajensenviridae		2725614
+NC_070885.1	phage	154206	0.48494	0.0	d3f7bab96666b12422ca64051f599d41b9fd448f056c7c83c41a6baddfafd305	True	Rhizobium phage RHph_I1_9	Pootjesviridae		2509729
+NC_002519.1	phage	39898	0.4616	0.00015038	1767f6157a6f8b072c57c31073f2d004d1b48a161335b9c6a13e2499ba9a4b71	True	Roseobacter phage SIO1	Zobellviridae		2905867
+NC_102382.1	phage	49258	0.41737	0.0	d59edf59717a131161285cd3b4f1bb35ef232037ba1e87538c336dc6fcd420b0	True	Bacillus phage Novomoskovsk	Ehrlichviridae		2736258
+NC_048128.1	phage	38091	0.39458	0.0	aa7cf6f1d4003bc20ada50eed2fbdfcb8094aa2ae684a959ef7ebb992d092ff0	True	Sulfolobales Beppu filamentous virus 2	Lipothrixviridae		2493123
+NC_107959.1	phage	40617	0.5237	0.0	f56d89cd2319dda95d0200f2966fcea1cd4dad1d9491bd1ad71fc12d4585bc9f	True	Plectonema phage Pbo-yong3	Saffermanviridae		2970324
+NC_074561.1	phage	14444	0.3958	0.0	878670e22b9b2438418fa93c43a653b78781b0b4ef376cd6f2ff646de3284fef	True	Bacillus phage Sole	Tectiviridae		1260287
+NC_041930.1	phage	49879	0.63425	0.0	2a45de7e2bb3f1df28ba761f677a2c1f4ef4139025bccae3148fd2aa9d788caf	True	Arthrobacter phage Brent	Berryhillviridae		1701798
+NC_028855.1	phage	44846	0.376	0.0	e75b8ccd81c45d56d1380e52a6096e2010e463954809268f84fdc6aad478aa2a	True	Acinetobacter phage YMC11/12/R2315	Hirszfeldviridae		1628720
+NC_029020.1	phage	50918	0.43552	0.00579363	3d6687f0be64c3359d387a92e0053f238271110c76490d42123971cbaebab64b	True	Sulfolobus monocaudavirus SMV2	Bicaudaviridae		1580591
+NC_005265.1	phage	14796	0.38497	0.0	09b4185d16153569aaebcbc44a997fa26ff4220fde9849875702f4812f0b4b52	True	Sulfolobus spindle-shaped virus 2	Fuselloviridae		244590
+NC_019411.1	phage	219216	0.66073	0.0	57be236e5ac9d99895dd1a74cd4bb87cfbfd9ffce2734b292b590a4db8c8cb14	True	Caulobacter phage CcrSwift	Jeanschmidtviridae		2927984
+NC_055901.1	phage	94826	0.31772	0.0	080ad258736ba1142b60a2bf44bab0ff2ee037d042cfb186c493b2a791f4f5bb	True	uncultured phage cr130_1	Darmviridae		2772092
+NC_021867.1	phage	46978	0.31604	4.257e-05	b5458eef1444dd503733c79934f1cd908a641f2137b2fe1e6afff8aa81fd8215	True	Flavobacterium phage 6H	Duneviridae		1325731
+NC_018853.1	phage	40474	0.64649	0.0	60a36cc8cc81ffd672b90237ffc51f81032534cb192f287699d44a7824d65358	True	Streptomyces phage TG1	Colingsworthviridae		2927987
+NC_015209.1	phage	10638	0.44623	0.0	e93781804d68211815c64eba849dcf37017ca0ce9889e75e1b482446c01da11e	True	Vibrio phage CTXphi	Inoviridae		2785247
+NC_021803.1	phage	72369	0.32873	0.0	873429da3a58c49e1d75a0e45c9cc2c81fa9614943eb64d9d6a50a0fda63ba7e	True	Cellulophaga phage phi13:2	Pachyviridae		1328030
+NC_055886.1	phage	83412	0.25922	0.0	03289fec7160105742e7e2b3a7602c0485121c9d0f8a9b469237aa81e1558f54	True	uncultured phage cr127_1	Crevaviridae		2772077
+NC_074654.1	phage	18655	0.56467	0.0	dd71f5399d6ebd6019a0ac084b5a19d3bf5ce92186653518eb411cd777f0e985	True	Thermoproteus spherical piliferous virus 1	Globuloviridae		2713157
+NC_048075.1	phage	104354	0.37182	0.0	f81a8cd46591d9bf303cef1e2df438c6a1a7f96d870d2933ecfdec917bfed563	True	Acinetobacter phage vB_AbaM_B09_Aci02-2	Luriaviridae		2315467
+NC_004166.2	phage	44010	0.43715	0.0	52670b6a60440a1ed0d12438d32ceda9d7b383f5166e522d18884d8cf9270204	True	Bacillus phage SPP1	Trautnerviridae		10724
+NC_054953.1	phage	55145	0.65273	0.0	b01d513c9315066dc4368c6fdb54e36d8ea2518d953b5d127f2eb41240b5ffe3	True	Halobacterium phage ChaoS9	Vertoviridae		2847105
+NC_028787.1	phage	28489	0.31654	0.0	f933986fbc2eb7b59e916c1d1d1b7236404bdaa45b6fabd3c2a694692021a206	True	Acidianus bottle-shaped virus 3 strain ABV3	Ampullaviridae		1732174
+NC_020158.1	phage	102319	0.58271	0.0	82e912ef75263cd44581b519410026553d74080aa42c6c8f86af0406c31c7697	True	Haloarcula vallismortis tailed virus 1	Druskaviridae		1262528
+NC_007807.1	phage	43365	0.44893	0.0	2c1b31525ab26d139b5b6fb301465053b96a302d63e0c970e573fad1edff7887	True	Pseudomonas phage 119X	Fredfastierviridae		2911431
+NC_048199.1	phage	27548	0.2981	0.0	70587c6cb00442a128ff637c4b97bc2f2f9b7d0ebb29d5a31bc5cf7ff73ca44a	True	Nitrosopumilus spindle-shaped virus	Thaspiviridae		2508184
+NC_074643.1	phage	20488	0.33546	0.0	71b1bd4b1fed41d2289c320914f3b0d5ee4ac8bffe9fce43fc89fe7635738416	True	Lokiarchaeia virus VerdaV4	Verdandiviridae		3070172
+NC_041948.1	phage	58353	0.45175	0.0	552bfd3f48f559d83354843d344d55d6f49bc0fe7d33e8abf13d27d0dd0a6f40	True	Arthrobacter phage Circum			1772295
+NC_024789.1	phage	45746	0.43943	0.0	b7b9a2d32698c628f30df7899f9e7472adbcbf1daa8565ed4453ea7dba6ff78d	True	Escherichia phage vB_EcoS_AKS96	Drexlerviridae		1416031
+NC_054922.1	phage	164987	0.35368	0.0	973165c995607af0ef137c2ee9bd8982aaa47b40154069e0b50d8dce60ceb553	True	Escherichia phage vB_EcoM_KAW1E185	Straboviridae		2508180
+NC_134263.1	phage	110393	0.39066	0.0	0a4f048a965e8004ff4a495498b3244e789ca42e640fdf05129ac9ae4cb98212	True	Escherichia phage T5_ev219	Demerecviridae		2742947
+NC_047771.1	phage	40765	0.53222	0.0	a23f64d2952bc2804f75744ad4415b27e4d5464bc2622760758331f7d0e83ff2	True	Klebsiella phage vB_KpnP_KpV763	Autotranscriptaviridae		1882400
+NC_047722.1	phage	145647	0.30412	0.0	0195c0b62ebfdd1424e5a56c78a305e00e1e03a591adc844d6cb4b922ab6efc4	True	Staphylococcus phage Staph1N	Herelleviridae		1195076
+NC_071066.1	phage	35543	0.3976	0.0	7a2695be6dfeee20f6531b73fef2dfb4fbcf4c4c4e56e9e4803959236f253f93	True	Streptococcus phage CHPC1247	Aliceevansviridae		2365033
+NC_015273.1	phage	32317	0.6228	0.0	b21e67a4cfff0b85d8474c742a578eb9c4266751d093006d9269bde146df3bc3	True	Burkholderia phage KS14	Peduoviridae		910475
+NC_054967.1	phage	73834	0.54934	0.0	fe342938d0354b171865fc4bd9f26238c5c19c7756a46651ba55dd24f0efc97e	True	Achromobacter phage vB_AxyP_19-32_Axy04	Schitoviridae		2591039
+NC_027993.1	phage	43587	0.51068	0.0	714e91a43266e3cb466ec621a37e0f15174683da74b6e196cf40411ee6f9c6bc	True	Escherichia phage K1G	Sarkviridae		698486
+NC_013649.2	phage	43809	0.54073	0.0	5f9d359864898ac44a5f3d3d81886f2dc214e11da41b3a868f41259133d53ad0	True	Klebsiella phage KP34	Autoscriptoviridae		674081
+NC_031922.1	phage	174830	0.39046	0.0	7de4f33b0267764468b231150176c584a240a6b2464306ba2f370d0d34859991	True	Synechococcus phage S-CAM9	Kyanoviridae		1883369
+NC_022343.1	phage	159991	0.46705	0.0	9591c9e0598c07e3413e08d4166fab38af9a995af040f763a7734475327137cf	True	Klebsiella phage 0507-KN2-1	Ackermannviridae		2991282
+NC_028817.1	phage	93879	0.49355	0.0	de10323be9c6e240db1752fe07d41c065d612f5f124d8aa71b62409589c8847d	True	Pseudomonas phage K8	Vandenendeviridae		1716041
+NC_018832.1	phage	58104	0.49499	0.0	b79b54a4b36b38d646f0a5c6bb02330a8c8b087917e3bf6ff50a28b5f49b96a7	True	Providencia phage Redjac	Casjensviridae		1235559
+NC_070950.1	phage	253383	0.43947	0.0	e4b5c2d6c1ee90c72f758f24bfb41480f6b4cd2e6e65277f192e9b9ea933ec75	True	Klebsiella phage Miami	Chimalliviridae		2767581
+NC_055804.1	phage	60468	0.67642	0.0	fcc7e4420927a4e6bcfbf6964400038ddc86d19a1fb2cd2e27e8fdfb25bf7522	True	Gordonia phage Bakery	Stackebrandtviridae		2591205
+NC_007810.1	phage	66015	0.54944	0.0	589b3200c803f51036da85edf7304acc1d20ddb205ed23e7d5c23772179672f2	True	Pseudomonas phage F8	Lindbergviridae		347329
+NC_048111.1	phage	41823	0.51455	0.0	b18834acac2162f8a2462564f0d36ef9431a2a02e570a447d2470f452b6db117	True	Pectobacterium phage Arno160	Autonotataviridae		2488835
+NC_049937.1	phage	18168	0.33201	0.0	247b79a1559b6c743289670d17179ff8a2f393d9967b7ec569b20ad9f55756ad	True	Enterococcus phage Idefix	Rountreeviridae		2017580
+NC_055914.1	phage	26319	0.30487	0.0	eeaa5eef649ced7ab93c5c0141788aca034945961fa2728099595a1244db996e	True	Bacillus phage Thornton	Salasmaviridae		2795746
+NC_047836.1	phage	45385	0.43217	0.0	5496be2b11eddbe8d730574ba90be5e556239f89a4fc3acd1edd8f4c2c01ca6b	True	Marinomonas phage CB5A	Autosignataviridae		2022859
+NC_047876.1	phage	59779	0.63974	0.0	3f2013745ce6585fd79308bb28653ae67a930c8a013b1bbbdc98c17dddae3627	True	Bordetella phage CN1	Mesyanzhinovviridae		1916123
+NC_055790.1	phage	73210	0.5878	0.0	fbcc6263e55ea3580017f435969965cf58bf3a40a6094014a87821d63a3f4ef6	True	Mycobacterium phage Silverleaf	Vilmaviridae		2517969
+NC_048845.1	phage	52092	0.44203	0.0	54003ae2bfc4a423ba958601be61365a8bbe02576ba9a507ef45b95a21fc17d5	True	Escherichia phage flopper	Chaseviridae		2696397
+NC_048730.1	phage	131250	0.49301	0.0	3e2f813d337f1e9ce255d1a85efa7a5a22732e9ad619911f0cd397e55b7d67e1	True	Streptomyces phage Yaboi	Stanwilliamsviridae		2301621
+NC_042087.1	phage	66392	0.52298	0.0	1af57a5d8bf72099eafe750725e0568358cf2eeb83d435fb8ade793e3ca57c8a	True	Corynebacterium phage Zion	Zierdtviridae		2047871
+NC_042096.1	phage	84916	0.38861	0.0	43d84f2d2919fdc408314c861f781ec0757500776cc08edaa852dd879fb2e9ab	True	Salmonella phage BPS17L1	Andersonviridae		2060122
+NC_067211.1	phage	100650	0.33317	0.0	40aa7152f2b967f2f684fec5209254607e6ecb6fc4fe4b7b5192dc65f707b87b	True	uncultured phage cr105_1	Suoliviridae		2986415
+NC_073370.1	phage	52659	0.68852	0.0	aa93d28636f62775d867f96770a248373617de54fdc701f9eb21fedc4d0de048	True	Microbacterium phage Shotgun	Hodgkinviridae		2863847
+NC_070991.1	phage	77307	0.42066	0.0	02c6019bd1b0c71525726a6223c851ad411ec3fc30bb6515c8bbc8035c8d9f69	True	Escherichia phage vB_EcoP_WFI101126	Mtkvariviridae		2508203
+NC_055828.1	phage	93030	0.31929	0.0	bae693eaa1cbd8d5a5e968fe3423d6ce0245e7868911f0f171ca0e74639514b7	True	Bacteroides phage crAss002	Intestiviridae		2709317
+NC_074634.1	phage	26097	0.32314	0.0	c2620e7ad2b1d8221ec46af00d90b19de7288b14d3b888c6f44405cc54df7670	True	Saccharolobus solfataricus rod-shaped virus 1	Rudiviridae		2730619
+NC_071031.1	phage	41850	0.6546	0.0	2ce8bb03b4282c1bf5f5206c031176105c3582eb5cdedc2d22c5df5f8dd42e1b	True	Arthrobacter phage KeAlii	Casidaviridae		2885973
+NC_017980.1	phage	18397	0.3481	0.0	0aec6234acb374335c1f58d1c06fe54074f0b01e13637ffceae3bdab52328965	True	Clostridium phage phiCP7R	Guelinviridae		1162304
+NC_049948.1	phage	50126	0.49689	0.0	859ddcff3ef8dc02bb04dc134ae6ec5a98fe53bf9d44e971d18fca52429340c7	True	Escherichia phage ev017	Zimmerviridae		2847060
+NC_048773.1	phage	102915	0.42476	0.0	cf5b8e585eb669b7445c3bc9526c6d1fad02509d4126f7953e41eb4ca4771425	True	Aeromonas phage 4_4572	Grimontviridae		2588517
+NC_055878.1	phage	101437	0.37271	0.0	621b0e8450913b227714f679458880920ee477c51ddda36d4bc982979c6b443c	True	uncultured phage cr108_1	Steigviridae		2772069
+NC_031909.1	phage	134927	0.2616	0.0	a1c238c0c18df361eabd2242cc79984f4e9e59ec655bc8c9686d8c15361c39ab	True	Campylobacter phage PC14	Connertonviridae		1541686
+NC_004333.2	phage	48247	0.6333	0.0	ccf61059f836eaec74904b92ccd4d5edbb0c29261caee1f27fa1c1c1461fc4ed	True	Burkholderia phage Bcep781	Anamaviridae		2883946
+NC_004927.2	phage	75898	0.55793	0.0	6cb4ded151314e26ac0c4ba611fafafe035e00798d4286bc701e0d2871bd63f2	True	Halophage HF1	Hafunaviridae		2847106
+NC_052935.1	phage	17426	0.68759	0.0	0b02bc6559e180101df99bfadec392511b889e36d09ee6cb1a7f4f6182897e7c	True	Microbacterium phage Kaijohn	Orlajensenviridae		2653750
+NC_025429.1	phage	156446	0.49877	0.0	e4e1d92ba5352bb6c51a592f02a01bdfe252f37232fa6b5047ad3ddf5582a734	True	Rhizobium phage vB_RleM_P10VF	Pootjesviridae		1527770
+NC_021300.1	phage	43882	0.44722	0.0	d02b19f238ac2f7416c64b1a3df66718a01afff33023bb5bc3223a65113676bd	True	Pseudoalteromonas phage RIO-1	Zobellviridae		1316739
+NC_102606.1	phage	49683	0.419	0.0	90026140e2ca58dc402772218f7ab41e648d67142bc2fc3e0478f9014c2ff030	True	Bacillus phage Bolokhovo	Ehrlichviridae		2743970
+NC_010537.1	phage	41172	0.34645	2.429e-05	c7baf2effb94d59171f274abe708de282e32b41e95fc2be56ff7bd6a9268c9c3	True	Acidianus filamentous virus 9	Lipothrixviridae		512792
+NC_022751.1	phage	42480	0.46408	0.0	7ba0cb3877034624feaf872484c89657ee628e1dc041e5772c7daa380a996eef	True	Cyanophage PP	Saffermanviridae		434346
+NC_042083.1	phage	16523	0.50475	0.0	e1f01e1f5b611636becc6eb74d4f3e7d5541d1f751eef411c81258b87dd6a88e	True	Gluconobacter phage GC1	Tectiviridae		2047788
+NC_042014.1	phage	49808	0.63556	0.0	bb66181bd15c10070332727831b11d807a91841718212a2357dbb8288df9556b	True	Arthrobacter phage Piccoletto	Berryhillviridae		2024282
+NC_041924.1	phage	45415	0.37578	0.0	a6ec3be16a90a377415df8781eb5139a8ec39803ac560b47db9c6c51416ff426	True	Acinetobacter phage WCHABP12	Hirszfeldviridae		1965454
+NC_020077.1	phage	76107	0.35098	0.0	8106b9cf11aa8a983eac91d8ff35ab6165d0f36412f5c9a337daa195771ef231	True	Sulfolobus virus STSV2	Bicaudaviridae		1123964
+NC_001338.1	phage	15465	0.39696	0.0	68d4b30549f2dd7d53a8077d0e1ee8dd7c086cded1a030a1cfad3eae54d8ca61	True	Sulfolobus spindle-shaped virus 1	Fuselloviridae		244589
+NC_019406.1	phage	279967	0.62173	0.0	a10574d1116c675b28b51446b48cf39137a3b0d0905808fc623f5a5a27d9a54c	True	Caulobacter phage CcrColossus	Jeanschmidtviridae		1211640
+NC_055895.1	phage	103832	0.35691	0.0	d53338f5f08f2a7e93715f4d1c0e6ce77394203a792caba8aac9e5db5e48d1f9	True	uncultured phage cr7_1	Darmviridae		2772086
+NC_031926.1	phage	46575	0.31744	0.0	ffdd0f05da991aeb57c01a0c3707d1b3ffd2531cfcb3e4c5cd5431fd43a2d99b	True	Flavobacterium phage 2A	Duneviridae		1792273
+NC_048154.1	phage	41578	0.62485	0.0	8869f81b74f73b84f9cf5db7a59e90b04b8d3e3b75a5f9fa0f348cea09a626d3	True	Streptomyces phage Vash	Colingsworthviridae		2510568
+NC_104950.1	phage	10893	0.4435	0.0	fd6af4b278c3a18b354ccbe358a6412a212dc90bc90f555137e30c85a4630578	True	Vibrio phage vB_Vipa26	Inoviridae		2729567
+NC_021789.1	phage	75994	0.32547	0.0	a9e9d652586e59877c8eb8c8517d54cc6384e9c9a08d7606aac1c3c9afa750e5	True	Cellulophaga phage phi19:3	Pachyviridae		1327971
+NC_062777.1	phage	94533	0.3076	0.0	a4e30f84a482de1292dba443b37de6f9100217924eb6d858bda6e3dea79c6d37	True	uncultured phage cr25_1	Crevaviridae		2986395
+NC_074653.1	phage	18212	0.45058	0.0	83cc7d39da1d93bcd8437b866910c22f6403bae2e9f386f0eaec5dfcaf441456	True	Pyrobaculum spherical virus 2	Globuloviridae		2730632
+NC_031280.1	phage	104906	0.37774	0.0	a7acb032a172f0a2df1ccbcaf6959e53cc391c7b34929f12e5d328510baf4480	True	Acinetobacter phage vB_AbaM_phiAbaA1	Luriaviridae		1605379
+NC_070624.1	phage	46276	0.43843	0.0	d8717cc7821701eb1d7c2a03f8732e37b1af5c4160fe87666adfcc6167722448	True	Bacillus phage 000TH010	Trautnerviridae		2601652
+NC_031904.1	phage	88421	0.27222	0.0	1f4fa730e39c0b2923df58670f503fe1e68a34af033eeb2f3fb55f66704acba2	True	Flavobacterium phage Fpv3			1814284
+NC_047825.1	phage	50526	0.51237	0.0	6aa71a0f07cc956ce3b2def7218eb583c2511a34b6caf329993970d881d5e3de	True	Klebsiella phage KOX1	Drexlerviridae		1970798
+NC_023568.1	phage	246964	0.41306	0.0	67a12ffb3d37921f9a31ce3c448eb9479f4c7071c798f68c9f79dec01dfb5774	True	Vibrio phage VH7D	Straboviridae		1262539
+NC_048866.1	phage	109539	0.40005	0.0	bfccc9c2ba3fa9660d96cf737a835e5eef083adde3772281e75afe207256560e	True	Salmonella phage bombadil	Demerecviridae		2713285
+NC_047843.1	phage	39064	0.50819	0.0	e12e1b207b3689b9373d3ecb16bc9982c8a9663af2971325ae59788106cd491b	True	Leclercia phage 10164-302	Autotranscriptaviridae		2024248
+NC_111478.1	phage	139913	0.35776	0.0	9c76825cd21504cf87be390c8945a1caa889a486a6bedc400aaef43196ed0cd2	True	Enterococcus phage 53	Herelleviridae		3028143
+NC_071055.1	phage	32092	0.38309	0.0	11626212084f0810d49fcafcf66aa15639989aacd55d36982f74cc245eb464da	True	Streptococcus phage SW24	Aliceevansviridae		2483877
+NC_049385.1	phage	31342	0.52131	0.0	a70536530595b2c7d90fc5bc09d2726943975b1ded5fde5682a66fff6b470282	True	Peduovirus P22H4	Peduoviridae		2844218
+NC_070863.1	phage	73001	0.54928	0.0	8880cc6242493c6d8b71a55ab5837d8782f2f82c8ed2743eabcc7953fe3e2d60	True	Pseudomonas phage vB_PaeP_TUMS_P121	Schitoviridae		2873372
+NC_073193.1	phage	43324	0.49481	0.0	d1f9b6b3bff4c878992d352464fcea2374bb61ae763052c43931329988ab6c0c	True	Salmonella phage vB_SalS-S10	Sarkviridae		2906742
+NC_009935.1	phage	43200	0.62317	0.0	efe77bf2d55519d798e39f4eb25e38e8aae26f035817a3c801d5305f9728c12d	True	Pseudomonas phage LKD16	Autoscriptoviridae		386792
+NC_047712.1	phage	216628	0.41575	0.0	53576acb40eae1bda28be99caa174cf7e726c6fde77a5269ac336d2736d18ac0	True	Synechococcus phage ACG-2014f_Syn7803C7	Kyanoviridae		2790345
+NC_027119.1	phage	157498	0.44598	0.0	f19789f9c5d1c7a85bef65b33457ec3cb7a70ce3bed338e88df39b318cf7f28a	True	Salmonella phage Det7	Ackermannviridae		454798
+NC_073682.1	phage	94020	0.47884	0.0	b4a314da209a1a1a848bfacccc06156844ac9855f61197ba9c88b6467f6c144a	True	Pseudomonas phage psageK4e	Vandenendeviridae		2875723
+NC_053011.1	phage	62716	0.57244	0.0	ca46b961fc8d4c9301b78d358b82fcdfc38a70614a7ee282801017fbd26821cf	True	Erwinia phage pEp_SNUABM_08	Casjensviridae		2593268
+NC_061421.1	phage	307210	0.45131	0.0	2a7aeaeaaab3e9dbee70cd7218ba974c7d202e60b7429e0a8dc2ff98707e4a22	True	Klebsiella phage vB_KpM_FBKp24	Chimalliviridae		2801834
+NC_053244.1	phage	59761	0.68337	0.0	e51929edf1c2674dee613bae2ce6a50e41b57a655524cafa99a3ed7e5fdb46a4	True	Gordonia phage MelBins	Stackebrandtviridae		2656540
+NC_048744.1	phage	65905	0.55134	0.0	1941da365d0a8527917a995119ff2289674be03f094b3cf824d49fbec0f49cf5	True	Pseudomonas phage EPa61	Lindbergviridae		2307269
+NC_041912.1	phage	40551	0.57833	0.0	b168ade50799d76afd6f6b25bdd672418690e20e83c675c4ceb334cf67f1aa8c	True	Aquamicrobium phage P14	Autonotataviridae		1927013
+NC_024149.1	phage	18899	0.31118	0.0	45a83d770620f2df714d4defae7265256ae040182a01be6129ae1030dffa02af	True	Lactococcus phage WP-2	Rountreeviridae		1486423
+NC_049971.1	phage	18466	0.34285	0.0	948e5e1e782fa0bac7473805ff732732d2313223bbcf345951a4e607c1c53151	True	Bacillus phage vB_Bpu_PumA1	Salasmaviridae		2662127
+NC_047821.1	phage	44245	0.43363	0.0	b411c801402ce52b6abed64147d6a0f97a741bfb972effa9e3065a102306fe0e	True	Marinomonas phage CPP1m	Autosignataviridae		1965370
