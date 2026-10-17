@@ -19,8 +19,11 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import csv
 import shutil
 from pathlib import Path
+
+SECTION8 = '## 8. 对浏览册 69 个候选的审阅（助手判断，非人工确认）\n\n判断写在 `review/assistant_review.tsv` 的 `AUTO_REVIEW_*` 列。\n**`HUMAN_*` 列仍然全部留空** —— 机器判断不应占据留给人工阅读的字段。\n每条判断都由明确规则产生，并附带触发它的证据（`AUTO_REVIEW_reasoning`），\n因此任何一条都可以被逐项质疑。`cannot_judge` 是一等结论，不会为了好看而回避。\n\n{rnd}\n{enr}\n**两层不可合并。** 只有随机层描述"审阅者会遇到什么"；富集层是按规则挑选的导览。\n\n### 8.1 本轮审阅得到的主要结论\n\n**(1) 宿主路线上约一半的候选是 tRNA 基因。**\n\n| 运行 | 注释 tRNA 数 | 候选中与 tRNA 相交 |\n|---|---:|---:|\n{at}\n\n两轮宿主面板分别为 52.4% 与 52.6%，两轮噬菌体为 17.0% 与 11.9%，各自高度一致。\n这意味着在当前阈值下，**宿主路线的 detector 在很大程度上是一个 tRNA / 结构性 ncRNA 检测器**。\ntRNA 的 masked predictability 高，是因为它们受到强烈的结构与序列约束，\n**这与"存在序列重复"是两回事**。\n\n**(2) `unresolved` 主要不是失败，而是模型类别不匹配。**\n宿主 round-2 的 89 个 `no_model` 候选中有 60 个是 tRNA。\nungapped repeat explainer 无法表示结构性 ncRNA 基因，这是类别错配，不是漏解释。\n报告第 2 节把 `unresolved` 当作"未解释"统计，这个口径需要在下一轮修正。\n\n**(3) CRISPR 阵列被完整召回，并额外提示 4 个未被专用工具调用的位点。**\npilercr 在宿主 round-2 注释出 9 个 CRISPR 阵列，**9 个全部被候选覆盖**。\n另有 4 个 *Aquifex aeolicus* 候选携带该基因组的 CRISPR repeat consensus\n（`GTTCCTAATGTACCGTGTGGAGTTGAAACC`）却落在所有 pilercr 阵列之外，\n其中一个（`NC_000918.1:263146-263290`）出现在随机层。\n这类位点可能是退化或残缺的阵列，是本轮最值得单独核查的结果。\n**这不是"发现了新的生物学系统"**：它们是专用工具未调用、而本流程标记出来的已知类型位点。\n\n**(4) 12-nt 种子的偶然性必须逐例校准。**\n对每个候选区域做保二核苷酸组成的洗牌（300 次）后比较重复 12-mer 数量：\n`candidate_associated` 的模型几乎全部显著（p<0.05），\n而 `no_model` 候选中只有 1/30 显著 —— 它们确实没有超出偶然的短词重复。\n但 `flank_only` 的 `repeat_pair` 只有一半显著，且其 copies 全部落在候选之外，\n**这类模型不构成关于该候选本身的证据**，一律记为 `cannot_judge`。\n\n**(5) 低复杂度必须同时看 consensus，不能只看包络。**\n包络常有数千 nt，会把低复杂度的 consensus 稀释到看不见。\n例如 `NC_048045.1:37076-40240` 的 consensus 是 `GGCGGCGGCGGC`（熵 0.92），\n而整个包络的熵是 1.86。本轮已把 consensus 熵加入低复杂度判定。\n\n### 8.2 这轮审阅没有做的事\n\n- 没有重新调参：detector、阈值、explainer 全部保持冻结。\n- 没有把 tRNA / CRISPR 注释反馈进候选判定，它们只用于解释与展示。\n- 没有宣称任何候选是经过确认的生物学发现。\n'
 
 ROUTE_LABEL = {'r1_host': '宿主 round-1', 'r1_phage': '噬菌体 round-1',
                'r2_host': '宿主 round-2', 'r2_phage': '噬菌体 round-2'}
@@ -49,7 +52,28 @@ def md_table(header, rows):
     return '\n'.join(out)
 
 
-def build_report(stats, sel_prov):
+def build_review_section(rev, ann):
+    if not rev:
+        return ''
+    def blk(d, title):
+        o = [f'**{title}（n={d["n"]}）**', '']
+        for field, label in (('repeat_evidence', '重复证据'),
+                             ('explanation', '解释完整性'),
+                             ('followup', '后续价值')):
+            items = ', '.join(f'{k} {v}' for k, v in d[field].items())
+            o.append(f'- {label}：{items}')
+        o.append(f"- 与注释 tRNA 相交：{d['tRNA_overlapping']}；"
+                 f"位于 CRISPR 阵列内：{d['CRISPR_overlapping']}；"
+                 f"携带 CRISPR repeat 但不在阵列内：{d['CRISPR_repeat_off_array']}")
+        return chr(10).join(o) + chr(10)
+    at = chr(10).join(
+        f"| {k} | {v['n_trna']} | {v['cand_trna_pct']} |" for k, v in ann.items())
+    return (chr(10) + chr(10) + SECTION8).format(
+        rnd=blk(rev['random_stratum'], '随机层'),
+        enr=blk(rev['enriched_stratum'], '富集层'), at=at)
+
+
+def build_report(stats, sel_prov, rev=None, ann=None):
     g = lambda lab, sec, k, d='—': stats[lab][sec].get(k, d)
     labs = [l for l in ('r1_host', 'r1_phage', 'r2_host', 'r2_phage') if l in stats]
     fmt = lambda v, n=1: f'{v:,.{n}f}' if isinstance(v, float) else f'{v:,}' if isinstance(v, int) else v
@@ -94,6 +118,7 @@ def build_report(stats, sel_prov):
     r2_nt = sum(g(l, 'calls', 'unique_scanned_nt', 0) for l in labs if l.startswith('r2'))
     r2_c = sum(g(l, 'calls', 'n_candidates', 0) for l in labs if l.startswith('r2'))
 
+    review_section = build_review_section(rev, ann) if rev else ''
     return f"""# GLM_repeat round-1 + round-2 扫描报告（供人工审阅）
 
 **本轮没有对 detector 做任何重新调参。** 阈值、打分器、explainer 全部沿用冻结版本；
@@ -191,7 +216,7 @@ probe 不参与候选判定，也不回写任何冻结输出。阳性对照是�
 explainer 从坐标重新推导 ID，所以一直没有暴露；邻域导出脚本会校验该列，因此报错。
 本轮的处理是改用 `calls/candidates.tsv`（ID 已填充，坐标集合与 `audit_full.tsv`
 逐行一致，四次运行均已核对）。**冻结代码没有修改**，该缺陷留待下一轮修复。
-"""
+{review_section}"""
 
 
 def start_here(stats, sel_prov, n_book, n_all):
@@ -327,7 +352,20 @@ def main():
     # ---- report and entry page
     n_all = sum(1 for _ in (P / 'tables/all_candidates.tsv').open()) - 1
     n_book = sum(1 for _ in (P / 'review/browse_book_review.tsv').open()) - 1
-    report = build_report(stats, sel_prov)
+    rev = ann = None
+    rp = P / 'review/assistant_review.summary.json'
+    if rp.exists():
+        rev = json.loads(rp.read_text())
+        ann = {}
+        for spec in a.run:
+            lab, _, dd = spec.partition('=')
+            t = list(csv.DictReader((Path(dd) / 'calls/trna_overlap.tsv').open(),
+                                    delimiter=chr(9)))
+            n_ov = sum(1 for r in t if int(r['n_tRNA_overlapping'] or 0))
+            n_trna = len({x for r in t for x in (r['tRNA_coords'] or '').split(',') if x})
+            ann[ROUTE_LABEL[lab]] = {'n_trna': n_trna,
+                                     'cand_trna_pct': f'{100*n_ov/len(t):.1f}%'}
+    report = build_report(stats, sel_prov, rev, ann)
     (P / 'report/ROUND2_REPORT_zh.md').write_text(report)
 
     css = (P / 'index.html').read_text().split('<style>')[1].split('</style>')[0]

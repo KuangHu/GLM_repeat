@@ -128,7 +128,7 @@ def main():
         html = pg.read_text()
         declared = r.get('AUTO_n_copies', '') or '0'
         table_rows = len(re.findall(
-            r'<tr><td>\d+</td><td><code>\d+-\d+</code></td>', html))
+            r'<tr><td>\d+</td><td><code>[A-Za-z0-9_.]+:\d+-\d+</code></td>', html))
         n_all_cop = all_copies[lab].get(cid, 0)
         n_prim = primary_copies[lab].get(cid, 0)
         n_chk += 1
@@ -240,7 +240,51 @@ def main():
     else:
         ok('every candidate page carries the "尚未人工确认" notice')
 
-    print('\n[7] MANIFEST.sha256')
+    print('\n[7] peaks, context sequences and model grouping on the pages')
+    peaks_by = {}
+    for lab, d in runs.items():
+        by = defaultdict(set)
+        for r in tsv(Path(d) / 'calls/peaks.tsv'):
+            by[r['candidate_id']].add((r['peak_start0'], r['peak_end0']))
+        peaks_by[lab] = by
+    n_pk = n_ctx = n_trunc = n_grp = 0
+    for r in book:
+        uid, cid = r['uid'], r['candidate_id']
+        lab = uid.split('__')[0]
+        html = (P / f'candidates/{uid}.html').read_text()
+        want = len(peaks_by[lab].get(cid, ()))
+        got = len(re.findall(
+            r'<tr><td>\d+</td><td><code>[\d,]+-[\d,]+</code></td>', html))
+        if want != got:
+            fail(f'{uid}: {want} deduplicated peaks exported but the page lists {got}')
+            n_pk += 1
+        ctx = P / f'sequences/{uid}_context.fa'
+        if not ctx.exists():
+            fail(f'{uid}: context FASTA missing')
+            n_ctx += 1
+        else:
+            rec = read_fasta(ctx)
+            hdr = next(iter(rec))
+            m = re.match(r'([A-Za-z0-9_.]+):(\d+)-(\d+)', hdr)
+            g = genomes[lab].get(m.group(1), '')
+            if g[int(m.group(2)):int(m.group(3))] != rec[hdr]:
+                fail(f'{uid}: context FASTA does not match the genome')
+                n_ctx += 1
+        if re.search(r'候选区间[^<]*完整[^<]*</h3>\s*<div class="seq">[^<]*…', html):
+            fail(f'{uid}: candidate sequence is still truncated on the page')
+            n_trunc += 1
+        mids = {x['model_id'] for x in tsv(Path(runs[lab]) / 'explain_full/copies.tsv')
+                if x['candidate_id'] == cid}
+        blocks = html.count('主展示模型 ·') + html.count('替代假设 ·')
+        if blocks != len(mids):
+            fail(f'{uid}: {len(mids)} models have copies but the page renders '
+                 f'{blocks} model blocks')
+            n_grp += 1
+    ok(f'{len(book)} pages: peaks {len(book)-n_pk} consistent, context seqs '
+       f'{len(book)-n_ctx} verified, {len(book)-n_trunc} untruncated, '
+       f'{len(book)-n_grp} correctly grouped by model')
+
+    print('\n[8] MANIFEST.sha256')
     man = P / 'MANIFEST.sha256'
     listed_files, bad = 0, 0
     recorded = {}

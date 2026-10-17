@@ -226,6 +226,14 @@ def main():
         members = defaultdict(list)
         for m in tsv(R / 'calls/members.tsv'):
             members[m.get('candidate_id', '')].append(m)
+        peaks = defaultdict(list)
+        for pk in tsv(R / 'calls/peaks.tsv'):
+            peaks[pk['candidate_id']].append(pk)
+        ngenes = defaultdict(list)
+        for gn in tsv(R / 'neighborhoods/genes.tsv'):
+            ngenes[gn['candidate_id']].append(gn)
+        trna = {x['candidate_id']: x for x in tsv(R / 'calls/trna_overlap.tsv')}
+        crispr = {x['candidate_id']: x for x in tsv(R / 'calls/crispr_overlap.tsv')}
         for c in cands:
             cid = f"{c['contig']}:{c['start0']}-{c['end0']}"
             m = models.get(cid, {})
@@ -245,8 +253,18 @@ def main():
                 'AUTO_n_hypotheses': len(hyp.get(cid, [])),
                 'AUTO_probe_verdict': pr.get('verdict', ''),
                 'AUTO_source_windows': c.get('source_windows', ''),
+                'AUTO_n_peaks_exported': len({(x['peak_start0'], x['peak_end0'])
+                                               for x in peaks.get(cid, [])}),
+                'AUTO_n_neighbor_CDS': len(ngenes.get(cid, [])),
                 '_copies': copies.get(cid, []), '_hyp': hyp.get(cid, []),
-                '_members': members.get(cid, []), '_run_path': R})
+                '_members': members.get(cid, []), '_run_path': R,
+                'AUTO_n_tRNA': (trna.get(cid, {}) or {}).get('n_tRNA_overlapping', '0'),
+                'AUTO_tRNA_names': (trna.get(cid, {}) or {}).get('tRNA_names', ''),
+                'AUTO_n_CRISPR_arrays': (crispr.get(cid, {}) or {}).get(
+                    'n_CRISPR_arrays_overlapping', '0'),
+                '_trna': trna.get(cid, {}), '_crispr': crispr.get(cid, {}),
+                '_peaks': peaks.get(cid, []), '_ngenes': ngenes.get(cid, []),
+                '_model_row': m})
         tracks_index[lab] = str(R / 'scores')
 
     # ---------------------------------------------------------- sampling
@@ -383,20 +401,28 @@ def main():
         genes = [x for x in gff_of(R).get(c['contig'], []) if x[0] < hi and lo < x[1]]
         tr = track_for(R, c['contig'], lo, hi)
         vals = [0.0 if np.isnan(x) else float(x) for x in tr]
-        fig1 = svg_track(vals, cand=(cs, ce), copies=cps, x0=lo,
+        pk_spans = sorted({(int(x['peak_start0']), int(x['peak_end0']))
+                           for x in c['_peaks']})
+        fig1 = svg_track(vals, cand=(cs, ce), copies=cps, peaks=pk_spans, x0=lo,
                          title=f"detector track {c['candidate_id']}")
         zlo, zhi = max(0, cs - 300), min(len(g), ce + 300)
         tz = track_for(R, c['contig'], zlo, zhi)
         vz = [0.0 if np.isnan(x) else float(x) for x in tz]
-        fig2 = svg_track(vz, cand=(cs, ce), copies=cps, x0=zlo, height=96,
-                         title='zoom')
+        fig2 = svg_track(vz, cand=(cs, ce), copies=cps, peaks=pk_spans, x0=zlo,
+                         height=96, title='zoom')
         fig3 = svg_genes(genes, lo, hi, cand=(cs, ce))
         (a.out / f'figures/{c["uid"]}_track.svg').write_text(fig1)
         (a.out / f'figures/{c["uid"]}_genes.svg').write_text(fig3)
         seq = g[cs:ce]
+        wrap = lambda t: '\n'.join(t[i:i + 70] for i in range(0, len(t), 70))
         (a.out / f'sequences/{c["uid"]}.fa').write_text(
-            f">{c['candidate_id']}|{c['round']}|{c['route']}\n" +
-            '\n'.join(seq[i:i + 70] for i in range(0, len(seq), 70)) + '\n')
+            f">{c['candidate_id']}|{c['round']}|{c['route']}\n" + wrap(seq) + '\n')
+        ctx_pad = 500
+        xs, xe = max(0, cs - ctx_pad), min(len(g), ce + ctx_pad)
+        ctx = g[xs:xe]
+        (a.out / f'sequences/{c["uid"]}_context.fa').write_text(
+            f">{c['contig']}:{xs}-{xe}|context|candidate_at_{cs}-{ce}\n"
+            + wrap(ctx) + '\n')
         mrow = manifest_rows.get(c['contig'], {})
         tax = mrow.get('taxonomy', mrow.get('family', ''))
         ncds = len(genes)
@@ -404,18 +430,116 @@ def main():
         summary = (f"候选区间 {ce - cs:,} nt；" +
                    (f"发现 {ncop} 个相似 copy；" if ncop else "当前方法未找到 copy；") +
                    f"邻域含 {ncds} 个预测 CDS。")
-        rows_cop = ''.join(
-            f"<tr><td>{i}</td><td><code>{x['start0']}-{x['end0']}</code></td>"
-            f"<td>{x.get('mismatches_to_consensus','')}</td>"
-            f"<td>{x.get('loo_consensus_identity','')}</td>"
-            f"<td>{x.get('overlaps_candidate','')}</td>"
-            f"<td class='seq'>{ESC(x.get('sequence','')[:70])}</td></tr>"
-            for i, x in enumerate(c['_copies'], 1))
-        rows_hyp = ''.join(
-            f"<tr><td>{h.get('model_id','')}</td><td>{h.get('model_source','')}</td>"
-            f"<td>{h.get('architecture','')}</td><td><code>{ESC(h.get('consensus','')[:40])}</code></td>"
-            f"<td>{h.get('n_copies','')}</td><td>{h.get('status','')}</td></tr>"
-            for h in c['_hyp'])
+        # ---- copies grouped under the model that proposed them -------------
+        hyp_by_id = {h['model_id']: h for h in c['_hyp']}
+        cop_by_model = defaultdict(list)
+        for x in c['_copies']:
+            cop_by_model[x.get('model_id', '')].append(x)
+        primary_id = (c['_model_row'] or {}).get('model_id', '')
+        order = sorted(cop_by_model, key=lambda m: (m != primary_id, m))
+        blocks = []
+        for mid in order:
+            h = hyp_by_id.get(mid, {})
+            cl = sorted(cop_by_model[mid], key=lambda x: int(x['start0']))
+            is_p = mid == primary_id
+            rows = ''.join(
+                f"<tr><td>{i}</td><td><code>{x['contig']}:{x['start0']}-{x['end0']}</code></td>"
+                f"<td>{int(x['end0']) - int(x['start0'])}</td>"
+                f"<td>{x.get('mismatches_to_consensus','')}</td>"
+                f"<td>{x.get('consensus_identity','')}</td>"
+                f"<td>{x.get('loo_consensus_identity','')}</td>"
+                f"<td>{x.get('overlaps_candidate','')}</td>"
+                f"<td>{x.get('contained_in_candidate','')}</td>"
+                f"<td class='seq'>{ESC(x.get('sequence',''))}</td></tr>"
+                for i, x in enumerate(cl, 1))
+            spac = h.get('median_start_to_start', '') or '—'
+            blocks.append(f'''<div class="card">
+<h3>{'主展示模型 · ' if is_p else '替代假设 · '}<code>{ESC(mid)}</code>
+{'<span class="tag">primary</span>' if is_p else ''}
+<span class="tag">{ESC(h.get('status','') or '—')}</span></h3>
+<div class="grid">
+<div class="kv"><b>结构</b>{ESC(h.get('architecture','') or '—')}</div>
+<div class="kv"><b>来源</b>{ESC(h.get('model_source','') or '—')}</div>
+<div class="kv"><b>consensus</b><code>{ESC(h.get('consensus','') or '—')}</code></div>
+<div class="kv"><b>单元长度</b>{ESC(h.get('unit_len','') or '—')}</div>
+<div class="kv"><b>copy 数</b>{ESC(h.get('n_copies','') or str(len(cl)))}</div>
+<div class="kv"><b>落在候选内</b>{ESC(h.get('n_copies_contained_in_candidate','') or '—')}</div>
+<div class="kv"><b>中位 identity</b>{ESC(h.get('median_consensus_identity','') or '—')}</div>
+<div class="kv"><b>中位留一法 identity</b>{ESC(h.get('median_loo_consensus_identity','') or '—')}</div>
+<div class="kv"><b>起点间距中位数</b>{ESC(str(spac))}</div>
+<div class="kv"><b>间距 CV</b>{ESC(h.get('spacing_cv','') or '—')}</div>
+<div class="kv"><b>周期</b>{ESC(h.get('period','') or '—')}</div>
+<div class="kv"><b>相位</b>{ESC(h.get('phase_status','') or '—')}</div>
+</div>
+<table><thead><tr><th>#</th><th>坐标</th><th>长度</th><th>mismatch</th>
+<th>identity</th><th>留一法 identity</th><th>与候选相交</th><th>完全在候选内</th>
+<th>序列（完整）</th></tr></thead><tbody>{rows or '<tr><td colspan=9>该模型无 copy 记录</td></tr>'}</tbody></table>
+</div>''')
+        models_html = ''.join(blocks) or '<p class="mut">当前方法未给出任何重复模型。</p>'
+        no_cop = [h for h in c['_hyp'] if h['model_id'] not in cop_by_model]
+        if no_cop:
+            models_html += ('<p class="mut">另有 ' + str(len(no_cop)) +
+                            ' 个假设没有 copy 记录：' +
+                            ', '.join(f'<code>{ESC(h["model_id"])}</code>' for h in no_cop[:12]) +
+                            ('…' if len(no_cop) > 12 else '') + '</p>')
+
+        # ---- peaks actually called by the frozen detector -------------------
+        pk_u = {}
+        for x in c['_peaks']:
+            k = (int(x['peak_start0']), int(x['peak_end0']))
+            pk_u.setdefault(k, []).append(x)
+        rows_pk = ''.join(
+            f"<tr><td>{i}</td><td><code>{k[0]:,}-{k[1]:,}</code></td><td>{k[1]-k[0]}</td>"
+            f"<td>{int(v[0]['summit0']):,}</td>"
+            f"<td>{max(float(y['peak_mean_above_uniform']) for y in v):.4f}</td>"
+            f"<td>{'、'.join(sorted({y['orientation'] for y in v}))}</td>"
+            f"<td>{v[0]['contained_in_candidate']}</td>"
+            f"<td class='mut'>{ESC('、'.join(sorted({y['window_id'] for y in v})))}</td></tr>"
+            for i, (k, v) in enumerate(sorted(pk_u.items()), 1))
+        gaps_pk = [b[0] - a_[1] for a_, b in zip(sorted(pk_u)[:-1], sorted(pk_u)[1:])]
+
+        # ---- existing annotation in the neighbourhood ----------------------
+        rows_gn = ''.join(
+            f"<tr><td><code>{ESC(gn['gene_id'])}</code></td>"
+            f"<td><code>{int(gn['start0']):,}-{int(gn['end0']):,}</code></td>"
+            f"<td>{ESC(gn['strand'])}</td><td>{ESC(gn['relation'])}</td>"
+            f"<td>{ESC(gn.get('distance_nt','') or '0')}</td>"
+            f"<td>{ESC(gn.get('overlap_nt','') or '0')}</td>"
+            f"<td>{ESC(gn.get('product',''))}</td>"
+            f"<td>{ESC(gn.get('protein_available',''))}</td></tr>"
+            for gn in sorted(c['_ngenes'], key=lambda g: int(g['start0'])))
+        rows_hyp = ''
+        mrow_m = c['_model_row'] or {}
+        tr_, cr_ = c['_trna'] or {}, c['_crispr'] or {}
+        n_tr = int(tr_.get('n_tRNA_overlapping', 0) or 0)
+        n_cr = int(cr_.get('n_CRISPR_arrays_overlapping', 0) or 0)
+        ann_bits = []
+        if n_tr:
+            ann_bits.append(
+                f'<div class="card"><b>tRNA</b>：与 {n_tr} 个注释 tRNA 相交，覆盖候选的 '
+                f"{float(tr_.get('tRNA_coverage_fraction', 0) or 0):.0%}。"
+                f"<br>名称：<code>{ESC(tr_.get('tRNA_names', ''))}</code>"
+                f"<br>坐标：<code>{ESC(tr_.get('tRNA_coords', ''))}</code>"
+                '<br><span class="mut">tRNA 是高度受约束的结构性基因，不是序列重复。'
+                'detector 在这里打分高，并不意味着存在 repeat。</span></div>')
+        if n_cr:
+            ann_bits.append(
+                f'<div class="card"><b>CRISPR</b>：位于 pilercr 注释的 {n_cr} 个阵列内，'
+                f"覆盖候选的 {float(cr_.get('CRISPR_coverage_fraction', 0) or 0):.0%}。"
+                f"<br>拷贝数 <code>{ESC(cr_.get('CRISPR_array_copies', ''))}</code>，"
+                f"repeat <code>{ESC(cr_.get('CRISPR_repeat_len', ''))}</code> nt，"
+                f"spacer <code>{ESC(cr_.get('CRISPR_spacer_len', ''))}</code> nt"
+                f"<br>阵列 consensus：<code>{ESC(cr_.get('CRISPR_consensus', ''))}</code>"
+                '<br><span class="mut">explainer 的 12-nt consensus 通常只是完整 CRISPR '
+                'repeat 的一个片段，因此它描述了真实阵列，但不等于其真正的重复单元。</span></div>')
+        if cr_.get('CRISPR_repeat_without_called_array') == 'True':
+            ann_bits.append(
+                '<div class="warn"><b>携带 CRISPR repeat 序列，但不在任何 pilercr 阵列内。</b>'
+                f"<br>匹配到的阵列 consensus：<code>{ESC(cr_.get('model_consensus_in_CRISPR_repeat', ''))}</code>"
+                '<br>可能是退化或残缺的阵列，专用工具未能识别；值得单独核查。</div>')
+        if not ann_bits:
+            ann_bits.append('<p class="mut">未与任何注释 tRNA 或 CRISPR 阵列相交。</p>')
+        ann_html = ''.join(ann_bits)
         rows_win = ''.join(
             f"<tr><td><code>{ESC(m.get('window_id',''))}</code></td>"
             f"<td>{m.get('orientation','')}</td><td>{m.get('score','')}</td></tr>"
@@ -451,22 +575,48 @@ def main():
 {fig1}
 <h3>候选范围放大</h3>{fig2}
 <h2>基因邻域</h2>{fig3}
-<h2>repeat 模型</h2>
-<p class="mut">主展示模型只是展示选择；全部替代假设见下表，坐标与序列可追溯。
+<h2>detector peak（冻结阈值 τ=0.80 实际调用结果）</h2>
+<p class="mut">这些就是 detector 自己调用的 peak，按窗口与方向原样复算，再映射到基因组坐标；
+同一 peak 可能由多个窗口或两个方向各报一次，表中已按坐标去重并记录来源。
+peak 的均值上限为 ln(4)=1.386。</p>
+<table><thead><tr><th>#</th><th>坐标</th><th>长度</th><th>summit</th>
+<th>峰均值 (nats)</th><th>方向</th><th>完全在候选内</th><th>来源窗口</th></tr></thead>
+<tbody>{rows_pk or '<tr><td colspan=8>无</td></tr>'}</tbody></table>
+<p class="mut">共 {len(pk_u)} 个去重 peak{f'；相邻 peak 边缘间隔：{", ".join(str(x) for x in gaps_pk[:20])}{"…" if len(gaps_pk) > 20 else ""} nt' if gaps_pk else ''}。
+这里报告的是<b>边缘间隔</b>，不是起点到起点的 pitch，两者不可直接与注释周期比较。</p>
+
+<h2>repeat 模型（按模型分组展示 copies）</h2>
+<p class="mut">每个模型单独成块，copies 列在提出它们的模型之下，<b>序列完整未截断</b>。
+主展示模型只是展示选择，不代表它比替代假设更正确；全部假设都保留。
 未知基因保留未知，不根据邻近位置推断功能。</p>
-<p><b>AUTO consensus：</b><code>{ESC(c['AUTO_consensus'] or '—')}</code>
-（单元长度 {ESC(str(c['AUTO_unit_len'] or '—'))}）</p>
-<table><thead><tr><th>#</th><th>坐标</th><th>mismatch</th><th>留一法 identity</th>
-<th>与候选相交</th><th>序列</th></tr></thead><tbody>{rows_cop or '<tr><td colspan=6>无</td></tr>'}</tbody></table>
-<h3>全部假设</h3>
-<table><thead><tr><th>model_id</th><th>来源</th><th>结构</th><th>consensus</th>
-<th>copies</th><th>状态</th></tr></thead><tbody>{rows_hyp or '<tr><td colspan=6>无</td></tr>'}</tbody></table>
+{models_html}
+
+<h2>已有注释：非编码 RNA 与 CRISPR</h2>
+<p class="mut">pyrodigal 只预测蛋白编码基因，结构性非编码 RNA 与 CRISPR 阵列在其中<b>不可见</b>。
+这里补上 aragorn（tRNA）与 pilercr（CRISPR 阵列）的注释。
+这是<b>注释</b>，不是判断：它说明 detector 打在了什么已知结构上。</p>
+{ann_html}
+
+<h2>已有注释（邻域内预测 CDS）</h2>
+<p class="mut">基因为 pyrodigal 从头预测，<b>没有功能注释</b>——所有 product 都是
+"hypothetical protein"。因此下表只能说明位置与朝向关系，不含任何功能判断。
+AUTO CDS 重叠数 {ESC(str(mrow_m.get('n_CDS_overlapping','') or '—'))}，
+重叠比例 {ESC(str(mrow_m.get('CDS_overlap_fraction','') or '—'))}。</p>
+<table><thead><tr><th>gene_id</th><th>坐标</th><th>链</th><th>relation</th>
+<th>距离 nt</th><th>重叠 nt</th><th>product</th><th>有蛋白序列</th></tr></thead>
+<tbody>{rows_gn or '<tr><td colspan=8>邻域内无预测 CDS</td></tr>'}</tbody></table>
+
 <h3>原始窗口成员</h3>
 <table><thead><tr><th>window_id</th><th>方向</th><th>分数</th></tr></thead>
 <tbody>{rows_win or '<tr><td colspan=3>—</td></tr>'}</tbody></table>
-<h2>候选序列</h2>
-<div class="seq">{ESC(seq[:1200])}{'…' if len(seq) > 1200 else ''}</div>
+
+<h2>序列</h2>
+<h3>候选区间（{ce - cs:,} nt，完整）</h3>
+<div class="seq">{ESC(seq)}</div>
+<h3>上下文（候选 ±{ctx_pad} nt，{xe - xs:,} nt；候选区间以 [ ] 标出）</h3>
+<div class="seq">{ESC(ctx[:cs - xs])}<b>[{ESC(ctx[cs - xs:ce - xs])}]</b>{ESC(ctx[ce - xs:])}</div>
 <p><a href="../sequences/{c['uid']}.fa">下载候选 FASTA</a> ·
+<a href="../sequences/{c['uid']}_context.fa">下载上下文 FASTA</a> ·
 <a href="../figures/{c['uid']}_track.svg">track SVG</a> ·
 <a href="../figures/{c['uid']}_genes.svg">邻域 SVG</a> ·
 <a href="../tables/all_candidates.tsv">总表 TSV</a> ·

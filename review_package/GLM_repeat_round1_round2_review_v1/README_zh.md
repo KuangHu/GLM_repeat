@@ -126,3 +126,74 @@ probe 不参与候选判定，也不回写任何冻结输出。阳性对照是�
 explainer 从坐标重新推导 ID，所以一直没有暴露；邻域导出脚本会校验该列，因此报错。
 本轮的处理是改用 `calls/candidates.tsv`（ID 已填充，坐标集合与 `audit_full.tsv`
 逐行一致，四次运行均已核对）。**冻结代码没有修改**，该缺陷留待下一轮修复。
+
+
+## 8. 对浏览册 69 个候选的审阅（助手判断，非人工确认）
+
+判断写在 `review/assistant_review.tsv` 的 `AUTO_REVIEW_*` 列。
+**`HUMAN_*` 列仍然全部留空** —— 机器判断不应占据留给人工阅读的字段。
+每条判断都由明确规则产生，并附带触发它的证据（`AUTO_REVIEW_reasoning`），
+因此任何一条都可以被逐项质疑。`cannot_judge` 是一等结论，不会为了好看而回避。
+
+**随机层（n=40）**
+
+- 重复证据：no_repeat_found 22, cannot_judge 7, suspected_repeat 6, clear_repeat 5
+- 解释完整性：explainer_wrong_model_class 14, nothing_to_explain 12, boundary_or_phase_problem 5, partial 5, model_adequate 4
+- 后续价值：known_common_structure 18, not_worth_followup 10, function_unknown 8, worth_followup 4
+- 与注释 tRNA 相交：15；位于 CRISPR 阵列内：0；携带 CRISPR repeat 但不在阵列内：1
+
+**富集层（n=29）**
+
+- 重复证据：clear_repeat 12, suspected_repeat 8, no_repeat_found 7, cannot_judge 2
+- 解释完整性：model_adequate 7, partial 6, structure_unsupported 5, nothing_to_explain 4, explainer_wrong_model_class 4, model_is_fragment_of_known_array 2, no_model_but_signal_present 1
+- 后续价值：known_common_structure 12, worth_followup 9, not_worth_followup 4, function_unknown 4
+- 与注释 tRNA 相交：6；位于 CRISPR 阵列内：2；携带 CRISPR repeat 但不在阵列内：0
+
+**两层不可合并。** 只有随机层描述"审阅者会遇到什么"；富集层是按规则挑选的导览。
+
+### 8.1 本轮审阅得到的主要结论
+
+**(1) 宿主路线上约一半的候选是 tRNA 基因。**
+
+| 运行 | 注释 tRNA 数 | 候选中与 tRNA 相交 |
+|---|---:|---:|
+| 宿主 round-1 | 124 | 52.4% |
+| 噬菌体 round-1 | 241 | 17.0% |
+| 宿主 round-2 | 102 | 52.6% |
+| 噬菌体 round-2 | 267 | 11.9% |
+
+两轮宿主面板分别为 52.4% 与 52.6%，两轮噬菌体为 17.0% 与 11.9%，各自高度一致。
+这意味着在当前阈值下，**宿主路线的 detector 在很大程度上是一个 tRNA / 结构性 ncRNA 检测器**。
+tRNA 的 masked predictability 高，是因为它们受到强烈的结构与序列约束，
+**这与"存在序列重复"是两回事**。
+
+**(2) `unresolved` 主要不是失败，而是模型类别不匹配。**
+宿主 round-2 的 89 个 `no_model` 候选中有 60 个是 tRNA。
+ungapped repeat explainer 无法表示结构性 ncRNA 基因，这是类别错配，不是漏解释。
+报告第 2 节把 `unresolved` 当作"未解释"统计，这个口径需要在下一轮修正。
+
+**(3) CRISPR 阵列被完整召回，并额外提示 4 个未被专用工具调用的位点。**
+pilercr 在宿主 round-2 注释出 9 个 CRISPR 阵列，**9 个全部被候选覆盖**。
+另有 4 个 *Aquifex aeolicus* 候选携带该基因组的 CRISPR repeat consensus
+（`GTTCCTAATGTACCGTGTGGAGTTGAAACC`）却落在所有 pilercr 阵列之外，
+其中一个（`NC_000918.1:263146-263290`）出现在随机层。
+这类位点可能是退化或残缺的阵列，是本轮最值得单独核查的结果。
+**这不是"发现了新的生物学系统"**：它们是专用工具未调用、而本流程标记出来的已知类型位点。
+
+**(4) 12-nt 种子的偶然性必须逐例校准。**
+对每个候选区域做保二核苷酸组成的洗牌（300 次）后比较重复 12-mer 数量：
+`candidate_associated` 的模型几乎全部显著（p<0.05），
+而 `no_model` 候选中只有 1/30 显著 —— 它们确实没有超出偶然的短词重复。
+但 `flank_only` 的 `repeat_pair` 只有一半显著，且其 copies 全部落在候选之外，
+**这类模型不构成关于该候选本身的证据**，一律记为 `cannot_judge`。
+
+**(5) 低复杂度必须同时看 consensus，不能只看包络。**
+包络常有数千 nt，会把低复杂度的 consensus 稀释到看不见。
+例如 `NC_048045.1:37076-40240` 的 consensus 是 `GGCGGCGGCGGC`（熵 0.92），
+而整个包络的熵是 1.86。本轮已把 consensus 熵加入低复杂度判定。
+
+### 8.2 这轮审阅没有做的事
+
+- 没有重新调参：detector、阈值、explainer 全部保持冻结。
+- 没有把 tRNA / CRISPR 注释反馈进候选判定，它们只用于解释与展示。
+- 没有宣称任何候选是经过确认的生物学发现。
