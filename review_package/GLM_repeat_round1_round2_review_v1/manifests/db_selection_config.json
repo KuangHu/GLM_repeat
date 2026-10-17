@@ -1,0 +1,99 @@
+{
+  "round": "phage_round1",
+  "seed": 20261016,
+  "created": "2026-10-16",
+  "budgets": {
+    "scan_target_Mb": [
+      3,
+      5
+    ],
+    "initial_download_budget_Mb": 15,
+    "batch_size_Mb": [
+      0.5,
+      1.0
+    ],
+    "download_batch_accessions": [
+      25,
+      50
+    ]
+  },
+  "phage_selection": {
+    "length_nt_range": [
+      10000,
+      500000
+    ],
+    "primary_source": "NCBI RefSeq complete virus (nuccore accessions)",
+    "fallback_source": "GenBank, labelled separately, never double counted with RefSeq",
+    "include": [
+      "DNA bacteriophage",
+      "archaeal virus"
+    ],
+    "exclude": [
+      "RNA viruses"
+    ],
+    "quarantine": [
+      "unknown host",
+      "unknown molecule type",
+      "unclear completeness"
+    ],
+    "name_keyword_phage_alone_is_not_sufficient": true,
+    "min_strata": 8,
+    "one_representative_per_classified_genus_then_rotate": true,
+    "max_fraction_per_family": 0.25,
+    "balance": [
+      "GC",
+      "length"
+    ],
+    "selection_must_not_use": [
+      "repeat motif",
+      "candidate score",
+      "neighbouring protein function"
+    ]
+  },
+  "qc": {
+    "non_acgt_fraction_max": 0.001,
+    "note": "records above the limit go to a separate QC list; this is a recorded selection bias"
+  },
+  "dedup": {
+    "exact": "uppercase DNA SHA256, plus reverse complement and circular rotation check",
+    "near": {
+      "identity_min": 0.95,
+      "bidirectional_coverage_min": 0.85,
+      "coverage": "union of alignment coordinates, overlaps not double counted",
+      "every_excluded_member_must_meet_the_condition_against_the_representative": true,
+      "purpose": "compute saving only, NOT a viral species claim"
+    },
+    "related_to_dev_or_calibration": "moved to a related set, not the main exploration set"
+  },
+  "frozen_pipeline": {
+    "window": 3000,
+    "stride": 1500,
+    "scoring": "random_partition",
+    "groups": 20,
+    "repeats": 2,
+    "scoring_seed": 20261014,
+    "attention_mask_policy": "always",
+    "orientations": "both",
+    "model_revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+    "threshold_file": "results/pilot/calibration/thresholds/thresholds.json",
+    "threshold_key": "bg100_per_Mb",
+    "threshold_key_note": "historical configuration name; NOT a density or FDR guarantee for this round"
+  },
+  "cost_model": {
+    "seconds_per_track": 10.8,
+    "source": "smoke run, estimate only",
+    "expected_tracks": "2 x selected_windows"
+  },
+  "tooling": {
+    "datasets": "datasets version: 18.39.0",
+    "python": "Python 3.11.17",
+    "eutils": "REST via curl (EDirect not installed)"
+  },
+  "scope_limits": [
+    "exploration round; not a recall or FDR measurement",
+    "frozen configuration missed the tested annotated VIPR locus; this must remain in the final report",
+    "no full RefSeq / GTDB archive / IMG-VR download this round",
+    "cross-circular-origin detection is NOT implemented; coverage gap"
+  ],
+  "code_commit": "590b0834a08126ec36b35daa3e10845416a547b7"
+}

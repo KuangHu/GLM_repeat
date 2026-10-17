@@ -1,0 +1,9 @@
+{
+  "note": "full per-base GPU tracks are NOT inside this package; they are kept in the companion archive at the paths below",
+  "paths": {
+    "r1_host": "/global/scratch/users/kh36969/GLM_repeat/region_round1/scores",
+    "r1_phage": "/global/scratch/users/kh36969/GLM_repeat/phage_round1/scores",
+    "r2_host": "/global/scratch/users/kh36969/GLM_repeat/round2_host/scores",
+    "r2_phage": "/global/scratch/users/kh36969/GLM_repeat/round2_phage/scores"
+  }
+}

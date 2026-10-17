@@ -1,0 +1,22 @@
+accession_version	experimental_role	assembly_accession	length_nt	gc_fraction	non_acgt_fraction	sequence_sha256	local_path
+NC_008532.1	development_seed19		1856368	0.3908	0.0	3d3defe3fed37d6419ac6d5690cfd91ac6bf6b5d8851f25b32231119abc11fea	/global/scratch/users/kh36969/GLM_repeat/data/bench/GLM_REPEAT_REAL_SEEDS_V1/genomes/NC_008532.1.fna.gz
+NC_028808.2	development_seed19		90743	0.3976	0.0	437088b35d9b2c709b205fe7696f1c26cef662b866795d8db92e20796bd671b1	/global/scratch/users/kh36969/GLM_repeat/data/bench/GLM_REPEAT_REAL_SEEDS_V1/genomes/NC_028808.2.fna.gz
+MW218148.1	development_seed19		260727	0.2683	0.0	53e381db058423dd7a26c4775accf380b6c457dbeff03e5a1fac0baa7c7fbbca	/global/scratch/users/kh36969/GLM_repeat/data/bench/GLM_REPEAT_REAL_SEEDS_V1/genomes/MW218148.1.fna.gz
+MW248466.1	development_seed19		266637	0.2518	0.0	60d6cdecc4e1471f9a76ba79c4fde0576f96c4458096b4b136d8cc34d2e666d7	/global/scratch/users/kh36969/GLM_repeat/data/bench/GLM_REPEAT_REAL_SEEDS_V1/genomes/MW248466.1.fna.gz
+NC_000913.3	development_seed19		4641652	0.5079	0.0	e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0	/global/scratch/users/kh36969/GLM_repeat/data/bench/GLM_REPEAT_REAL_SEEDS_V1/genomes/NC_000913.3.fna.gz
+NC_000964.3	development_seed19		4215606	0.4351	0.0	71572ae0b98f44a6382b29e194e56c1f7d87477be8f53915fb06816f886b17b7	/global/scratch/users/kh36969/GLM_repeat/data/bench/GLM_REPEAT_REAL_SEEDS_V1/genomes/NC_000964.3.fna.gz
+NC_003413.1	heldout_validation		1908256	0.4077	0.0	34307cbb2b2f2fb8f64bc36c3581c4115347652ded46a343e1c68bb0cea9bdb2	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/heldout/NC_003413.1.fna
+NC_006461.1	heldout_validation		1849742	0.6952	4e-06	2df377fdfe18a96a39a1854e49fa32901fd754716aa09a65cf98dbf2c48b3870	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/heldout/NC_006461.1.fna
+MW349129.1	heldout_validation		265446	0.2513	0.0	7081d794353d4436335e1e8d9a6aa2cdade2ff00ff043d967ca11372c5a63f6b	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/heldout/MW349129.1.fna
+OR836606.1	heldout_validation		258897	0.2513	0.0	bdc348825325466b9d794e2d1c466f69e023ae0a9bb5768f35652bec3a60a592	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/heldout/OR836606.1.fna
+LC680885.1	heldout_validation		267055	0.2509	0.0	325cde17af670c1e701cd59d40d02ed5efc274a216f8b75eb3d61835149d056f	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/heldout/LC680885.1.fna
+MN091626.1	heldout_validation		268748	0.2513	0.0	e5f4013c3ce6bc60fd219a1c30389239433176384ed303048d533316188fca8b	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/heldout/MN091626.1.fna
+MZ779063.1	heldout_validation		263185	0.2503	0.0	b53c746ff61006fd3232683d2ea65c2ba9b608d17efb234b47720edbd8d8f3f1	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/heldout/MZ779063.1.fna
+NC_000909.1	calibration		1664960	0.3143	2e-06	58d27a20bd9143f7beb0aed6902fc5680083f2be46fdc0514499cf362e4fa905	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/calibration/NC_000909.1.fna
+NC_001263.1	calibration		2648590	0.6701	5e-06	55502b445a3edefcdd0ed0b164c25f9ae7cec38ac4d604f02585f37f6c014832	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/calibration/NC_001263.1.fna
+NC_005880.2	calibration		148317	0.3039	0.0	0752d253b82b603cacf5d9c1297a27bcf980c3efd2663452cc001eb0e881e5bc	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/calibration/NC_005880.2.fna
+NC_007021.1	calibration		130706	0.3026	0.0	aa649c88fd1622c5e5132766a5b8cb6fa9f7d0db767e4378309ea7a297a74db0	/global/scratch/users/kh36969/GLM_repeat/data/pilot_fasta/calibration/NC_007021.1.fna
+NC_002607.1	host_round1_exploration		2014239	0.6791	0.0	b42026407d52405bf8809e10b73081363296d1ddacb7284979a6b7425db91802	/global/scratch/users/kh36969/GLM_repeat/data/round1_raw/NC_002607.1.fa
+NC_001318.1	host_round1_exploration		910724	0.2859	4.7e-05	d504c1e596ee1e9325cb6fd0aeb368851a735e4bb7ff08fc1d841a818681d213	/global/scratch/users/kh36969/GLM_repeat/data/round1_raw/NC_001318.1.fa
+NC_000963.1	host_round1_exploration		1111523	0.29	0.0	178d42cd089b8dc1c5206aadf4f6497c05d86a94ee13f0a8ae1fc01bb5df6878	/global/scratch/users/kh36969/GLM_repeat/data/round1_raw/NC_000963.1.fa
+NC_000908.2	host_round1_exploration		580076	0.3169	0.0	50d2c89b829cf0c98518b0c3565f82ac4866d9310f8726bea8223ac3c1841a81	/global/scratch/users/kh36969/GLM_repeat/data/round1_raw/NC_000908.2.fa

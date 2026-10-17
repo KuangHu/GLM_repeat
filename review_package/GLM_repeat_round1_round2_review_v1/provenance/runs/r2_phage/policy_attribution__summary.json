@@ -1,0 +1,41 @@
+{
+  "min_reciprocal_overlap": 0.9,
+  "full_copies": 6201,
+  "policy_copies": 5482,
+  "retained_exact": 5443,
+  "lost_exact": 758,
+  "gained_exact": 39,
+  "net_change": -719,
+  "lost_exact_but_interval_matched": 26,
+  "lost_under_interval_matching": 732,
+  "note": "percentages describe explainer copy RECORDS, not verified biological repeats; differences may reflect candidate boundary or hypothesis changes, not only filtered sequence",
+  "affected_candidates": 34,
+  "attributed_copies": 763,
+  "upstream_trigger": {
+    "window_excluded": 674,
+    "window_excluded_but_within_policy_input": 75,
+    "model_change": 13,
+    "outside_explainer_input": 1
+  },
+  "representation_outcome": {
+    "no_corresponding_copy": 705,
+    "boundary_shift_within_strict_threshold": 31,
+    "partial_overlap_only": 11,
+    "phase_or_boundary_shift": 16
+  },
+  "trigger_x_outcome": {
+    "window_excluded | no_corresponding_copy": 668,
+    "window_excluded_but_within_policy_input | no_corresponding_copy": 35,
+    "model_change | no_corresponding_copy": 1,
+    "model_change | boundary_shift_within_strict_threshold": 6,
+    "model_change | partial_overlap_only": 1,
+    "model_change | phase_or_boundary_shift": 5,
+    "window_excluded_but_within_policy_input | phase_or_boundary_shift": 11,
+    "window_excluded_but_within_policy_input | boundary_shift_within_strict_threshold": 20,
+    "window_excluded_but_within_policy_input | partial_overlap_only": 9,
+    "outside_explainer_input | no_corresponding_copy": 1,
+    "window_excluded | boundary_shift_within_strict_threshold": 5,
+    "window_excluded | partial_overlap_only": 1
+  },
+  "axis_note": "upstream_trigger says which pipeline stage changed; representation_outcome says whether the copy still appears in some form. They are independent: a copy whose window was excluded may still be re-represented from another window with shifted boundaries. Only no_corresponding_copy means the evidence is absent from the policy output, and even that is a computational evidence difference, not a verified biological miss."
+}

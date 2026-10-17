@@ -1,0 +1,81 @@
+{
+  "seed": 20261016,
+  "n_random_per_route": 20,
+  "random_routes": [
+    "r2_host",
+    "r2_phage"
+  ],
+  "random_sampling_lists": {
+    "r2_host": [
+      "NC_000117.1:1038945-1038971",
+      "NC_000117.1:368398-368467",
+      "NC_000117.1:409237-409322",
+      "NC_000117.1:541064-541143",
+      "NC_000117.1:937061-937130",
+      "NC_000918.1:1153495-1153840",
+      "NC_000918.1:1193761-1193920",
+      "NC_000918.1:144168-144237",
+      "NC_000918.1:263146-263290",
+      "NC_000918.1:552615-552688",
+      "NC_007181.1:138715-138803",
+      "NC_007181.1:1764520-1764839",
+      "NC_007181.1:2032064-2032111",
+      "NC_007181.1:420979-421093",
+      "NC_007181.1:442195-442267",
+      "NC_007181.1:458631-458932",
+      "NC_007181.1:515202-515777",
+      "NC_007181.1:563518-563615",
+      "NC_007181.1:648771-648850",
+      "NC_007181.1:799286-799370"
+    ],
+    "r2_phage": [
+      "NC_014663.1:122521-123032",
+      "NC_015292.1:79477-79928",
+      "NC_028938.1:18927-19049",
+      "NC_048045.1:30844-31004",
+      "NC_048045.1:47341-48167",
+      "NC_048045.1:48827-52222",
+      "NC_048046.1:1482-1975",
+      "NC_048046.1:251443-251703",
+      "NC_048046.1:294420-296511",
+      "NC_048046.1:300113-300371",
+      "NC_048047.1:114237-115509",
+      "NC_048047.1:303518-303617",
+      "NC_048074.1:63031-63066",
+      "NC_049498.1:42488-42524",
+      "NC_049952.1:25263-25414",
+      "NC_055826.1:14039-14173",
+      "NC_055826.1:14895-14973",
+      "NC_055826.1:30735-30756",
+      "NC_055872.1:51853-51886",
+      "NC_055894.1:19392-19412"
+    ]
+  },
+  "random_draw_procedure": "per route: candidates sorted by candidate_id, then random.Random(seed).sample drawn once per route in the order listed in random_routes; one shared RNG, so the draw is reproducible only for this exact route order and pool",
+  "runs": {
+    "r1_host": 170,
+    "r1_phage": 399,
+    "r2_host": 156,
+    "r2_phage": 472
+  },
+  "selected_total": 69,
+  "selected_random": 40,
+  "selected_enriched_only": 29,
+  "rule_counts": {
+    "random": 40,
+    "high_score_no_model": 8,
+    "multi_copy": 8,
+    "clear_structure": 6,
+    "gene_neighborhood": 6,
+    "lineage_spread": 5
+  },
+  "n_lineage_cap": 5,
+  "annotation_limitation": "CDS are pyrodigal ab initio predictions; every product is \"hypothetical protein\". No functional annotation exists in this data, so neighbourhood classes are structural (overlap / flank orientation) and carry no functional claim.",
+  "interpretation_rule": "Only the random stratum supports an unbiased statement about what a reviewer would encounter. The enriched stratum is a guided tour selected using detector score, repeat structure and neighbouring gene products; no yield, precision or FDR may be computed from it. Random IDs remain in the random denominator even when an enriched rule also selected them.",
+  "human_fields_blank": [
+    "HUMAN_sequence_evidence",
+    "HUMAN_explanation_coverage",
+    "HUMAN_biological_context",
+    "HUMAN_notes"
+  ]
+}

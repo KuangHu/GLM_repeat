@@ -1,0 +1,18 @@
+{
+  "min_reciprocal_overlap": 0.9,
+  "full_copies": 2641,
+  "policy_copies": 2641,
+  "retained_exact": 2641,
+  "lost_exact": 0,
+  "gained_exact": 0,
+  "net_change": 0,
+  "lost_exact_but_interval_matched": 0,
+  "lost_under_interval_matching": 0,
+  "note": "percentages describe explainer copy RECORDS, not verified biological repeats; differences may reflect candidate boundary or hypothesis changes, not only filtered sequence",
+  "affected_candidates": 0,
+  "attributed_copies": 0,
+  "upstream_trigger": {},
+  "representation_outcome": {},
+  "trigger_x_outcome": {},
+  "axis_note": "upstream_trigger says which pipeline stage changed; representation_outcome says whether the copy still appears in some form. They are independent: a copy whose window was excluded may still be re-represented from another window with shifted boundaries. Only no_corresponding_copy means the evidence is absent from the policy output, and even that is a computational evidence difference, not a verified biological miss."
+}

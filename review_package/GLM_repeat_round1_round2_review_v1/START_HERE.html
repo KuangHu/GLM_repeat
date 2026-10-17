@@ -1,0 +1,80 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GLM_repeat 审阅包</title><style>
+:root{--fg:#111827;--mut:#6b7280;--line:#e5e7eb;--bg:#ffffff;--card:#f9fafb;--acc:#2563eb}
+*{box-sizing:border-box}
+body{margin:0;padding:24px;font:15px/1.65 -apple-system,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg);max-width:1180px;margin-inline:auto}
+h1{font-size:24px;margin:0 0 6px} h2{font-size:18px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:18px 0 8px}
+a{color:var(--acc)} code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:13px;word-break:break-all}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+th{background:var(--card);position:sticky;top:0;cursor:pointer}
+.mut{color:var(--mut)} .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px;margin:12px 0}
+.warn{background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;padding:12px;margin:12px 0}
+.seq{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;white-space:pre-wrap;word-break:break-all;background:var(--card);padding:10px;border-radius:6px;line-height:1.5}
+.tag{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:999px;padding:1px 9px;font-size:12px;margin-right:4px}
+input,select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;font-size:13px;margin:0 6px 6px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.kv{font-size:13px} .kv b{display:block;color:var(--mut);font-weight:500;font-size:11px}
+@media(max-width:700px){body{padding:14px}}
+</style></head><body><p class="mut">GLM_repeat 离线审阅包 · 全部链接为相对路径，无需联网</p>
+<h1>从这里开始</h1>
+
+<div class="warn"><b>这个包里全部是计算候选，没有任何一个经过人工确认。</b>
+所有机器生成的标签都以 <code>AUTO_</code> 开头；所有需要你判断的字段都以
+<code>HUMAN_</code> 开头，并且全部留空。</div>
+
+<h2>这是什么</h2>
+<p>用 gLM2_650M 基因组语言模型在 19.09 Mb 细菌/古菌与噬菌体序列上
+扫描出的重复候选，以及对每个候选的结构解释尝试。共 1,197 个候选，
+其中 69 个做成了可逐页翻阅的浏览册。</p>
+
+<h2>这不是什么</h2>
+<ul>
+<li>报告的是<b>候选产出率</b>，<b>不是 FDR、不是精确率、不是生物学概率</b>。</li>
+<li>explainer 给出模型 ≠ 该重复真实存在；probe 阴性 ≠ 该区域没有重复。</li>
+<li>没有归类的候选只是"未解释"，<b>不是新发现的生物学系统</b>。</li>
+</ul>
+
+<h2>扫描规模</h2>
+<table><thead><tr><th>运行</th><th>候选数</th><th>唯一扫描 Mb</th><th>候选/Mb</th></tr></thead>
+<tbody><tr><td>宿主 round-1</td><td>170</td><td>4.62</td><td>36.8</td></tr><tr><td>噬菌体 round-1</td><td>399</td><td>4.55</td><td>87.7</td></tr><tr><td>宿主 round-2</td><td>156</td><td>4.82</td><td>32.4</td></tr><tr><td>噬菌体 round-2</td><td>472</td><td>5.10</td><td>92.5</td></tr></tbody></table>
+
+<h2>建议的审阅顺序</h2>
+<ol>
+<li>先读 <a href="report/ROUND2_REPORT_zh.md">report/ROUND2_REPORT_zh.md</a>
+    —— 本轮做了什么、产出多少、有哪些局限。</li>
+<li>再翻 <a href="index.html">浏览册索引</a>（69 个候选，可搜索、可排序）。
+    每一页都有 detector 信号曲线、基因邻域图、全部重复假设与可下载序列。</li>
+<li>把判断写进 <a href="review/browse_book_review.tsv">review/browse_book_review.tsv</a>
+    的 <code>HUMAN_</code> 列。</li>
+<li>需要全量数据时看 <a href="tables/all_candidates.tsv">tables/all_candidates.tsv</a>
+    （全部 1,197 个候选）。</li>
+</ol>
+
+<div class="warn"><b>浏览册的两层必须分开解读。</b>
+随机层 40 个（round-2 每条路线各
+20 个，种子 20261016）是<b>唯一</b>支持
+无偏产出描述的部分；富集层 29 个是按规则挑选的导览，
+<b>不能从中计算任何比例</b>。完整抽样名单见
+<a href="manifests/selection_provenance.json">manifests/selection_provenance.json</a>。</div>
+
+<h2>目录</h2>
+<table><tbody>
+<tr><th><a href="index.html">index.html</a></th><td>浏览册索引</td></tr>
+<tr><th>candidates/</th><td>每个候选一页 HTML</td></tr>
+<tr><th>figures/</th><td>每个候选的 detector 信号 SVG 与基因邻域 SVG</td></tr>
+<tr><th>sequences/</th><td>每个候选的 FASTA</td></tr>
+<tr><th>tables/</th><td>全量候选表</td></tr>
+<tr><th>review/</th><td>待填写的人工审查表</td></tr>
+<tr><th>report/</th><td>本轮报告与上游冻结报告</td></tr>
+<tr><th>manifests/</th><td>数据选择、阈值、抽样的冻结清单</td></tr>
+<tr><th>provenance/</th><td>代码校验和、环境、模型固定版本</td></tr>
+<tr><th>MANIFEST.sha256</th><td>全部文件校验和</td></tr>
+</tbody></table>
+
+<h2>核验完整性</h2>
+<p>解压后在包的根目录执行：</p>
+<div class="seq">sha256sum -c MANIFEST.sha256</div>
+
+<p class="mut">阈值、打分器与 explainer 均为冻结版本，本轮未做任何重新调参。</p>
+</body></html>

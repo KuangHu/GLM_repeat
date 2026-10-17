@@ -1,0 +1,70 @@
+run	candidate_id	contig	start0	end0	span_nt	score	n_peaks	in_random_sample	n_rules	rules	explainer_status	architecture	unit_len	n_copies	median_loo_consensus_identity	probe_verdict	n_neighbor_CDS	neighborhood_class	HUMAN_sequence_evidence	HUMAN_explanation_coverage	HUMAN_biological_context	HUMAN_notes
+r2_host	NC_000117.1:1038945-1038971	NC_000117.1	1038945	1038971	26	1.3787820141810467	2	True	1	random:r2_host	no_model					seeds_without_extension	7	intergenic_convergent				
+r2_host	NC_000117.1:368398-368467	NC_000117.1	368398	368467	69	1.7424826530811794	2	True	1	random:r2_host	flank_only	repeat_pair	12	2	1.0		22	intergenic_tandem_reverse				
+r2_host	NC_000117.1:409237-409322	NC_000117.1	409237	409322	85	1.9759697176050395	3	True	1	random:r2_host	no_model					no_repeated_seed	19	intergenic_divergent				
+r2_host	NC_000117.1:541064-541143	NC_000117.1	541064	541143	79	1.86196872382653	2	True	1	random:r2_host	no_model					seeds_without_extension	22	intergenic_tandem_forward				
+r2_host	NC_000117.1:937061-937130	NC_000117.1	937061	937130	69	1.868538902965224	2	True	1	random:r2_host	no_model					seeds_without_extension	18	intergenic_divergent				
+r2_host	NC_000918.1:1153495-1153840	NC_000918.1	1153495	1153840	345	2.483035517141868	5	True	1	random:r2_host	flank_only	repeat_pair	12	2	1.0		30	intergenic_convergent				
+r2_host	NC_000918.1:1193761-1193920	NC_000918.1	1193761	1193920	159	1.9244758822300274	2	True	1	random:r2_host	candidate_associated	repeat_pair	12	2	1.0		15	intergenic_divergent				
+r2_host	NC_000918.1:144168-144237	NC_000918.1	144168	144237	69	1.445530056389347	2	True	1	random:r2_host	no_model					no_repeated_seed	18	intergenic_divergent				
+r2_host	NC_000918.1:263146-263290	NC_000918.1	263146	263290	144	2.4337623132428585	3	True	1	random:r2_host	candidate_associated	regular_spaced_array	12	4	1.0		27	intergenic_divergent				
+r2_host	NC_000918.1:552615-552688	NC_000918.1	552615	552688	73	1.6259331181000765	2	True	1	random:r2_host	no_model					seeds_without_extension	22	intergenic_tandem_forward				
+r2_host	NC_007181.1:138715-138803	NC_007181.1	138715	138803	88	2.0488996340334413	3	True	1	random:r2_host	no_model					seeds_without_extension	26	intergenic_convergent				
+r2_host	NC_007181.1:1764520-1764839	NC_007181.1	1764520	1764839	319	1.4689680215580405	2	True	1	random:r2_host	no_model					no_repeated_seed	26	intergenic_divergent				
+r2_host	NC_007181.1:2032064-2032111	NC_007181.1	2032064	2032111	47	1.6445177966858318	2	True	1	random:r2_host	no_model					no_repeated_seed	20	cds_overlapping				
+r2_host	NC_007181.1:420979-421093	NC_007181.1	420979	421093	114	1.8208751757111814	3	True	1	random:r2_host	no_model					seeds_without_extension	27	cds_overlapping				
+r2_host	NC_007181.1:442195-442267	NC_007181.1	442195	442267	72	1.6641801184750211	2	True	1	random:r2_host	no_model					seeds_without_extension	26	intergenic_tandem_reverse				
+r2_host	NC_007181.1:458631-458932	NC_007181.1	458631	458932	301	2.3939034422764736	4	True	1	random:r2_host	no_model					seeds_without_extension	31	intergenic_divergent				
+r2_host	NC_007181.1:515202-515777	NC_007181.1	515202	515777	575	2.67524754628411	5	True	2	high_score_no_model:r2_host,random:r2_host	no_model					ungapped_similarity	25	cds_overlapping				
+r2_host	NC_007181.1:563518-563615	NC_007181.1	563518	563615	97	2.1027486509540014	3	True	1	random:r2_host	no_model					ungapped_similarity	21	intergenic_tandem_reverse				
+r2_host	NC_007181.1:648771-648850	NC_007181.1	648771	648850	79	2.1940562732147724	4	True	1	random:r2_host	flank_only	repeat_pair	12	2	1.0		24	cds_overlapping				
+r2_host	NC_007181.1:799286-799370	NC_007181.1	799286	799370	84	1.603115483313993	2	True	1	random:r2_host	no_model					ungapped_similarity	21	cds_overlapping				
+r2_phage	NC_014663.1:122521-123032	NC_014663.1	122521	123032	511	2.433472714631721	4	True	1	random:r2_phage	candidate_associated	repeat_pair	12	2	1.0		25	cds_overlapping				
+r2_phage	NC_015292.1:79477-79928	NC_015292.1	79477	79928	451	1.6536000679070826	2	True	1	random:r2_phage	no_model					seeds_without_extension	20	cds_overlapping				
+r2_phage	NC_028938.1:18927-19049	NC_028938.1	18927	19049	122	1.8597717476742608	3	True	1	random:r2_phage	candidate_associated	repeat_pair	12	2	1.0		29	cds_overlapping				
+r2_phage	NC_048045.1:30844-31004	NC_048045.1	30844	31004	160	1.7219039620560948	2	True	1	random:r2_phage	candidate_associated	repeat_pair	12	2	1.0		33	intergenic_tandem_forward				
+r2_phage	NC_048045.1:47341-48167	NC_048045.1	47341	48167	826	3.4262510814415994	9	True	1	random:r2_phage	no_model					seeds_without_extension	18	intergenic_tandem_forward				
+r2_phage	NC_048045.1:48827-52222	NC_048045.1	48827	52222	3395	4.996752724649522	28	True	1	random:r2_phage	candidate_associated	dispersed_repeat	12	21	0.9166666666666666		19	cds_overlapping				
+r2_phage	NC_048046.1:1482-1975	NC_048046.1	1482	1975	493	3.105840076205824	9	True	1	random:r2_phage	candidate_associated	dispersed_repeat	12	7	0.9166666666666666		23	intergenic_one_sided				
+r2_phage	NC_048046.1:251443-251703	NC_048046.1	251443	251703	260	1.8904001584483519	3	True	1	random:r2_phage	candidate_associated	repeat_pair	12	2	1.0		50	intergenic_tandem_forward				
+r2_phage	NC_048046.1:294420-296511	NC_048046.1	294420	296511	2091	3.649886619600554	9	True	1	random:r2_phage	candidate_associated	variable_spacer_array	12	6	1.0		41	cds_overlapping				
+r2_phage	NC_048046.1:300113-300371	NC_048046.1	300113	300371	258	1.4921034637443762	2	True	1	random:r2_phage	no_model					ungapped_similarity	37	cds_overlapping				
+r2_phage	NC_048047.1:114237-115509	NC_048047.1	114237	115509	1272	2.5186813262760435	5	True	1	random:r2_phage	candidate_associated	dispersed_repeat	12	8	0.8333333333333334		17	cds_overlapping				
+r2_phage	NC_048047.1:303518-303617	NC_048047.1	303518	303617	99	1.9772324279959623	3	True	1	random:r2_phage	no_model					seeds_without_extension	37	intergenic_tandem_forward				
+r2_phage	NC_048074.1:63031-63066	NC_048074.1	63031	63066	35	1.418183185076404	2	True	1	random:r2_phage	no_model					no_repeated_seed	31	intergenic_tandem_forward				
+r2_phage	NC_049498.1:42488-42524	NC_049498.1	42488	42524	36	1.5815999227405515	2	True	1	random:r2_phage	flank_only	repeat_pair	12	2	1.0		28	intergenic_convergent				
+r2_phage	NC_049952.1:25263-25414	NC_049952.1	25263	25414	151	1.5990615344580654	2	True	1	random:r2_phage	no_model					no_repeated_seed	26	intergenic_tandem_forward				
+r2_phage	NC_055826.1:14039-14173	NC_055826.1	14039	14173	134	1.7650162921003674	3	True	1	random:r2_phage	flank_only	repeat_pair	12	2	1.0		18	cds_overlapping				
+r2_phage	NC_055826.1:14895-14973	NC_055826.1	14895	14973	78	1.4321036468305532	2	True	1	random:r2_phage	flank_only	dispersed_repeat	12	4	0.9583333333333333		16	cds_overlapping				
+r2_phage	NC_055826.1:30735-30756	NC_055826.1	30735	30756	21	1.3936548136231128	2	True	1	random:r2_phage	flank_only	repeat_pair	12	2	1.0		25	intergenic_tandem_forward				
+r2_phage	NC_055872.1:51853-51886	NC_055872.1	51853	51886	33	1.4252389121737028	2	True	1	random:r2_phage	no_model					seeds_without_extension	28	intergenic_tandem_reverse				
+r2_phage	NC_055894.1:19392-19412	NC_055894.1	19392	19412	20	1.3980398857681717	2	True	1	random:r2_phage	candidate_associated	dispersed_repeat	12	7	0.8333333333333334		27	cds_overlapping				
+r1_host	NC_000908.2:230491-230548	NC_000908.2	230491	230548	57	1.4338789371107925	2	False	1	multi_copy:r1_host	candidate_associated	short_period_tandem	8	14	0.375		15	intergenic_tandem_forward				
+r1_host	NC_000908.2:485272-487045	NC_000908.2	485272	487045	1773	4.262257686529595	15	False	1	clear_structure:dispersed_repeat	candidate_associated	dispersed_repeat	12	10	1.0		17	cds_overlapping				
+r1_host	NC_000963.1:605474-605834	NC_000963.1	605474	605834	360	3.252286907651328	7	False	1	high_score_no_model:r1_host	no_model					ungapped_similarity	17	intergenic_divergent				
+r1_host	NC_001318.1:482130-482375	NC_001318.1	482130	482375	245	2.6665069568884823	4	False	1	high_score_no_model:r1_host	no_model					seeds_without_extension	21	intergenic_divergent				
+r1_host	NC_002607.1:571694-572009	NC_002607.1	571694	572009	315	3.2452064734253665	9	False	1	multi_copy:r1_host	candidate_associated	tandem_repeat	12	34	0.75		23	cds_overlapping				
+r1_phage	NC_007409.1:58998-61466	NC_007409.1	58998	61466	2468	5.638581774284269	34	False	1	gene_neighborhood:cds_overlapping	candidate_associated	dispersed_repeat	12	10	0.9166666666666666		10	cds_overlapping				
+r1_phage	NC_009816.1:63981-64896	NC_009816.1	63981	64896	915	2.588604571995141	5	False	1	clear_structure:tandem_repeat	candidate_associated	tandem_repeat	12	15	1.0		25	intergenic_divergent				
+r1_phage	NC_021319.1:33798-33872	NC_021319.1	33798	33872	74	1.4583522840389092	2	False	1	multi_copy:r1_phage	candidate_associated	short_period_tandem	3	27	0.6666666666666667		33	cds_overlapping				
+r1_phage	NC_021328.1:137058-142236	NC_021328.1	137058	142236	5178	3.972364710825914	14	False	1	clear_structure:variable_spacer_array	candidate_associated	variable_spacer_array	12	13	1.0		31	cds_overlapping				
+r1_phage	NC_034619.1:104-949	NC_034619.1	104	949	845	3.6122944999533244	13	False	1	gene_neighborhood:intergenic_one_sided	candidate_associated	dispersed_repeat	12	15	0.8333333333333334		21	intergenic_one_sided				
+r1_phage	NC_042094.1:119490-120543	NC_042094.1	119490	120543	1053	3.314680213073023	8	False	1	gene_neighborhood:intergenic_convergent	candidate_associated	dispersed_repeat	12	10	0.875		32	intergenic_convergent				
+r1_phage	NC_042105.1:75262-76881	NC_042105.1	75262	76881	1619	3.6856154423155387	9	False	1	high_score_no_model:r1_phage	no_model					seeds_without_extension	41	cds_overlapping				
+r1_phage	NC_052941.1:8761-8972	NC_052941.1	8761	8972	211	1.9047278589569032	3	False	1	lineage_spread	candidate_associated	variable_spacer_array	12	6	0.9166666666666666		27	cds_overlapping				
+r1_phage	NC_055116.1:15822-15852	NC_055116.1	15822	15852	30	1.3793734295047713	2	False	1	multi_copy:r1_phage	candidate_associated	short_period_tandem	3	28	0.6666666666666667		23	cds_overlapping				
+r1_phage	NC_062773.1:89838-89866	NC_062773.1	89838	89866	28	1.3540078477659745	2	False	1	clear_structure:short_period_tandem	candidate_associated	short_period_tandem	2	22	1.0		23	intergenic_tandem_reverse				
+r1_phage	NC_070966.1:139133-140309	NC_070966.1	139133	140309	1176	3.729837818117797	10	False	1	high_score_no_model:r1_phage	no_model					seeds_without_extension	29	intergenic_tandem_forward				
+r1_phage	NC_141872.1:1734-2301	NC_141872.1	1734	2301	567	3.2052536516408017	7	False	1	lineage_spread	candidate_associated	dispersed_repeat	12	9	1.0		6	intergenic_convergent				
+r2_host	NC_000117.1:114186-114800	NC_000117.1	114186	114800	614	1.916982444585301	3	False	1	clear_structure:repeat_pair	candidate_associated	repeat_pair	12	2	1.0		20	cds_overlapping				
+r2_host	NC_000117.1:457009-457398	NC_000117.1	457009	457398	389	2.981580242451111	7	False	1	high_score_no_model:r2_host	no_model					seeds_without_extension	18	intergenic_convergent				
+r2_host	NC_007181.1:1650670-1658593	NC_007181.1	1650670	1658593	7923	6.872394146910922	51	False	3	clear_structure:regular_spaced_array,gene_neighborhood:intergenic_tandem_reverse,multi_copy:r2_host	candidate_associated	regular_spaced_array	12	133	1.0		16	intergenic_tandem_reverse				
+r2_host	NC_007181.1:1670963-1675586	NC_007181.1	1670963	1675586	4623	6.825776036944939	50	False	2	gene_neighborhood:intergenic_divergent,multi_copy:r2_host	candidate_associated	regular_spaced_array	12	78	1.0		18	intergenic_divergent				
+r2_phage	NC_001421.2:7198-7249	NC_001421.2	7198	7249	51	1.5852258668775205	2	False	1	lineage_spread	candidate_associated	repeat_pair	12	2	1.0		26	cds_overlapping				
+r2_phage	NC_005135.1:66423-67621	NC_005135.1	66423	67621	1198	3.9018148271485122	14	False	1	high_score_no_model:r2_phage	no_model					seeds_without_extension	40	intergenic_tandem_reverse				
+r2_phage	NC_015292.1:21857-25316	NC_015292.1	21857	25316	3459	5.417811407657365	37	False	1	gene_neighborhood:intergenic_tandem_forward	candidate_associated	dispersed_repeat	12	24	0.9166666666666666		35	intergenic_tandem_forward				
+r2_phage	NC_023593.1:65595-65683	NC_023593.1	65595	65683	88	1.7759025540306337	3	False	1	lineage_spread	no_model					ungapped_similarity	38	cds_overlapping				
+r2_phage	NC_023688.1:93136-95926	NC_023688.1	93136	95926	2790	5.020262449899669	26	False	1	high_score_no_model:r2_phage	no_model					ungapped_similarity	38	cds_overlapping				
+r2_phage	NC_048045.1:37076-40240	NC_048045.1	37076	40240	3164	4.255167642736743	15	False	1	multi_copy:r2_phage	candidate_associated	dispersed_repeat	12	46	0.8333333333333334		25	cds_overlapping				
+r2_phage	NC_070622.1:30655-31521	NC_070622.1	30655	31521	866	2.9490741421728415	8	False	1	lineage_spread	candidate_associated	regular_spaced_array	12	4	0.9166666666666666		31	cds_overlapping				
+r2_phage	NC_077214.1:7013-7065	NC_077214.1	7013	7065	52	1.519900710943018	2	False	1	multi_copy:r2_phage	candidate_associated	short_period_tandem	3	32	0.33333333333333337		31	intergenic_tandem_forward				
