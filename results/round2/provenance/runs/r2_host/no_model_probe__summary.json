@@ -1,0 +1,14 @@
+{
+  "n_no_model_candidates": 89,
+  "verdicts": {
+    "seeds_without_extension": 49,
+    "ungapped_similarity": 14,
+    "no_repeated_seed": 26
+  },
+  "positive_control_n": 20,
+  "positive_control_detected": 20,
+  "positive_control_sensitivity": 1.0,
+  "method": "exact 10-mer seeds + Biopython local affine-gap extension",
+  "diagnostic_only": "does not modify detector, explainer or frozen outputs",
+  "interpretation_rule": "a negative result is only meaningful if positive_control_sensitivity is high"
+}
