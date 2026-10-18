@@ -1,0 +1,16 @@
+{
+  "draw": "uniform random without replacement over the unscanned pool",
+  "seed": 20261018,
+  "fraction_requested": 0.1,
+  "pool_genomes": 5196,
+  "pool_Mb": 366.39,
+  "drawn_genomes": 520,
+  "drawn_Mb": 36.97,
+  "fraction_achieved_by_genomes": 0.1001,
+  "fraction_achieved_by_nt": 0.1009,
+  "families_in_draw": 38,
+  "families_in_pool": 59,
+  "max_family_share_of_draw": 0.5519,
+  "why_random_not_interleaved": "a diversity-maximising draw would overstate what a full database run yields; this sample is meant to be an unbiased preview of that run",
+  "not_a_yield_claim": "candidate yields from this panel are still yields, not FDR or biological probabilities"
+}
