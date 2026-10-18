@@ -1,0 +1,40 @@
+{
+  "min_reciprocal_overlap": 0.9,
+  "full_copies": 20332,
+  "policy_copies": 18481,
+  "retained_exact": 18112,
+  "lost_exact": 2220,
+  "gained_exact": 369,
+  "net_change": -1851,
+  "lost_exact_but_interval_matched": 54,
+  "lost_under_interval_matching": 2166,
+  "note": "percentages describe explainer copy RECORDS, not verified biological repeats; differences may reflect candidate boundary or hypothesis changes, not only filtered sequence",
+  "affected_candidates": 68,
+  "attributed_copies": 2226,
+  "upstream_trigger": {
+    "window_excluded": 1992,
+    "outside_explainer_input": 5,
+    "window_excluded_but_within_policy_input": 182,
+    "model_change": 47
+  },
+  "representation_outcome": {
+    "no_corresponding_copy": 2053,
+    "boundary_shift_within_strict_threshold": 54,
+    "phase_or_boundary_shift": 100,
+    "partial_overlap_only": 19
+  },
+  "trigger_x_outcome": {
+    "window_excluded | no_corresponding_copy": 1992,
+    "outside_explainer_input | no_corresponding_copy": 4,
+    "window_excluded_but_within_policy_input | no_corresponding_copy": 45,
+    "window_excluded_but_within_policy_input | boundary_shift_within_strict_threshold": 44,
+    "model_change | no_corresponding_copy": 12,
+    "model_change | phase_or_boundary_shift": 22,
+    "model_change | boundary_shift_within_strict_threshold": 10,
+    "window_excluded_but_within_policy_input | phase_or_boundary_shift": 77,
+    "window_excluded_but_within_policy_input | partial_overlap_only": 16,
+    "outside_explainer_input | phase_or_boundary_shift": 1,
+    "model_change | partial_overlap_only": 3
+  },
+  "axis_note": "upstream_trigger says which pipeline stage changed; representation_outcome says whether the copy still appears in some form. They are independent: a copy whose window was excluded may still be re-represented from another window with shifted boundaries. Only no_corresponding_copy means the evidence is absent from the policy output, and even that is a computational evidence difference, not a verified biological miss."
+}
