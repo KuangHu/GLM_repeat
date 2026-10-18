@@ -1,0 +1,37 @@
+{
+  "min_reciprocal_overlap": 0.9,
+  "full_copies": 44193,
+  "policy_copies": 40123,
+  "retained_exact": 39898,
+  "lost_exact": 4295,
+  "gained_exact": 225,
+  "net_change": -4070,
+  "lost_exact_but_interval_matched": 23,
+  "lost_under_interval_matching": 4272,
+  "note": "percentages describe explainer copy RECORDS, not verified biological repeats; differences may reflect candidate boundary or hypothesis changes, not only filtered sequence",
+  "affected_candidates": 168,
+  "attributed_copies": 4322,
+  "upstream_trigger": {
+    "window_excluded": 4014,
+    "window_excluded_but_within_policy_input": 280,
+    "outside_explainer_input": 28
+  },
+  "representation_outcome": {
+    "no_corresponding_copy": 4038,
+    "phase_or_boundary_shift": 178,
+    "partial_overlap_only": 59,
+    "boundary_shift_within_strict_threshold": 47
+  },
+  "trigger_x_outcome": {
+    "window_excluded | no_corresponding_copy": 3964,
+    "window_excluded_but_within_policy_input | phase_or_boundary_shift": 164,
+    "window_excluded_but_within_policy_input | no_corresponding_copy": 46,
+    "outside_explainer_input | no_corresponding_copy": 28,
+    "window_excluded_but_within_policy_input | partial_overlap_only": 49,
+    "window_excluded_but_within_policy_input | boundary_shift_within_strict_threshold": 21,
+    "window_excluded | partial_overlap_only": 10,
+    "window_excluded | boundary_shift_within_strict_threshold": 26,
+    "window_excluded | phase_or_boundary_shift": 14
+  },
+  "axis_note": "upstream_trigger says which pipeline stage changed; representation_outcome says whether the copy still appears in some form. They are independent: a copy whose window was excluded may still be re-represented from another window with shifted boundaries. Only no_corresponding_copy means the evidence is absent from the policy output, and even that is a computational evidence difference, not a verified biological miss."
+}
