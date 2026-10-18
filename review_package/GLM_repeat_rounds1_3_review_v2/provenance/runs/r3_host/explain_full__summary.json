@@ -1,0 +1,42 @@
+{
+  "version": "0.3",
+  "n_candidates": 2101,
+  "status_counts": {
+    "candidate_associated": 766,
+    "flank_only": 291,
+    "unresolved": 1044
+  },
+  "n_primary_models": 1057,
+  "n_hypotheses": 4631,
+  "n_copy_evidence_rows": 24055,
+  "n_unique_coordinate_intervals": 23824,
+  "n_extension_attempts": 12772,
+  "n_extensions_accepted": 12433,
+  "n_multiple_associated_hypotheses": 626,
+  "parameters": {
+    "seed_k": 12,
+    "seed_models": 6,
+    "core_mismatch_fraction": 0.2,
+    "extension_max_nt": 60,
+    "extension_min_conservation": 0.75,
+    "min_period": 2,
+    "max_period": 300,
+    "periodic_min_identity": 0.55,
+    "periodic_min_units": 3,
+    "pseudocount_per_base": 0.25,
+    "flank": 500,
+    "min_copies": 2
+  },
+  "peaks_available": false,
+  "display_selection": "association, non-harmonic before supported-divisor alternatives, candidate covered nt, descriptive LOO enrichment, shorter unit; all hypotheses retained",
+  "support_limit": "LOO excludes a copy from its profile, not from discovery/selection; not calibrated probability",
+  "phase_policy": "phase 0 is interval-relative display convention; cyclic biological origin unresolved",
+  "limitations": [
+    "ungapped_substitutions_only",
+    "exact_12mer_seed_for_motif_branch",
+    "period_range_2_300",
+    "period_identity_floor_not_a_significance_test",
+    "candidate_association_not_validation"
+  ],
+  "code_sha256": "cfb521d79e86b6d12711d6949cf6b9c0078013e7d9e78c17ac4c0603d04cfd08"
+}

@@ -213,7 +213,11 @@ def main():
     allc, tracks_index = [], {}
     for lab, R in runs.items():
         route = 'phage' if 'phage' in lab else 'host'
-        rnd = 'round-1' if lab.startswith('r1') else 'round-2'
+        # label is rN_route; the round comes from that prefix, never from a
+        # two-way guess, which silently mislabelled round-3 as round-2.
+        if not (len(lab) > 1 and lab[0] == 'r' and lab[1].isdigit()):
+            raise ValueError(f'run label must look like r<N>_<route>, got {lab!r}')
+        rnd = f'round-{lab[1]}'
         cands = tsv(R / 'calls/audit_full.tsv')
         models = {m['candidate_id']: m for m in tsv(R / 'explain_full/models.tsv')}
         probe = {m['candidate_id']: m for m in tsv(R / 'no_model_probe/no_model_probe.tsv')}
@@ -644,7 +648,7 @@ AUTO CDS 重叠数 {ESC(str(mrow_m.get('n_CDS_overlapping','') or '—'))}，
 <h1>浏览册候选索引（{len(book)}）</h1>
 <div class="warn">计算候选，尚未人工确认。</div>
 <p><input id="q" placeholder="搜索 accession / 结构 / 状态" size="34">
-<select id="r"><option value="">全部轮次</option><option>round-1</option><option>round-2</option></select>
+<select id="r"><option value="">全部轮次</option><option>round-1</option><option>round-2</option><option>round-3</option></select>
 <select id="t"><option value="">全部路线</option><option>host</option><option>phage</option></select>
 <select id="s"><option value="">全部状态</option><option>candidate_associated</option>
 <option>flank_only</option><option>no_model</option></select></p>

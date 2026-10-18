@@ -1,0 +1,12 @@
+{
+  "sampling_unit": "genome",
+  "pooled_per_Mb": "total candidates / total unique scanned Mb; a ratio estimator weighted by genome length",
+  "unique_scanned_Mb": "union of window spans per contig, NOT summed window length, which would double-count the 50% stride overlap",
+  "interval": "10000 genome-level bootstrap resamples, seed 20261017; genomes are resampled with replacement and the ratio recomputed, because candidates cluster within genomes",
+  "why_not_window_level": "window- or nucleotide-level intervals would assume candidates are independent across a genome, which they are not, and would understate the interval several-fold",
+  "ci_withheld_below_n": 5,
+  "min_genome_nt_for_per_genome_rate": 50000,
+  "n_genomes_vs_rated": "n_genomes counts every scanned contig; the per-genome distribution uses only those with >=50000 nt scanned, since a rate over a few kb is dominated by noise",
+  "reporting_rule": "a pooled rate must never be quoted without its per-genome distribution and n_genomes. Panels below ~20 genomes have intervals too wide to support cross-round comparison.",
+  "not_an_FDR": "these are candidate yields, not FDR, precision or biological probabilities; no candidate here is human-confirmed"
+}

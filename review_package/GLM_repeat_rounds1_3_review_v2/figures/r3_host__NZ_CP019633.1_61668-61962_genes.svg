@@ -1,0 +1,8 @@
+<svg viewBox="0 0 900 92" width="100%" role="img"
+ aria-label="gene neighbourhood" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="92" fill="#ffffff"/>
+<line x1="0" y1="46" x2="900" y2="46" stroke="#cbd5e1"/><rect x="409.8" y="8" width="80.3" height="58" fill="#2563eb" opacity="0.10" stroke="#2563eb" stroke-dasharray="3 2"/><polygon points="0.0,30 128.69945355191257,30 134.69945355191257,38 128.69945355191257,46 0.0,46" fill="#64748b" opacity="0.85"/><text x="67.3" y="42" font-size="9" text-anchor="middle" fill="#ffffff">cds00016422</text><polygon points="782.7868852459017,52 174.0327868852459,52 168.0327868852459,60 174.0327868852459,68 782.7868852459017,68" fill="#64748b" opacity="0.85"/><text x="475.4" y="64" font-size="9" text-anchor="middle" fill="#ffffff">cds00016423</text><polygon points="899.9999999999999,52 802.4480874316939,52 796.4480874316939,60 802.4480874316939,68 899.9999999999999,68" fill="#64748b" opacity="0.85"/><text x="848.2" y="64" font-size="9" text-anchor="middle" fill="#ffffff">cds00016424</text>
+<text x="4" y="14" font-size="11" fill="#374151">60,168</text>
+<text x="896" y="14" font-size="11" text-anchor="end" fill="#374151">63,462</text>
+<text x="4" y="88" font-size="10" fill="#6b7280">上行 = + 链，下行 = - 链；灰框为预测 CDS</text>
+</svg>
