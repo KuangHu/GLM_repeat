@@ -1,0 +1,27 @@
+{
+  "n_candidates": 399,
+  "n_windows": 2996,
+  "unique_scanned_nt": 4551396,
+  "target_scanned_nt": 1373013,
+  "n_target_associated": 324,
+  "all_candidates_per_scanned_Mb": 87.66541078825047,
+  "target_candidates_per_target_Mb": 235.97737239195843,
+  "audit_full_candidates": 399,
+  "audit_policy_candidates": 384,
+  "audit_full_without_policy_overlap": 17,
+  "threshold": 0.8,
+  "scoring": {
+    "revision": "08754cba59a1f97d517f873fad6c672d2b1abdc7",
+    "mode": "random_partition",
+    "groups": 20,
+    "repeats": 2,
+    "seed": 20261014,
+    "attention_mask_policy": "always"
+  },
+  "limitations": [
+    "yields are NOT FDR or biological probabilities",
+    "old full-genome calibration does not guarantee yield after CDS selection",
+    "overlap audit is candidate-envelope recovery, not repeat copy recall",
+    "transitively merged envelopes may contain multiple biological loci"
+  ]
+}

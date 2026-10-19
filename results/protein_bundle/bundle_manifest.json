@@ -1,0 +1,20 @@
+{
+  "panels": {
+    "r1_host": 4286,
+    "r1_phage": 6409,
+    "r2_host": 4942,
+    "r2_phage": 7444,
+    "r3_host": 21257,
+    "r3_phage": 24119,
+    "db10_phage": 54247
+  },
+  "total_proteins": 122704,
+  "unique_protein_ids": 122704,
+  "ids_are_unique": true,
+  "original_ids_shared_between_panels": 24119,
+  "why_relabelled": "pyrodigal numbers CDSs per run, so every panel restarts at cds00000001. Pooling the raw proteins.faa files would place 24,119 original IDs in more than one panel and merge unrelated proteins under one identifier without raising an error. IDs here are <panel>|<original_id>.",
+  "id_format": "<panel>|<original_cds_id>",
+  "coordinates": "0-based half-open, on the contig named in the header",
+  "annotation_status": "pyrodigal ab initio prediction only. There is NO functional annotation: every product in the source GFF is \"hypothetical protein\". Any domain or function assignment must come from the analysis being run on these sequences, not from this bundle.",
+  "candidate_join": "in_candidate_neighborhood / candidate_ids come from the frozen neighbourhood export (candidate +/- flank). A protein being near a candidate is a positional fact, not evidence of a relationship."
+}
