@@ -28,7 +28,8 @@ SECTION8 = '## 8. 对浏览册 69 个候选的审阅（助手判断，非人工�
 ROUTE_LABEL = {'r1_host': '宿主 round-1', 'r1_phage': '噬菌体 round-1',
                'r2_host': '宿主 round-2', 'r2_phage': '噬菌体 round-2',
                'r3_host': '宿主 round-3', 'r3_phage': '噬菌体 round-3',
-               'db10_phage': '噬菌体 db10（数据库随机 1/10）'}
+               'db10_phage': '噬菌体 db10（数据库随机 1/10）',
+               'dbrest_b1': '噬菌体 全库批次1'}
 
 
 def sha256(path, chunk=1 << 20):
@@ -135,7 +136,7 @@ def build_report(stats, sel_prov, rev=None, ann=None, yields=None):
           f"{y['pct_candidates_tRNA_overlapping']}%"] for y in yields])
 
     review_section = build_review_section(rev, ann) if rev else ''
-    return f"""# GLM_repeat 扫描报告：round-1 ~ round-3 + 数据库随机 1/10（供人工审阅）
+    return f"""# GLM_repeat 扫描报告：round-1 ~ round-3 + 数据库随机 1/10 + 全库批次1（供人工审阅）
 
 **三轮都没有对 detector 做任何重新调参。** 阈值、打分器、explainer 全部沿用冻结版本；
 round-2 与 round-3 只是在新数据上运行同一套冻结流程。
@@ -281,7 +282,7 @@ def start_here(stats, sel_prov, n_book, n_all):
         f"<td>{stats[l]['calls'].get('all_candidates_per_scanned_Mb', 0):.1f}</td></tr>"
         for l in labs)
     total_nt = sum(stats[l]['calls'].get('unique_scanned_nt', 0) for l in labs)
-    return f"""<p class="mut">GLM_repeat 离线审阅包 v3（round-1 ~ round-3 + 数据库随机 1/10）· 全部链接为相对路径，无需联网</p>
+    return f"""<p class="mut">GLM_repeat 离线审阅包 v4（含全库批次1）· 全部链接为相对路径，无需联网</p>
 <h1>从这里开始</h1>
 
 <div class="warn"><b>这个包里全部是计算候选，没有任何一个经过人工确认。</b>
@@ -435,7 +436,7 @@ def main():
     (P / 'START_HERE.html').write_text(
         '<!doctype html><html lang="zh"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
-        f'<title>GLM_repeat 审阅包 v3</title><style>{css}</style></head>'
+        f'<title>GLM_repeat 审阅包 v4</title><style>{css}</style></head>'
         f'<body>{body}</body></html>')
     (P / 'README_zh.md').write_text(
         '# GLM_repeat 离线审阅包（round-1 ~ round-3 + 数据库 1/10）\n\n'

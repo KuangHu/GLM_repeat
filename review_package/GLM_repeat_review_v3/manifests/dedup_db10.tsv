@@ -1,3 +1,0 @@
-dropped_accession	reason
-NC_030910.1	near-duplicate of an already-scanned sequence (identity>=95%, both coverages>=85%, minimap2 -x asm20)
-NC_047727.1	near-duplicate of an already-scanned sequence (identity>=95%, both coverages>=85%, minimap2 -x asm20)

@@ -1,0 +1,55 @@
+{
+  "note": "ASSISTANT judgements in AUTO_REVIEW_* columns; HUMAN_* left blank. Random and enriched strata are reported separately and must never be pooled: only the random stratum describes what a reviewer would encounter.",
+  "random_stratum": {
+    "n": 120,
+    "repeat_evidence": {
+      "no_repeat_found": 55,
+      "suspected_repeat": 24,
+      "cannot_judge": 24,
+      "clear_repeat": 17
+    },
+    "explanation": {
+      "nothing_to_explain": 41,
+      "partial": 24,
+      "explainer_wrong_model_class": 20,
+      "boundary_or_phase_problem": 15,
+      "model_adequate": 12,
+      "structure_unsupported": 8
+    },
+    "followup": {
+      "known_common_structure": 42,
+      "not_worth_followup": 35,
+      "function_unknown": 29,
+      "worth_followup": 14
+    },
+    "tRNA_overlapping": 26,
+    "CRISPR_overlapping": 0,
+    "CRISPR_repeat_off_array": 1
+  },
+  "enriched_stratum": {
+    "n": 43,
+    "repeat_evidence": {
+      "suspected_repeat": 16,
+      "no_repeat_found": 14,
+      "clear_repeat": 11,
+      "cannot_judge": 2
+    },
+    "explanation": {
+      "structure_unsupported": 12,
+      "explainer_wrong_model_class": 9,
+      "partial": 8,
+      "nothing_to_explain": 6,
+      "model_is_fragment_of_known_array": 5,
+      "model_adequate": 3
+    },
+    "followup": {
+      "known_common_structure": 24,
+      "function_unknown": 9,
+      "not_worth_followup": 6,
+      "worth_followup": 4
+    },
+    "tRNA_overlapping": 13,
+    "CRISPR_overlapping": 5,
+    "CRISPR_repeat_off_array": 0
+  }
+}

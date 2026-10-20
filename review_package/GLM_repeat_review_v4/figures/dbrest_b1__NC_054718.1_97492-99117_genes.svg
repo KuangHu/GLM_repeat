@@ -1,0 +1,8 @@
+<svg viewBox="0 0 900 92" width="100%" role="img"
+ aria-label="gene neighbourhood" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="92" fill="#ffffff"/>
+<line x1="0" y1="46" x2="900" y2="46" stroke="#cbd5e1"/><rect x="360.0" y="8" width="180.0" height="58" fill="#2563eb" opacity="0.10" stroke="#2563eb" stroke-dasharray="3 2"/><polygon points="221.0953846153846,30 334.39384615384614,30 340.39384615384614,38 334.39384615384614,46 221.0953846153846,46" fill="#64748b" opacity="0.85"/><text x="280.7" y="42" font-size="9" text-anchor="middle" fill="#ffffff">cds00322616</text><polygon points="341.1692307692308,30 352.7815384615385,30 358.7815384615385,38 352.7815384615385,46 341.1692307692308,46" fill="#64748b" opacity="0.85"/><polygon points="598.1538461538461,52 551.316923076923,52 545.316923076923,60 551.316923076923,68 598.1538461538461,68" fill="#64748b" opacity="0.85"/><polygon points="804.4061538461538,52 604.0430769230769,52 598.0430769230769,60 604.0430769230769,68 804.4061538461538,68" fill="#64748b" opacity="0.85"/><text x="701.2" y="64" font-size="9" text-anchor="middle" fill="#ffffff">cds00322619</text><polygon points="817.1446153846155,30 844.7076923076924,30 850.7076923076924,38 844.7076923076924,46 817.1446153846155,46" fill="#64748b" opacity="0.85"/><polygon points="898.56,30 901.56,30 901.56,38 901.56,46 898.56,46" fill="#64748b" opacity="0.85"/>
+<text x="4" y="14" font-size="11" fill="#374151">94,242</text>
+<text x="896" y="14" font-size="11" text-anchor="end" fill="#374151">102,367</text>
+<text x="4" y="88" font-size="10" fill="#6b7280">上行 = + 链，下行 = - 链；灰框为预测 CDS</text>
+</svg>

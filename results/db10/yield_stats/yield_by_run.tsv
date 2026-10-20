@@ -1,8 +1,0 @@
-run	n_genomes	n_genomes_rated_for_distribution	ci_reportable	ci_withheld_reason	unique_scanned_Mb	n_candidates	pooled_per_Mb	pooled_ci95_lo	pooled_ci95_hi	ci95_width	per_genome_median	per_genome_p25	per_genome_p75	per_genome_min	per_genome_max	per_genome_fold_range	pct_candidates_tRNA_overlapping
-r1_host	4	4	False	only 4 genomes; a genome bootstrap below 5 genomes has too few distinct resamples to mean anything, so no interval is reported	4.616	170	36.8	nan	nan	nan	35.2	29.0	43.9	27.0	53.4	2.0	52.4
-r2_host	3	3	False	only 3 genomes; a genome bootstrap below 5 genomes has too few distinct resamples to mean anything, so no interval is reported	4.82	156	32.4	nan	nan	nan	33.5	31.4	35.5	29.2	37.4	1.3	52.6
-r3_host	9	9	True		23.113	2101	90.9	60.5	126.1	65.6	76.6	51.8	139.9	27.5	173.3	6.3	9.7
-r1_phage	72	33	True		4.551	399	87.7	73.1	103.9	30.8	85.5	62.2	111.2	17.4	221.9	12.7	17.0
-r2_phage	70	36	True		5.101	472	92.5	77.6	106.6	29.0	74.6	51.2	120.0	12.4	196.4	15.8	11.9
-r3_phage	235	121	True		16.945	1414	83.4	76.2	91.0	14.8	76.0	51.4	104.9	12.7	237.4	18.7	15.6
-db10_phage	518	240	True		36.72	3060	83.3	78.3	88.6	10.3	77.3	52.9	110.4	15.8	209.8	13.3	11.8

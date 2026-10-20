@@ -1,0 +1,8 @@
+<svg viewBox="0 0 900 92" width="100%" role="img"
+ aria-label="gene neighbourhood" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="92" fill="#ffffff"/>
+<line x1="0" y1="46" x2="900" y2="46" stroke="#cbd5e1"/><rect x="445.7" y="8" width="8.6" height="58" fill="#2563eb" opacity="0.10" stroke="#2563eb" stroke-dasharray="3 2"/><polygon points="0.0,30 443.85143611753057,30 449.85143611753057,38 443.85143611753057,46 0.0,46" fill="#64748b" opacity="0.85"/><text x="224.9" y="42" font-size="9" text-anchor="middle" fill="#ffffff">cds00226721</text><polygon points="900.0,52 489.4268735556289,52 483.4268735556289,60 489.4268735556289,68 900.0,68" fill="#64748b" opacity="0.85"/><text x="691.7" y="64" font-size="9" text-anchor="middle" fill="#ffffff">cds00226722</text>
+<text x="4" y="14" font-size="11" fill="#374151">4,766</text>
+<text x="896" y="14" font-size="11" text-anchor="end" fill="#374151">7,795</text>
+<text x="4" y="88" font-size="10" fill="#6b7280">上行 = + 链，下行 = - 链；灰框为预测 CDS</text>
+</svg>
